@@ -65,8 +65,8 @@ public abstract class OsmandPlugin {
 	
 	public static void initPlugins(OsmandApplication app) {
 		OsmandSettings settings = app.getSettings();
-		OsmandRasterMapsPlugin rasterMapsPlugin = new OsmandRasterMapsPlugin(app);
-		installedPlugins.add(rasterMapsPlugin);
+		//OsmandRasterMapsPlugin rasterMapsPlugin = new OsmandRasterMapsPlugin(app);
+		//installedPlugins.add(rasterMapsPlugin);
 		installedPlugins.add(new OsmandMonitoringPlugin(app));
 		installedPlugins.add(new OsmandExtraSettings(app));
 		installedPlugins.add(new AccessibilityPlugin(app));
@@ -79,7 +79,7 @@ public abstract class OsmandPlugin {
 		installPlugin(OSMODROID_PLUGIN_COMPONENT, OsMoDroidPlugin.ID, app, new OsMoDroidPlugin(app));
 		installedPlugins.add(new DistanceCalculatorPlugin(app));
 		installedPlugins.add(new AudioVideoNotesPlugin(app));
-		installedPlugins.add(new OsmEditingPlugin(app));
+		//installedPlugins.add(new OsmEditingPlugin(app));
 		installedPlugins.add(new OsmandDevelopmentPlugin(app));
 		
 		
