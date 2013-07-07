@@ -319,33 +319,6 @@ public class MainMenuActivity extends Activity {
 		MapRenderRepositories maps = getMyApplication().getResourceManager().getRenderer();
 		SharedPreferences pref = getPreferences(MODE_WORLD_WRITEABLE);
 		boolean check = pref.getBoolean(VECTOR_INDEXES_CHECK, true);
-		// do not show each time 
-		if (check && new Random().nextInt() % 5 == 1) {
-			Builder builder = new AccessibleAlertBuilder(this);
-			if(maps.isEmpty()){
-				builder.setMessage(R.string.vector_data_missing);
-			} else if(!maps.basemapExists()){
-				//builder.setMessage(R.string.basemap_missing);
-			} else {
-				return;
-			}
-			builder.setPositiveButton(R.string.download_files, new DialogInterface.OnClickListener() {
-
-				@Override
-				public void onClick(DialogInterface dialog, int which) {
-					startActivity(new Intent(MainMenuActivity.this, DownloadIndexActivity.class));
-				}
-
-			});
-			builder.setNeutralButton(R.string.vector_map_not_needed, new DialogInterface.OnClickListener() {
-				@Override
-				public void onClick(DialogInterface dialog, int which) {
-					getPreferences(MODE_WORLD_WRITEABLE).edit().putBoolean(VECTOR_INDEXES_CHECK, false).commit();
-				}
-			});
-			builder.setNegativeButton(R.string.first_time_continue, null);
-			builder.show();
-		}
 		
 	}
 
