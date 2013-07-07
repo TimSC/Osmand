@@ -31,8 +31,8 @@ public class SettingsActivity extends SettingsBaseActivity {
 		super.onCreate(savedInstanceState);
 		addPreferencesFromResource(R.xml.settings_pref);
 		PreferenceScreen screen = getPreferenceScreen();
-		localIndexes =(Preference) screen.findPreference("local_indexes");
-		localIndexes.setOnPreferenceClickListener(this);
+		//localIndexes =(Preference) screen.findPreference("local_indexes");
+		//localIndexes.setOnPreferenceClickListener(this);
 //		bidforfix = (Preference) screen.findPreference("bidforfix");
 //		bidforfix.setOnPreferenceClickListener(this);
 		plugins = (Preference) screen.findPreference("plugins");
