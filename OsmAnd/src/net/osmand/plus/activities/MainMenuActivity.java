@@ -300,18 +300,18 @@ public class MainMenuActivity extends Activity {
 			builder.setPositiveButton(R.string.default_buttons_ok, null);
 			builder.show();
 		} else {
-			Builder builder = new AccessibleAlertBuilder(this);
-			builder.setMessage(R.string.first_time_msg);
-			builder.setPositiveButton(R.string.first_time_download, new DialogInterface.OnClickListener() {
+			//Builder builder = new AccessibleAlertBuilder(this);
+			//builder.setMessage(R.string.first_time_msg);
+			//builder.setPositiveButton(R.string.first_time_download, new DialogInterface.OnClickListener() {
 
-				@Override
-				public void onClick(DialogInterface dialog, int which) {
-					startActivity(new Intent(MainMenuActivity.this, OsmandIntents.getDownloadIndexActivity()));
-				}
+			//	@Override
+			//	public void onClick(DialogInterface dialog, int which) {
+			//		startActivity(new Intent(MainMenuActivity.this, OsmandIntents.getDownloadIndexActivity()));
+			//	}
 
-			});
-			builder.setNegativeButton(R.string.first_time_continue, null);
-			builder.show();
+			//});
+			//builder.setNegativeButton(R.string.first_time_continue, null);
+			//builder.show();
 		}
 	}
 	
