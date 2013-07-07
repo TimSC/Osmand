@@ -325,7 +325,7 @@ public class MainMenuActivity extends Activity {
 			if(maps.isEmpty()){
 				builder.setMessage(R.string.vector_data_missing);
 			} else if(!maps.basemapExists()){
-				builder.setMessage(R.string.basemap_missing);
+				//builder.setMessage(R.string.basemap_missing);
 			} else {
 				return;
 			}
