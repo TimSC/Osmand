@@ -12,9 +12,9 @@ import android.net.Uri;
 import android.os.Bundle;
 
 public class AddressBookPluginActivity extends Activity {
-	private static final String OSMAND_COMPONENT = "net.osmand"; //$NON-NLS-1$
-	private static final String OSMAND_COMPONENT_PLUS = "net.osmand.plus"; //$NON-NLS-1$
-	private static final String OSMAND_ACTIVITY = "net.osmand.plus.activities.MainMenuActivity"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT = "net.outdoormaps"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT_PLUS = "net.outdoormaps.plus"; //$NON-NLS-1$
+	private static final String OSMAND_ACTIVITY = "net.outdoormaps.plus.activities.MainMenuActivity"; //$NON-NLS-1$
 	
     /** Called when the activity is first created. */
     @Override

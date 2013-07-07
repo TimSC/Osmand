@@ -21,7 +21,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
  *  
  */
 public class PlatformUtil {
-	public static String TAG = "net.osmand"; //$NON-NLS-1$
+	public static String TAG = "net.outdoormaps"; //$NON-NLS-1$
 	public static boolean AVIAN_LIBRARY = false;
 	private static class OsmandLogImplementation implements Log {
 		

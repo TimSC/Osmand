@@ -137,7 +137,7 @@ public class MainMenuActivity extends Activity {
 		String textVersion = Version.getAppVersion(((OsmandApplication) activity.getApplication()));
 		final TextView textVersionView = (TextView) window.findViewById(R.id.TextVersion);
 		textVersionView.setText(textVersion);
-		SharedPreferences prefs = activity.getApplicationContext().getSharedPreferences("net.osmand.settings", MODE_WORLD_READABLE);
+		SharedPreferences prefs = activity.getApplicationContext().getSharedPreferences("net.outdoormaps.settings", MODE_WORLD_READABLE);
 		
 		// only one commit should be with contribution version flag
 //		 prefs.edit().putBoolean(CONTRIBUTION_VERSION_FLAG, true).commit();
@@ -288,7 +288,7 @@ public class MainMenuActivity extends Activity {
 	private void applicationInstalledFirstTime() {
 		boolean netOsmandWasInstalled = false;
 		try {
-			ApplicationInfo applicationInfo = getPackageManager().getApplicationInfo("net.osmand", PackageManager.GET_META_DATA);
+			ApplicationInfo applicationInfo = getPackageManager().getApplicationInfo("net.outdoormaps", PackageManager.GET_META_DATA);
 			netOsmandWasInstalled = applicationInfo != null && !Version.isFreeVersion(getMyApplication());
 		} catch (NameNotFoundException e) {
 			netOsmandWasInstalled = false;

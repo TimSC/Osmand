@@ -82,7 +82,7 @@ public class OsmandSettings {
 	}
 	
 	// These settings are stored in SharedPreferences
-	private static final String SHARED_PREFERENCES_NAME = "net.osmand.settings"; //$NON-NLS-1$
+	private static final String SHARED_PREFERENCES_NAME = "net.outdoormaps.settings"; //$NON-NLS-1$
 	
 	/// Settings variables
 	private final OsmandApplication ctx;
