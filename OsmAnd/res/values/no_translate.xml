@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="app_name">Herefordshire Outdoor Maps</string>
-    <string name="app_version">1.4 alpha</string>
+    <string name="app_version">1.0 beta</string>
     <!-- Not translatable -->
     <string name="ga_api_key"></string>
     <string name="ga_dispatchPeriod">10</string>
