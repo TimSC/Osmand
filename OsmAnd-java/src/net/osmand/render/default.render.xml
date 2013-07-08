@@ -1303,6 +1303,9 @@
 					<groupFilter>
 
 						<filter additional="designation=public_footpath" color="#f43059"/>
+						<filter additional="designation=public_bridleway" color="#24db1b"/>
+						<filter additional="designation=byway_open_to_all_traffic" color="#8a7502"/>
+						<filter additional="designation=restricted_byway" color="#aabd3f"/>
 
 						<!-- Dash pattern: solid(100%), long-dashed(77%), short-dashed(63%), dash-dotted(50%), dotted(50%), dotted2(40%), short-dashed-narrow-spaced(66%) for not-specified -->
 						<!-- Also: switch color to 'pedestrian-red' to better indicate these special ratings in line with many alpine maps -->
