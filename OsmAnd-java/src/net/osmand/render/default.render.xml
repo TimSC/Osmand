@@ -1284,24 +1284,68 @@
 				<filter minzoom="14" strokeWidth="1"/>
 			</filter>
 
-			<filter tag="highway" value="path" color="#000000" pathEffect="4_2">
-				<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="2"/>
-				<filter appMode="pedestrian" minzoom="15" strokeWidth="2"/>
-				<filter test="$hmRendered" minzoom="12" maxzoom="12" strokeWidth="0.5"/>
-				<filter test="$hmRendered" minzoom="13" strokeWidth="1"/>
-				<filter minzoom="14" strokeWidth="1"/>
+			<group>
+				<filter tag="designation" value="public_footpath" color="#000000" pathEffect="4_2"/>
+
 				<groupFilter>
-					<!-- Dash pattern: solid(100%), long-dashed(77%), short-dashed(63%), dash-dotted(50%), dotted(50%), dotted2(40%), short-dashed-narrow-spaced(66%) for not-specified -->
-					<!-- Also: switch color to 'pedestrian-red' to better indicate these special ratings in line with many alpine maps -->
-					<filter additional="sac_scale=hiking" color="#fa5073" pathEffect=""/>
-					<filter additional="sac_scale=mountain_hiking" color="#fa5073" pathEffect="10_3"/>
-					<filter additional="sac_scale=demanding_mountain_hiking" color="#fa5073" pathEffect="5_3"/>
-					<filter additional="sac_scale=alpine_hiking" color="#fa5073" pathEffect="4_3_2_3"/>
-					<filter additional="sac_scale=demanding_alpine_hiking" color="#fa5073" pathEffect="3_3"/>
-					<filter additional="sac_scale=difficult_alpine_hiking" color="#fa5073" pathEffect="2_3"/>
-					<filter nightMode="true" color="#787878"/> 
+					<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="2"/>
+					<filter appMode="pedestrian" minzoom="15" strokeWidth="2"/>
+					<filter test="$hmRendered" minzoom="12" maxzoom="12" strokeWidth="0.5"/>
+					<filter test="$hmRendered" minzoom="13" strokeWidth="1"/>
+					<filter minzoom="14" strokeWidth="1"/>
+					<groupFilter>
+
+						<filter additional="foot=designated" color="#f43059"/>
+						<filter additional="horse=designated" color="#24db1b"/>
+						<filter additional="designation=public_footpath" color="#f43059"/>
+						<filter additional="designation=public_bridleway" color="#24db1b"/>
+						<filter additional="designation=byway_open_to_all_traffic" color="#8a7502"/>
+						<filter additional="designation=restricted_byway" color="#aabd3f"/>
+
+						<!-- Dash pattern: solid(100%), long-dashed(77%), short-dashed(63%), dash-dotted(50%), dotted(50%), dotted2(40%), short-dashed-narrow-spaced(66%) for not-specified -->
+						<!-- Also: switch color to 'pedestrian-red' to better indicate these special ratings in line with many alpine maps -->
+						<filter additional="sac_scale=hiking" color="#fa5073" pathEffect=""/>
+						<filter additional="sac_scale=mountain_hiking" color="#fa5073" pathEffect="10_3"/>
+						<filter additional="sac_scale=demanding_mountain_hiking" color="#fa5073" pathEffect="5_3"/>
+						<filter additional="sac_scale=alpine_hiking" color="#fa5073" pathEffect="4_3_2_3"/>
+						<filter additional="sac_scale=demanding_alpine_hiking" color="#fa5073" pathEffect="3_3"/>
+						<filter additional="sac_scale=difficult_alpine_hiking" color="#fa5073" pathEffect="2_3"/>
+						<filter nightMode="true" color="#787878"/> 
+					</groupFilter>
 				</groupFilter>
-			</filter>
+			</group>
+
+			<group>
+				<filter tag="highway" value="pathx" color="#000000" pathEffect="4_2"/>
+				<filter tag="highway" value="footwayx" color="#000000" pathEffect="4_2"/>
+				<filter tag="highway" value="bridlewayx" color="#000000" pathEffect="4_2"/>
+				<groupFilter>
+					<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="2"/>
+					<filter appMode="pedestrian" minzoom="15" strokeWidth="2"/>
+					<filter test="$hmRendered" minzoom="12" maxzoom="12" strokeWidth="0.5"/>
+					<filter test="$hmRendered" minzoom="13" strokeWidth="1"/>
+					<filter minzoom="14" strokeWidth="1"/>
+					<groupFilter>
+
+						<filter additional="foot=designated" color="#f43059"/>
+						<filter additional="horse=designated" color="#24db1b"/>
+						<filter additional="designation=public_footpath" color="#f43059"/>
+						<filter additional="designation=public_bridleway" color="#24db1b"/>
+						<filter additional="designation=byway_open_to_all_traffic" color="#8a7502"/>
+						<filter additional="designation=restricted_byway" color="#aabd3f"/>
+
+						<!-- Dash pattern: solid(100%), long-dashed(77%), short-dashed(63%), dash-dotted(50%), dotted(50%), dotted2(40%), short-dashed-narrow-spaced(66%) for not-specified -->
+						<!-- Also: switch color to 'pedestrian-red' to better indicate these special ratings in line with many alpine maps -->
+						<filter additional="sac_scale=hiking" color="#fa5073" pathEffect=""/>
+						<filter additional="sac_scale=mountain_hiking" color="#fa5073" pathEffect="10_3"/>
+						<filter additional="sac_scale=demanding_mountain_hiking" color="#fa5073" pathEffect="5_3"/>
+						<filter additional="sac_scale=alpine_hiking" color="#fa5073" pathEffect="4_3_2_3"/>
+						<filter additional="sac_scale=demanding_alpine_hiking" color="#fa5073" pathEffect="3_3"/>
+						<filter additional="sac_scale=difficult_alpine_hiking" color="#fa5073" pathEffect="2_3"/>
+						<filter nightMode="true" color="#787878"/> 
+					</groupFilter>
+				</groupFilter>
+			</group>
 
 			<filter tag="highway" value="cycleway" color="#0000ff" pathEffect="4_2">
 				<filter appMode="bicycle" minzoom="14" strokeWidth="2"/>
@@ -1311,13 +1355,13 @@
 				<filter minzoom="14" strokeWidth="1"/>
 			</filter>
 
-			<filter tag="highway" value="footway" color="#fa5073" pathEffect="4_2">
+			<!--<filter tag="highway" value="footway" color="#fa5073" pathEffect="4_2">
 				<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="2"/>
 				<filter appMode="pedestrian" minzoom="15" strokeWidth="2"/>
 				<filter test="$hmRendered" minzoom="12" maxzoom="12" strokeWidth="0.5"/>
 				<filter test="$hmRendered" minzoom="13" strokeWidth="1"/>
 				<filter minzoom="16" strokeWidth="1"/>
-			</filter>
+			</filter>-->
 
 			<filter tag="highway" value="steps" color="#fa5073" pathEffect="1_2">
 				<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="4" pathEffect="2_2"/>
@@ -1326,13 +1370,13 @@
 				<filter minzoom="16" strokeWidth="4"/>
 			</filter>
 
-			<filter tag="highway" value="bridleway" color="#339900" pathEffect="4_2">
+			<!--<filter tag="highway" value="bridleway" color="#339900" pathEffect="4_2">
 				<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="2"/>
 				<filter appMode="pedestrian" minzoom="15" strokeWidth="2"/>
 				<filter test="$hmRendered" minzoom="12" maxzoom="12" strokeWidth="0.5"/>
 				<filter test="$hmRendered" minzoom="13" strokeWidth="1"/>
 				<filter minzoom="16" strokeWidth="1"/>
-			</filter>
+			</filter>-->
 
 			<!-- Bridges -->
 			<groupFilter layer="1">

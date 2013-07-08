@@ -15,8 +15,7 @@
 	<type tag="access" value="private" minzoom="15" additional="true"/>
 	<type tag="access" value="yes" minzoom="15" additional="true"/>
 	<type tag="access" value="true" target_value="yes" minzoom="15" additional="true"/>
-	
-	
+
 	<type tag="layer" value="0" minzoom="10" additional="true"/>
 	<type tag="layer" value="1" minzoom="10" additional="true"/>
 	<type tag="layer" value="-1" minzoom="10" additional="true"/>
@@ -77,9 +76,15 @@
 		<type tag="highway" value="emergency_access_point" minzoom="16" poi_category="emergency"/>
 		<type tag="highway" value="speed_camera" minzoom="16" poi_category="transportation"/>
 		<type tag="highway" value="street_lamp" minzoom="16" />
-		
 	</category>
-	
+
+	<category name="designation">
+		<type tag="designation" value="public_footpath"  minzoom="12" />
+		<type tag="designation" value="public_bridleway"  minzoom="12" />
+		<type tag="designation" value="byway_open_to_all_traffic"  minzoom="12" />
+		<type tag="designation" value="restricted_byway"  minzoom="12" />
+	</category>
+
 	<category name="routes">
 		<type tag="ferry_route" value="ferry" nameTags="ref" namePrefix="ferry_route_" relation="true"/>
 		<type tag="route" value="ferry" target_tag="ferry_route" target_value="ferry" minzoom="8" relation="true"/>
