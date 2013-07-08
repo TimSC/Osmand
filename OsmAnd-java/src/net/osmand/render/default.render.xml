@@ -1235,9 +1235,9 @@
 		</group>
 
 		<group>
-			<filter tag="highway" value="service"/>
 			<filter tag="highway" value="living_street"/>
 			<filter tag="highway" value="pedestrian"/>
+			<filter tag="highway" value="service"/>
 			<groupFilter color="#ececec" shadowRadius="1" cap="ROUND">
 				<filter test="$hmRendered" minzoom="13" maxzoom="13" strokeWidth="2"/>
 				<filter color_0="#000000">
@@ -1264,42 +1264,31 @@
 
 		<!-- Next segment: Highways without grade distinction (cycleway, bridleway, black path): pathEffect 4_2. Base setting for highways with possible grade distinction but none specified (track, byway, red footway): 5_5 -->
 		<group>
-			<filter tag="highway" value="track" color="#996600" pathEffect="4_2">
-				<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="2"/>
-				<filter appMode="pedestrian" minzoom="15" strokeWidth="2"/>
-				<filter test="$hmRendered" minzoom="12" maxzoom="12" strokeWidth="0.5"/>
-				<filter test="$hmRendered" minzoom="13" strokeWidth="1"/>
-				<filter minzoom="14" strokeWidth="1"/>
-				<groupFilter>
-					<!-- Dash pattern: solid(100%), long-dashed(77%), short-dashed(63%), dash-dotted(50%), dotted(50%), dotted2(40%), short-dashed-narrow-spaced(66%) for not-specified -->
-					<filter additional="tracktype=grade1" pathEffect=""/>
-					<filter additional="tracktype=grade2" pathEffect="10_3"/>
-					<filter additional="tracktype=grade3" pathEffect="5_3"/>
-					<filter additional="tracktype=grade4" pathEffect="4_3_2_3"/>
-					<filter additional="tracktype=grade5" pathEffect="2_3"/>
-				</groupFilter>
-			</filter>
+
 
 			<!-- byway is deprecated tag, describes UK-only road. Proper tag should be highway=track or highway=path -->
 			<filter tag="highway" value="byway" color="#996600" pathEffect="5_5">
-				<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="2"/>
-				<filter appMode="pedestrian" minzoom="15" strokeWidth="2"/>
-				<filter appMode="bicycle" minzoom="14" strokeWidth="2"/>
-				<filter test="$hmRendered" minzoom="12" maxzoom="12" strokeWidth="0.5"/>
-				<filter test="$hmRendered" minzoom="13" strokeWidth="1"/>
-				<filter minzoom="14" strokeWidth="1"/>
+				<filter appMode="pedestrian" test="$hmRendered" minzoom="13" strokeWidth="2"/>
+				<filter appMode="pedestrian" minzoom="14" strokeWidth="2"/>
+				<filter appMode="bicycle" minzoom="13" strokeWidth="2"/>
+				<filter test="$hmRendered" minzoom="11" maxzoom="12" strokeWidth="0.5"/>
+				<filter test="$hmRendered" minzoom="12" strokeWidth="1"/>
+				<filter minzoom="13" strokeWidth="1"/>
 			</filter>
 
 			<group>
 				<filter tag="highway" value="path" color="#000000" pathEffect="4_2"/>
 				<filter tag="highway" value="footway" color="#000000" pathEffect="4_2"/>
 				<filter tag="highway" value="bridleway" color="#000000" pathEffect="4_2"/>
+				<filter tag="highway" value="track" color="#996600" pathEffect="4_2"/>
+				<filter tag="highway" value="service"/>
+
 				<groupFilter>
 					<filter appMode="pedestrian" test="$hmRendered" minzoom="14" strokeWidth="2"/>
 					<filter appMode="pedestrian" minzoom="15" strokeWidth="2"/>
 					<filter test="$hmRendered" minzoom="12" maxzoom="12" strokeWidth="0.5"/>
 					<filter test="$hmRendered" minzoom="13" strokeWidth="1"/>
-					<filter minzoom="14" strokeWidth="1"/>
+					<filter minzoom="13" strokeWidth="1"/>
 					<groupFilter>
 
 						<filter additional="designation=public_footpath" color="#f43059"/>
@@ -1309,12 +1298,12 @@
 
 						<!-- Dash pattern: solid(100%), long-dashed(77%), short-dashed(63%), dash-dotted(50%), dotted(50%), dotted2(40%), short-dashed-narrow-spaced(66%) for not-specified -->
 						<!-- Also: switch color to 'pedestrian-red' to better indicate these special ratings in line with many alpine maps -->
-						<filter additional="sac_scale=hiking" color="#fa5073" pathEffect=""/>
+						<!--<filter additional="sac_scale=hiking" color="#fa5073" pathEffect=""/>
 						<filter additional="sac_scale=mountain_hiking" color="#fa5073" pathEffect="10_3"/>
 						<filter additional="sac_scale=demanding_mountain_hiking" color="#fa5073" pathEffect="5_3"/>
 						<filter additional="sac_scale=alpine_hiking" color="#fa5073" pathEffect="4_3_2_3"/>
 						<filter additional="sac_scale=demanding_alpine_hiking" color="#fa5073" pathEffect="3_3"/>
-						<filter additional="sac_scale=difficult_alpine_hiking" color="#fa5073" pathEffect="2_3"/>
+						<filter additional="sac_scale=difficult_alpine_hiking" color="#fa5073" pathEffect="2_3"/>-->
 						<filter nightMode="true" color="#787878"/> 
 					</groupFilter>
 				</groupFilter>
