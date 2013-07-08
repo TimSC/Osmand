@@ -294,6 +294,8 @@
 		\n\t* Lock screen button with logging services
 		\n\t* Fixed Arabic, Kannada scripting and RTL languages 
 	</string>
+	<string name="tip_legal">Legal</string>
+	<string name="tip_legal_t">Legal information goes here.\nUse at your own risk.</string>
 	<string name="osmand_play_title_30_chars">OsmAnd Maps &amp; Navigation</string>
 	<string name="osmand_short_description_80_chars">Global Mobile Map Viewing &amp; Navigation for Offline and Online OSM Maps</string>
 	<string name="osmand_long_description_1000_chars">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="app_name">Herefordshire Outdoor Maps</string>
+    <string name="app_name_long">Herefordshire Outdoor Maps by Kinatomic</string>
     <string name="app_version">1.0 beta</string>
     <!-- Not translatable -->
     <string name="ga_api_key"></string>
