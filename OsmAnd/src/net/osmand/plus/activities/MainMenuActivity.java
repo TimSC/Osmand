@@ -254,6 +254,10 @@ public class MainMenuActivity extends Activity {
 			pref.edit().putString(VERSION_INSTALLED, Version.getFullVersion(app)).commit();
 			
 			applicationInstalledFirstTime();
+
+			TipsAndTricksActivity tipsActivity = new TipsAndTricksActivity(this);
+			Dialog dlg = tipsActivity.getDialogToShowTips(true, false);
+			dlg.show();
 		} else {
 			int i = pref.getInt(TIPS_SHOW, 0);
 			if (i < 7){

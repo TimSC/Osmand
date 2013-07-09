@@ -297,6 +297,8 @@
 	<string name="tip_legal">Legal</string>
 	<string name="tip_legal_t">
 
+	Recreation Maps (c) 2013, Kinatomic Technology and Tim Sheerman-Chase\n
+
 	This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n
 
     This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n
@@ -1566,7 +1568,7 @@ Afghanistan, Albania, Algeria, Andorra, Angola, Anguilla, Antigua and Barbuda, A
 	<string name="close">Close</string>
 	<string name="loading_data">Loading data&#8230;</string>
 	<string name="reading_indexes">Reading local data&#8230;</string>
-	<string name="previous_run_crashed">Last OsmAnd run crashed. Log file is at {0}. Please report the issue and attach the log file.</string>
+	<string name="previous_run_crashed">Last Recreation Maps run crashed. Log file is at {0}. Please report the issue and attach the log file.</string>
 	<string name="saving_gpx_tracks">Saving GPX tracks to SD&#8230;</string>
 	<string name="finished_task">Finished</string>
 	<string name="reload_indexes_descr">Re-read offline vector maps and data from SD card</string>
