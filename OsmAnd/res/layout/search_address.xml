@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
-    xmlns:custom="http://schemas.android.com/apk/res/net.osmand.plus"
+    xmlns:custom="http://schemas.android.com/apk/res/net.recreationmap.plus"
 			android:layout_width="fill_parent" android:layout_height="fill_parent">
 <LinearLayout
   android:layout_width="fill_parent"
   android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal">
   
    
-<net.osmand.view.ExpandableLinearLayout custom:maxVisibleWidth="800dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" >
+<net.recreationmap.view.ExpandableLinearLayout custom:maxVisibleWidth="800dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" >
     
 <TableLayout android:id="@+id/TableLayout" android:layout_width="fill_parent" android:stretchColumns="1" android:layout_height="wrap_content" >
 <TableRow android:id="@+id/TableRow" android:layout_marginLeft = "5dp">
@@ -80,6 +80,6 @@
         android:layout_gravity="bottom">
     </Button>
 </LinearLayout>
-</net.osmand.view.ExpandableLinearLayout >
+</net.recreationmap.view.ExpandableLinearLayout >
 </LinearLayout>
 </ScrollView>
