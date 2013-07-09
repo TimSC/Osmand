@@ -1,4 +1,4 @@
-package net.osmand.osm.edit;
+package net.recreationmap.osm.edit;
 
 import gnu.trove.list.array.TLongArrayList;
 
@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import net.osmand.data.LatLon;
+import net.recreationmap.data.LatLon;
 
 public class Way extends Entity {
 	

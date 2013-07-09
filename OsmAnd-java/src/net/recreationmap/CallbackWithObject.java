@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 
 /**
  * That class is designed to be common interface for callbacks with one param

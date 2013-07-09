@@ -1,4 +1,4 @@
-package net.osmand.parkingPlugin;
+package net.recreationmap.parkingPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;

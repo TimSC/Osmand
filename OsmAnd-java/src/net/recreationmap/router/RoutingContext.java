@@ -1,4 +1,4 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 
 import gnu.trove.iterator.TIntObjectIterator;
@@ -19,20 +19,20 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import net.osmand.PlatformUtil;
-import net.osmand.NativeLibrary;
-import net.osmand.NativeLibrary.NativeRouteSearchResult;
-import net.osmand.binary.BinaryMapIndexReader;
-import net.osmand.binary.BinaryMapIndexReader.SearchRequest;
-import net.osmand.binary.BinaryMapRouteReaderAdapter;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import net.osmand.binary.RouteDataBorderLinePoint;
-import net.osmand.binary.RouteDataObject;
-import net.osmand.router.BinaryRoutePlanner.FinalRouteSegment;
-import net.osmand.router.BinaryRoutePlanner.RouteSegment;
-import net.osmand.router.BinaryRoutePlanner.RouteSegmentVisitor;
-import net.osmand.util.MapUtils;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.NativeLibrary;
+import net.recreationmap.NativeLibrary.NativeRouteSearchResult;
+import net.recreationmap.binary.BinaryMapIndexReader;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import net.recreationmap.binary.RouteDataBorderLinePoint;
+import net.recreationmap.binary.RouteDataObject;
+import net.recreationmap.router.BinaryRoutePlanner.FinalRouteSegment;
+import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
+import net.recreationmap.router.BinaryRoutePlanner.RouteSegmentVisitor;
+import net.recreationmap.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 /*
  * Copyright (C) 2007 The Android Open Source Project
  *

@@ -1,4 +1,4 @@
-package net.osmand.map;
+package net.recreationmap.map;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -16,8 +16,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import net.osmand.PlatformUtil;
-import net.osmand.util.Algorithms;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package net.osmand.osm.edit;
+package net.recreationmap.osm.edit;
 
 import java.util.Collection;
 import java.util.Collections;
@@ -7,8 +7,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import net.osmand.data.LatLon;
-import net.osmand.osm.edit.OSMSettings.OSMTagKey;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.osm.edit.OSMSettings.OSMTagKey;
 
 
 public abstract class Entity {

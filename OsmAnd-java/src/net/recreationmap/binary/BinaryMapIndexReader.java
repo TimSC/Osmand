@@ -1,4 +1,4 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -17,33 +17,33 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import net.osmand.Collator;
-import net.osmand.CollatorStringMatcher;
-import net.osmand.CollatorStringMatcher.StringMatcherMode;
-import net.osmand.PlatformUtil;
-import net.osmand.ResultMatcher;
-import net.osmand.StringMatcher;
-import net.osmand.binary.BinaryMapAddressReaderAdapter.AddressRegion;
-import net.osmand.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
-import net.osmand.binary.BinaryMapPoiReaderAdapter.PoiRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import net.osmand.binary.BinaryMapTransportReaderAdapter.TransportIndex;
-import net.osmand.binary.OsmandOdb.MapDataBlock;
-import net.osmand.binary.OsmandOdb.OsmAndMapIndex.MapDataBox;
-import net.osmand.binary.OsmandOdb.OsmAndMapIndex.MapEncodingRule;
-import net.osmand.binary.OsmandOdb.OsmAndMapIndex.MapRootLevel;
-import net.osmand.data.Amenity;
-import net.osmand.data.AmenityType;
-import net.osmand.data.Building;
-import net.osmand.data.City;
-import net.osmand.data.LatLon;
-import net.osmand.data.MapObject;
-import net.osmand.data.Street;
-import net.osmand.data.TransportRoute;
-import net.osmand.data.TransportStop;
-import net.osmand.util.Algorithms;
-import net.osmand.util.MapUtils;
+import net.recreationmap.Collator;
+import net.recreationmap.CollatorStringMatcher;
+import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.ResultMatcher;
+import net.recreationmap.StringMatcher;
+import net.recreationmap.binary.BinaryMapAddressReaderAdapter.AddressRegion;
+import net.recreationmap.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
+import net.recreationmap.binary.BinaryMapPoiReaderAdapter.PoiRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import net.recreationmap.binary.BinaryMapTransportReaderAdapter.TransportIndex;
+import net.recreationmap.binary.OsmandOdb.MapDataBlock;
+import net.recreationmap.binary.OsmandOdb.OsmAndMapIndex.MapDataBox;
+import net.recreationmap.binary.OsmandOdb.OsmAndMapIndex.MapEncodingRule;
+import net.recreationmap.binary.OsmandOdb.OsmAndMapIndex.MapRootLevel;
+import net.recreationmap.data.Amenity;
+import net.recreationmap.data.AmenityType;
+import net.recreationmap.data.Building;
+import net.recreationmap.data.City;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.data.MapObject;
+import net.recreationmap.data.Street;
+import net.recreationmap.data.TransportRoute;
+import net.recreationmap.data.TransportStop;
+import net.recreationmap.util.Algorithms;
+import net.recreationmap.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 
@@ -398,12 +398,12 @@ public class BinaryMapIndexReader {
 	/**
 	 * Transport public methods
 	 */
-	public List<net.osmand.data.TransportRoute> getTransportRouteDescriptions(TransportStop stop) throws IOException {
+	public List<net.recreationmap.data.TransportRoute> getTransportRouteDescriptions(TransportStop stop) throws IOException {
 		TransportIndex ind = getTransportIndex(stop.getFileOffset());
 		if(ind == null){
 			return null;
 		}
-		List<net.osmand.data.TransportRoute> list = new ArrayList<TransportRoute>();
+		List<net.recreationmap.data.TransportRoute> list = new ArrayList<TransportRoute>();
 		TIntObjectHashMap<String> stringTable = new TIntObjectHashMap<String>();
 		for(int filePointer : stop.getReferencesToRoutes()){
 			TransportRoute tr = transportAdapter.getTransportRoute(filePointer, stringTable, true);
@@ -1844,7 +1844,7 @@ public class BinaryMapIndexReader {
 			for (TransportStop s : reader.searchTransportIndex(buildSearchTransportRequest(sleft, sright, stop, sbottom, 15, null))) {
 				println(s.getName());
 				TIntObjectHashMap<TransportRoute> routes = reader.getTransportRoutes(s.getReferencesToRoutes());
-				for (net.osmand.data.TransportRoute route : routes.valueCollection()) {
+				for (net.recreationmap.data.TransportRoute route : routes.valueCollection()) {
 					println(" " + route.getRef() + " " + route.getName() + " " + route.getDistance() + " "
 							+ route.getAvgBothDistance());
 				}
@@ -1854,7 +1854,7 @@ public class BinaryMapIndexReader {
 			for (TransportStop s : reader.searchTransportIndex(buildSearchTransportRequest(sleft, sright, stop, sbottom, 16, null))) {
 				println(s.getName());
 				TIntObjectHashMap<TransportRoute> routes = reader.getTransportRoutes(s.getReferencesToRoutes());
-				for (net.osmand.data.TransportRoute  route : routes.valueCollection()) {
+				for (net.recreationmap.data.TransportRoute  route : routes.valueCollection()) {
 					println(" " + route.getRef() + " " + route.getName() + " " + route.getDistance() + " "
 							+ route.getAvgBothDistance());
 				}

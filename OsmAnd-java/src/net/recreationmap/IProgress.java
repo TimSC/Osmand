@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 
 /**
  * That common interface that could be used by background operations.

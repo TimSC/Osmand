@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 
 /**
  * This class can be replaced with more effective on ARM devices 

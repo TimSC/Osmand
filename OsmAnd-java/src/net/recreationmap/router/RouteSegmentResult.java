@@ -1,13 +1,13 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.osmand.binary.RouteDataObject;
-import net.osmand.data.LatLon;
-import net.osmand.util.MapUtils;
+import net.recreationmap.binary.RouteDataObject;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.util.MapUtils;
 
 
 public class RouteSegmentResult {

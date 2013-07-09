@@ -1,11 +1,11 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 
 import java.io.IOException;
 
-import net.osmand.NativeLibrary;
-import net.osmand.bridge.ObfInspector;
-import net.osmand.bridge.StringVector;
+import net.recreationmap.NativeLibrary;
+import net.recreationmap.bridge.ObfInspector;
+import net.recreationmap.bridge.StringVector;
 
 public class BinaryInspectorNative {
 	

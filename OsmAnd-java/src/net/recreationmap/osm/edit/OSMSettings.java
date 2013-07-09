@@ -1,4 +1,4 @@
-package net.osmand.osm.edit;
+package net.recreationmap.osm.edit;
 
 public class OSMSettings {
 	

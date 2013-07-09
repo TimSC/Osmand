@@ -1,8 +1,8 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 import gnu.trove.map.hash.TIntObjectHashMap;
-import net.osmand.binary.BinaryMapIndexReader.MapIndex;
-import net.osmand.render.RenderingRulesStorage;
+import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
+import net.recreationmap.render.RenderingRulesStorage;
 
 public class BinaryMapDataObject {
 	protected int[] coordinates = null;

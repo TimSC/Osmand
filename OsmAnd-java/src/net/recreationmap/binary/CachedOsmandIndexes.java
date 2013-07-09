@@ -1,4 +1,4 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -6,27 +6,27 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-import net.osmand.PlatformUtil;
-import net.osmand.binary.BinaryMapAddressReaderAdapter.AddressRegion;
-import net.osmand.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
-import net.osmand.binary.BinaryMapIndexReader.MapIndex;
-import net.osmand.binary.BinaryMapIndexReader.MapRoot;
-import net.osmand.binary.BinaryMapPoiReaderAdapter.PoiRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import net.osmand.binary.BinaryMapTransportReaderAdapter.IndexStringTable;
-import net.osmand.binary.BinaryMapTransportReaderAdapter.TransportIndex;
-import net.osmand.binary.OsmandIndex.AddressPart;
-import net.osmand.binary.OsmandIndex.CityBlock;
-import net.osmand.binary.OsmandIndex.FileIndex;
-import net.osmand.binary.OsmandIndex.MapLevel;
-import net.osmand.binary.OsmandIndex.MapPart;
-import net.osmand.binary.OsmandIndex.OsmAndStoredIndex;
-import net.osmand.binary.OsmandIndex.PoiPart;
-import net.osmand.binary.OsmandIndex.RoutingPart;
-import net.osmand.binary.OsmandIndex.RoutingSubregion;
-import net.osmand.binary.OsmandIndex.TransportPart;
-import net.osmand.util.MapUtils;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.binary.BinaryMapAddressReaderAdapter.AddressRegion;
+import net.recreationmap.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
+import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
+import net.recreationmap.binary.BinaryMapIndexReader.MapRoot;
+import net.recreationmap.binary.BinaryMapPoiReaderAdapter.PoiRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import net.recreationmap.binary.BinaryMapTransportReaderAdapter.IndexStringTable;
+import net.recreationmap.binary.BinaryMapTransportReaderAdapter.TransportIndex;
+import net.recreationmap.binary.OsmandIndex.AddressPart;
+import net.recreationmap.binary.OsmandIndex.CityBlock;
+import net.recreationmap.binary.OsmandIndex.FileIndex;
+import net.recreationmap.binary.OsmandIndex.MapLevel;
+import net.recreationmap.binary.OsmandIndex.MapPart;
+import net.recreationmap.binary.OsmandIndex.OsmAndStoredIndex;
+import net.recreationmap.binary.OsmandIndex.PoiPart;
+import net.recreationmap.binary.OsmandIndex.RoutingPart;
+import net.recreationmap.binary.OsmandIndex.RoutingSubregion;
+import net.recreationmap.binary.OsmandIndex.TransportPart;
+import net.recreationmap.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

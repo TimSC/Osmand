@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 
 /**
  * Abstract listener represents state changed for a particular object 

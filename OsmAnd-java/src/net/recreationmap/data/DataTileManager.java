@@ -1,4 +1,4 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 import gnu.trove.map.hash.TLongObjectHashMap;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.osmand.util.MapUtils;
+import net.recreationmap.util.MapUtils;
 
 /**
  * 

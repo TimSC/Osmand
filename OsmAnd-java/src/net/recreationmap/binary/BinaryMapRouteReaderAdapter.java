@@ -1,4 +1,4 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 import gnu.trove.iterator.TLongObjectIterator;
 import gnu.trove.list.array.TIntArrayList;
@@ -12,21 +12,21 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.osmand.PlatformUtil;
-import net.osmand.ResultMatcher;
-import net.osmand.binary.BinaryMapIndexReader.SearchRequest;
-import net.osmand.binary.OsmandOdb.IdTable;
-import net.osmand.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderBox;
-import net.osmand.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine;
-import net.osmand.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine.Builder;
-import net.osmand.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPoint;
-import net.osmand.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPointsBlock;
-import net.osmand.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBlock;
-import net.osmand.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBox;
-import net.osmand.binary.OsmandOdb.OsmAndRoutingIndex.RouteEncodingRule;
-import net.osmand.binary.OsmandOdb.RestrictionData;
-import net.osmand.binary.OsmandOdb.RouteData;
-import net.osmand.util.MapUtils;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.ResultMatcher;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
+import net.recreationmap.binary.OsmandOdb.IdTable;
+import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderBox;
+import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine;
+import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine.Builder;
+import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPoint;
+import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPointsBlock;
+import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBlock;
+import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBox;
+import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteEncodingRule;
+import net.recreationmap.binary.OsmandOdb.RestrictionData;
+import net.recreationmap.binary.OsmandOdb.RouteData;
+import net.recreationmap.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

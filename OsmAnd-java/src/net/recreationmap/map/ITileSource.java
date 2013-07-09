@@ -1,4 +1,4 @@
-package net.osmand.map;
+package net.recreationmap.map;
 
 
 public interface ITileSource {

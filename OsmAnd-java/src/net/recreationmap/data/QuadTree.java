@@ -1,4 +1,4 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 import java.util.ArrayList;
 import java.util.List;

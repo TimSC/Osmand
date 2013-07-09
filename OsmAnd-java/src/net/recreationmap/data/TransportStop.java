@@ -1,4 +1,4 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 public class TransportStop extends MapObject {
 	int[] referencesToRoutes = null;

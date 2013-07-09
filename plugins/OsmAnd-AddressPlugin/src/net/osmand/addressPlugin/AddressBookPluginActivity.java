@@ -1,4 +1,4 @@
-package net.osmand.addressPlugin;
+package net.recreationmap.addressPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;

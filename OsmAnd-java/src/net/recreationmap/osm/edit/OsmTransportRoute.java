@@ -1,10 +1,10 @@
-package net.osmand.osm.edit;
+package net.recreationmap.osm.edit;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.osmand.data.TransportRoute;
+import net.recreationmap.data.TransportRoute;
 
 public class OsmTransportRoute extends TransportRoute {
 	private List<Way> ways;

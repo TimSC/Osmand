@@ -1,11 +1,11 @@
-package net.osmand;
+package net.recreationmap;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-import net.osmand.data.LatLon;
-import net.osmand.util.MapUtils;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.util.MapUtils;
 /*
  *  === Implementation of ant swarm TSP solver. ===
  *  

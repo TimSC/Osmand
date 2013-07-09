@@ -1,11 +1,11 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.osmand.util.Algorithms;
+import net.recreationmap.util.Algorithms;
 
 
 public class Street extends MapObject {

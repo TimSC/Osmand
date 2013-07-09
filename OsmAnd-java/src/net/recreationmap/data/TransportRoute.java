@@ -1,9 +1,9 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.osmand.util.MapUtils;
+import net.recreationmap.util.MapUtils;
 
 public class TransportRoute extends MapObject {
 	private List<TransportStop> forwardStops = new ArrayList<TransportStop>();

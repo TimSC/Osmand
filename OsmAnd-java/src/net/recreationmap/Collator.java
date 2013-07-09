@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 
 /**
  * Wrapper of java.text. Collator  

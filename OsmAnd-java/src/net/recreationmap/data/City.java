@@ -1,11 +1,11 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 import java.util.Collection;
 import java.util.Map;
 import java.util.TreeMap;
 
-import net.osmand.PlatformUtil;
-import net.osmand.util.Algorithms;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.util.Algorithms;
 
 public class City extends MapObject {
 	public enum CityType {

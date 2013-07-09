@@ -1,4 +1,4 @@
-package net.osmand.util;
+package net.recreationmap.util;
 
 
 import java.io.Closeable;
@@ -12,7 +12,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import net.osmand.PlatformUtil;
+import net.recreationmap.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 

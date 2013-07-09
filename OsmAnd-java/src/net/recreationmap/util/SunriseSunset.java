@@ -1,4 +1,4 @@
-package net.osmand.util;
+package net.recreationmap.util;
 /******************************************************************************
 *
 *							SunriseSunset.java

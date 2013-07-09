@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 
 import gnu.trove.list.array.TIntArrayList;
 
@@ -16,15 +16,15 @@ import java.util.Map.Entry;
 
 import org.apache.commons.logging.Log;
 
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import net.osmand.binary.RouteDataObject;
-import net.osmand.render.RenderingRuleSearchRequest;
-import net.osmand.render.RenderingRulesStorage;
-import net.osmand.router.GeneralRouter;
-import net.osmand.router.RouteCalculationProgress;
-import net.osmand.router.RouteSegmentResult;
-import net.osmand.router.RoutingConfiguration;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import net.recreationmap.binary.RouteDataObject;
+import net.recreationmap.render.RenderingRuleSearchRequest;
+import net.recreationmap.render.RenderingRulesStorage;
+import net.recreationmap.router.GeneralRouter;
+import net.recreationmap.router.RouteCalculationProgress;
+import net.recreationmap.router.RouteSegmentResult;
+import net.recreationmap.router.RoutingConfiguration;
 
 public class NativeLibrary {
 

@@ -1,9 +1,9 @@
-package net.osmand.osm.edit;
+package net.recreationmap.osm.edit;
 
 import java.io.Serializable;
 import java.util.Map;
 
-import net.osmand.data.LatLon;
+import net.recreationmap.data.LatLon;
 
 public class Node extends Entity implements Serializable {
 

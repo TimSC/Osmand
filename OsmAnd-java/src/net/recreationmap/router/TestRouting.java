@@ -1,4 +1,4 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 
 import java.io.File;
@@ -14,13 +14,13 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-import net.osmand.PlatformUtil;
-import net.osmand.NativeLibrary;
-import net.osmand.binary.BinaryMapIndexReader;
-import net.osmand.data.LatLon;
-import net.osmand.router.BinaryRoutePlanner.FinalRouteSegment;
-import net.osmand.router.BinaryRoutePlanner.RouteSegment;
-import net.osmand.router.RoutingConfiguration.Builder;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.NativeLibrary;
+import net.recreationmap.binary.BinaryMapIndexReader;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.router.BinaryRoutePlanner.FinalRouteSegment;
+import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
+import net.recreationmap.router.RoutingConfiguration.Builder;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

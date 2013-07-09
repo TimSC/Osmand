@@ -1,8 +1,8 @@
-package net.osmand.render;
+package net.recreationmap.render;
 
 
-import net.osmand.PlatformUtil;
-import net.osmand.binary.BinaryMapDataObject;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.binary.BinaryMapDataObject;
 
 import org.apache.commons.logging.Log;
 

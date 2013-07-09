@@ -1,4 +1,4 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -11,16 +11,16 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-import net.osmand.Collator;
-import net.osmand.CollatorStringMatcher;
-import net.osmand.CollatorStringMatcher.StringMatcherMode;
-import net.osmand.PlatformUtil;
-import net.osmand.binary.BinaryMapIndexReader.SearchRequest;
-import net.osmand.binary.OsmandOdb.OsmAndPoiNameIndex.OsmAndPoiNameIndexData;
-import net.osmand.data.Amenity;
-import net.osmand.data.AmenityType;
-import net.osmand.util.Algorithms;
-import net.osmand.util.MapUtils;
+import net.recreationmap.Collator;
+import net.recreationmap.CollatorStringMatcher;
+import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
+import net.recreationmap.binary.OsmandOdb.OsmAndPoiNameIndex.OsmAndPoiNameIndexData;
+import net.recreationmap.data.Amenity;
+import net.recreationmap.data.AmenityType;
+import net.recreationmap.util.Algorithms;
+import net.recreationmap.util.MapUtils;
 import net.sf.junidecode.Junidecode;
 
 import org.apache.commons.logging.Log;

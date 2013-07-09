@@ -1,6 +1,6 @@
-package net.osmand.srtmPlugin;
+package net.recreationmap.srtmPlugin;
 
-import net.osmand.srtmPlugin.paid.R;
+import net.recreationmap.srtmPlugin.paid.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;

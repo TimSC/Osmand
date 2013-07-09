@@ -1,6 +1,6 @@
-package net.osmand.render;
+package net.recreationmap.render;
 
-import net.osmand.binary.BinaryMapDataObject;
+import net.recreationmap.binary.BinaryMapDataObject;
 
 
 public class RenderingRuleSearchRequest {

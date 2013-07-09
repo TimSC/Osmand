@@ -1,4 +1,4 @@
-package net.osmand.osm.edit;
+package net.recreationmap.osm.edit;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,7 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.osmand.data.LatLon;
+import net.recreationmap.data.LatLon;
 
 public class Relation extends Entity {
 	

@@ -36,7 +36,7 @@
 			destdir="${bin.absolute.dir}" encoding="${java.encoding}" classpathref="build.path" debug="on"
 		 source="1.6">
 	  		<include name="**/*.java"/>
-			<exclude name="net/osmand/plus/**"/>
+			<exclude name="net/recreationmap/plus/**"/>
 		</javac>
 		
 	</target>
@@ -56,7 +56,7 @@
 		<delete file="MANIFEST.MF" />
 		<manifest file="MANIFEST.MF">
 			<attribute name="Built-By" value="${user.name}" />
-			<attribute name="Main-Class" value="net.osmand.swing.OsmExtractionUI" />
+			<attribute name="Main-Class" value="net.recreationmap.swing.OsmExtractionUI" />
 			<attribute name="Class-Path" value="${lib.list}"/>
 		</manifest>
 

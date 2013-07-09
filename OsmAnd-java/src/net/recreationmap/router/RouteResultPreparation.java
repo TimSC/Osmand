@@ -1,4 +1,4 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 import java.io.IOException;
 import java.text.MessageFormat;
@@ -8,12 +8,12 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import net.osmand.binary.BinaryMapIndexReader;
-import net.osmand.binary.RouteDataObject;
-import net.osmand.data.LatLon;
-import net.osmand.router.BinaryRoutePlanner.FinalRouteSegment;
-import net.osmand.router.BinaryRoutePlanner.RouteSegment;
-import net.osmand.util.MapUtils;
+import net.recreationmap.binary.BinaryMapIndexReader;
+import net.recreationmap.binary.RouteDataObject;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.router.BinaryRoutePlanner.FinalRouteSegment;
+import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
+import net.recreationmap.util.MapUtils;
 
 public class RouteResultPreparation {
 

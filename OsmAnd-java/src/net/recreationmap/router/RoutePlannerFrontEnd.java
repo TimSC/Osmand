@@ -1,4 +1,4 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 
 import java.io.IOException;
@@ -6,13 +6,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import net.osmand.PlatformUtil;
-import net.osmand.binary.BinaryMapRouteReaderAdapter;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.osmand.binary.RouteDataObject;
-import net.osmand.data.LatLon;
-import net.osmand.router.BinaryRoutePlanner.RouteSegment;
-import net.osmand.util.MapUtils;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import net.recreationmap.binary.RouteDataObject;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
+import net.recreationmap.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

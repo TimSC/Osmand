@@ -1,12 +1,12 @@
-package net.osmand.map;
+package net.recreationmap.map;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.osmand.PlatformUtil;
-import net.osmand.map.OsmandRegionInfo.OsmAndRegionInfo;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.map.OsmandRegionInfo.OsmAndRegionInfo;
 
 import org.apache.commons.logging.Log;
 

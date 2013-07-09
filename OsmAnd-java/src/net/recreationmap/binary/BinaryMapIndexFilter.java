@@ -1,4 +1,4 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 import gnu.trove.list.array.TIntArrayList;
 import gnu.trove.set.hash.TIntHashSet;
@@ -13,13 +13,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.osmand.ResultMatcher;
-import net.osmand.binary.BinaryMapIndexReader.MapIndex;
-import net.osmand.binary.BinaryMapIndexReader.SearchFilter;
-import net.osmand.binary.BinaryMapIndexReader.SearchRequest;
-import net.osmand.binary.BinaryMapIndexReader.TagValuePair;
-import net.osmand.render.RenderingRulesStorage;
-import net.osmand.util.MapUtils;
+import net.recreationmap.ResultMatcher;
+import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchFilter;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
+import net.recreationmap.binary.BinaryMapIndexReader.TagValuePair;
+import net.recreationmap.render.RenderingRulesStorage;
+import net.recreationmap.util.MapUtils;
 
 public class BinaryMapIndexFilter {
 

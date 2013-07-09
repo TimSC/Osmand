@@ -1,4 +1,4 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 public class RouteCalculationProgress {
 

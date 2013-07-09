@@ -1,4 +1,4 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 // http://wiki.openstreetmap.org/wiki/Amenity
 // POI tags : amenity, leisure, shop, sport, tourism, historic; accessories (internet-access), natural ?

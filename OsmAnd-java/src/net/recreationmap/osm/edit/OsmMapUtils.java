@@ -1,4 +1,4 @@
-package net.osmand.osm.edit;
+package net.recreationmap.osm.edit;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,8 +6,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.osmand.data.LatLon;
-import net.osmand.util.MapUtils;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.util.MapUtils;
 
 public class OsmMapUtils {
 

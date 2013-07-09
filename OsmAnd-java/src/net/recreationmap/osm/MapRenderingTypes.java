@@ -1,4 +1,4 @@
-package net.osmand.osm;
+package net.recreationmap.osm;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,8 +11,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
-import net.osmand.PlatformUtil;
-import net.osmand.data.AmenityType;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.data.AmenityType;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

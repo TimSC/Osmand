@@ -1,4 +1,4 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 import gnu.trove.list.array.TIntArrayList;
 import gnu.trove.map.hash.TIntObjectHashMap;
@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import net.osmand.binary.BinaryMapIndexReader.SearchRequest;
-import net.osmand.data.TransportStop;
-import net.osmand.util.MapUtils;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
+import net.recreationmap.data.TransportStop;
+import net.recreationmap.util.MapUtils;
 import net.sf.junidecode.Junidecode;
 
 import com.google.protobuf.CodedInputStream;
@@ -228,12 +228,12 @@ public class BinaryMapTransportReaderAdapter {
 		return ((char) i)+"";
 	}
 	
-	public net.osmand.data.TransportRoute getTransportRoute(int filePointer, TIntObjectHashMap<String> stringTable,
+	public net.recreationmap.data.TransportRoute getTransportRoute(int filePointer, TIntObjectHashMap<String> stringTable,
 			boolean onlyDescription) throws IOException {
 		codedIS.seek(filePointer);
 		int routeLength = codedIS.readRawVarint32();
 		int old = codedIS.pushLimit(routeLength);
-		net.osmand.data.TransportRoute dataObject = new net.osmand.data.TransportRoute();
+		net.recreationmap.data.TransportRoute dataObject = new net.recreationmap.data.TransportRoute();
 		boolean end = false;
 		long rid = 0;
 		int rx = 0;
@@ -341,7 +341,7 @@ public class BinaryMapTransportReaderAdapter {
 		codedIS.popLimit(oldLimit);
 	}
 
-	protected void initializeNames(boolean onlyDescription, net.osmand.data.TransportRoute dataObject,
+	protected void initializeNames(boolean onlyDescription, net.recreationmap.data.TransportRoute dataObject,
 			TIntObjectHashMap<String> stringTable) throws IOException {
 		if(dataObject.getName().length() > 0){
 			dataObject.setName(stringTable.get(dataObject.getName().charAt(0)));

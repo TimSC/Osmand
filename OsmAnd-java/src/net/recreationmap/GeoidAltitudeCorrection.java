@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 
 import java.io.EOFException;
 import java.io.File;

@@ -1,4 +1,4 @@
-package net.osmand.render;
+package net.recreationmap.render;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;

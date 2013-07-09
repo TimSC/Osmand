@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package net.osmand.bridge;
+package net.recreationmap.bridge;
 
 import java.util.AbstractList;
 import java.util.List;

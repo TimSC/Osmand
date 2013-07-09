@@ -1,9 +1,9 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 import java.util.List;
 
-import net.osmand.data.DataTileManager;
-import net.osmand.router.BinaryRoutePlanner.RouteSegment;
+import net.recreationmap.data.DataTileManager;
+import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
 
 public class BaseRouteResult {
 

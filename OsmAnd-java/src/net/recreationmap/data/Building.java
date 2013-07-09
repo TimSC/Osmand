@@ -1,7 +1,7 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 
-import net.osmand.util.Algorithms;
+import net.recreationmap.util.Algorithms;
 
 public class Building extends MapObject {
 	

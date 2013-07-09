@@ -1,4 +1,4 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -18,25 +18,25 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import net.osmand.ResultMatcher;
-import net.osmand.binary.BinaryMapAddressReaderAdapter.AddressRegion;
-import net.osmand.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
-import net.osmand.binary.BinaryMapIndexReader.MapIndex;
-import net.osmand.binary.BinaryMapIndexReader.MapRoot;
-import net.osmand.binary.BinaryMapIndexReader.SearchFilter;
-import net.osmand.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
-import net.osmand.binary.BinaryMapIndexReader.SearchRequest;
-import net.osmand.binary.BinaryMapIndexReader.TagValuePair;
-import net.osmand.binary.BinaryMapPoiReaderAdapter.PoiRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.osmand.binary.BinaryMapTransportReaderAdapter.TransportIndex;
-import net.osmand.data.Amenity;
-import net.osmand.data.AmenityType;
-import net.osmand.data.Building;
-import net.osmand.data.City;
-import net.osmand.data.MapObject;
-import net.osmand.data.Street;
-import net.osmand.util.MapUtils;
+import net.recreationmap.ResultMatcher;
+import net.recreationmap.binary.BinaryMapAddressReaderAdapter.AddressRegion;
+import net.recreationmap.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
+import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
+import net.recreationmap.binary.BinaryMapIndexReader.MapRoot;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchFilter;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
+import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
+import net.recreationmap.binary.BinaryMapIndexReader.TagValuePair;
+import net.recreationmap.binary.BinaryMapPoiReaderAdapter.PoiRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import net.recreationmap.binary.BinaryMapTransportReaderAdapter.TransportIndex;
+import net.recreationmap.data.Amenity;
+import net.recreationmap.data.AmenityType;
+import net.recreationmap.data.Building;
+import net.recreationmap.data.City;
+import net.recreationmap.data.MapObject;
+import net.recreationmap.data.Street;
+import net.recreationmap.util.MapUtils;
 
 import com.google.protobuf.CodedOutputStream;
 import com.google.protobuf.WireFormat;

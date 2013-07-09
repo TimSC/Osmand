@@ -1,7 +1,7 @@
-package net.osmand.osm.io;
+package net.recreationmap.osm.io;
 
-import net.osmand.osm.edit.Entity;
-import net.osmand.osm.edit.Entity.EntityId;
+import net.recreationmap.osm.edit.Entity;
+import net.recreationmap.osm.edit.Entity.EntityId;
 
 public interface IOsmStorageFilter {
 	

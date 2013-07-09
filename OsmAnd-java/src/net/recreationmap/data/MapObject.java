@@ -1,11 +1,11 @@
-package net.osmand.data;
+package net.recreationmap.data;
 
 
 import java.io.Serializable;
 import java.util.Comparator;
 
-import net.osmand.Collator;
-import net.osmand.PlatformUtil;
+import net.recreationmap.Collator;
+import net.recreationmap.PlatformUtil;
 
 
 public abstract class MapObject implements Comparable<MapObject>, Serializable {

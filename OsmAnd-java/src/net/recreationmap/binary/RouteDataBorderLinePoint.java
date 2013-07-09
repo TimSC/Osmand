@@ -1,8 +1,8 @@
-package net.osmand.binary;
+package net.recreationmap.binary;
 
 
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
 
 public class RouteDataBorderLinePoint extends RouteDataObject {
 	// all these arrays supposed to be immutable!

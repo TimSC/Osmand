@@ -1,4 +1,4 @@
-package net.osmand.util;
+package net.recreationmap.util;
 
 import gnu.trove.list.TLongList;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.osmand.data.LatLon;
+import net.recreationmap.data.LatLon;
 
 public class MapAlgorithms {
 	

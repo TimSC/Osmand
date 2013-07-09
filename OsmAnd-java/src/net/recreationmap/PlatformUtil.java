@@ -1,4 +1,4 @@
-package net.osmand;
+package net.recreationmap;
 
 
 
@@ -28,7 +28,7 @@ public class PlatformUtil {
 	}
 	
 
-	public static net.osmand.Collator primaryCollator() {
+	public static net.recreationmap.Collator primaryCollator() {
 		// romanian locale encounters diacritics as differnet symbols
 		final java.text.Collator instance = Locale.getDefault().getLanguage().equals("ro") ? java.text.Collator.getInstance(Locale.US)
 				: java.text.Collator.getInstance();
@@ -36,8 +36,8 @@ public class PlatformUtil {
 		return wrapCollator(instance);
 	}
 	
-	public static net.osmand.Collator wrapCollator(final java.text.Collator instance) {
-		return new net.osmand.Collator() {
+	public static net.recreationmap.Collator wrapCollator(final java.text.Collator instance) {
+		return new net.recreationmap.Collator() {
 			
 			@Override
 			public int compare(Object o1, Object o2) {

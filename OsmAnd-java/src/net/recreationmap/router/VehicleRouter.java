@@ -1,7 +1,7 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
-import net.osmand.binary.RouteDataObject;
-import net.osmand.router.BinaryRoutePlanner.RouteSegment;
+import net.recreationmap.binary.RouteDataObject;
+import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
 
 public abstract class VehicleRouter {
 

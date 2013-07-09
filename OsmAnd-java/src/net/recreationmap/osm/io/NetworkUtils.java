@@ -1,4 +1,4 @@
-package net.osmand.osm.io;
+package net.recreationmap.osm.io;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -14,8 +14,8 @@ import java.net.URLEncoder;
 import java.util.Map;
 import java.util.zip.GZIPOutputStream;
 
-import net.osmand.PlatformUtil;
-import net.osmand.util.Algorithms;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

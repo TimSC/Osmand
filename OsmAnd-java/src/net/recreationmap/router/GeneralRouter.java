@@ -1,4 +1,4 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,11 +7,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.osmand.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
-import net.osmand.binary.RouteDataObject;
-import net.osmand.router.BinaryRoutePlanner.RouteSegment;
-import net.osmand.util.MapUtils;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import net.recreationmap.binary.RouteDataObject;
+import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
+import net.recreationmap.util.MapUtils;
 
 public class GeneralRouter extends VehicleRouter {
 	public static final String USE_SHORTEST_WAY = "short_way";

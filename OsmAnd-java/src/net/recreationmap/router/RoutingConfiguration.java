@@ -1,4 +1,4 @@
-package net.osmand.router;
+package net.recreationmap.router;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -6,10 +6,10 @@ import java.io.InputStream;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import net.osmand.Collator;
-import net.osmand.PlatformUtil;
-import net.osmand.router.GeneralRouter.GeneralRouterProfile;
-import net.osmand.util.Algorithms;
+import net.recreationmap.Collator;
+import net.recreationmap.PlatformUtil;
+import net.recreationmap.router.GeneralRouter.GeneralRouterProfile;
+import net.recreationmap.util.Algorithms;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

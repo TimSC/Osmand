@@ -1,12 +1,12 @@
-package net.osmand.map;
+package net.recreationmap.map;
 
 import gnu.trove.list.array.TIntArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.osmand.map.OsmandRegionInfo.OsmAndRegion;
-import net.osmand.util.Algorithms;
+import net.recreationmap.map.OsmandRegionInfo.OsmAndRegion;
+import net.recreationmap.util.Algorithms;
 
 public class RegionCountry {
 	public String continentName;

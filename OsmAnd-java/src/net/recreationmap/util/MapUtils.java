@@ -1,12 +1,12 @@
-package net.osmand.util;
+package net.recreationmap.util;
 
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.osmand.data.LatLon;
-import net.osmand.data.MapObject;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.data.MapObject;
 
 
 /**

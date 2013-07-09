@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package net.osmand.bridge;
+package net.recreationmap.bridge;
 
 public class ObfInspector {
   private long swigCPtr;

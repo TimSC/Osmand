@@ -1,19 +1,19 @@
-package net.osmand.osm.edit;
+package net.recreationmap.osm.edit;
 
 import java.util.Collection;
 import java.util.List;
 
-import net.osmand.data.Amenity;
-import net.osmand.data.AmenityType;
-import net.osmand.data.Building;
-import net.osmand.data.City;
-import net.osmand.data.City.CityType;
-import net.osmand.data.LatLon;
-import net.osmand.data.MapObject;
-import net.osmand.data.TransportStop;
-import net.osmand.osm.MapRenderingTypes;
-import net.osmand.osm.edit.OSMSettings.OSMTagKey;
-import net.osmand.util.Algorithms;
+import net.recreationmap.data.Amenity;
+import net.recreationmap.data.AmenityType;
+import net.recreationmap.data.Building;
+import net.recreationmap.data.City;
+import net.recreationmap.data.City.CityType;
+import net.recreationmap.data.LatLon;
+import net.recreationmap.data.MapObject;
+import net.recreationmap.data.TransportStop;
+import net.recreationmap.osm.MapRenderingTypes;
+import net.recreationmap.osm.edit.OSMSettings.OSMTagKey;
+import net.recreationmap.util.Algorithms;
 
 public class EntityParser {
 	
