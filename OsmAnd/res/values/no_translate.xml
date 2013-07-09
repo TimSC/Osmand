@@ -4,7 +4,7 @@
     <string name="app_name_long">Herefordshire Recreation Maps by Kinatomic</string>
     <string name="app_version">1.0 beta</string>
     <!-- Not translatable -->
-    <string name="ga_api_key"></string>
+    <string name="ga_api_key">UA-42332423-1</string>
     <string name="ga_dispatchPeriod">10</string>
     <string name="ga_debug">true</string>
     <string name="versionFeatures">+play_market +gps_status -parking_plugin -blackberry -free_version -amazon</string>
