@@ -100,8 +100,8 @@ public class SettingsNavigationActivity extends SettingsBaseActivity {
 		String[] entries;
 		String[] entrieValues;
 		Set<String> voiceFiles = getVoiceFiles();
-		entries = new String[voiceFiles.size() + 2];
-		entrieValues = new String[voiceFiles.size() + 2];
+		entries = new String[voiceFiles.size() + 1];
+		entrieValues = new String[voiceFiles.size() + 1];
 		int k = 0;
 		// entries[k++] = getString(R.string.voice_not_specified);
 		entrieValues[k] = OsmandSettings.VOICE_PROVIDER_NOT_USE;
@@ -111,8 +111,8 @@ public class SettingsNavigationActivity extends SettingsBaseActivity {
 			entrieValues[k] = s;
 			k++;
 		}
-		entrieValues[k] = MORE_VALUE;
-		entries[k] = getString(R.string.install_more);
+		//entrieValues[k] = MORE_VALUE;
+		//entries[k] = getString(R.string.install_more);
 		registerListPreference(settings.VOICE_PROVIDER, screen, entries, entrieValues);
 	}
 
