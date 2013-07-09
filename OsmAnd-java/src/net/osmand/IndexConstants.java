@@ -29,7 +29,7 @@ public class IndexConstants {
 	public final static String POI_TABLE = "poi"; //$NON-NLS-1$
 	
 	public static final String INDEX_DOWNLOAD_DOMAIN = "download.kinatomic.com";
-	public static final String APP_DIR = "outdoor-maps/"; //$NON-NLS-1$
+	public static final String APP_DIR = "recreation-maps/"; //$NON-NLS-1$
 	public static final String MAPS_PATH = "";
 	public static final String BACKUP_INDEX_DIR= "backup/";
 	public static final String GPX_INDEX_DIR= "tracks/";
