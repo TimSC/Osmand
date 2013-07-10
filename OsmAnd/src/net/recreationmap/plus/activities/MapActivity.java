@@ -173,7 +173,7 @@ public class MapActivity extends AccessibleActivity  {
 			net.recreationmap.Location location = app.getLocationProvider().getFirstTimeRunDefaultLocation();
 			if(location != null){
 				mapView.setLatLon(location.getLatitude(), location.getLongitude());
-				mapView.setZoom(14);
+				mapView.setZoom(9);
 			}
 		}
 		addDialogProvider(mapActions);
