@@ -175,6 +175,12 @@ public class MapActivity extends AccessibleActivity  {
 				mapView.setLatLon(location.getLatitude(), location.getLongitude());
 				mapView.setZoom(9);
 			}
+			else
+			{
+				//set default location if all else fails
+				mapView.setLatLon(52.0565, -2.716);
+				mapView.setZoom(9);
+			}
 		}
 		addDialogProvider(mapActions);
 		OsmandPlugin.onMapActivityCreate(this);
