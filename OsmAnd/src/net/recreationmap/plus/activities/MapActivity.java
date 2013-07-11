@@ -170,17 +170,18 @@ public class MapActivity extends AccessibleActivity  {
 		
 		if(!settings.isLastKnownMapLocation()){
 			// show first time when application ran
-			net.recreationmap.Location location = app.getLocationProvider().getFirstTimeRunDefaultLocation();
-			if(location != null){
-				mapView.setLatLon(location.getLatitude(), location.getLongitude());
-				mapView.setZoom(9);
-			}
-			else
-			{
-				//set default location if all else fails
+			//net.recreationmap.Location location = app.getLocationProvider().getFirstTimeRunDefaultLocation();
+			//if(location != null){
+			//	mapView.setLatLon(location.getLatitude(), location.getLongitude());
 				mapView.setLatLon(52.0565, -2.716);
 				mapView.setZoom(9);
-			}
+			//}
+			//else
+			//{
+			//	set default location if all else fails
+			//	mapView.setLatLon(52.0565, -2.716);
+			//	mapView.setZoom(9);
+			//}
 		}
 		addDialogProvider(mapActions);
 		OsmandPlugin.onMapActivityCreate(this);
@@ -292,8 +293,20 @@ public class MapActivity extends AccessibleActivity  {
 
 		if (settings != null && settings.isLastKnownMapLocation()) {
 			LatLon l = settings.getLastKnownMapLocation();
-			mapView.setLatLon(l.getLatitude(), l.getLongitude());
-			mapView.setZoom(settings.getLastKnownMapZoom());
+			double lat = l.getLatitude();
+			double lon = l.getLongitude();
+			int zoom = settings.getLastKnownMapZoom();
+
+			//Reinitialise location if outside GB
+			if (lat < 49. || lat > 60. || lon < -8. || lon > 4.)
+			{
+				lat = 52.0565;
+				lon = -2.716;
+				zoom = 9;
+			}
+
+			mapView.setLatLon(lat, lon);
+			mapView.setZoom(zoom);
 		}
 
 		settings.MAP_ACTIVITY_ENABLED.set(true);
