@@ -33,7 +33,7 @@
 	<asset source="voice/it-Chiara/config.p" destination="voice/it-Chiara/_config.p" mode="overwriteOnlyIfExists" />  
 	<asset source="voice/sk-Ruzena/config.p" destination="voice/sk-Ruzena/_config.p" mode="overwriteOnlyIfExists" />
 
-	<asset source="Herefordshire-fosm-july-2013.obf" destination="Herefordshire-fosm-july-2013.obf" mode="alwaysOverwriteOrCopy" />
+	<asset source="Hampshire-partial-july-2013.obf" destination="Hampshire-partial-july-2013.obf" mode="alwaysOverwriteOrCopy" />
 	<asset source="GbCoast-july-2013.obf" destination="GbCoast-july-2013.obf" mode="alwaysOverwriteOrCopy" />
 	<asset source="GbCities-july-2013.obf" destination="GbCities-july-2013.obf" mode="alwaysOverwriteOrCopy" />
 </assets>
