@@ -1,6 +1,6 @@
-package net.recreationmap.plus.routing;
+package com.kinatomicHamp.plus.routing;
 
-import net.recreationmap.router.TurnType;
+import com.kinatomicHamp.router.TurnType;
 
 public class RouteDirectionInfo {
 	// location when you should action (turn or go ahead)

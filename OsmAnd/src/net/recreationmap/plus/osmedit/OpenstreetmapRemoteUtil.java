@@ -1,4 +1,4 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -17,22 +17,22 @@ import java.text.MessageFormat;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.osm.edit.Entity;
-import net.recreationmap.osm.edit.Entity.EntityId;
-import net.recreationmap.osm.edit.Entity.EntityType;
-import net.recreationmap.osm.edit.EntityInfo;
-import net.recreationmap.osm.edit.Node;
-import net.recreationmap.osm.io.Base64;
-import net.recreationmap.osm.io.NetworkUtils;
-import net.recreationmap.osm.io.OsmBaseStorage;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.osm.edit.Entity;
+import com.kinatomicHamp.osm.edit.Entity.EntityId;
+import com.kinatomicHamp.osm.edit.Entity.EntityType;
+import com.kinatomicHamp.osm.edit.EntityInfo;
+import com.kinatomicHamp.osm.edit.Node;
+import com.kinatomicHamp.osm.io.Base64;
+import com.kinatomicHamp.osm.io.NetworkUtils;
+import com.kinatomicHamp.osm.io.OsmBaseStorage;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 import org.xml.sax.SAXException;

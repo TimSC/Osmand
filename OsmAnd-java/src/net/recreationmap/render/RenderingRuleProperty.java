@@ -1,8 +1,8 @@
-package net.recreationmap.render;
+package com.kinatomicHamp.render;
 
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.binary.BinaryMapDataObject;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.binary.BinaryMapDataObject;
 
 import org.apache.commons.logging.Log;
 

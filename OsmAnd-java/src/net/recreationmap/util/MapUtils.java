@@ -1,12 +1,12 @@
-package net.recreationmap.util;
+package com.kinatomicHamp.util;
 
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
 
 
 /**

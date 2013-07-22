@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

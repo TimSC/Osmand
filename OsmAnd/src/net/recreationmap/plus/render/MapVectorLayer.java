@@ -1,11 +1,11 @@
-package net.recreationmap.plus.render;
+package com.kinatomicHamp.plus.render;
 
-import net.recreationmap.plus.RotatedTileBox;
-import net.recreationmap.plus.resources.ResourceManager;
-import net.recreationmap.plus.views.BaseMapLayer;
-import net.recreationmap.plus.views.MapTileLayer;
-import net.recreationmap.plus.views.OsmandMapTileView;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.plus.RotatedTileBox;
+import com.kinatomicHamp.plus.resources.ResourceManager;
+import com.kinatomicHamp.plus.views.BaseMapLayer;
+import com.kinatomicHamp.plus.views.MapTileLayer;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.util.MapUtils;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;

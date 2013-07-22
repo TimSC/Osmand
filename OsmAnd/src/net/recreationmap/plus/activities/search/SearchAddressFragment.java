@@ -1,16 +1,16 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 
 import java.text.MessageFormat;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.activities.MapActivityActions;
-import net.recreationmap.plus.resources.RegionAddressRepository;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.activities.MapActivityActions;
+import com.kinatomicHamp.plus.resources.RegionAddressRepository;
+import com.kinatomicHamp.util.Algorithms;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

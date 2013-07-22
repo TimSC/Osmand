@@ -1,13 +1,13 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.Location;
-import net.recreationmap.StateChangedListener;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.routing.RoutingHelper;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.StateChangedListener;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
 
 public class TargetPointsHelper {
 

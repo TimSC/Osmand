@@ -1,4 +1,4 @@
-package net.recreationmap.map;
+package com.kinatomicHamp.map;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -17,7 +17,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
+import com.kinatomicHamp.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

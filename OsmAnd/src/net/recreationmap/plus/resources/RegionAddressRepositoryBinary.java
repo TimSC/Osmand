@@ -1,4 +1,4 @@
-package net.recreationmap.plus.resources;
+package com.kinatomicHamp.plus.resources;
 
 
 import java.io.IOException;
@@ -9,19 +9,19 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import net.recreationmap.Collator;
-import net.recreationmap.CollatorStringMatcher;
-import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.binary.BinaryMapAddressReaderAdapter;
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.data.Building;
-import net.recreationmap.data.City;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.data.Street;
+import com.kinatomicHamp.Collator;
+import com.kinatomicHamp.CollatorStringMatcher;
+import com.kinatomicHamp.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.binary.BinaryMapAddressReaderAdapter;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.data.Building;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.data.Street;
 
 import org.apache.commons.logging.Log;
 

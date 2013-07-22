@@ -1,21 +1,21 @@
-package net.recreationmap.plus.routing;
+package com.kinatomicHamp.plus.routing;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.recreationmap.Location;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.router.RouteSegmentResult;
-import net.recreationmap.router.TurnType;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.router.RouteSegmentResult;
+import com.kinatomicHamp.router.TurnType;
+import com.kinatomicHamp.util.MapUtils;
 
 public class RouteCalculationResult {
 	// could not be null and immodifiable!

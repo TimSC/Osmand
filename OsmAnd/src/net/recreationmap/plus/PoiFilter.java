@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.util.Collections;
 import java.util.Iterator;
@@ -9,11 +9,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.util.MapUtils;
 
 public class PoiFilter {
 	

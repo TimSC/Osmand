@@ -1,4 +1,4 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 
 import java.util.ArrayList;
@@ -6,21 +6,21 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibilityActionsProvider;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.access.MapExplorer;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.map.IMapLocationListener;
-import net.recreationmap.map.MapTileDownloader.DownloadRequest;
-import net.recreationmap.map.MapTileDownloader.IMapDownloaderCallback;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.views.MultiTouchSupport.MultiTouchZoomListener;
-import net.recreationmap.plus.views.OsmandMapLayer.DrawSettings;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibilityActionsProvider;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.access.MapExplorer;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.map.IMapLocationListener;
+import com.kinatomicHamp.map.MapTileDownloader.DownloadRequest;
+import com.kinatomicHamp.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.views.MultiTouchSupport.MultiTouchZoomListener;
+import com.kinatomicHamp.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

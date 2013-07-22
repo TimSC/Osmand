@@ -1,14 +1,14 @@
-package net.recreationmap.plus.routing;
+package com.kinatomicHamp.plus.routing;
 
 import java.util.List;
 
-import net.recreationmap.Location;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.routing.RouteProvider.GPXRouteParams;
-import net.recreationmap.plus.routing.RouteProvider.RouteService;
-import net.recreationmap.router.RouteCalculationProgress;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.routing.RouteProvider.GPXRouteParams;
+import com.kinatomicHamp.plus.routing.RouteProvider.RouteService;
+import com.kinatomicHamp.router.RouteCalculationProgress;
 
 public class RouteCalculationParams {
 

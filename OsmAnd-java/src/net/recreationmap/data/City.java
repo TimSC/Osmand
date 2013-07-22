@@ -1,11 +1,11 @@
-package net.recreationmap.data;
+package com.kinatomicHamp.data;
 
 import java.util.Collection;
 import java.util.Map;
 import java.util.TreeMap;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.util.Algorithms;
 
 public class City extends MapObject {
 	public enum CityType {

@@ -1,4 +1,4 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 public interface OsmBugsUtil {
 

@@ -1,11 +1,11 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
 import android.app.AlarmManager;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -269,7 +269,7 @@ public class NavigationService extends Service implements LocationListener {
 	@Override
 	public void onLocationChanged(Location l) {
 		if(l != null && !settings.MAP_ACTIVITY_ENABLED.get()){
-			net.recreationmap.Location location = OsmAndLocationProvider.convertLocation(l,(OsmandApplication) getApplication());
+			com.kinatomicHamp.Location location = OsmAndLocationProvider.convertLocation(l,(OsmandApplication) getApplication());
 			if(!isContinuous()){
 				// unregister listener and wait next time
 				LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);

@@ -1,11 +1,11 @@
-package net.recreationmap.data;
+package com.kinatomicHamp.data;
 
 
 import java.io.Serializable;
 import java.util.Comparator;
 
-import net.recreationmap.Collator;
-import net.recreationmap.PlatformUtil;
+import com.kinatomicHamp.Collator;
+import com.kinatomicHamp.PlatformUtil;
 
 
 public abstract class MapObject implements Comparable<MapObject>, Serializable {

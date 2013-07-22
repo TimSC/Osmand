@@ -1,16 +1,16 @@
-package net.recreationmap.plus.resources;
+package com.kinatomicHamp.plus.resources;
 
 import java.text.Collator;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.Building;
-import net.recreationmap.data.City;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.data.Street;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.Building;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.data.Street;
+import com.kinatomicHamp.util.MapUtils;
 
 
 public interface RegionAddressRepository {

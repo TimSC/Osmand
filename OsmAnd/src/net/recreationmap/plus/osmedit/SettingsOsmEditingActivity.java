@@ -1,8 +1,8 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.SettingsBaseActivity;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.SettingsBaseActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;

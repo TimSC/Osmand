@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,8 +8,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

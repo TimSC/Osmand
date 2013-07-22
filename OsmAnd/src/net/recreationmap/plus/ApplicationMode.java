@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 
 public enum ApplicationMode {

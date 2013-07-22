@@ -1,16 +1,16 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.io.File;
 import java.text.MessageFormat;
 import java.util.Random;
 
-import net.recreationmap.access.AccessibleAlertBuilder;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
-import net.recreationmap.plus.activities.search.SearchActivity;
-import net.recreationmap.plus.render.MapRenderRepositories;
+import com.kinatomicHamp.access.AccessibleAlertBuilder;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.plus.activities.search.SearchActivity;
+import com.kinatomicHamp.plus.render.MapRenderRepositories;
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;

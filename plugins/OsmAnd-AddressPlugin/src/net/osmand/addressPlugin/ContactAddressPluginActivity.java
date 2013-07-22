@@ -1,4 +1,4 @@
-package net.recreationmap.addressPlugin;
+package com.kinatomicHamp.addressPlugin;
 
 import java.util.StringTokenizer;
 

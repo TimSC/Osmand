@@ -1,4 +1,4 @@
-package net.recreationmap.plus.download;
+package com.kinatomicHamp.plus.download;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,9 +12,9 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.Version;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.Version;
 
 import org.apache.commons.logging.Log;
 

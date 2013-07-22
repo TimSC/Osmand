@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 
 import java.util.ArrayList;
@@ -9,16 +9,16 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.Collator;
-import net.recreationmap.CollatorStringMatcher;
-import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.OsmandListActivity;
+import com.kinatomicHamp.Collator;
+import com.kinatomicHamp.CollatorStringMatcher;
+import com.kinatomicHamp.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.OsmandListActivity;
 
 import org.apache.commons.logging.Log;
 

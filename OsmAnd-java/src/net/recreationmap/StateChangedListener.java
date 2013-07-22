@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 /**
  * Abstract listener represents state changed for a particular object 

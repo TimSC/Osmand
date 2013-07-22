@@ -1,7 +1,7 @@
-package net.recreationmap.plus.base;
+package com.kinatomicHamp.plus.base;
 
-import net.recreationmap.IProgress;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.IProgress;
+import com.kinatomicHamp.plus.R;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Handler;

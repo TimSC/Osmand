@@ -1,4 +1,4 @@
-package net.recreationmap.plus.routing;
+package com.kinatomicHamp.plus.routing;
 
 
 import java.io.File;
@@ -21,29 +21,29 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.Location;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.NativeLibrary;
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.GPXUtilities;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.GPXUtilities.GPXFile;
-import net.recreationmap.plus.GPXUtilities.Route;
-import net.recreationmap.plus.GPXUtilities.Track;
-import net.recreationmap.plus.GPXUtilities.TrkSegment;
-import net.recreationmap.plus.GPXUtilities.WptPt;
-import net.recreationmap.router.GeneralRouter;
-import net.recreationmap.router.GeneralRouter.GeneralRouterProfile;
-import net.recreationmap.router.RoutePlannerFrontEnd;
-import net.recreationmap.router.RouteSegmentResult;
-import net.recreationmap.router.RoutingConfiguration;
-import net.recreationmap.router.RoutingContext;
-import net.recreationmap.router.TurnType;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.NativeLibrary;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.GPXUtilities;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.plus.GPXUtilities.Route;
+import com.kinatomicHamp.plus.GPXUtilities.Track;
+import com.kinatomicHamp.plus.GPXUtilities.TrkSegment;
+import com.kinatomicHamp.plus.GPXUtilities.WptPt;
+import com.kinatomicHamp.router.GeneralRouter;
+import com.kinatomicHamp.router.GeneralRouter.GeneralRouterProfile;
+import com.kinatomicHamp.router.RoutePlannerFrontEnd;
+import com.kinatomicHamp.router.RouteSegmentResult;
+import com.kinatomicHamp.router.RoutingConfiguration;
+import com.kinatomicHamp.router.RoutingContext;
+import com.kinatomicHamp.router.TurnType;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

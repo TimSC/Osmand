@@ -1,15 +1,15 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 
 import java.io.File;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.OsmandSettings.OsmandPreference;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.routing.RouteProvider.RouteService;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.routing.RouteProvider.RouteService;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

@@ -1,4 +1,4 @@
-package net.recreationmap.map;
+package com.kinatomicHamp.map;
 
 
 public interface ITileSource {

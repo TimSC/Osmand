@@ -1,7 +1,7 @@
 /**
  * 
  */
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 
 import gnu.trove.set.hash.TLongHashSet;
@@ -17,28 +17,28 @@ import java.util.Map.Entry;
 
 import net.londatiga.android.ActionItem;
 import net.londatiga.android.QuickAction;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.access.NavigationInfo;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.NameFinderPoiFilter;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmAndLocationProvider.OsmAndCompassListener;
-import net.recreationmap.plus.OsmAndLocationProvider.OsmAndLocationListener;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.PoiFilter;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.SearchByNameFilter;
-import net.recreationmap.plus.activities.EditPOIFilterActivity;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.activities.MapActivityActions;
-import net.recreationmap.plus.activities.OsmandListActivity;
-import net.recreationmap.util.Algorithms;
-import net.recreationmap.util.OpeningHoursParser;
-import net.recreationmap.util.OpeningHoursParser.OpeningHours;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.access.NavigationInfo;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.NameFinderPoiFilter;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmAndLocationProvider.OsmAndCompassListener;
+import com.kinatomicHamp.plus.OsmAndLocationProvider.OsmAndLocationListener;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.PoiFilter;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.SearchByNameFilter;
+import com.kinatomicHamp.plus.activities.EditPOIFilterActivity;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.activities.MapActivityActions;
+import com.kinatomicHamp.plus.activities.OsmandListActivity;
+import com.kinatomicHamp.util.Algorithms;
+import com.kinatomicHamp.util.OpeningHoursParser;
+import com.kinatomicHamp.util.OpeningHoursParser.OpeningHours;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
@@ -101,7 +101,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 	private View searchFilterLayout;
 	
 	private boolean searchNearBy = false;
-	private net.recreationmap.Location location = null; 
+	private com.kinatomicHamp.Location location = null; 
 	private Float heading = null;
 	
 	private Handler uiHandler;
@@ -256,7 +256,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 		super.onResume();
 		Bundle bundle = this.getIntent().getExtras();
 		if(bundle.containsKey(SEARCH_LAT) && bundle.containsKey(SEARCH_LON)){
-			location = new net.recreationmap.Location("internal"); //$NON-NLS-1$
+			location = new com.kinatomicHamp.Location("internal"); //$NON-NLS-1$
 			location.setLatitude(bundle.getDouble(SEARCH_LAT));
 			location.setLongitude(bundle.getDouble(SEARCH_LON));
 			searchNearBy = false;
@@ -310,7 +310,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 		app.getLocationProvider().registerOrUnregisterCompassListener(true);
 	}
 	
-	private void showPoiCategoriesByNameFilter(String query, net.recreationmap.Location loc){
+	private void showPoiCategoriesByNameFilter(String query, com.kinatomicHamp.Location loc){
 		OsmandApplication app = (OsmandApplication) getApplication();
 		if(loc != null){
 			Map<AmenityType, List<String>> map = app.getResourceManager().searchAmenityCategoriesByName(query, loc.getLatitude(), loc.getLongitude());
@@ -367,7 +367,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 	}
 	
 	
-	private net.recreationmap.Location getSearchedLocation(){
+	private com.kinatomicHamp.Location getSearchedLocation(){
 		return currentSearchTask.getSearchedLocation();
 	}
 	
@@ -397,10 +397,10 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 	
 
 	@Override
-	public void updateLocation(net.recreationmap.Location location) {
+	public void updateLocation(com.kinatomicHamp.Location location) {
 		boolean handled = false;
 		if (location != null && filter != null) {
-			net.recreationmap.Location searchedLocation = getSearchedLocation();
+			com.kinatomicHamp.Location searchedLocation = getSearchedLocation();
 			if (searchedLocation == null) {
   				searchedLocation = location;
 				if (!isNameFinderFilter() && !isSearchByNameFilter()) {
@@ -534,9 +534,9 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 		private static final int NEW_SEARCH_INIT = 2;
 		private static final int SEARCH_FURTHER = 3;
 		private int type;
-		private net.recreationmap.Location location;
+		private com.kinatomicHamp.Location location;
 		
-		public static SearchAmenityRequest buildRequest(net.recreationmap.Location l, int type){
+		public static SearchAmenityRequest buildRequest(com.kinatomicHamp.Location l, int type){
 			SearchAmenityRequest req = new SearchAmenityRequest();
 			req.type = type;
 			req.location = l;
@@ -556,7 +556,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 			
 		}
 		
-		net.recreationmap.Location getSearchedLocation(){
+		com.kinatomicHamp.Location getSearchedLocation(){
 			return request != null ? request.location : null; 
 		}
 
@@ -682,11 +682,11 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 			TextView label = (TextView) row.findViewById(R.id.poi_label);
 			ImageView icon = (ImageView) row.findViewById(R.id.poi_icon);
 			Amenity amenity = getItem(position);
-			net.recreationmap.Location loc = location;
+			com.kinatomicHamp.Location loc = location;
 			if(loc != null){
 				mes = new float[2];
 				LatLon l = amenity.getLocation();
-				net.recreationmap.Location.distanceBetween(l.getLatitude(), l.getLongitude(), loc.getLatitude(), loc.getLongitude(), mes);
+				com.kinatomicHamp.Location.distanceBetween(l.getLatitude(), l.getLongitude(), loc.getLatitude(), loc.getLongitude(), mes);
 			}
 			int opened = -1;
 			if (amenity.getOpeningHours() != null) {

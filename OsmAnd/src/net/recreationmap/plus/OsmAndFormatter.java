@@ -1,11 +1,11 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.text.MessageFormat;
 
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.City.CityType;
-import net.recreationmap.plus.OsmandSettings.MetricsConstants;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.City.CityType;
+import com.kinatomicHamp.plus.OsmandSettings.MetricsConstants;
 
 public class OsmAndFormatter {
 	private final static float METERS_IN_KILOMETER = 1000f;

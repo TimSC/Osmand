@@ -1,23 +1,23 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import gnu.trove.set.hash.TIntHashSet;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ContextMenuAdapter;
-import net.recreationmap.plus.ContextMenuAdapter.OnContextMenuClick;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.PoiFilter;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.render.RenderingIcons;
-import net.recreationmap.plus.resources.ResourceManager;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ContextMenuAdapter;
+import com.kinatomicHamp.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.PoiFilter;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.render.RenderingIcons;
+import com.kinatomicHamp.plus.resources.ResourceManager;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;

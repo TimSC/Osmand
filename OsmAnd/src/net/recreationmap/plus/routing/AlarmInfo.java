@@ -1,6 +1,6 @@
-package net.recreationmap.plus.routing;
+package com.kinatomicHamp.plus.routing;
 
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
 
 public class AlarmInfo {
 	public static int SPEED_CAMERA = 1;

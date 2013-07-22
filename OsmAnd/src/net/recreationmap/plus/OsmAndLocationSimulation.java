@@ -1,15 +1,15 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.CallbackWithObject;
-import net.recreationmap.Location;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.routing.RouteProvider;
-import net.recreationmap.plus.routing.RouteProvider.GPXRouteParams;
-import net.recreationmap.plus.routing.RoutingHelper;
+import com.kinatomicHamp.CallbackWithObject;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.routing.RouteProvider;
+import com.kinatomicHamp.plus.routing.RouteProvider.GPXRouteParams;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

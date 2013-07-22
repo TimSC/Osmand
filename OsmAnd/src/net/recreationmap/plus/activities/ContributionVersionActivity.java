@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -12,9 +12,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.plus.R;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -239,7 +239,7 @@ public class ContributionVersionActivity extends OsmandListActivity {
 			View v = convertView;
 			if (v == null) {
 				LayoutInflater inflater = getLayoutInflater();
-				v = inflater.inflate(net.recreationmap.plus.R.layout.download_build_list_item, parent, false);
+				v = inflater.inflate(com.kinatomicHamp.plus.R.layout.download_build_list_item, parent, false);
 			}
 			final View row = v;
 			OsmAndBuild build = getItem(position);

@@ -1,4 +1,4 @@
-package net.recreationmap.data;
+package com.kinatomicHamp.data;
 
 import gnu.trove.map.hash.TLongObjectHashMap;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.util.MapUtils;
 
 /**
  * 

@@ -1,18 +1,18 @@
-package net.recreationmap.plus.base;
+package com.kinatomicHamp.plus.base;
 
-import net.recreationmap.Location;
-import net.recreationmap.StateChangedListener;
-import net.recreationmap.map.IMapLocationListener;
-import net.recreationmap.plus.OsmAndLocationProvider;
-import net.recreationmap.plus.OsmAndLocationProvider.OsmAndCompassListener;
-import net.recreationmap.plus.OsmAndLocationProvider.OsmAndLocationListener;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.routing.RoutingHelper;
-import net.recreationmap.plus.views.AnimateDraggingMapThread;
-import net.recreationmap.plus.views.OsmandMapTileView;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.StateChangedListener;
+import com.kinatomicHamp.map.IMapLocationListener;
+import com.kinatomicHamp.plus.OsmAndLocationProvider;
+import com.kinatomicHamp.plus.OsmAndLocationProvider.OsmAndCompassListener;
+import com.kinatomicHamp.plus.OsmAndLocationProvider.OsmAndLocationListener;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
+import com.kinatomicHamp.plus.views.AnimateDraggingMapThread;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.util.MapUtils;
 import android.content.Context;
 import android.view.WindowManager;
 
@@ -139,7 +139,7 @@ public class MapViewTrackingUtilities implements OsmAndLocationListener, IMapLoc
 		registerUnregisterSensor(app.getLocationProvider().getLastKnownLocation(), false);
 	}
 	
-	private void registerUnregisterSensor(net.recreationmap.Location location, boolean overruleRegister) {
+	private void registerUnregisterSensor(com.kinatomicHamp.Location location, boolean overruleRegister) {
 		boolean currentShowingAngle = settings.SHOW_VIEW_ANGLE.get();
 		int currentMapRotation = settings.ROTATE_MAP.get();
 		boolean registerCompassListener = overruleRegister || (currentShowingAngle && location != null)
@@ -201,7 +201,7 @@ public class MapViewTrackingUtilities implements OsmAndLocationListener, IMapLoc
 			if (!isMapLinkedToLocation()) {
 				setMapLinkedToLocation(true);
 				if (locationProvider.getLastKnownLocation() != null) {
-					net.recreationmap.Location lastKnownLocation = locationProvider.getLastKnownLocation();
+					com.kinatomicHamp.Location lastKnownLocation = locationProvider.getLastKnownLocation();
 					AnimateDraggingMapThread thread = mapView.getAnimatedDraggingThread();
 					float fZoom = mapView.getFloatZoom() < 15 ? 15 : mapView.getFloatZoom();
 					thread.startMoving(lastKnownLocation.getLatitude(), lastKnownLocation.getLongitude(), fZoom, false);

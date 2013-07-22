@@ -1,21 +1,21 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 
 import java.io.File;
 import java.util.List;
 
-import net.recreationmap.IProgress;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.OsmandSettings.MetricsConstants;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
-import net.recreationmap.plus.base.SuggestExternalDirectoryDialog;
-import net.recreationmap.plus.render.NativeOsmandLibrary;
-import net.recreationmap.plus.voice.CommandPlayer;
-import net.recreationmap.render.RenderingRulesStorage;
+import com.kinatomicHamp.IProgress;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.OsmandSettings.MetricsConstants;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.plus.base.SuggestExternalDirectoryDialog;
+import com.kinatomicHamp.plus.render.NativeOsmandLibrary;
+import com.kinatomicHamp.plus.voice.CommandPlayer;
+import com.kinatomicHamp.render.RenderingRulesStorage;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

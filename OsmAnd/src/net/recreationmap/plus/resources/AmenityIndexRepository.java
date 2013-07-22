@@ -1,10 +1,10 @@
-package net.recreationmap.plus.resources;
+package com.kinatomicHamp.plus.resources;
 
 import java.util.List;
 
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.plus.PoiFilter;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.plus.PoiFilter;
 
 public interface AmenityIndexRepository {
 

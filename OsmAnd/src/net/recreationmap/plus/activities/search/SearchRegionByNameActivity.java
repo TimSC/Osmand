@@ -1,14 +1,14 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.resources.RegionAddressRepository;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.resources.RegionAddressRepository;
 import android.os.Bundle;
 import android.widget.Toast;
 

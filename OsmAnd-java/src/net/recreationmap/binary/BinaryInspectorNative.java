@@ -1,11 +1,11 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 
 import java.io.IOException;
 
-import net.recreationmap.NativeLibrary;
-import net.recreationmap.bridge.ObfInspector;
-import net.recreationmap.bridge.StringVector;
+import com.kinatomicHamp.NativeLibrary;
+import com.kinatomicHamp.bridge.ObfInspector;
+import com.kinatomicHamp.bridge.StringVector;
 
 public class BinaryInspectorNative {
 	

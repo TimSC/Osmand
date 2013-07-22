@@ -1,12 +1,12 @@
-package net.recreationmap.map;
+package com.kinatomicHamp.map;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.map.OsmandRegionInfo.OsmAndRegionInfo;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.map.OsmandRegionInfo.OsmAndRegionInfo;
 
 import org.apache.commons.logging.Log;
 

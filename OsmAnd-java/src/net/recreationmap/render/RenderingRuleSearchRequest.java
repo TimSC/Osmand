@@ -1,6 +1,6 @@
-package net.recreationmap.render;
+package com.kinatomicHamp.render;
 
-import net.recreationmap.binary.BinaryMapDataObject;
+import com.kinatomicHamp.binary.BinaryMapDataObject;
 
 
 public class RenderingRuleSearchRequest {

@@ -1,7 +1,7 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

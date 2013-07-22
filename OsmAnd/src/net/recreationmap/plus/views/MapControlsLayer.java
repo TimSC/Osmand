@@ -1,13 +1,13 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import net.londatiga.android.ActionItem;
 import net.londatiga.android.QuickAction;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandSettings.CommonPreference;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandSettings.CommonPreference;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.util.MapUtils;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;

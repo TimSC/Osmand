@@ -1,4 +1,4 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -6,10 +6,10 @@ import java.io.InputStream;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import net.recreationmap.Collator;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.router.GeneralRouter.GeneralRouterProfile;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.Collator;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.router.GeneralRouter.GeneralRouterProfile;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

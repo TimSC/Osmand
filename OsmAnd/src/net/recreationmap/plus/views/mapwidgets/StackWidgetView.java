@@ -1,11 +1,11 @@
-package net.recreationmap.plus.views.mapwidgets;
+package com.kinatomicHamp.plus.views.mapwidgets;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.views.MapInfoLayer;
-import net.recreationmap.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.views.MapInfoLayer;
+import com.kinatomicHamp.plus.views.OsmandMapLayer.DrawSettings;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

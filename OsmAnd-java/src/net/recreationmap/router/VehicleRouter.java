@@ -1,7 +1,7 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
 
 public abstract class VehicleRouter {
 

@@ -1,9 +1,9 @@
-package net.recreationmap.data;
+package com.kinatomicHamp.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.util.MapUtils;
 
 public class TransportRoute extends MapObject {
 	private List<TransportStop> forwardStops = new ArrayList<TransportStop>();

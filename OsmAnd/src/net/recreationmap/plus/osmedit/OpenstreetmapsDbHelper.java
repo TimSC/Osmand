@@ -1,11 +1,11 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map.Entry;
 
-import net.recreationmap.osm.edit.Node;
+import com.kinatomicHamp.osm.edit.Node;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

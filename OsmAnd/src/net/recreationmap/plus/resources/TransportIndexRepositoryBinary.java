@@ -1,4 +1,4 @@
-package net.recreationmap.plus.resources;
+package com.kinatomicHamp.plus.resources;
 
 import gnu.trove.map.hash.TIntObjectHashMap;
 
@@ -9,14 +9,14 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.TransportRoute;
-import net.recreationmap.data.TransportStop;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.TransportRoute;
+import com.kinatomicHamp.data.TransportStop;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

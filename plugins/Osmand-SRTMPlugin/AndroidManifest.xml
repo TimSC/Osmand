@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.recreationmap.srtmPlugin.paid"
+    package="com.kinatomicHamp.srtmPlugin.paid"
     android:versionCode="6"
     android:versionName="1.0" >
 
@@ -12,7 +12,7 @@
         android:icon="@drawable/icon"
         android:label="@string/app_label" >
         <activity
-            android:name="net.recreationmap.srtmPlugin.SRTMPluginActivity"
+            android:name="com.kinatomicHamp.srtmPlugin.SRTMPluginActivity"
             android:label="@string/app_name" >
             <!-- 
             <intent-filter>

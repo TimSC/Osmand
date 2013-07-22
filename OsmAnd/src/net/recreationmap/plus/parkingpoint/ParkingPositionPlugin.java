@@ -1,26 +1,26 @@
-package net.recreationmap.plus.parkingpoint;
+package com.kinatomicHamp.plus.parkingpoint;
 
 
 import java.util.Calendar;
 import java.util.EnumSet;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.ContextMenuAdapter;
-import net.recreationmap.plus.ContextMenuAdapter.OnContextMenuClick;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.OsmandSettings.CommonPreference;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.views.AnimateDraggingMapThread;
-import net.recreationmap.plus.views.MapInfoLayer;
-import net.recreationmap.plus.views.OsmandMapLayer.DrawSettings;
-import net.recreationmap.plus.views.OsmandMapTileView;
-import net.recreationmap.plus.views.mapwidgets.BaseMapWidget;
-import net.recreationmap.plus.views.mapwidgets.TextInfoWidget;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.ContextMenuAdapter;
+import com.kinatomicHamp.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.OsmandSettings.CommonPreference;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.views.AnimateDraggingMapThread;
+import com.kinatomicHamp.plus.views.MapInfoLayer;
+import com.kinatomicHamp.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.plus.views.mapwidgets.BaseMapWidget;
+import com.kinatomicHamp.plus.views.mapwidgets.TextInfoWidget;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
@@ -450,7 +450,7 @@ public class ParkingPositionPlugin extends OsmandPlugin {
 					OsmandMapTileView view = map.getMapView();
 					int d = 0;
 					if (d == 0) {
-						net.recreationmap.Location.distanceBetween(view.getLatitude(), view.getLongitude(), parkingPoint.getLatitude(), parkingPoint.getLongitude(), calculations);
+						com.kinatomicHamp.Location.distanceBetween(view.getLatitude(), view.getLongitude(), parkingPoint.getLatitude(), parkingPoint.getLongitude(), calculations);
 						d = (int) calculations[0];
 					}
 					if (distChanged(cachedMeters, d)) {

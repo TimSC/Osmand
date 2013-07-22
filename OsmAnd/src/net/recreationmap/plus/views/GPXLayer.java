@@ -1,13 +1,13 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import java.util.List;
 
-import net.recreationmap.plus.GPXUtilities.GPXFile;
-import net.recreationmap.plus.GPXUtilities.WptPt;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.render.RenderingRuleSearchRequest;
-import net.recreationmap.render.RenderingRulesStorage;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.plus.GPXUtilities.WptPt;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.render.RenderingRuleSearchRequest;
+import com.kinatomicHamp.render.RenderingRulesStorage;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Paint.Cap;

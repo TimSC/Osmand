@@ -1,4 +1,4 @@
-package net.recreationmap.osm.edit;
+package com.kinatomicHamp.osm.edit;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,8 +6,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.util.MapUtils;
 
 public class OsmMapUtils {
 

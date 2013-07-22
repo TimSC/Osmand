@@ -1,9 +1,9 @@
-package net.recreationmap.osm.edit;
+package com.kinatomicHamp.osm.edit;
 
 import java.io.Serializable;
 import java.util.Map;
 
-import net.recreationmap.data.LatLon;
+import com.kinatomicHamp.data.LatLon;
 
 public class Node extends Entity implements Serializable {
 

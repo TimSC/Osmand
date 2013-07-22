@@ -1,15 +1,15 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.io.File;
 
-import net.recreationmap.Location;
-import net.recreationmap.plus.api.ExternalServiceAPI;
-import net.recreationmap.plus.api.InternalOsmAndAPI;
-import net.recreationmap.plus.api.InternalToDoAPI;
-import net.recreationmap.plus.api.SQLiteAPI;
-import net.recreationmap.plus.api.SettingsAPI;
-import net.recreationmap.plus.render.RendererRegistry;
-import net.recreationmap.plus.routing.RoutingHelper;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.plus.api.ExternalServiceAPI;
+import com.kinatomicHamp.plus.api.InternalOsmAndAPI;
+import com.kinatomicHamp.plus.api.InternalToDoAPI;
+import com.kinatomicHamp.plus.api.SQLiteAPI;
+import com.kinatomicHamp.plus.api.SettingsAPI;
+import com.kinatomicHamp.plus.render.RendererRegistry;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
 
 
 /*

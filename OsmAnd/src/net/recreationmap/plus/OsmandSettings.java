@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 
 import java.io.File;
@@ -15,19 +15,19 @@ import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.StateChangedListener;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.map.ITileSource;
-import net.recreationmap.map.TileSourceManager;
-import net.recreationmap.map.TileSourceManager.TileSourceTemplate;
-import net.recreationmap.plus.access.AccessibilityMode;
-import net.recreationmap.plus.access.RelativeDirectionStyle;
-import net.recreationmap.plus.api.SettingsAPI;
-import net.recreationmap.plus.api.SettingsAPI.SettingsEditor;
-import net.recreationmap.plus.render.RendererRegistry;
-import net.recreationmap.plus.routing.RouteProvider.RouteService;
-import net.recreationmap.render.RenderingRulesStorage;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.StateChangedListener;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.map.ITileSource;
+import com.kinatomicHamp.map.TileSourceManager;
+import com.kinatomicHamp.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicHamp.plus.access.AccessibilityMode;
+import com.kinatomicHamp.plus.access.RelativeDirectionStyle;
+import com.kinatomicHamp.plus.api.SettingsAPI;
+import com.kinatomicHamp.plus.api.SettingsAPI.SettingsEditor;
+import com.kinatomicHamp.plus.render.RendererRegistry;
+import com.kinatomicHamp.plus.routing.RouteProvider.RouteService;
+import com.kinatomicHamp.render.RenderingRulesStorage;
 import android.os.Build;
 
 public class OsmandSettings {

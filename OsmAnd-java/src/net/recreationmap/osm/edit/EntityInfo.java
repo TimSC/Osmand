@@ -1,4 +1,4 @@
-package net.recreationmap.osm.edit;
+package com.kinatomicHamp.osm.edit;
 
 /**
  * Additional entity info

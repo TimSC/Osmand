@@ -1,4 +1,4 @@
-package net.recreationmap.plus.render;
+package com.kinatomicHamp.plus.render;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

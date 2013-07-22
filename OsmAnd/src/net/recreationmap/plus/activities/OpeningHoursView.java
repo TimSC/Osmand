@@ -1,13 +1,13 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 
-import net.recreationmap.plus.R;
-import net.recreationmap.util.OpeningHoursParser.BasicDayOpeningHourRule;
-import net.recreationmap.util.OpeningHoursParser.OpeningHoursRule;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.util.OpeningHoursParser.BasicDayOpeningHourRule;
+import com.kinatomicHamp.util.OpeningHoursParser.OpeningHoursRule;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;

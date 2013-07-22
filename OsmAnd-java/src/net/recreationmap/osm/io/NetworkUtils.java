@@ -1,4 +1,4 @@
-package net.recreationmap.osm.io;
+package com.kinatomicHamp.osm.io;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -14,8 +14,8 @@ import java.net.URLEncoder;
 import java.util.Map;
 import java.util.zip.GZIPOutputStream;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

@@ -1,10 +1,10 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
 
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.access.AccessibilityMode;
-import net.recreationmap.plus.access.RelativeDirectionStyle;
-import net.recreationmap.plus.activities.SettingsBaseActivity;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.access.AccessibilityMode;
+import com.kinatomicHamp.plus.access.RelativeDirectionStyle;
+import com.kinatomicHamp.plus.activities.SettingsBaseActivity;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.ListPreference;

@@ -1,4 +1,4 @@
-package net.recreationmap.plus.render;
+package com.kinatomicHamp.plus.render;
 
 
 import gnu.trove.list.TLongList;
@@ -19,33 +19,33 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import net.recreationmap.IProgress;
-import net.recreationmap.NativeLibrary.NativeSearchResult;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.binary.BinaryMapDataObject;
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.binary.BinaryMapIndexReader.TagValuePair;
-import net.recreationmap.data.QuadRect;
-import net.recreationmap.map.MapTileDownloader.IMapDownloaderCallback;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.OsmandSettings.CommonPreference;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.RotatedTileBox;
-import net.recreationmap.plus.development.OsmandDevelopmentPlugin;
-import net.recreationmap.plus.render.OsmandRenderer.RenderingContext;
-import net.recreationmap.plus.views.OsmandMapLayer.DrawSettings;
-import net.recreationmap.render.RenderingRuleProperty;
-import net.recreationmap.render.RenderingRuleSearchRequest;
-import net.recreationmap.render.RenderingRuleStorageProperties;
-import net.recreationmap.render.RenderingRulesStorage;
-import net.recreationmap.util.Algorithms;
-import net.recreationmap.util.MapAlgorithms;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.IProgress;
+import com.kinatomicHamp.NativeLibrary.NativeSearchResult;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.binary.BinaryMapDataObject;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicHamp.data.QuadRect;
+import com.kinatomicHamp.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.OsmandSettings.CommonPreference;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.RotatedTileBox;
+import com.kinatomicHamp.plus.development.OsmandDevelopmentPlugin;
+import com.kinatomicHamp.plus.render.OsmandRenderer.RenderingContext;
+import com.kinatomicHamp.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicHamp.render.RenderingRuleProperty;
+import com.kinatomicHamp.render.RenderingRuleSearchRequest;
+import com.kinatomicHamp.render.RenderingRuleStorageProperties;
+import com.kinatomicHamp.render.RenderingRulesStorage;
+import com.kinatomicHamp.util.Algorithms;
+import com.kinatomicHamp.util.MapAlgorithms;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package net.recreationmap.osm.edit;
+package com.kinatomicHamp.osm.edit;
 
 import gnu.trove.list.array.TLongArrayList;
 
@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.data.LatLon;
+import com.kinatomicHamp.data.LatLon;
 
 public class Way extends Entity {
 	

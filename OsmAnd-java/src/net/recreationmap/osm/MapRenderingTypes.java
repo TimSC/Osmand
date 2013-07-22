@@ -1,4 +1,4 @@
-package net.recreationmap.osm;
+package com.kinatomicHamp.osm;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,8 +11,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.AmenityType;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.AmenityType;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

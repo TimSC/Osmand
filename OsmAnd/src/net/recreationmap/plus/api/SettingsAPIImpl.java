@@ -1,6 +1,6 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
-import net.recreationmap.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandApplication;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;

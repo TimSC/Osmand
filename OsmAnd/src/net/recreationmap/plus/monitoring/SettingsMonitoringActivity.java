@@ -1,12 +1,12 @@
-package net.recreationmap.plus.monitoring;
+package com.kinatomicHamp.plus.monitoring;
 
 
-import net.recreationmap.plus.NavigationService;
-import net.recreationmap.plus.OsmAndTaskManager.OsmAndTaskRunnable;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.SavingTrackHelper;
-import net.recreationmap.plus.activities.SettingsBaseActivity;
+import com.kinatomicHamp.plus.NavigationService;
+import com.kinatomicHamp.plus.OsmAndTaskManager.OsmAndTaskRunnable;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.SavingTrackHelper;
+import com.kinatomicHamp.plus.activities.SettingsBaseActivity;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;

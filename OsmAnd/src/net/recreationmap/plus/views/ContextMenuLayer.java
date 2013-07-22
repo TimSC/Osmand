@@ -1,4 +1,4 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,10 +7,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ContextMenuAdapter;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ContextMenuAdapter;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;

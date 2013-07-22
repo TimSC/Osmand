@@ -1,6 +1,6 @@
-package net.recreationmap.plus.audionotes;
+package com.kinatomicHamp.plus.audionotes;
 
-import net.recreationmap.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandPlugin;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

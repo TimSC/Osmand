@@ -1,22 +1,22 @@
 /**
  * 
  */
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.NameFinderPoiFilter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.PoiFilter;
-import net.recreationmap.plus.PoiFiltersHelper;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.SearchByNameFilter;
-import net.recreationmap.plus.activities.EditPOIFilterActivity;
-import net.recreationmap.plus.activities.search.SearchActivity.SearchActivityChild;
-import net.recreationmap.plus.resources.ResourceManager;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.NameFinderPoiFilter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.PoiFilter;
+import com.kinatomicHamp.plus.PoiFiltersHelper;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.SearchByNameFilter;
+import com.kinatomicHamp.plus.activities.EditPOIFilterActivity;
+import com.kinatomicHamp.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicHamp.plus.resources.ResourceManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;

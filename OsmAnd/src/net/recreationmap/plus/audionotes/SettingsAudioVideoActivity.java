@@ -1,16 +1,16 @@
-package net.recreationmap.plus.audionotes;
+package com.kinatomicHamp.plus.audionotes;
 
 
 
-import static net.recreationmap.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_AUDIO;
-import static net.recreationmap.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_CHOOSE;
-import static net.recreationmap.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_TAKEPICTURE;
-import static net.recreationmap.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_VIDEO;
-import static net.recreationmap.plus.audionotes.AudioVideoNotesPlugin.VIDEO_OUTPUT_3GP;
-import static net.recreationmap.plus.audionotes.AudioVideoNotesPlugin.VIDEO_OUTPUT_MP4;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.SettingsBaseActivity;
+import static com.kinatomicHamp.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_AUDIO;
+import static com.kinatomicHamp.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_CHOOSE;
+import static com.kinatomicHamp.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_TAKEPICTURE;
+import static com.kinatomicHamp.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_VIDEO;
+import static com.kinatomicHamp.plus.audionotes.AudioVideoNotesPlugin.VIDEO_OUTPUT_3GP;
+import static com.kinatomicHamp.plus.audionotes.AudioVideoNotesPlugin.VIDEO_OUTPUT_MP4;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.SettingsBaseActivity;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.PreferenceScreen;

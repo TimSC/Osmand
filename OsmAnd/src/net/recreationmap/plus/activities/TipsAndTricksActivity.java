@@ -1,11 +1,11 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import gnu.trove.list.array.TIntArrayList;
 
 import java.util.Arrays;
 
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
 import android.app.Dialog;
 import android.content.Context;
 import android.text.method.ScrollingMovementMethod;

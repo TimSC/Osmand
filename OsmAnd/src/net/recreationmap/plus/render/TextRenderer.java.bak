@@ -1,4 +1,4 @@
-package net.recreationmap.plus.render;
+package com.kinatomicHamp.plus.render;
 
 
 import gnu.trove.map.hash.TIntObjectHashMap;
@@ -9,22 +9,22 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.FloatMath;
-import net.recreationmap.QuadRect;
-import net.recreationmap.RenderingContext;
-import net.recreationmap.binary.BinaryMapDataObject;
-import net.recreationmap.binary.BinaryMapIndexReader.TagValuePair;
-import net.recreationmap.data.QuadTree;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.api.render.Canvas;
-import net.recreationmap.plus.api.render.Color;
-import net.recreationmap.plus.api.render.Paint;
-import net.recreationmap.plus.api.render.Paint.Align;
-import net.recreationmap.plus.api.render.Paint.Style;
-import net.recreationmap.plus.api.render.Path;
-import net.recreationmap.plus.api.render.Typeface;
-import net.recreationmap.render.RenderingRuleSearchRequest;
-import net.recreationmap.render.RenderingRulesStorage;
+import com.kinatomicHamp.FloatMath;
+import com.kinatomicHamp.QuadRect;
+import com.kinatomicHamp.RenderingContext;
+import com.kinatomicHamp.binary.BinaryMapDataObject;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicHamp.data.QuadTree;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.api.render.Canvas;
+import com.kinatomicHamp.plus.api.render.Color;
+import com.kinatomicHamp.plus.api.render.Paint;
+import com.kinatomicHamp.plus.api.render.Paint.Align;
+import com.kinatomicHamp.plus.api.render.Paint.Style;
+import com.kinatomicHamp.plus.api.render.Path;
+import com.kinatomicHamp.plus.api.render.Typeface;
+import com.kinatomicHamp.render.RenderingRuleSearchRequest;
+import com.kinatomicHamp.render.RenderingRulesStorage;
 import net.sf.junidecode.Junidecode;
 
 import org.w3c.dom.css.Rect;

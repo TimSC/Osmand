@@ -1,7 +1,7 @@
-package net.recreationmap.plus.access;
+package com.kinatomicHamp.plus.access;
 
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.R;
 
 public enum RelativeDirectionStyle {
 

@@ -1,4 +1,4 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 public class BinaryIndexPart {
 

@@ -1,13 +1,13 @@
-package net.recreationmap.plus.rastermaps;
+package com.kinatomicHamp.plus.rastermaps;
 
 
 import java.util.Map;
 
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.map.TileSourceManager.TileSourceTemplate;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.SettingsBaseActivity;
-import net.recreationmap.plus.views.SeekBarPreference;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.SettingsBaseActivity;
+import com.kinatomicHamp.plus.views.SeekBarPreference;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;

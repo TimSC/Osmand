@@ -1,14 +1,14 @@
-package net.recreationmap.plus.routing;
+package com.kinatomicHamp.plus.routing;
 
 
-import net.recreationmap.Location;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.routing.RouteCalculationResult.NextDirectionInfo;
-import net.recreationmap.plus.voice.AbstractPrologCommandPlayer;
-import net.recreationmap.plus.voice.CommandBuilder;
-import net.recreationmap.plus.voice.CommandPlayer;
-import net.recreationmap.router.TurnType;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.routing.RouteCalculationResult.NextDirectionInfo;
+import com.kinatomicHamp.plus.voice.AbstractPrologCommandPlayer;
+import com.kinatomicHamp.plus.voice.CommandBuilder;
+import com.kinatomicHamp.plus.voice.CommandPlayer;
+import com.kinatomicHamp.router.TurnType;
 
 
 public class VoiceRouter {

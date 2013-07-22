@@ -1,11 +1,11 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.util.MapUtils;
 /*
  *  === Implementation of ant swarm TSP solver. ===
  *  

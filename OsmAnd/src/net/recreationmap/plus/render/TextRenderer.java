@@ -1,4 +1,4 @@
-package net.recreationmap.plus.render;
+package com.kinatomicHamp.plus.render;
 
 import gnu.trove.map.hash.TIntObjectHashMap;
 import gnu.trove.procedure.TIntObjectProcedure;
@@ -8,13 +8,13 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.binary.BinaryMapDataObject;
-import net.recreationmap.binary.BinaryMapIndexReader.TagValuePair;
-import net.recreationmap.data.QuadRect;
-import net.recreationmap.data.QuadTree;
-import net.recreationmap.plus.render.OsmandRenderer.RenderingContext;
-import net.recreationmap.render.RenderingRuleSearchRequest;
-import net.recreationmap.render.RenderingRulesStorage;
+import com.kinatomicHamp.binary.BinaryMapDataObject;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicHamp.data.QuadRect;
+import com.kinatomicHamp.data.QuadTree;
+import com.kinatomicHamp.plus.render.OsmandRenderer.RenderingContext;
+import com.kinatomicHamp.render.RenderingRuleSearchRequest;
+import com.kinatomicHamp.render.RenderingRulesStorage;
 import net.sf.junidecode.Junidecode;
 import android.content.Context;
 import android.graphics.Bitmap;

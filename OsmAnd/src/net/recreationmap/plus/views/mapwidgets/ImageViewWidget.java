@@ -1,4 +1,4 @@
-package net.recreationmap.plus.views.mapwidgets;
+package com.kinatomicHamp.plus.views.mapwidgets;
 
 import android.content.Context;
 import android.widget.ImageView;

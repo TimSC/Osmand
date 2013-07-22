@@ -1,7 +1,7 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.ClientContext;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.ClientContext;
 
 import org.apache.commons.logging.Log;
 
@@ -14,7 +14,7 @@ import android.media.AudioManager;
  * 
  * @author genly
  */
-public class AudioFocusHelperImpl implements AudioManager.OnAudioFocusChangeListener, net.recreationmap.plus.api.ExternalServiceAPI.AudioFocusHelper {
+public class AudioFocusHelperImpl implements AudioManager.OnAudioFocusChangeListener, com.kinatomicHamp.plus.api.ExternalServiceAPI.AudioFocusHelper {
 	private static final Log log = PlatformUtil.getLog(AudioFocusHelperImpl.class);
 	
 	@Override

@@ -1,7 +1,7 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
 

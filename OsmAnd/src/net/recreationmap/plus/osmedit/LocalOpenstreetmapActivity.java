@@ -1,4 +1,4 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -7,16 +7,16 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.osm.edit.EntityInfo;
-import net.recreationmap.osm.edit.Node;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.ProgressDialogImplementation;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.activities.OsmandListActivity;
-import net.recreationmap.plus.osmedit.OsmPoint.Action;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.osm.edit.EntityInfo;
+import com.kinatomicHamp.osm.edit.Node;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.ProgressDialogImplementation;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.activities.OsmandListActivity;
+import com.kinatomicHamp.plus.osmedit.OsmPoint.Action;
 
 import org.xmlpull.v1.XmlSerializer;
 
@@ -393,7 +393,7 @@ public class LocalOpenstreetmapActivity extends OsmandListActivity {
 	protected class LocalOpenstreetmapAdapter extends ArrayAdapter<OsmPoint> {
 
 		public LocalOpenstreetmapAdapter() {
-			super(LocalOpenstreetmapActivity.this, net.recreationmap.plus.R.layout.local_openstreetmap_list_item);
+			super(LocalOpenstreetmapActivity.this, com.kinatomicHamp.plus.R.layout.local_openstreetmap_list_item);
 		}
 		
 
@@ -414,7 +414,7 @@ public class LocalOpenstreetmapActivity extends OsmandListActivity {
 			final OsmPoint child = getItem(position);
 			if (v == null ) {
 				LayoutInflater inflater = getLayoutInflater();
-				v = inflater.inflate(net.recreationmap.plus.R.layout.local_openstreetmap_list_item, parent, false);
+				v = inflater.inflate(com.kinatomicHamp.plus.R.layout.local_openstreetmap_list_item, parent, false);
 			}
 			TextView viewName = ((TextView) v.findViewById(R.id.local_openstreetmap_name));
 			String idPrefix = (child.getGroup() == OsmPoint.Group.POI ? "POI " : "Bug ") + " id: " + child.getId();

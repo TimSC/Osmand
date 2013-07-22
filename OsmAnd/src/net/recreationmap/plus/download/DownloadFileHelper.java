@@ -1,4 +1,4 @@
-package net.recreationmap.plus.download;
+package com.kinatomicHamp.plus.download;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -11,13 +11,13 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
-import net.recreationmap.IProgress;
-import net.recreationmap.IndexConstants;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.IProgress;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

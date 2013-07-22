@@ -1,4 +1,4 @@
-package net.recreationmap.render;
+package com.kinatomicHamp.render;
 
 import gnu.trove.map.hash.TIntObjectHashMap;
 
@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Stack;
 
-import net.recreationmap.PlatformUtil;
+import com.kinatomicHamp.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

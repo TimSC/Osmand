@@ -1,17 +1,17 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.Locale;
 import java.util.StringTokenizer;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.search.SearchActivity;
-import net.recreationmap.plus.activities.search.SearchActivity.SearchActivityChild;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.search.SearchActivity;
+import com.kinatomicHamp.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicHamp.util.MapUtils;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;

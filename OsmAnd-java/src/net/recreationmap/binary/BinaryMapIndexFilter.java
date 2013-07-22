@@ -1,4 +1,4 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 import gnu.trove.list.array.TIntArrayList;
 import gnu.trove.set.hash.TIntHashSet;
@@ -13,13 +13,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchFilter;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.binary.BinaryMapIndexReader.TagValuePair;
-import net.recreationmap.render.RenderingRulesStorage;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchFilter;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicHamp.render.RenderingRulesStorage;
+import com.kinatomicHamp.util.MapUtils;
 
 public class BinaryMapIndexFilter {
 

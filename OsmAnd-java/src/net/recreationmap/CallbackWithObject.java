@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 /**
  * That class is designed to be common interface for callbacks with one param

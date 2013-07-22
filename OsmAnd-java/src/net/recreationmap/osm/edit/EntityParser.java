@@ -1,19 +1,19 @@
-package net.recreationmap.osm.edit;
+package com.kinatomicHamp.osm.edit;
 
 import java.util.Collection;
 import java.util.List;
 
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.Building;
-import net.recreationmap.data.City;
-import net.recreationmap.data.City.CityType;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.data.TransportStop;
-import net.recreationmap.osm.MapRenderingTypes;
-import net.recreationmap.osm.edit.OSMSettings.OSMTagKey;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.Building;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.City.CityType;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.data.TransportStop;
+import com.kinatomicHamp.osm.MapRenderingTypes;
+import com.kinatomicHamp.osm.edit.OSMSettings.OSMTagKey;
+import com.kinatomicHamp.util.Algorithms;
 
 public class EntityParser {
 	

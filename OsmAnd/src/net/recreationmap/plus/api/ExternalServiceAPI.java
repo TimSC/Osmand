@@ -1,6 +1,6 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
-import net.recreationmap.plus.ClientContext;
+import com.kinatomicHamp.plus.ClientContext;
 
 public interface ExternalServiceAPI {
 	

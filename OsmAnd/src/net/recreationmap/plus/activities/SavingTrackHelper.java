@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -8,19 +8,19 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.GPXUtilities;
-import net.recreationmap.plus.GPXUtilities.GPXFile;
-import net.recreationmap.plus.GPXUtilities.Track;
-import net.recreationmap.plus.GPXUtilities.TrkSegment;
-import net.recreationmap.plus.GPXUtilities.WptPt;
-import net.recreationmap.plus.OsmAndLocationProvider;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.monitoring.OsmandMonitoringPlugin;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.GPXUtilities;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.plus.GPXUtilities.Track;
+import com.kinatomicHamp.plus.GPXUtilities.TrkSegment;
+import com.kinatomicHamp.plus.GPXUtilities.WptPt;
+import com.kinatomicHamp.plus.OsmAndLocationProvider;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.monitoring.OsmandMonitoringPlugin;
 
 import org.apache.commons.logging.Log;
 
@@ -285,7 +285,7 @@ public class SavingTrackHelper extends SQLiteOpenHelper {
 		addTrackPoint(null, true);
 	}
 	
-	public void updateLocation(net.recreationmap.Location location) {
+	public void updateLocation(com.kinatomicHamp.Location location) {
 		// use because there is a bug on some devices with location.getTime()
 		long locationTime = System.currentTimeMillis();
 		OsmandSettings settings = ctx.getSettings();
@@ -307,7 +307,7 @@ public class SavingTrackHelper extends SQLiteOpenHelper {
 				newSegment = true;
 			} else {
 				float[] lastInterval = new float[1];
-				net.recreationmap.Location.distanceBetween(lat, lon, lastPoint.getLatitude(), lastPoint.getLongitude(), lastInterval);
+				com.kinatomicHamp.Location.distanceBetween(lat, lon, lastPoint.getLatitude(), lastPoint.getLongitude(), lastInterval);
 				distance += lastInterval[0];
 				lastPoint = new LatLon(lat, lon);
 			}

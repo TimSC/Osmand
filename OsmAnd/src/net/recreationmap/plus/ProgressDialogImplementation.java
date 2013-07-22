@@ -1,6 +1,6 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
-import net.recreationmap.IProgress;
+import com.kinatomicHamp.IProgress;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;

@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -9,19 +9,19 @@ import java.util.List;
 import java.util.Locale;
 
 import net.londatiga.android.QuickAction;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
-import net.recreationmap.plus.activities.MapActivityActions;
-import net.recreationmap.plus.activities.search.SearchActivity.SearchActivityChild;
-import net.recreationmap.util.Algorithms;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.plus.activities.MapActivityActions;
+import com.kinatomicHamp.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicHamp.util.Algorithms;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

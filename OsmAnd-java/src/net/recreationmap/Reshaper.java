@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 import org.apache.commons.logging.Log;
 

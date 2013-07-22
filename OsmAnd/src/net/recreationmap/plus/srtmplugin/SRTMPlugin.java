@@ -1,15 +1,15 @@
-package net.recreationmap.plus.srtmplugin;
+package com.kinatomicHamp.plus.srtmplugin;
 
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.ContextMenuAdapter;
-import net.recreationmap.plus.ContextMenuAdapter.OnContextMenuClick;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.OsmandSettings.CommonPreference;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.ContextMenuAdapter;
+import com.kinatomicHamp.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.OsmandSettings.CommonPreference;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
 import android.content.DialogInterface;
 
 public class SRTMPlugin extends OsmandPlugin {

@@ -1,13 +1,13 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.util.MapUtils;
 
 
 public class RouteSegmentResult {

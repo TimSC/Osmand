@@ -2,21 +2,21 @@
  * 
  */
 
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 
 
 import java.util.List;
 
-import net.recreationmap.Location;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.routing.RouteDirectionInfo;
-import net.recreationmap.plus.routing.RoutingHelper;
-import net.recreationmap.plus.views.RouteInfoLayer;
-import net.recreationmap.plus.views.TurnPathHelper;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.routing.RouteDirectionInfo;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
+import com.kinatomicHamp.plus.views.RouteInfoLayer;
+import com.kinatomicHamp.plus.views.TurnPathHelper;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;

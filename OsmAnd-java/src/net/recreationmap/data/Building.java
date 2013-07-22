@@ -1,7 +1,7 @@
-package net.recreationmap.data;
+package com.kinatomicHamp.data;
 
 
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.util.Algorithms;
 
 public class Building extends MapObject {
 	

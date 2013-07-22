@@ -1,4 +1,4 @@
-package net.recreationmap.plus.download;
+package com.kinatomicHamp.plus.download;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.IndexConstants;
+import com.kinatomicHamp.IndexConstants;
 
 public class IndexFileList implements Serializable {
 	private static final long serialVersionUID = 1L;

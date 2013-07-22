@@ -1,4 +1,4 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
 public interface SettingsAPI {
 

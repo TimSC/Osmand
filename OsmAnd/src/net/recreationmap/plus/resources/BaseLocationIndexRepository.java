@@ -1,14 +1,14 @@
-package net.recreationmap.plus.resources;
+package com.kinatomicHamp.plus.resources;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.IProgress;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.IProgress;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

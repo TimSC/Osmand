@@ -1,4 +1,4 @@
-package net.recreationmap.plus.resources;
+package com.kinatomicHamp.plus.resources;
 
 
 import java.io.File;
@@ -6,18 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.TransportStop;
-import net.recreationmap.map.ITileSource;
-import net.recreationmap.map.MapTileDownloader.DownloadRequest;
-import net.recreationmap.map.MapTileDownloader.IMapDownloaderCallback;
-import net.recreationmap.plus.BusyIndicator;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.PoiFilter;
-import net.recreationmap.plus.RotatedTileBox;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.TransportStop;
+import com.kinatomicHamp.map.ITileSource;
+import com.kinatomicHamp.map.MapTileDownloader.DownloadRequest;
+import com.kinatomicHamp.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicHamp.plus.BusyIndicator;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.PoiFilter;
+import com.kinatomicHamp.plus.RotatedTileBox;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

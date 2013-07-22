@@ -1,12 +1,12 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 import java.io.File;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.LocalIndexInfo;
-import net.recreationmap.plus.activities.LocalIndexesActivity;
-import net.recreationmap.plus.activities.LocalIndexesActivity.UploadVisibility;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.LocalIndexInfo;
+import com.kinatomicHamp.plus.activities.LocalIndexesActivity;
+import com.kinatomicHamp.plus.activities.LocalIndexesActivity.UploadVisibility;
 import android.os.AsyncTask;
 import android.widget.Toast;
 

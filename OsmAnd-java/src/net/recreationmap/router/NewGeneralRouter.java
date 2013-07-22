@@ -1,4 +1,4 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 import gnu.trove.list.array.TByteArrayList;
 import gnu.trove.list.array.TIntArrayList;
@@ -13,11 +13,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.util.MapUtils;
 
 public class NewGeneralRouter extends VehicleRouter {
 	

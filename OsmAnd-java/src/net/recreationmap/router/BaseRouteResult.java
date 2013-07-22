@@ -1,9 +1,9 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 import java.util.List;
 
-import net.recreationmap.data.DataTileManager;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.data.DataTileManager;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
 
 public class BaseRouteResult {
 

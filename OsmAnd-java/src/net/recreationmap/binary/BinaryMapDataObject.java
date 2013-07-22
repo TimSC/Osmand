@@ -1,8 +1,8 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 import gnu.trove.map.hash.TIntObjectHashMap;
-import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
-import net.recreationmap.render.RenderingRulesStorage;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicHamp.render.RenderingRulesStorage;
 
 public class BinaryMapDataObject {
 	protected int[] coordinates = null;

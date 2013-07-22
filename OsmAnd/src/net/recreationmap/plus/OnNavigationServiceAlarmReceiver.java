@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

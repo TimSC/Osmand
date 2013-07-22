@@ -1,12 +1,12 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 
 import gnu.trove.map.hash.TIntObjectHashMap;
 
 import java.text.MessageFormat;
 
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
 
 public class RouteDataObject {
 	/*private */static final int RESTRICTION_SHIFT = 3;

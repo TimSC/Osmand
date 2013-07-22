@@ -1,4 +1,4 @@
-package net.recreationmap.plus.views.mapwidgets;
+package com.kinatomicHamp.plus.views.mapwidgets;
 
 import java.util.Comparator;
 import java.util.EnumSet;
@@ -9,12 +9,12 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.OsmandSettings.CommonPreference;
-import net.recreationmap.plus.OsmandSettings.OsmandPreference;
-import net.recreationmap.plus.views.OsmandMapTileView;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.OsmandSettings.CommonPreference;
+import com.kinatomicHamp.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.util.Algorithms;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;

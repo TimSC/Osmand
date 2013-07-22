@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package net.recreationmap.bridge;
+package com.kinatomicHamp.bridge;
 
 public class CoreOsmAnd {
   public static int get31TileNumberX(double longitude) {

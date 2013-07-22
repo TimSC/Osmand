@@ -1,8 +1,8 @@
-package net.recreationmap.plus.views.mapwidgets;
+package com.kinatomicHamp.plus.views.mapwidgets;
 
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.views.OsmandMapLayer.DrawSettings;
-import net.recreationmap.plus.views.ShadowText;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicHamp.plus.views.ShadowText;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;

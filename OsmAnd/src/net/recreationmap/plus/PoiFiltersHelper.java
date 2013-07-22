@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 
 import java.text.Collator;
@@ -10,10 +10,10 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteConnection;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteCursor;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteStatement;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteCursor;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteStatement;
 
 public class PoiFiltersHelper {
 	private final ClientContext application;

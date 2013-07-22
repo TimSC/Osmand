@@ -1,22 +1,22 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.map.ITileSource;
-import net.recreationmap.map.MapTileDownloader;
-import net.recreationmap.map.MapTileDownloader.DownloadRequest;
-import net.recreationmap.map.MapTileDownloader.IMapDownloaderCallback;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
-import net.recreationmap.plus.resources.ResourceManager;
-import net.recreationmap.plus.views.BaseMapLayer;
-import net.recreationmap.plus.views.MapTileLayer;
-import net.recreationmap.plus.views.OsmandMapTileView;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.map.ITileSource;
+import com.kinatomicHamp.map.MapTileDownloader;
+import com.kinatomicHamp.map.MapTileDownloader.DownloadRequest;
+import com.kinatomicHamp.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.plus.resources.ResourceManager;
+import com.kinatomicHamp.plus.views.BaseMapLayer;
+import com.kinatomicHamp.plus.views.MapTileLayer;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

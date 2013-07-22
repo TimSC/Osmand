@@ -1,11 +1,11 @@
-package net.recreationmap.plus.development;
+package com.kinatomicHamp.plus.development;
 
 
 import java.text.SimpleDateFormat;
 
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.SettingsBaseActivity;
-import net.recreationmap.util.SunriseSunset;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.SettingsBaseActivity;
+import com.kinatomicHamp.util.SunriseSunset;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Debug;

@@ -1,8 +1,8 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import java.lang.reflect.Method;
 
-import net.recreationmap.PlatformUtil;
+import com.kinatomicHamp.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 

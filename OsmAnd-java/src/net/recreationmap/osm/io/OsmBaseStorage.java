@@ -1,4 +1,4 @@
-package net.recreationmap.osm.io;
+package com.kinatomicHamp.osm.io;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,14 +13,14 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import net.recreationmap.IProgress;
-import net.recreationmap.osm.edit.Entity;
-import net.recreationmap.osm.edit.EntityInfo;
-import net.recreationmap.osm.edit.Node;
-import net.recreationmap.osm.edit.Relation;
-import net.recreationmap.osm.edit.Way;
-import net.recreationmap.osm.edit.Entity.EntityId;
-import net.recreationmap.osm.edit.Entity.EntityType;
+import com.kinatomicHamp.IProgress;
+import com.kinatomicHamp.osm.edit.Entity;
+import com.kinatomicHamp.osm.edit.EntityInfo;
+import com.kinatomicHamp.osm.edit.Node;
+import com.kinatomicHamp.osm.edit.Relation;
+import com.kinatomicHamp.osm.edit.Way;
+import com.kinatomicHamp.osm.edit.Entity.EntityId;
+import com.kinatomicHamp.osm.edit.Entity.EntityType;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

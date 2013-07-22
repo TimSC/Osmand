@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import android.app.backup.BackupAgentHelper;
 import android.app.backup.FileBackupHelper;

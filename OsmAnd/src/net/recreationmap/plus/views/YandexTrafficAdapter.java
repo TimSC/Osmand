@@ -1,4 +1,4 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -7,10 +7,10 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.map.TileSourceManager.TileSourceTemplate;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

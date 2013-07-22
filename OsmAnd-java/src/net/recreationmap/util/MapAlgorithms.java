@@ -1,4 +1,4 @@
-package net.recreationmap.util;
+package com.kinatomicHamp.util;
 
 import gnu.trove.list.TLongList;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.recreationmap.data.LatLon;
+import com.kinatomicHamp.data.LatLon;
 
 public class MapAlgorithms {
 	

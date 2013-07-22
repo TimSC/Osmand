@@ -1,4 +1,4 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 import gnu.trove.iterator.TLongObjectIterator;
 import gnu.trove.list.array.TIntArrayList;
@@ -12,21 +12,21 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.binary.OsmandOdb.IdTable;
-import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderBox;
-import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine;
-import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine.Builder;
-import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPoint;
-import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPointsBlock;
-import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBlock;
-import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBox;
-import net.recreationmap.binary.OsmandOdb.OsmAndRoutingIndex.RouteEncodingRule;
-import net.recreationmap.binary.OsmandOdb.RestrictionData;
-import net.recreationmap.binary.OsmandOdb.RouteData;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.binary.OsmandOdb.IdTable;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderBox;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine.Builder;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPoint;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPointsBlock;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBlock;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBox;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndRoutingIndex.RouteEncodingRule;
+import com.kinatomicHamp.binary.OsmandOdb.RestrictionData;
+import com.kinatomicHamp.binary.OsmandOdb.RouteData;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

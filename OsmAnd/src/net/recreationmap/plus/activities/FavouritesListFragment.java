@@ -1,22 +1,22 @@
 /**
  * 
  */
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.util.Comparator;
 import java.util.List;
 
 import net.londatiga.android.QuickAction;
-import net.recreationmap.data.FavouritePoint;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.search.SearchActivity;
-import net.recreationmap.plus.activities.search.SearchActivity.SearchActivityChild;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.data.FavouritePoint;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.search.SearchActivity;
+import com.kinatomicHamp.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicHamp.util.MapUtils;
 import android.app.Activity;
 import android.content.Intent;
 import android.text.Spannable;

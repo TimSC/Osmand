@@ -1,4 +1,4 @@
-package net.recreationmap.osm.io;
+package com.kinatomicHamp.osm.io;
 
 /**
  * @source http://www.javaworld.com/javaworld/javatips/jw-javatip47.html -- 24.11.2008, (mb)

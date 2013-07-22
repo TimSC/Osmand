@@ -1,26 +1,26 @@
 /**
  * 
  */
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.TransportRoute;
-import net.recreationmap.data.TransportStop;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.TransportRouteHelper;
-import net.recreationmap.plus.activities.search.SearchActivity.SearchActivityChild;
-import net.recreationmap.plus.resources.TransportIndexRepository;
-import net.recreationmap.plus.resources.TransportIndexRepository.RouteInfoLocation;
-import net.recreationmap.util.Algorithms;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.TransportRoute;
+import com.kinatomicHamp.data.TransportStop;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.TransportRouteHelper;
+import com.kinatomicHamp.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicHamp.plus.resources.TransportIndexRepository;
+import com.kinatomicHamp.plus.resources.TransportIndexRepository.RouteInfoLocation;
+import com.kinatomicHamp.util.Algorithms;
+import com.kinatomicHamp.util.MapUtils;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

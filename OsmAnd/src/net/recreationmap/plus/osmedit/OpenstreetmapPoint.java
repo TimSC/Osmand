@@ -1,10 +1,10 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 import java.io.Serializable;
 
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.osm.edit.Node;
-import net.recreationmap.osm.edit.OSMSettings.OSMTagKey;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.osm.edit.Node;
+import com.kinatomicHamp.osm.edit.OSMSettings.OSMTagKey;
 
 public class OpenstreetmapPoint extends OsmPoint implements Serializable {
 	private static final long serialVersionUID = 729654300829771467L;

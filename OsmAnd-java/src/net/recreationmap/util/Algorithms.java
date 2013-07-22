@@ -1,4 +1,4 @@
-package net.recreationmap.util;
+package com.kinatomicHamp.util;
 
 
 import java.io.Closeable;
@@ -12,7 +12,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import net.recreationmap.PlatformUtil;
+import com.kinatomicHamp.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 

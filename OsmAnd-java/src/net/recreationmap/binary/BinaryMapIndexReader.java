@@ -1,4 +1,4 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -17,33 +17,33 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import net.recreationmap.Collator;
-import net.recreationmap.CollatorStringMatcher;
-import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.StringMatcher;
-import net.recreationmap.binary.BinaryMapAddressReaderAdapter.AddressRegion;
-import net.recreationmap.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
-import net.recreationmap.binary.BinaryMapPoiReaderAdapter.PoiRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import net.recreationmap.binary.BinaryMapTransportReaderAdapter.TransportIndex;
-import net.recreationmap.binary.OsmandOdb.MapDataBlock;
-import net.recreationmap.binary.OsmandOdb.OsmAndMapIndex.MapDataBox;
-import net.recreationmap.binary.OsmandOdb.OsmAndMapIndex.MapEncodingRule;
-import net.recreationmap.binary.OsmandOdb.OsmAndMapIndex.MapRootLevel;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.Building;
-import net.recreationmap.data.City;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.data.Street;
-import net.recreationmap.data.TransportRoute;
-import net.recreationmap.data.TransportStop;
-import net.recreationmap.util.Algorithms;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.Collator;
+import com.kinatomicHamp.CollatorStringMatcher;
+import com.kinatomicHamp.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.StringMatcher;
+import com.kinatomicHamp.binary.BinaryMapAddressReaderAdapter.AddressRegion;
+import com.kinatomicHamp.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
+import com.kinatomicHamp.binary.BinaryMapPoiReaderAdapter.PoiRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import com.kinatomicHamp.binary.BinaryMapTransportReaderAdapter.TransportIndex;
+import com.kinatomicHamp.binary.OsmandOdb.MapDataBlock;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndMapIndex.MapDataBox;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndMapIndex.MapEncodingRule;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndMapIndex.MapRootLevel;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.Building;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.data.Street;
+import com.kinatomicHamp.data.TransportRoute;
+import com.kinatomicHamp.data.TransportStop;
+import com.kinatomicHamp.util.Algorithms;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 
@@ -398,12 +398,12 @@ public class BinaryMapIndexReader {
 	/**
 	 * Transport public methods
 	 */
-	public List<net.recreationmap.data.TransportRoute> getTransportRouteDescriptions(TransportStop stop) throws IOException {
+	public List<com.kinatomicHamp.data.TransportRoute> getTransportRouteDescriptions(TransportStop stop) throws IOException {
 		TransportIndex ind = getTransportIndex(stop.getFileOffset());
 		if(ind == null){
 			return null;
 		}
-		List<net.recreationmap.data.TransportRoute> list = new ArrayList<TransportRoute>();
+		List<com.kinatomicHamp.data.TransportRoute> list = new ArrayList<TransportRoute>();
 		TIntObjectHashMap<String> stringTable = new TIntObjectHashMap<String>();
 		for(int filePointer : stop.getReferencesToRoutes()){
 			TransportRoute tr = transportAdapter.getTransportRoute(filePointer, stringTable, true);
@@ -1844,7 +1844,7 @@ public class BinaryMapIndexReader {
 			for (TransportStop s : reader.searchTransportIndex(buildSearchTransportRequest(sleft, sright, stop, sbottom, 15, null))) {
 				println(s.getName());
 				TIntObjectHashMap<TransportRoute> routes = reader.getTransportRoutes(s.getReferencesToRoutes());
-				for (net.recreationmap.data.TransportRoute route : routes.valueCollection()) {
+				for (com.kinatomicHamp.data.TransportRoute route : routes.valueCollection()) {
 					println(" " + route.getRef() + " " + route.getName() + " " + route.getDistance() + " "
 							+ route.getAvgBothDistance());
 				}
@@ -1854,7 +1854,7 @@ public class BinaryMapIndexReader {
 			for (TransportStop s : reader.searchTransportIndex(buildSearchTransportRequest(sleft, sright, stop, sbottom, 16, null))) {
 				println(s.getName());
 				TIntObjectHashMap<TransportRoute> routes = reader.getTransportRoutes(s.getReferencesToRoutes());
-				for (net.recreationmap.data.TransportRoute  route : routes.valueCollection()) {
+				for (com.kinatomicHamp.data.TransportRoute  route : routes.valueCollection()) {
 					println(" " + route.getRef() + " " + route.getName() + " " + route.getDistance() + " "
 							+ route.getAvgBothDistance());
 				}

@@ -1,9 +1,9 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.views.ContextMenuLayer;
-import net.recreationmap.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.views.ContextMenuLayer;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
 import android.graphics.PointF;
 import android.os.Build;
 

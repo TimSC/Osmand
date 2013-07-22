@@ -1,6 +1,6 @@
-package net.recreationmap.plus.views.mapwidgets;
+package com.kinatomicHamp.plus.views.mapwidgets;
 
-import net.recreationmap.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicHamp.plus.views.OsmandMapLayer.DrawSettings;
 
 
 public interface UpdateableWidget  {

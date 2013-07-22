@@ -1,11 +1,11 @@
-package net.recreationmap.plus.base;
+package com.kinatomicHamp.plus.base;
 
 import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Locale;
 
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

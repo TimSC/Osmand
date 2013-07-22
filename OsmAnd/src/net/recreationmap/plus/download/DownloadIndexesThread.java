@@ -1,4 +1,4 @@
-package net.recreationmap.plus.download;
+package com.kinatomicHamp.plus.download;
 
 
 import java.io.File;
@@ -15,22 +15,22 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.map.RegionCountry;
-import net.recreationmap.map.RegionRegistry;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings.OsmandPreference;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
-import net.recreationmap.plus.activities.DownloadIndexActivity;
-import net.recreationmap.plus.base.BasicProgressAsyncTask;
-import net.recreationmap.plus.download.DownloadFileHelper.DownloadFileShowWarning;
-import net.recreationmap.plus.resources.ResourceManager;
-import net.recreationmap.plus.srtmplugin.SRTMPlugin;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.map.RegionCountry;
+import com.kinatomicHamp.map.RegionRegistry;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.plus.activities.DownloadIndexActivity;
+import com.kinatomicHamp.plus.base.BasicProgressAsyncTask;
+import com.kinatomicHamp.plus.download.DownloadFileHelper.DownloadFileShowWarning;
+import com.kinatomicHamp.plus.resources.ResourceManager;
+import com.kinatomicHamp.plus.srtmplugin.SRTMPlugin;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 
@@ -394,7 +394,7 @@ public class DownloadIndexesThread {
 				builder.setPositiveButton(R.string.button_upgrade_osmandplus, new DialogInterface.OnClickListener() {
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
-						Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pname:net.recreationmap.plus"));
+						Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pname:com.kinatomicHamp.plus"));
 						try {
 							ctx.startActivity(intent);
 						} catch (ActivityNotFoundException e) {
@@ -522,7 +522,7 @@ public class DownloadIndexesThread {
 						msg.setNegativeButton(R.string.button_upgrade_osmandplus, new DialogInterface.OnClickListener() {
 							@Override
 							public void onClick(DialogInterface dialog, int which) {
-								Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pname:net.recreationmap.srtmPlugin.paid"));
+								Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pname:com.kinatomicHamp.srtmPlugin.paid"));
 								try {
 									ctx.startActivity(intent);
 								} catch (ActivityNotFoundException e) {

@@ -1,15 +1,15 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.osm.MapRenderingTypes;
-import net.recreationmap.osm.edit.EntityInfo;
-import net.recreationmap.osm.edit.Node;
-import net.recreationmap.osm.edit.OSMSettings.OSMTagKey;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.osm.MapRenderingTypes;
+import com.kinatomicHamp.osm.edit.EntityInfo;
+import com.kinatomicHamp.osm.edit.Node;
+import com.kinatomicHamp.osm.edit.OSMSettings.OSMTagKey;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

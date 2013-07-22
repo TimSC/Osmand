@@ -1,6 +1,6 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
-import net.recreationmap.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandApplication;
 import android.os.Bundle;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;

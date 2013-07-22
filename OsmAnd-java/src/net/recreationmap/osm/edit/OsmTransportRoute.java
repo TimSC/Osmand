@@ -1,10 +1,10 @@
-package net.recreationmap.osm.edit;
+package com.kinatomicHamp.osm.edit;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import net.recreationmap.data.TransportRoute;
+import com.kinatomicHamp.data.TransportRoute;
 
 public class OsmTransportRoute extends TransportRoute {
 	private List<Way> ways;

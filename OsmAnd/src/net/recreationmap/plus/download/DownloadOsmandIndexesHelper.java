@@ -1,4 +1,4 @@
-package net.recreationmap.plus.download;
+package com.kinatomicHamp.plus.download;
 
 import java.io.File;
 import java.io.IOException;
@@ -8,13 +8,13 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.Version;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

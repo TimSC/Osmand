@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.io.File;
 import java.text.Collator;
@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.FavouritePoint;
-import net.recreationmap.plus.GPXUtilities.GPXFile;
-import net.recreationmap.plus.GPXUtilities.WptPt;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteConnection;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteCursor;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.FavouritePoint;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.plus.GPXUtilities.WptPt;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteCursor;
 
 public class FavouritesDbHelper {
 

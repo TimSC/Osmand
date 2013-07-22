@@ -1,15 +1,15 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.FavouritePoint;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ContextMenuAdapter;
-import net.recreationmap.plus.ContextMenuAdapter.OnContextMenuClick;
-import net.recreationmap.plus.FavouritesDbHelper;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.FavouritePoint;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ContextMenuAdapter;
+import com.kinatomicHamp.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicHamp.plus.FavouritesDbHelper;
+import com.kinatomicHamp.plus.R;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;

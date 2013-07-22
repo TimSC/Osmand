@@ -1,6 +1,6 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

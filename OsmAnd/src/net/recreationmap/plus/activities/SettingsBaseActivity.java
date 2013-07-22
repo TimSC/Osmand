@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -7,13 +7,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.OsmandSettings.OsmandPreference;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.views.SeekBarPreference;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.views.SeekBarPreference;
 import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 
 import java.text.Collator;
@@ -11,18 +11,18 @@ import java.util.Comparator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.osm.MapRenderingTypes;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.PoiFilter;
-import net.recreationmap.plus.PoiFiltersHelper;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.SpecialPhrases;
-import net.recreationmap.plus.activities.search.SearchActivity;
-import net.recreationmap.plus.activities.search.SearchPOIActivity;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.osm.MapRenderingTypes;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.PoiFilter;
+import com.kinatomicHamp.plus.PoiFiltersHelper;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.SpecialPhrases;
+import com.kinatomicHamp.plus.activities.search.SearchActivity;
+import com.kinatomicHamp.plus.activities.search.SearchPOIActivity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

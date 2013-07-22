@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package net.recreationmap.bridge;
+package com.kinatomicHamp.bridge;
 
 public class ObfInspector {
   private long swigCPtr;

@@ -1,4 +1,4 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 import gnu.trove.list.array.TIntArrayList;
 
@@ -6,23 +6,23 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.CollatorStringMatcher;
-import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.StringMatcher;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.binary.OsmandOdb.AddressNameIndexDataAtom;
-import net.recreationmap.binary.OsmandOdb.OsmAndAddressIndex.CitiesIndex;
-import net.recreationmap.binary.OsmandOdb.OsmAndAddressNameIndexData;
-import net.recreationmap.binary.OsmandOdb.OsmAndAddressNameIndexData.AddressNameIndexData;
-import net.recreationmap.data.Building;
-import net.recreationmap.data.Building.BuildingInterpolation;
-import net.recreationmap.data.City;
-import net.recreationmap.data.City.CityType;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.data.Street;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.CollatorStringMatcher;
+import com.kinatomicHamp.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.StringMatcher;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.binary.OsmandOdb.AddressNameIndexDataAtom;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndAddressIndex.CitiesIndex;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndAddressNameIndexData;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndAddressNameIndexData.AddressNameIndexData;
+import com.kinatomicHamp.data.Building;
+import com.kinatomicHamp.data.Building.BuildingInterpolation;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.City.CityType;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.data.Street;
+import com.kinatomicHamp.util.MapUtils;
 import net.sf.junidecode.Junidecode;
 
 import org.apache.commons.logging.Log;

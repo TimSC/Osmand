@@ -1,14 +1,14 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import net.recreationmap.NativeLibrary;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.plus.PoiFilter;
-import net.recreationmap.plus.TargetPointsHelper;
+import com.kinatomicHamp.NativeLibrary;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.plus.PoiFilter;
+import com.kinatomicHamp.plus.TargetPointsHelper;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlSerializer;

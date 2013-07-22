@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 import android.content.Context;
 import android.content.res.Configuration;

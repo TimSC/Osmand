@@ -1,11 +1,11 @@
-package net.recreationmap.plus.resources;
+package com.kinatomicHamp.plus.resources;
 
 import java.util.List;
 
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.TransportRoute;
-import net.recreationmap.data.TransportStop;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.TransportRoute;
+import com.kinatomicHamp.data.TransportStop;
 
 public interface TransportIndexRepository {
 	

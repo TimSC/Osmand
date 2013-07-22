@@ -1,4 +1,4 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 import java.util.HashMap;
 import java.util.Map;

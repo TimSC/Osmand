@@ -1,13 +1,13 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.activities.ShowRouteInfoActivity;
-import net.recreationmap.plus.routing.RouteDirectionInfo;
-import net.recreationmap.plus.routing.RoutingHelper;
-import net.recreationmap.plus.routing.RoutingHelper.IRouteInformationListener;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.activities.ShowRouteInfoActivity;
+import com.kinatomicHamp.plus.routing.RouteDirectionInfo;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
+import com.kinatomicHamp.plus.routing.RoutingHelper.IRouteInformationListener;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Canvas;
@@ -90,7 +90,7 @@ public class RouteInfoLayer extends OsmandMapLayer implements IRouteInformationL
 					directionInfo--;
 					if(routingHelper.getRouteDirections().size() > directionInfo){
 						RouteDirectionInfo info = routingHelper.getRouteDirections().get(directionInfo);
-						net.recreationmap.Location l = routingHelper.getLocationFromRouteDirection(info);
+						com.kinatomicHamp.Location l = routingHelper.getLocationFromRouteDirection(info);
 						if(info.getDescriptionRoute() != null) {
 							contextMenu.setLocation(new LatLon(l.getLatitude(), l.getLongitude()), info.getDescriptionRoute());
 						}
@@ -108,7 +108,7 @@ public class RouteInfoLayer extends OsmandMapLayer implements IRouteInformationL
 				if(routingHelper.getRouteDirections() != null && directionInfo < routingHelper.getRouteDirections().size() - 1){
 					directionInfo++;
 					RouteDirectionInfo info = routingHelper.getRouteDirections().get(directionInfo);
-					net.recreationmap.Location l = routingHelper.getLocationFromRouteDirection(info);
+					com.kinatomicHamp.Location l = routingHelper.getLocationFromRouteDirection(info);
 					if(info.getDescriptionRoute() != null){
 						contextMenu.setLocation(new LatLon(l.getLatitude(), l.getLongitude()), info.getDescriptionRoute());
 					}

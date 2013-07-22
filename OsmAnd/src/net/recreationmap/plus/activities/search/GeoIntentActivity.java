@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 import gnu.trove.map.hash.TLongObjectHashMap;
 
@@ -8,24 +8,24 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.City;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.data.Street;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.activities.OsmandListActivity;
-import net.recreationmap.plus.resources.RegionAddressRepository;
-import net.recreationmap.plus.resources.ResourceManager;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.data.Street;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.activities.OsmandListActivity;
+import com.kinatomicHamp.plus.resources.RegionAddressRepository;
+import com.kinatomicHamp.plus.resources.ResourceManager;
+import com.kinatomicHamp.util.MapUtils;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;

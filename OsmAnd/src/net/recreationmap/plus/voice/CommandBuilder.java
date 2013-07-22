@@ -1,10 +1,10 @@
-package net.recreationmap.plus.voice;
+package com.kinatomicHamp.plus.voice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import net.recreationmap.PlatformUtil;
+import com.kinatomicHamp.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 

@@ -1,7 +1,7 @@
-package net.recreationmap.plus;
-import net.recreationmap.data.QuadPoint;
-import net.recreationmap.data.QuadRect;
-import net.recreationmap.util.MapUtils;
+package com.kinatomicHamp.plus;
+import com.kinatomicHamp.data.QuadPoint;
+import com.kinatomicHamp.data.QuadRect;
+import com.kinatomicHamp.util.MapUtils;
 
 public class RotatedTileBox {
 	private float leftTileX;

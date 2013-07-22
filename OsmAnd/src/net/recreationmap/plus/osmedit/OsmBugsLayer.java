@@ -1,4 +1,4 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
 
 import java.io.BufferedReader;
@@ -10,20 +10,20 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ContextMenuAdapter;
-import net.recreationmap.plus.ContextMenuAdapter.OnContextMenuClick;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.DialogProvider;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.osmedit.OsmPoint.Action;
-import net.recreationmap.plus.views.ContextMenuLayer.IContextMenuProvider;
-import net.recreationmap.plus.views.OsmandMapLayer;
-import net.recreationmap.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ContextMenuAdapter;
+import com.kinatomicHamp.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.DialogProvider;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.osmedit.OsmPoint.Action;
+import com.kinatomicHamp.plus.views.ContextMenuLayer.IContextMenuProvider;
+import com.kinatomicHamp.plus.views.OsmandMapLayer;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

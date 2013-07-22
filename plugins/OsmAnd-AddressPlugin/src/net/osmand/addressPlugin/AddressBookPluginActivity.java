@@ -1,4 +1,4 @@
-package net.recreationmap.addressPlugin;
+package com.kinatomicHamp.addressPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;

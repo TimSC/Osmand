@@ -1,11 +1,11 @@
-package net.recreationmap.data;
+package com.kinatomicHamp.data;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.util.Algorithms;
 
 
 public class Street extends MapObject {

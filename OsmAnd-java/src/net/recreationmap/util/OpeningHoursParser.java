@@ -1,4 +1,4 @@
-package net.recreationmap.util;
+package com.kinatomicHamp.util;
 
 
 

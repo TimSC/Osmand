@@ -1,4 +1,4 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -11,16 +11,16 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.Collator;
-import net.recreationmap.CollatorStringMatcher;
-import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.binary.OsmandOdb.OsmAndPoiNameIndex.OsmAndPoiNameIndexData;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.util.Algorithms;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.Collator;
+import com.kinatomicHamp.CollatorStringMatcher;
+import com.kinatomicHamp.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.binary.OsmandOdb.OsmAndPoiNameIndex.OsmAndPoiNameIndexData;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.util.Algorithms;
+import com.kinatomicHamp.util.MapUtils;
 import net.sf.junidecode.Junidecode;
 
 import org.apache.commons.logging.Log;

@@ -1,4 +1,4 @@
-package net.recreationmap.plus.voice;
+package com.kinatomicHamp.plus.voice;
 
 import java.io.File;
 import java.util.HashMap;
@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.SettingsActivity;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.SettingsActivity;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 import org.json.JSONArray;

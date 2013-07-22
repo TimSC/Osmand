@@ -1,11 +1,11 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 
 import java.io.File;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;

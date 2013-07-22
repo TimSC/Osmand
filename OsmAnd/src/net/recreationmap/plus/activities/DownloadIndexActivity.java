@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 
 import java.io.File;
@@ -11,24 +11,24 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
-import net.recreationmap.plus.base.BasicProgressAsyncTask;
-import net.recreationmap.plus.base.SuggestExternalDirectoryDialog;
-import net.recreationmap.plus.download.DownloadActivityType;
-import net.recreationmap.plus.download.DownloadEntry;
-import net.recreationmap.plus.download.DownloadIndexAdapter;
-import net.recreationmap.plus.download.DownloadIndexesThread;
-import net.recreationmap.plus.download.IndexItem;
-import net.recreationmap.plus.download.IndexItemCategory;
-import net.recreationmap.plus.srtmplugin.SRTMPlugin;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
+import com.kinatomicHamp.plus.base.BasicProgressAsyncTask;
+import com.kinatomicHamp.plus.base.SuggestExternalDirectoryDialog;
+import com.kinatomicHamp.plus.download.DownloadActivityType;
+import com.kinatomicHamp.plus.download.DownloadEntry;
+import com.kinatomicHamp.plus.download.DownloadIndexAdapter;
+import com.kinatomicHamp.plus.download.DownloadIndexesThread;
+import com.kinatomicHamp.plus.download.IndexItem;
+import com.kinatomicHamp.plus.download.IndexItemCategory;
+import com.kinatomicHamp.plus.srtmplugin.SRTMPlugin;
+import com.kinatomicHamp.util.Algorithms;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.ActivityNotFoundException;

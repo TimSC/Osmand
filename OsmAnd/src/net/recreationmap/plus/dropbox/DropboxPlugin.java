@@ -1,11 +1,11 @@
-package net.recreationmap.plus.dropbox;
+package com.kinatomicHamp.plus.dropbox;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
 
 import org.apache.commons.logging.Log;
 

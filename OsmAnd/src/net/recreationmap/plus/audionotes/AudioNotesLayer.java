@@ -1,20 +1,20 @@
-package net.recreationmap.plus.audionotes;
+package com.kinatomicHamp.plus.audionotes;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.access.AccessibleAlertBuilder;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.DataTileManager;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ContextMenuAdapter;
-import net.recreationmap.plus.ContextMenuAdapter.OnContextMenuClick;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.audionotes.AudioVideoNotesPlugin.Recording;
-import net.recreationmap.plus.views.ContextMenuLayer.IContextMenuProvider;
-import net.recreationmap.plus.views.OsmandMapLayer;
-import net.recreationmap.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.access.AccessibleAlertBuilder;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.DataTileManager;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ContextMenuAdapter;
+import com.kinatomicHamp.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.audionotes.AudioVideoNotesPlugin.Recording;
+import com.kinatomicHamp.plus.views.ContextMenuLayer.IContextMenuProvider;
+import com.kinatomicHamp.plus.views.OsmandMapLayer;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;

@@ -1,4 +1,4 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 
 import gnu.trove.iterator.TIntObjectIterator;
@@ -19,20 +19,20 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.NativeLibrary;
-import net.recreationmap.NativeLibrary.NativeRouteSearchResult;
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import net.recreationmap.binary.RouteDataBorderLinePoint;
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.router.BinaryRoutePlanner.FinalRouteSegment;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegmentVisitor;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.NativeLibrary;
+import com.kinatomicHamp.NativeLibrary.NativeRouteSearchResult;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import com.kinatomicHamp.binary.RouteDataBorderLinePoint;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.router.BinaryRoutePlanner.FinalRouteSegment;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegmentVisitor;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package net.recreationmap.map;
+package com.kinatomicHamp.map;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -16,8 +16,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

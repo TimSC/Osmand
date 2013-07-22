@@ -1,6 +1,6 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
-import net.recreationmap.plus.activities.search.SearchActivity;
+import com.kinatomicHamp.plus.activities.search.SearchActivity;
 import android.app.Activity;
 
 public class OsmandIntents {

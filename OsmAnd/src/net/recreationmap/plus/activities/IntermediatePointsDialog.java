@@ -1,18 +1,18 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import gnu.trove.list.array.TIntArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.TspAnt;
-import net.recreationmap.access.AccessibleAlertBuilder;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.TargetPointsHelper;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.TspAnt;
+import com.kinatomicHamp.access.AccessibleAlertBuilder;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.TargetPointsHelper;
+import com.kinatomicHamp.util.MapUtils;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;

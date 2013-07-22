@@ -1,4 +1,4 @@
-package net.recreationmap.parkingPlugin;
+package com.kinatomicHamp.parkingPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;

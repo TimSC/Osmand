@@ -1,7 +1,7 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
-import net.recreationmap.plus.R;
-import net.recreationmap.router.TurnType;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.router.TurnType;
 import android.content.res.Resources;
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

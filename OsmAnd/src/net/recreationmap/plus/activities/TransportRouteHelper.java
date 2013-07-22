@@ -1,9 +1,9 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.plus.resources.TransportIndexRepository.RouteInfoLocation;
+import com.kinatomicHamp.plus.resources.TransportIndexRepository.RouteInfoLocation;
 
 
 public class TransportRouteHelper {

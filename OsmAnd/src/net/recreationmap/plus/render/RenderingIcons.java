@@ -1,4 +1,4 @@
-package net.recreationmap.plus.render;
+package com.kinatomicHamp.plus.render;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -6,9 +6,9 @@ import java.lang.reflect.Field;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.R.drawable;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.R.drawable;
 
 import org.apache.commons.logging.Log;
 

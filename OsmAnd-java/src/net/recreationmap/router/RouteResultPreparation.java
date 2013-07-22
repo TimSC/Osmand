@@ -1,4 +1,4 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 import java.io.IOException;
 import java.text.MessageFormat;
@@ -8,12 +8,12 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.router.BinaryRoutePlanner.FinalRouteSegment;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.router.BinaryRoutePlanner.FinalRouteSegment;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.util.MapUtils;
 
 public class RouteResultPreparation {
 

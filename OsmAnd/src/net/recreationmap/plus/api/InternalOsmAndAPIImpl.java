@@ -1,20 +1,20 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import net.recreationmap.NativeLibrary;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.access.AccessibilityPlugin;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.plus.NavigationService;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.PoiFilter;
-import net.recreationmap.plus.TargetPointsHelper;
-import net.recreationmap.plus.access.AccessibilityMode;
-import net.recreationmap.plus.render.NativeOsmandLibrary;
+import com.kinatomicHamp.NativeLibrary;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.access.AccessibilityPlugin;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.plus.NavigationService;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.PoiFilter;
+import com.kinatomicHamp.plus.TargetPointsHelper;
+import com.kinatomicHamp.plus.access.AccessibilityMode;
+import com.kinatomicHamp.plus.render.NativeOsmandLibrary;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlSerializer;

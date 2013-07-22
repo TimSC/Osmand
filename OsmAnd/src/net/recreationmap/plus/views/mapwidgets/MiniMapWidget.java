@@ -1,10 +1,10 @@
-package net.recreationmap.plus.views.mapwidgets;
+package com.kinatomicHamp.plus.views.mapwidgets;
 
 
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.views.MapInfoLayer;
-import net.recreationmap.plus.views.OsmandMapLayer.DrawSettings;
-import net.recreationmap.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.views.MapInfoLayer;
+import com.kinatomicHamp.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;

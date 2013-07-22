@@ -1,10 +1,10 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteConnection;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteCursor;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteCursor;
 
 public class SearchHistoryHelper {
 	

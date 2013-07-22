@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 import gnu.trove.list.array.TIntArrayList;
 
@@ -16,15 +16,15 @@ import java.util.Map.Entry;
 
 import org.apache.commons.logging.Log;
 
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.render.RenderingRuleSearchRequest;
-import net.recreationmap.render.RenderingRulesStorage;
-import net.recreationmap.router.GeneralRouter;
-import net.recreationmap.router.RouteCalculationProgress;
-import net.recreationmap.router.RouteSegmentResult;
-import net.recreationmap.router.RoutingConfiguration;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.render.RenderingRuleSearchRequest;
+import com.kinatomicHamp.render.RenderingRulesStorage;
+import com.kinatomicHamp.router.GeneralRouter;
+import com.kinatomicHamp.router.RouteCalculationProgress;
+import com.kinatomicHamp.router.RouteSegmentResult;
+import com.kinatomicHamp.router.RoutingConfiguration;
 
 public class NativeLibrary {
 

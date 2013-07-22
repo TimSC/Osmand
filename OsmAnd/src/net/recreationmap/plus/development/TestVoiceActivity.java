@@ -1,14 +1,14 @@
 /**
  * 
  */
-package net.recreationmap.plus.development;
+package com.kinatomicHamp.plus.development;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.voice.AbstractPrologCommandPlayer;
-import net.recreationmap.plus.voice.CommandBuilder;
-import net.recreationmap.plus.voice.CommandPlayer;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.voice.AbstractPrologCommandPlayer;
+import com.kinatomicHamp.plus.voice.CommandBuilder;
+import com.kinatomicHamp.plus.voice.CommandPlayer;
 import android.app.ActionBar;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;

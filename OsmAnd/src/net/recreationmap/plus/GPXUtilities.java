@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -27,9 +27,9 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.TimeZone;
 
-import net.recreationmap.Location;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

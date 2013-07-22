@@ -1,4 +1,4 @@
-package net.recreationmap.plus.api.render;
+package com.kinatomicHamp.plus.api.render;
 
 public class Color {
 	public static final int BLACK       = 0xFF000000;

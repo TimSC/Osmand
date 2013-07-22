@@ -1,8 +1,8 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
 import java.util.ArrayList;
 
-import net.recreationmap.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandApplication;
 import android.content.Context;
 import android.graphics.Rect;
 import android.os.SystemClock;

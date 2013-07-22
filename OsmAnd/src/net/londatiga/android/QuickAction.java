@@ -9,7 +9,7 @@ package net.londatiga.android;
 
 import java.util.ArrayList;
 
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.R;
 import android.content.Context;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;

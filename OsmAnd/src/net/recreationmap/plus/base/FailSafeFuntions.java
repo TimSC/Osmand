@@ -1,21 +1,21 @@
-package net.recreationmap.plus.base;
+package com.kinatomicHamp.plus.base;
 
 import java.io.File;
 import java.util.ArrayList;
 
 import org.apache.commons.logging.Log;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleAlertBuilder;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.GPXUtilities;
-import net.recreationmap.plus.GPXUtilities.GPXFile;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.TargetPointsHelper;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.routing.RouteProvider.GPXRouteParams;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleAlertBuilder;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.GPXUtilities;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.TargetPointsHelper;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.routing.RouteProvider.GPXRouteParams;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
@@ -125,7 +125,7 @@ public class FailSafeFuntions {
 						protected void onPostExecute(GPXFile result) {
 							final GPXRouteParams gpxRoute = result == null ? null : new GPXRouteParams(result, false, settings);
 							LatLon endPoint = pointToNavigate != null ? pointToNavigate : gpxRoute.getLastPoint();
-							net.recreationmap.Location startPoint = gpxRoute == null ? null : gpxRoute.getStartPointForRoute();
+							com.kinatomicHamp.Location startPoint = gpxRoute == null ? null : gpxRoute.getStartPointForRoute();
 							if (endPoint == null) {
 								notRestoreRoutingMode(ma, app);
 							} else {

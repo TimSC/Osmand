@@ -1,4 +1,4 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 public abstract class BaseMapLayer extends OsmandMapLayer {
 

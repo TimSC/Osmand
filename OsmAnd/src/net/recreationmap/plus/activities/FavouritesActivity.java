@@ -1,7 +1,7 @@
 /**
  * 
  */
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.io.File;
 import java.text.Collator;
@@ -17,17 +17,17 @@ import java.util.Set;
 
 import net.londatiga.android.ActionItem;
 import net.londatiga.android.QuickAction;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.FavouritePoint;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.FavouritesDbHelper;
-import net.recreationmap.plus.GPXUtilities;
-import net.recreationmap.plus.GPXUtilities.GPXFile;
-import net.recreationmap.plus.GPXUtilities.WptPt;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.FavouritePoint;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.FavouritesDbHelper;
+import com.kinatomicHamp.plus.GPXUtilities;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.plus.GPXUtilities.WptPt;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.util.MapUtils;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

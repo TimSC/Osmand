@@ -1,4 +1,4 @@
-package net.recreationmap.data;
+package com.kinatomicHamp.data;
 
 public class QuadPoint {
 	public float x;

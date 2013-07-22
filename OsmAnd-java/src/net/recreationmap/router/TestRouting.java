@@ -1,4 +1,4 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 
 import java.io.File;
@@ -14,13 +14,13 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.NativeLibrary;
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.router.BinaryRoutePlanner.FinalRouteSegment;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
-import net.recreationmap.router.RoutingConfiguration.Builder;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.NativeLibrary;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.router.BinaryRoutePlanner.FinalRouteSegment;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.router.RoutingConfiguration.Builder;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

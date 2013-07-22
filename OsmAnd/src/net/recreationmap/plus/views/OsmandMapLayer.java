@@ -1,8 +1,8 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import java.util.Map;
 
-import net.recreationmap.plus.ContextMenuAdapter;
+import com.kinatomicHamp.plus.ContextMenuAdapter;
 import android.graphics.Canvas;
 import android.graphics.PointF;
 import android.graphics.RectF;

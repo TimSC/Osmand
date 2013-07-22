@@ -1,21 +1,21 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.CollatorStringMatcher;
-import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.City;
-import net.recreationmap.data.City.CityType;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.resources.RegionAddressRepository;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.CollatorStringMatcher;
+import com.kinatomicHamp.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.City.CityType;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.resources.RegionAddressRepository;
+import com.kinatomicHamp.util.MapUtils;
 import android.os.AsyncTask;
 import android.os.Message;
 import android.view.Gravity;
@@ -174,7 +174,7 @@ public class SearchCityByNameActivity extends SearchByNameAbstractActivity<City>
 	
 	private final class CityComparator implements Comparator<City> {
 		private final StringMatcherMode startsWith;
-		private final net.recreationmap.Collator cs;
+		private final com.kinatomicHamp.Collator cs;
 		private final boolean en;
 
 		private CityComparator(StringMatcherMode startsWith, 

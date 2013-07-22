@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 /**
  * This class can be replaced with more effective on ARM devices 

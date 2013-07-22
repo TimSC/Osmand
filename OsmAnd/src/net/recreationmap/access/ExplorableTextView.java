@@ -1,6 +1,6 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
-import net.recreationmap.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandApplication;
 import android.content.Context;
 import android.text.Layout;
 import android.text.method.ArrowKeyMovementMethod;

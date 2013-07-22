@@ -1,15 +1,15 @@
-package net.recreationmap.plus.parkingpoint;
+package com.kinatomicHamp.plus.parkingpoint;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.views.ContextMenuLayer;
-import net.recreationmap.plus.views.OsmandMapLayer;
-import net.recreationmap.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.views.ContextMenuLayer;
+import com.kinatomicHamp.plus.views.OsmandMapLayer;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

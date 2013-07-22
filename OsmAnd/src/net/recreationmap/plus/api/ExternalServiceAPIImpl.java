@@ -1,7 +1,7 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.OsmandApplication;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.OsmandApplication;
 
 import org.apache.commons.logging.Log;
 
@@ -56,7 +56,7 @@ public class ExternalServiceAPIImpl implements ExternalServiceAPI {
 	public AudioFocusHelper getAudioFocuseHelper() {
 		if (android.os.Build.VERSION.SDK_INT >= 8) {
 			try {
-				return (AudioFocusHelper) Class.forName("net.recreationmap.plus.api.AudioFocusHelperImpl").newInstance();
+				return (AudioFocusHelper) Class.forName("com.kinatomicHamp.plus.api.AudioFocusHelperImpl").newInstance();
 			} catch (Exception e) {
 				log.error(e.getMessage(), e);
 				return null;

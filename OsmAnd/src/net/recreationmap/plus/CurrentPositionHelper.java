@@ -1,15 +1,15 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.io.IOException;
 
-import net.recreationmap.Location;
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
-import net.recreationmap.router.GeneralRouter.GeneralRouterProfile;
-import net.recreationmap.router.RoutePlannerFrontEnd;
-import net.recreationmap.router.RoutingConfiguration;
-import net.recreationmap.router.RoutingContext;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.router.GeneralRouter.GeneralRouterProfile;
+import com.kinatomicHamp.router.RoutePlannerFrontEnd;
+import com.kinatomicHamp.router.RoutingConfiguration;
+import com.kinatomicHamp.router.RoutingContext;
+import com.kinatomicHamp.util.MapUtils;
 
 public class CurrentPositionHelper {
 	

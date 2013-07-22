@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,14 +7,14 @@ import java.nio.ByteBuffer;
 import java.text.MessageFormat;
 import java.util.List;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.QuadRect;
-import net.recreationmap.map.ITileSource;
-import net.recreationmap.map.TileSourceManager.TileSourceTemplate;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteConnection;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteCursor;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.QuadRect;
+import com.kinatomicHamp.map.ITileSource;
+import com.kinatomicHamp.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteCursor;
+import com.kinatomicHamp.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 
@@ -377,7 +377,7 @@ public class SQLiteTileSource implements ITileSource {
 			buf.put(b, 0, i);
 		}
 
-		net.recreationmap.plus.api.SQLiteAPI.SQLiteStatement statement = db.compileStatement("INSERT INTO tiles VALUES(?, ?, ?, ?, ?)"); //$NON-NLS-1$
+		com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteStatement statement = db.compileStatement("INSERT INTO tiles VALUES(?, ?, ?, ?, ?)"); //$NON-NLS-1$
 		statement.bindLong(1, x);
 		statement.bindLong(2, y);
 		statement.bindLong(3, 17 - zoom);

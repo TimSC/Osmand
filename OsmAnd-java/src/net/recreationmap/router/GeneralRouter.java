@@ -1,4 +1,4 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -7,11 +7,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.util.MapUtils;
 
 public class GeneralRouter extends VehicleRouter {
 	public static final String USE_SHORTEST_WAY = "short_way";

@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -7,13 +7,13 @@ import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.OsmAndLocationProvider;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.monitoring.OsmandMonitoringPlugin;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.OsmAndLocationProvider;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.monitoring.OsmandMonitoringPlugin;
 
 import org.apache.commons.logging.Log;
 import org.apache.http.HttpResponse;
@@ -43,7 +43,7 @@ public class LiveMonitoringHelper  {
 		return settings.LIVE_MONITORING.get() ;
 	}
 	
-	public void updateLocation(net.recreationmap.Location location) {
+	public void updateLocation(com.kinatomicHamp.Location location) {
 		if (OsmAndLocationProvider.isPointAccurateForRouting(location) && isLiveMonitoringEnabled()
 				&& OsmandPlugin.getEnabledPlugin(OsmandMonitoringPlugin.class) != null) {
 			long locationTime = System.currentTimeMillis();

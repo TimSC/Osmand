@@ -1,4 +1,4 @@
-package net.recreationmap.plus.srtmplugin;
+package com.kinatomicHamp.plus.srtmplugin;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -7,16 +7,16 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.data.QuadRect;
-import net.recreationmap.data.QuadTree;
-import net.recreationmap.map.TileSourceManager.TileSourceTemplate;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.SQLiteTileSource;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.api.SQLiteAPI.SQLiteConnection;
-import net.recreationmap.plus.views.MapTileLayer;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.data.QuadRect;
+import com.kinatomicHamp.data.QuadTree;
+import com.kinatomicHamp.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.SQLiteTileSource;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicHamp.plus.views.MapTileLayer;
 
 import org.apache.commons.logging.Log;
 

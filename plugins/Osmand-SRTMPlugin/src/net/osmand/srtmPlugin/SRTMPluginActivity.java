@@ -1,6 +1,6 @@
-package net.recreationmap.srtmPlugin;
+package com.kinatomicHamp.srtmPlugin;
 
-import net.recreationmap.srtmPlugin.paid.R;
+import com.kinatomicHamp.srtmPlugin.paid.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;

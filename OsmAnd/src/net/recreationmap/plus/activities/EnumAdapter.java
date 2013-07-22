@@ -1,6 +1,6 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
-import net.recreationmap.plus.activities.EnumAdapter.IEnumWithResource;
+import com.kinatomicHamp.plus.activities.EnumAdapter.IEnumWithResource;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;

@@ -1,8 +1,8 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
 
 public class RouteDataBorderLinePoint extends RouteDataObject {
 	// all these arrays supposed to be immutable!

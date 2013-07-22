@@ -1,6 +1,6 @@
-package net.recreationmap.view;
+package com.kinatomicHamp.view;
 
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.R;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;

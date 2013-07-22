@@ -3,9 +3,9 @@
  * Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
  * See LICENSE for more information 
  */
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.R;
 import android.content.Context;
 import android.preference.DialogPreference;
 import android.util.AttributeSet;

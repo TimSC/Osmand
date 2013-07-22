@@ -1,13 +1,13 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
 import java.io.File;
 import java.util.List;
 
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.map.ITileSource;
-import net.recreationmap.map.TileSourceManager.TileSourceTemplate;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.SQLiteTileSource;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.map.ITileSource;
+import com.kinatomicHamp.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.SQLiteTileSource;
 
 public class InternalToDoAPIImpl implements InternalToDoAPI {
 

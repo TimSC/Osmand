@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
@@ -11,33 +11,33 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.Location;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.FavouritePoint;
-import net.recreationmap.plus.GPXUtilities.GPXFile;
-import net.recreationmap.plus.GPXUtilities.WptPt;
-import net.recreationmap.plus.activities.DayNightHelper;
-import net.recreationmap.plus.activities.LiveMonitoringHelper;
-import net.recreationmap.plus.activities.OsmandIntents;
-import net.recreationmap.plus.activities.SavingTrackHelper;
-import net.recreationmap.plus.activities.SettingsActivity;
-import net.recreationmap.plus.api.ExternalServiceAPI;
-import net.recreationmap.plus.api.InternalOsmAndAPI;
-import net.recreationmap.plus.api.InternalToDoAPI;
-import net.recreationmap.plus.api.SQLiteAPI;
-import net.recreationmap.plus.api.SQLiteAPIImpl;
-import net.recreationmap.plus.api.SettingsAPI;
-import net.recreationmap.plus.render.NativeOsmandLibrary;
-import net.recreationmap.plus.render.RendererRegistry;
-import net.recreationmap.plus.resources.ResourceManager;
-import net.recreationmap.plus.routing.RoutingHelper;
-import net.recreationmap.plus.voice.CommandPlayer;
-import net.recreationmap.plus.voice.CommandPlayerException;
-import net.recreationmap.plus.voice.CommandPlayerFactory;
-import net.recreationmap.render.RenderingRulesStorage;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.FavouritePoint;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.plus.GPXUtilities.WptPt;
+import com.kinatomicHamp.plus.activities.DayNightHelper;
+import com.kinatomicHamp.plus.activities.LiveMonitoringHelper;
+import com.kinatomicHamp.plus.activities.OsmandIntents;
+import com.kinatomicHamp.plus.activities.SavingTrackHelper;
+import com.kinatomicHamp.plus.activities.SettingsActivity;
+import com.kinatomicHamp.plus.api.ExternalServiceAPI;
+import com.kinatomicHamp.plus.api.InternalOsmAndAPI;
+import com.kinatomicHamp.plus.api.InternalToDoAPI;
+import com.kinatomicHamp.plus.api.SQLiteAPI;
+import com.kinatomicHamp.plus.api.SQLiteAPIImpl;
+import com.kinatomicHamp.plus.api.SettingsAPI;
+import com.kinatomicHamp.plus.render.NativeOsmandLibrary;
+import com.kinatomicHamp.plus.render.RendererRegistry;
+import com.kinatomicHamp.plus.resources.ResourceManager;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
+import com.kinatomicHamp.plus.voice.CommandPlayer;
+import com.kinatomicHamp.plus.voice.CommandPlayerException;
+import com.kinatomicHamp.plus.voice.CommandPlayerFactory;
+import com.kinatomicHamp.render.RenderingRulesStorage;
+import com.kinatomicHamp.util.Algorithms;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -115,10 +115,10 @@ public class OsmandApplication extends Application implements ClientContext {
 		}
 		super.onCreate();
 		 
-		settingsAPI = new net.recreationmap.plus.api.SettingsAPIImpl(this);
-		externalServiceAPI = new net.recreationmap.plus.api.ExternalServiceAPIImpl(this);
-		internalToDoAPI = new net.recreationmap.plus.api.InternalToDoAPIImpl(this);
-		internalOsmAndAPI = new net.recreationmap.plus.api.InternalOsmAndAPIImpl(this);
+		settingsAPI = new com.kinatomicHamp.plus.api.SettingsAPIImpl(this);
+		externalServiceAPI = new com.kinatomicHamp.plus.api.ExternalServiceAPIImpl(this);
+		internalToDoAPI = new com.kinatomicHamp.plus.api.InternalToDoAPIImpl(this);
+		internalOsmAndAPI = new com.kinatomicHamp.plus.api.InternalOsmAndAPIImpl(this);
 		sqliteAPI = new SQLiteAPIImpl(this);
 
 		// settings used everywhere so they need to be created first

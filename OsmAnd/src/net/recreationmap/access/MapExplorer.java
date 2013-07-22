@@ -1,16 +1,16 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.views.ContextMenuLayer;
-import net.recreationmap.plus.views.ContextMenuLayer.IContextMenuProvider;
-import net.recreationmap.plus.views.OsmandMapLayer;
-import net.recreationmap.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.views.ContextMenuLayer;
+import com.kinatomicHamp.plus.views.ContextMenuLayer.IContextMenuProvider;
+import com.kinatomicHamp.plus.views.OsmandMapLayer;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
 import android.content.Context;
 import android.graphics.PointF;
 import android.os.Build;

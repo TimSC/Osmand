@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 import java.io.Serializable;
 import java.lang.ref.WeakReference;
@@ -8,17 +8,17 @@ import java.util.Formatter;
 import java.util.List;
 import java.util.Locale;
 
-import net.recreationmap.data.FavouritePoint;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.OsmAndLocationProvider;
-import net.recreationmap.plus.OsmAndLocationProvider.OsmAndLocationListener;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.FavouritesListActivity;
-import net.recreationmap.plus.activities.FavouritesListFragment;
-import net.recreationmap.plus.activities.NavigatePointFragment;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.data.FavouritePoint;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.OsmAndLocationProvider;
+import com.kinatomicHamp.plus.OsmAndLocationProvider.OsmAndLocationListener;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.FavouritesListActivity;
+import com.kinatomicHamp.plus.activities.FavouritesListFragment;
+import com.kinatomicHamp.plus.activities.NavigatePointFragment;
+import com.kinatomicHamp.util.Algorithms;
 import android.app.ActionBar;
 import android.content.Context;
 import android.content.Intent;
@@ -173,7 +173,7 @@ public class SearchActivity extends SherlockFragmentActivity implements OsmAndLo
 			public boolean onNavigationItemSelected(int position, long itemId) {
 				if (position != 0) {
 					if (position == POSITION_CURRENT_LOCATION) {
-						net.recreationmap.Location loc = getLocationProvider().getLastKnownLocation();
+						com.kinatomicHamp.Location loc = getLocationProvider().getLastKnownLocation();
 						if(loc != null && System.currentTimeMillis() - loc.getTime() < 10000) {
 							updateLocation(loc);
 						} else {
@@ -238,7 +238,7 @@ public class SearchActivity extends SherlockFragmentActivity implements OsmAndLo
 	}
 	
 	
-	public void updateLocation(net.recreationmap.Location location){
+	public void updateLocation(com.kinatomicHamp.Location location){
 		if (location != null) {
 			updateSearchPoint(new LatLon(location.getLatitude(), location.getLongitude()),
 					getString(R.string.search_position_current_location_found), false);

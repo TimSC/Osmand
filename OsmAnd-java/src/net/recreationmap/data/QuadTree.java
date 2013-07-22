@@ -1,4 +1,4 @@
-package net.recreationmap.data;
+package com.kinatomicHamp.data;
 
 import java.util.ArrayList;
 import java.util.List;

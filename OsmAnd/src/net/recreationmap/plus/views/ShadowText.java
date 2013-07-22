@@ -1,4 +1,4 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

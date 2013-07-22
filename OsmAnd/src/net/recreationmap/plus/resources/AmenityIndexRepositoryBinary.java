@@ -1,4 +1,4 @@
-package net.recreationmap.plus.resources;
+package com.kinatomicHamp.plus.resources;
 
 
 import java.io.IOException;
@@ -7,18 +7,18 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.binary.BinaryMapIndexReader;
-import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.PoiFilter;
-import net.recreationmap.util.Algorithms;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.binary.BinaryMapIndexReader;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.PoiFilter;
+import com.kinatomicHamp.util.Algorithms;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package net.recreationmap.plus.download;
+package com.kinatomicHamp.plus.download;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.R;
 
 public class IndexItemCategory implements Comparable<IndexItemCategory> {
 	public final String name;

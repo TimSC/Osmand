@@ -1,18 +1,18 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import net.recreationmap.GeoidAltitudeCorrection;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.NavigationInfo;
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.OsmandSettings.OsmandPreference;
-import net.recreationmap.plus.routing.RoutingHelper;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.GeoidAltitudeCorrection;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.NavigationInfo;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
+import com.kinatomicHamp.util.MapUtils;
 import android.content.Context;
 import android.hardware.GeomagneticField;
 import android.hardware.Sensor;
@@ -32,7 +32,7 @@ import android.util.Log;
 public class OsmAndLocationProvider implements SensorEventListener {
 	
 	public interface OsmAndLocationListener {
-		void updateLocation(net.recreationmap.Location location);
+		void updateLocation(com.kinatomicHamp.Location location);
 	}
 
 	public interface OsmAndCompassListener {
@@ -83,7 +83,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	private CurrentPositionHelper currentPositionHelper;
 	private OsmAndLocationSimulation locationSimulation;
 
-	private net.recreationmap.Location location = null;
+	private com.kinatomicHamp.Location location = null;
 	
 	private GPSInfo gpsInfo = new GPSInfo(); 
 
@@ -181,7 +181,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		compassListeners.remove(listener);
 	}
 
-	public net.recreationmap.Location getFirstTimeRunDefaultLocation() {
+	public com.kinatomicHamp.Location getFirstTimeRunDefaultLocation() {
 		LocationManager service = (LocationManager) app.getSystemService(Context.LOCATION_SERVICE);
 		List<String> providers = new ArrayList<String>(service.getProviders(true));
 		// note, passive provider is from API_LEVEL 8 but it is a constant, we can check for it.
@@ -193,7 +193,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		}
 		// find location
 		for (String provider : providers) {
-			net.recreationmap.Location location = convertLocation(service.getLastKnownLocation(provider), app);
+			com.kinatomicHamp.Location location = convertLocation(service.getLastKnownLocation(provider), app);
 			if (location != null) {
 				return location;
 			}
@@ -230,7 +230,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	}
 
 	// location not null!
-	private void updateSpeedEmulator(net.recreationmap.Location location) {
+	private void updateSpeedEmulator(com.kinatomicHamp.Location location) {
 		// For network/gps it's bad way (not accurate). It's widely used for testing purposes
 		// possibly keep using only for emulator case
 		if (location != null) {
@@ -252,7 +252,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		}
 	}
 
-	public static boolean isPointAccurateForRouting(net.recreationmap.Location loc) {
+	public static boolean isPointAccurateForRouting(com.kinatomicHamp.Location loc) {
 		return loc != null && (!loc.hasAccuracy() || loc.getAccuracy() < ACCURACY_FOR_GPX_AND_ROUTING * 3 / 2);
 	}
 
@@ -326,7 +326,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 
 	private float calcGeoMagneticCorrection(float val) {
 		if (previousCorrectionValue == 360 && getLastKnownLocation() != null) {
-			net.recreationmap.Location l = getLastKnownLocation();
+			com.kinatomicHamp.Location l = getLastKnownLocation();
 			GeomagneticField gf = new GeomagneticField((float) l.getLatitude(), (float) l.getLongitude(), (float) l.getAltitude(),
 					System.currentTimeMillis());
 			previousCorrectionValue = gf.getDeclination();
@@ -394,7 +394,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	}
 
 	
-	private void updateLocation(net.recreationmap.Location loc ) {
+	private void updateLocation(com.kinatomicHamp.Location loc ) {
 		for(OsmAndLocationListener l : locationListeners){
 			l.updateLocation(loc);
 		}
@@ -479,11 +479,11 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		sensorRegistered = false;
 	}
 
-	public static net.recreationmap.Location convertLocation(Location l, OsmandApplication app) {
+	public static com.kinatomicHamp.Location convertLocation(Location l, OsmandApplication app) {
 		if (l == null) {
 			return null;
 		}
-		net.recreationmap.Location r = new net.recreationmap.Location(l.getProvider());
+		com.kinatomicHamp.Location r = new com.kinatomicHamp.Location(l.getProvider());
 		r.setLatitude(l.getLatitude());
 		r.setLongitude(l.getLongitude());
 		r.setTime(l.getTime());
@@ -511,7 +511,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	}
 	
 	
-	private void scheduleCheckIfGpsLost(net.recreationmap.Location location) {
+	private void scheduleCheckIfGpsLost(com.kinatomicHamp.Location location) {
 		final RoutingHelper routingHelper = app.getRoutingHelper();
 		if (location != null) {
 			final long fixTime = location.getTime();
@@ -519,7 +519,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 
 				@Override
 				public void run() {
-					net.recreationmap.Location lastKnown = getLastKnownLocation();
+					com.kinatomicHamp.Location lastKnown = getLastKnownLocation();
 					if (lastKnown != null && lastKnown.getTime() > fixTime) {
 						// false positive case, still strange how we got here with removeMessages
 						return;
@@ -532,7 +532,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 			}, LOST_LOCATION_CHECK_DELAY);
 		}
 	}
-	public void setLocationFromService(net.recreationmap.Location location, boolean continuous) {
+	public void setLocationFromService(com.kinatomicHamp.Location location, boolean continuous) {
 		// if continuous notify about lost location
 		if (continuous) {
 			scheduleCheckIfGpsLost(location);
@@ -545,11 +545,11 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		app.getRoutingHelper().updateLocation(location);
 	}
 	
-	public void setLocationFromSimulation(net.recreationmap.Location location) {
+	public void setLocationFromSimulation(com.kinatomicHamp.Location location) {
 		setLocation(location);
 	}
 
-	private void setLocation(net.recreationmap.Location location) {
+	private void setLocation(com.kinatomicHamp.Location location) {
 		if(location == null){
 			updateGPSInfo(null);
 		}
@@ -565,7 +565,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		navigationInfo.setLocation(location);
 
 		// 3. routing
-		net.recreationmap.Location updatedLocation = location;
+		com.kinatomicHamp.Location updatedLocation = location;
 		if (routingHelper.isFollowingMode()) {
 			if (location == null || isPointAccurateForRouting(location)) {
 				// Update routing position and get location for sticking mode
@@ -578,7 +578,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		updateLocation(this.location);
 	}
 
-	private void enhanceLocation(net.recreationmap.Location location) {
+	private void enhanceLocation(com.kinatomicHamp.Location location) {
 		if (location != null && isRunningOnEmulator()) {
 			// only for emulator
 			updateSpeedEmulator(location);
@@ -586,7 +586,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	}
 
 	public void checkIfLastKnownLocationIsValid() {
-		net.recreationmap.Location loc = getLastKnownLocation();
+		com.kinatomicHamp.Location loc = getLastKnownLocation();
 		if (loc != null && (System.currentTimeMillis() - loc.getTime()) > INTERVAL_TO_CLEAR_SET_LOCATION) {
 			setLocation(null);
 		}
@@ -622,7 +622,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		return currentPositionHelper.getLastKnownRouteSegment(getLastKnownLocation());
 	}
 
-	public net.recreationmap.Location getLastKnownLocation() {
+	public com.kinatomicHamp.Location getLastKnownLocation() {
 		return location;
 	}
 

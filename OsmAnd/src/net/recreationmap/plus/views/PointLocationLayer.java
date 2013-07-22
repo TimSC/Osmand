@@ -1,11 +1,11 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 
-import net.recreationmap.Location;
-import net.recreationmap.plus.ApplicationMode;
-import net.recreationmap.plus.OsmAndLocationProvider;
-import net.recreationmap.plus.R;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.plus.ApplicationMode;
+import com.kinatomicHamp.plus.OsmAndLocationProvider;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.util.MapUtils;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

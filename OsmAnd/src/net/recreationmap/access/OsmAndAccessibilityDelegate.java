@@ -1,4 +1,4 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
 
 import android.app.Activity;

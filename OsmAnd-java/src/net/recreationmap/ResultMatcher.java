@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 /**
  * Easy matcher to be able to publish results immediately

@@ -1,4 +1,4 @@
-package net.recreationmap.plus.render;
+package com.kinatomicHamp.plus.render;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,9 +10,9 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.render.RenderingRulesStorage;
-import net.recreationmap.render.RenderingRulesStorage.RenderingRulesStorageResolver;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.render.RenderingRulesStorage;
+import com.kinatomicHamp.render.RenderingRulesStorage.RenderingRulesStorageResolver;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

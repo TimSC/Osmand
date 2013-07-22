@@ -1,12 +1,12 @@
-package net.recreationmap.map;
+package com.kinatomicHamp.map;
 
 import gnu.trove.list.array.TIntArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.map.OsmandRegionInfo.OsmAndRegion;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.map.OsmandRegionInfo.OsmAndRegion;
+import com.kinatomicHamp.util.Algorithms;
 
 public class RegionCountry {
 	public String continentName;

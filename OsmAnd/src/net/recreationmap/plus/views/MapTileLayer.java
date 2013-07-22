@@ -1,12 +1,12 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.map.ITileSource;
-import net.recreationmap.map.TileSourceManager;
-import net.recreationmap.map.TileSourceManager.TileSourceTemplate;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.resources.ResourceManager;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.map.ITileSource;
+import com.kinatomicHamp.map.TileSourceManager;
+import com.kinatomicHamp.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.resources.ResourceManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;

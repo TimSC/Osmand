@@ -1,4 +1,4 @@
-package net.recreationmap.plus.download;
+package com.kinatomicHamp.plus.download;
 
 
 import java.io.File;
@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.map.RegionCountry;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.Version;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.map.RegionCountry;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.Version;
 
 public class SrtmIndexItem extends IndexItem {
 	

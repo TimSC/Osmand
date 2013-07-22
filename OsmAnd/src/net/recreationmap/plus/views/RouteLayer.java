@@ -1,13 +1,13 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.Location;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.routing.RoutingHelper;
-import net.recreationmap.render.RenderingRuleSearchRequest;
-import net.recreationmap.render.RenderingRulesStorage;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.routing.RoutingHelper;
+import com.kinatomicHamp.render.RenderingRuleSearchRequest;
+import com.kinatomicHamp.render.RenderingRulesStorage;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Paint.Cap;

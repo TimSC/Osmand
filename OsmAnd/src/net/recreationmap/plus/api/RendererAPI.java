@@ -1,6 +1,6 @@
-package net.recreationmap.plus.api;
+package com.kinatomicHamp.plus.api;
 
-import net.recreationmap.plus.api.render.Paint;
+import com.kinatomicHamp.plus.api.render.Paint;
 
 public interface RendererAPI {
 

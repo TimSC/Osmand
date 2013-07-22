@@ -1,17 +1,17 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 
 import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
 
-import net.recreationmap.Location;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.StateChangedListener;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings.CommonPreference;
-import net.recreationmap.plus.OsmandSettings.DayNightMode;
-import net.recreationmap.util.SunriseSunset;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.StateChangedListener;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings.CommonPreference;
+import com.kinatomicHamp.plus.OsmandSettings.DayNightMode;
+import com.kinatomicHamp.util.SunriseSunset;
 
 import org.apache.commons.logging.Log;
 

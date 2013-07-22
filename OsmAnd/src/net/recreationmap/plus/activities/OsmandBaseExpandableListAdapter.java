@@ -1,6 +1,6 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.R;
 import android.view.View;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageView;

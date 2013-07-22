@@ -1,17 +1,17 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.Building;
-import net.recreationmap.data.City;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.Street;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.resources.RegionAddressRepository;
-import net.recreationmap.util.Algorithms;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.Building;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.Street;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.resources.RegionAddressRepository;
+import com.kinatomicHamp.util.Algorithms;
 import android.os.AsyncTask;
 import android.view.View;
 import android.widget.Toast;

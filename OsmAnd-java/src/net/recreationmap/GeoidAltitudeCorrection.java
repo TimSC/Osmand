@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 import java.io.EOFException;
 import java.io.File;

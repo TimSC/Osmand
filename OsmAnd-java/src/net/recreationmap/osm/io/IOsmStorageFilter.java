@@ -1,7 +1,7 @@
-package net.recreationmap.osm.io;
+package com.kinatomicHamp.osm.io;
 
-import net.recreationmap.osm.edit.Entity;
-import net.recreationmap.osm.edit.Entity.EntityId;
+import com.kinatomicHamp.osm.edit.Entity;
+import com.kinatomicHamp.osm.edit.Entity.EntityId;
 
 public interface IOsmStorageFilter {
 	

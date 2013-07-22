@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 /**
  * Wrapper of java.text. Collator  

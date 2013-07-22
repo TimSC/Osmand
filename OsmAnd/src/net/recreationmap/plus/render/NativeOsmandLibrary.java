@@ -1,12 +1,12 @@
-package net.recreationmap.plus.render;
+package com.kinatomicHamp.plus.render;
 
 
-import net.recreationmap.NativeLibrary;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.render.OsmandRenderer.RenderingContext;
-import net.recreationmap.render.RenderingRuleSearchRequest;
-import net.recreationmap.render.RenderingRulesStorage;
+import com.kinatomicHamp.NativeLibrary;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.render.OsmandRenderer.RenderingContext;
+import com.kinatomicHamp.render.RenderingRuleSearchRequest;
+import com.kinatomicHamp.render.RenderingRulesStorage;
 
 import org.apache.commons.logging.Log;
 

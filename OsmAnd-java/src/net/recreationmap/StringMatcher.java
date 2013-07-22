@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 /**
  * Easy matcher to be able to filter streets,buildings, etc.. using custom

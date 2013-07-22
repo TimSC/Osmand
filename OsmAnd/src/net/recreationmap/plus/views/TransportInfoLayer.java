@@ -1,14 +1,14 @@
-package net.recreationmap.plus.views;
+package com.kinatomicHamp.plus.views;
 
 import java.util.List;
 
-import net.recreationmap.access.AccessibleToast;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.data.TransportRoute;
-import net.recreationmap.data.TransportStop;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.TransportRouteHelper;
-import net.recreationmap.plus.resources.TransportIndexRepository.RouteInfoLocation;
+import com.kinatomicHamp.access.AccessibleToast;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.data.TransportRoute;
+import com.kinatomicHamp.data.TransportStop;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.TransportRouteHelper;
+import com.kinatomicHamp.plus.resources.TransportIndexRepository.RouteInfoLocation;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;

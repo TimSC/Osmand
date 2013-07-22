@@ -1,4 +1,4 @@
-package net.recreationmap.plus.base;
+package com.kinatomicHamp.plus.base;
 
 import android.os.StrictMode;
 

@@ -1,12 +1,12 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -79,7 +79,7 @@ public class PluginsActivity extends OsmandListActivity {
 			View v = convertView;
 			if (v == null) {
 				LayoutInflater inflater = getLayoutInflater();
-				v = inflater.inflate(net.recreationmap.plus.R.layout.plugins_list_item, parent, false);
+				v = inflater.inflate(com.kinatomicHamp.plus.R.layout.plugins_list_item, parent, false);
 			}
 			OsmandPlugin plugin = getItem(position);
 			boolean toBeEnabled = restartPlugins.contains(plugin.getId());

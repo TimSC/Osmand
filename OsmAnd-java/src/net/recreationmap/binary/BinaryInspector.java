@@ -1,4 +1,4 @@
-package net.recreationmap.binary;
+package com.kinatomicHamp.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -18,25 +18,25 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.binary.BinaryMapAddressReaderAdapter.AddressRegion;
-import net.recreationmap.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
-import net.recreationmap.binary.BinaryMapIndexReader.MapIndex;
-import net.recreationmap.binary.BinaryMapIndexReader.MapRoot;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchFilter;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
-import net.recreationmap.binary.BinaryMapIndexReader.SearchRequest;
-import net.recreationmap.binary.BinaryMapIndexReader.TagValuePair;
-import net.recreationmap.binary.BinaryMapPoiReaderAdapter.PoiRegion;
-import net.recreationmap.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import net.recreationmap.binary.BinaryMapTransportReaderAdapter.TransportIndex;
-import net.recreationmap.data.Amenity;
-import net.recreationmap.data.AmenityType;
-import net.recreationmap.data.Building;
-import net.recreationmap.data.City;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.data.Street;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.binary.BinaryMapAddressReaderAdapter.AddressRegion;
+import com.kinatomicHamp.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.MapRoot;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchFilter;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicHamp.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicHamp.binary.BinaryMapPoiReaderAdapter.PoiRegion;
+import com.kinatomicHamp.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicHamp.binary.BinaryMapTransportReaderAdapter.TransportIndex;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.data.AmenityType;
+import com.kinatomicHamp.data.Building;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.data.Street;
+import com.kinatomicHamp.util.MapUtils;
 
 import com.google.protobuf.CodedOutputStream;
 import com.google.protobuf.WireFormat;

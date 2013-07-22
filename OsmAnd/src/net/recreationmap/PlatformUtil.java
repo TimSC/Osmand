@@ -1,4 +1,4 @@
-package net.recreationmap;
+package com.kinatomicHamp;
 
 import java.text.Collator;
 
@@ -14,7 +14,7 @@ import org.xmlpull.v1.XmlPullParserFactory;
  * 1. It is impossible to replace standard LogFactory (that is hidden in android.jar)
  * 2. Implementation of LogFactory always creates Logger.getLogger(String name)
  * 3. + It is possible to enable logger level by calling 
- * 		Logger.getLogger("net.recreationmap").setLevel(Level.ALL);
+ * 		Logger.getLogger("com.kinatomicHamp").setLevel(Level.ALL);
  * 4. Logger goes to low level android.util.Log where android.util.Log#isLoggable(String, int) is checked
  *    String tag -> is string of length 23 (stripped full class name)
  * 5. It is impossible to set for all tags debug level (info is default) - android.util.Log#isLoggable(String, int).
@@ -162,10 +162,10 @@ public class PlatformUtil {
 		return XmlPullParserFactory.newInstance().newPullParser();
 	}
 	
-	public static net.recreationmap.Collator primaryCollator(){
+	public static com.kinatomicHamp.Collator primaryCollator(){
 		final Collator instance = Collator.getInstance();
 		instance.setStrength(Collator.PRIMARY);
-		return new net.recreationmap.Collator() {
+		return new com.kinatomicHamp.Collator() {
 			
 			@Override
 			public int compare(Object o1, Object o2) {

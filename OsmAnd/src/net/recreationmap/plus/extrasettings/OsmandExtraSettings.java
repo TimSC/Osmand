@@ -1,17 +1,17 @@
-package net.recreationmap.plus.extrasettings;
+package com.kinatomicHamp.plus.extrasettings;
 
 
 import java.util.Arrays;
 
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandPlugin;
-import net.recreationmap.plus.OsmandSettings.OsmandPreference;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.views.MapInfoLayer;
-import net.recreationmap.plus.views.OsmandMapTileView;
-import net.recreationmap.plus.views.mapwidgets.MapWidgetRegistry;
-import net.recreationmap.plus.views.mapwidgets.MapWidgetRegistry.MapWidgetRegInfo;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandPlugin;
+import com.kinatomicHamp.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.views.MapInfoLayer;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.plus.views.mapwidgets.MapWidgetRegistry;
+import com.kinatomicHamp.plus.views.mapwidgets.MapWidgetRegistry.MapWidgetRegInfo;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

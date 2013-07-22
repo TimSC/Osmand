@@ -1,10 +1,10 @@
-package net.recreationmap.plus.voice;
+package com.kinatomicHamp.plus.voice;
 
 import java.io.File;
 
-import net.recreationmap.IndexConstants;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
+import com.kinatomicHamp.IndexConstants;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
 import android.app.Activity;
 
 public class CommandPlayerFactory {

@@ -1,9 +1,9 @@
-package net.recreationmap.plus.activities;
+package com.kinatomicHamp.plus.activities;
 
 import java.io.File;
 
-import net.recreationmap.plus.GPXUtilities.GPXFile;
-import net.recreationmap.plus.activities.LocalIndexHelper.LocalIndexType;
+import com.kinatomicHamp.plus.GPXUtilities.GPXFile;
+import com.kinatomicHamp.plus.activities.LocalIndexHelper.LocalIndexType;
 
 public class LocalIndexInfo {
 

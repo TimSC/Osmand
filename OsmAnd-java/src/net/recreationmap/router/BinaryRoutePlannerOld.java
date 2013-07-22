@@ -1,4 +1,4 @@
-package net.recreationmap.router;
+package com.kinatomicHamp.router;
 
 import gnu.trove.map.hash.TLongObjectHashMap;
 
@@ -9,12 +9,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.binary.RouteDataObject;
-import net.recreationmap.osm.MapRenderingTypes;
-import net.recreationmap.router.BinaryRoutePlanner.FinalRouteSegment;
-import net.recreationmap.router.BinaryRoutePlanner.RouteSegment;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.binary.RouteDataObject;
+import com.kinatomicHamp.osm.MapRenderingTypes;
+import com.kinatomicHamp.router.BinaryRoutePlanner.FinalRouteSegment;
+import com.kinatomicHamp.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicHamp.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

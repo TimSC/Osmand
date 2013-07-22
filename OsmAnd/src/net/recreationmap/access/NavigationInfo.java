@@ -1,17 +1,17 @@
-package net.recreationmap.access;
+package com.kinatomicHamp.access;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import net.recreationmap.Location;
-import net.recreationmap.data.LatLon;
-import net.recreationmap.plus.ClientContext;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.OsmandSettings;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.access.RelativeDirectionStyle;
+import com.kinatomicHamp.Location;
+import com.kinatomicHamp.data.LatLon;
+import com.kinatomicHamp.plus.ClientContext;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.OsmandSettings;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.access.RelativeDirectionStyle;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;

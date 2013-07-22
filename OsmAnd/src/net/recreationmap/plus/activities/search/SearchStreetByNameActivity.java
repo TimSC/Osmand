@@ -1,4 +1,4 @@
-package net.recreationmap.plus.activities.search;
+package com.kinatomicHamp.plus.activities.search;
 
 
 import java.util.ArrayList;
@@ -6,19 +6,19 @@ import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 
-import net.recreationmap.CollatorStringMatcher;
-import net.recreationmap.CollatorStringMatcher.StringMatcherMode;
-import net.recreationmap.ResultMatcher;
-import net.recreationmap.data.City;
-import net.recreationmap.data.MapObject;
-import net.recreationmap.data.MapObject.MapObjectComparator;
-import net.recreationmap.data.Street;
-import net.recreationmap.plus.OsmAndFormatter;
-import net.recreationmap.plus.OsmandApplication;
-import net.recreationmap.plus.R;
-import net.recreationmap.plus.resources.RegionAddressRepository;
-import net.recreationmap.util.Algorithms;
-import net.recreationmap.util.MapUtils;
+import com.kinatomicHamp.CollatorStringMatcher;
+import com.kinatomicHamp.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicHamp.ResultMatcher;
+import com.kinatomicHamp.data.City;
+import com.kinatomicHamp.data.MapObject;
+import com.kinatomicHamp.data.MapObject.MapObjectComparator;
+import com.kinatomicHamp.data.Street;
+import com.kinatomicHamp.plus.OsmAndFormatter;
+import com.kinatomicHamp.plus.OsmandApplication;
+import com.kinatomicHamp.plus.R;
+import com.kinatomicHamp.plus.resources.RegionAddressRepository;
+import com.kinatomicHamp.util.Algorithms;
+import com.kinatomicHamp.util.MapUtils;
 import android.os.AsyncTask;
 import android.os.Message;
 import android.view.Gravity;

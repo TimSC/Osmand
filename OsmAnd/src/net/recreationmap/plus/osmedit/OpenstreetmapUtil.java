@@ -1,8 +1,8 @@
-package net.recreationmap.plus.osmedit;
+package com.kinatomicHamp.plus.osmedit;
 
-import net.recreationmap.data.Amenity;
-import net.recreationmap.osm.edit.EntityInfo;
-import net.recreationmap.osm.edit.Node;
+import com.kinatomicHamp.data.Amenity;
+import com.kinatomicHamp.osm.edit.EntityInfo;
+import com.kinatomicHamp.osm.edit.Node;
 
 public interface OpenstreetmapUtil {
 	

@@ -1,4 +1,4 @@
-package net.recreationmap.plus;
+package com.kinatomicHamp.plus;
 
 
 
@@ -6,25 +6,25 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import net.recreationmap.IProgress;
-import net.recreationmap.PlatformUtil;
-import net.recreationmap.access.AccessibilityPlugin;
-import net.recreationmap.plus.activities.LocalIndexInfo;
-import net.recreationmap.plus.activities.LocalIndexesActivity;
-import net.recreationmap.plus.activities.LocalIndexesActivity.LoadLocalIndexTask;
-import net.recreationmap.plus.activities.MapActivity;
-import net.recreationmap.plus.activities.SettingsActivity;
-import net.recreationmap.plus.audionotes.AudioVideoNotesPlugin;
-import net.recreationmap.plus.development.OsmandDevelopmentPlugin;
-import net.recreationmap.plus.distancecalculator.DistanceCalculatorPlugin;
-import net.recreationmap.plus.extrasettings.OsmandExtraSettings;
-import net.recreationmap.plus.monitoring.OsmandMonitoringPlugin;
-import net.recreationmap.plus.osmedit.OsmEditingPlugin;
-import net.recreationmap.plus.osmodroid.OsMoDroidPlugin;
-import net.recreationmap.plus.parkingpoint.ParkingPositionPlugin;
-import net.recreationmap.plus.rastermaps.OsmandRasterMapsPlugin;
-import net.recreationmap.plus.srtmplugin.SRTMPlugin;
-import net.recreationmap.plus.views.OsmandMapTileView;
+import com.kinatomicHamp.IProgress;
+import com.kinatomicHamp.PlatformUtil;
+import com.kinatomicHamp.access.AccessibilityPlugin;
+import com.kinatomicHamp.plus.activities.LocalIndexInfo;
+import com.kinatomicHamp.plus.activities.LocalIndexesActivity;
+import com.kinatomicHamp.plus.activities.LocalIndexesActivity.LoadLocalIndexTask;
+import com.kinatomicHamp.plus.activities.MapActivity;
+import com.kinatomicHamp.plus.activities.SettingsActivity;
+import com.kinatomicHamp.plus.audionotes.AudioVideoNotesPlugin;
+import com.kinatomicHamp.plus.development.OsmandDevelopmentPlugin;
+import com.kinatomicHamp.plus.distancecalculator.DistanceCalculatorPlugin;
+import com.kinatomicHamp.plus.extrasettings.OsmandExtraSettings;
+import com.kinatomicHamp.plus.monitoring.OsmandMonitoringPlugin;
+import com.kinatomicHamp.plus.osmedit.OsmEditingPlugin;
+import com.kinatomicHamp.plus.osmodroid.OsMoDroidPlugin;
+import com.kinatomicHamp.plus.parkingpoint.ParkingPositionPlugin;
+import com.kinatomicHamp.plus.rastermaps.OsmandRasterMapsPlugin;
+import com.kinatomicHamp.plus.srtmplugin.SRTMPlugin;
+import com.kinatomicHamp.plus.views.OsmandMapTileView;
 
 import org.apache.commons.logging.Log;
 
