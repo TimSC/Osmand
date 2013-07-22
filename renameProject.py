@@ -15,8 +15,10 @@ def ReplaceStrInFile(fina, oldTxt, newTxt):
 def WalkFolders(pth):
 
 	for f in os.listdir(pth):
+
+		if f[0] == ".": continue #Ignore hidden files
+		if f == "renameProject.py": continue #Ignore self
 		c = pth+"/"+f
-		if c[0] == ".": continue #Ignore hidden files
 
 		if os.path.isdir(c):
 			WalkFolders(c)
