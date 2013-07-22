@@ -1,1 +1,30 @@
-com.kinatomicHamp
+import os, string
+
+def ReplaceStrInFile(fina, oldTxt, newTxt):
+	fiIn = open(fina)
+	data = fiIn.read()
+	fiIn.close()
+
+	dataMod = string.replace(data, oldTxt, newTxt)
+
+	if data != dataMod:
+		fiOut = open(fina, "w")
+		fiOut.write(dataMod)
+		fiOut.close()
+
+def WalkFolders(pth):
+
+	for f in os.listdir(pth):
+		c = pth+"/"+f
+		if c[0] == ".": continue #Ignore hidden files
+
+		if os.path.isdir(c):
+			WalkFolders(c)
+		if os.path.isfile(c):
+			print c
+			ReplaceStrInFile(c, "test12342526", "test463624672")
+
+if __name__=="__main__":
+	
+	WalkFolders(".")
+	
