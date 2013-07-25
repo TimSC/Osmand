@@ -5,6 +5,7 @@ import java.text.MessageFormat;
 import java.util.Random;
 
 import com.kinatomicHamp.plus.ExtensionAlarmReceiver;
+import com.kinatomicHamp.plus.ProgressDialogImplementation;
 import com.kinatomicHamp.plus.ExtensionDownloaderService;
 import com.google.android.vending.expansion.downloader.Constants;
 import com.google.android.vending.expansion.downloader.DownloadProgressInfo;
@@ -22,6 +23,7 @@ import com.kinatomicHamp.plus.R;
 import com.kinatomicHamp.plus.Version;
 import com.kinatomicHamp.plus.activities.search.SearchActivity;
 import com.kinatomicHamp.plus.render.MapRenderRepositories;
+import com.kinatomicHamp.plus.resources.ResourceManager;
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
@@ -749,6 +751,9 @@ public class MainMenuActivity extends Activity implements IDownloaderClient{
                 paused = false;
                 indeterminate = false;
 				onCreateFinalMenu(false);
+				ResourceManager manager = getMyApplication().getResourceManager();
+				ProgressDialogImplementation startDialog = new ProgressDialogImplementation(this, null, false);
+				manager.reloadIndexes(startDialog);
                 return;
             default:
                 paused = true;
