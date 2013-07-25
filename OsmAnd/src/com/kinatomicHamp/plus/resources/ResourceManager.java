@@ -66,6 +66,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
+import android.os.Environment;
 
 /**
  * Resource manager is responsible to work with all resources 
@@ -565,11 +566,16 @@ public class ResourceManager {
 		long val = System.currentTimeMillis();
 		ArrayList<File> files = new ArrayList<File>();
 		File appPath = context.getAppPath(null);
+		File extStore = Environment.getExternalStorageDirectory();
+		String packageName = context.getPackageName();
+		File expPath = new File(extStore.toString() + IndexConstants.EXP_PATH + packageName);
+
 		collectFiles(appPath, IndexConstants.BINARY_MAP_INDEX_EXT, files);
-		collectFiles(appPath, IndexConstants.BINARY_MAP_INDEX_EXT_ALT, files);
+		collectFiles(expPath, IndexConstants.BINARY_MAP_INDEX_EXT_ALT, files);
 		if(OsmandPlugin.getEnabledPlugin(SRTMPlugin.class) != null) {
 			collectFiles(context.getAppPath(IndexConstants.SRTM_INDEX_DIR), IndexConstants.BINARY_MAP_INDEX_EXT, files);
 		}
+
 		List<String> warnings = new ArrayList<String>();
 		renderer.clearAllResources();
 		CachedOsmandIndexes cachedOsmandIndexes = new CachedOsmandIndexes();

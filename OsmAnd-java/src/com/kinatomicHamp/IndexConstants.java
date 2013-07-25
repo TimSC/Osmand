@@ -13,6 +13,7 @@ public class IndexConstants {
 	public static final String POI_INDEX_EXT = ".poi.odb"; //$NON-NLS-1$
 	public static final String BINARY_MAP_INDEX_EXT = ".obf"; //$NON-NLS-1$
 	public static final String BINARY_MAP_INDEX_EXT_ALT = ".obb"; //$NON-NLS-1$
+	public static final String EXP_PATH = "/Android/obb/";
 	
 	public static final String GEN_LOG_EXT = ".gen.log"; //$NON-NLS-1$
 	
