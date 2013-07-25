@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-	package="com.kinatomicHamp.plus" android:installLocation="auto" android:versionName="@string/app_version" android:versionCode="1">
+	package="com.kinatomicHamp.plus" android:installLocation="auto" android:versionName="@string/app_version" android:versionCode="2">
 	<meta-data android:name="com.google.android.backup.api_key"
     android:value="AEdPqrEAAAAIqF3tNGT66etVBn_vgzpfAY1wmIzKV1Ss6Ku-2A" />
 	
@@ -140,7 +140,11 @@
 		<service android:process="com.kinatomicHamp.plus" android:label="@string/process_navigation_service" android:name="com.kinatomicHamp.plus.NavigationService">
 			<intent-filter><action android:name="com.kinatomicHamp.plus.NavigationService"></action></intent-filter>
 		</service>
+		<service android:name="com.kinatomicHamp.plus.ExtensionDownloaderService" />
+
 		<receiver android:name="com.kinatomicHamp.plus.OnNavigationServiceAlarmReceiver"/>
+		<receiver android:name="com.kinatomicHamp.plus.ExtensionAlarmReceiver"/>
+
     	<activity android:name="com.kinatomicHamp.plus.activities.OsmandBidForFixActivity"></activity>
 		
 

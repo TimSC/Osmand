@@ -11,6 +11,17 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+import com.kinatomicHamp.plus.ExtensionAlarmReceiver;
+import com.kinatomicHamp.plus.ExtensionDownloaderService;
+import com.google.android.vending.expansion.downloader.Constants;
+import com.google.android.vending.expansion.downloader.DownloadProgressInfo;
+import com.google.android.vending.expansion.downloader.DownloaderClientMarshaller;
+import com.google.android.vending.expansion.downloader.DownloaderServiceMarshaller;
+import com.google.android.vending.expansion.downloader.Helpers;
+import com.google.android.vending.expansion.downloader.IDownloaderClient;
+import com.google.android.vending.expansion.downloader.IDownloaderService;
+import com.google.android.vending.expansion.downloader.IStub;
+
 import com.kinatomicHamp.IndexConstants;
 import com.kinatomicHamp.Location;
 import com.kinatomicHamp.PlatformUtil;
@@ -63,7 +74,6 @@ import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.app.SherlockExpandableListActivity;
 import com.actionbarsherlock.app.SherlockListActivity;
-
 
 public class OsmandApplication extends Application implements ClientContext {
 	public static final String EXCEPTION_PATH = "exception.log"; //$NON-NLS-1$
@@ -121,6 +131,11 @@ public class OsmandApplication extends Application implements ClientContext {
 		internalOsmAndAPI = new com.kinatomicHamp.plus.api.InternalOsmAndAPIImpl(this);
 		sqliteAPI = new SQLiteAPIImpl(this);
 
+		//Check extension files are available
+		String mainFileName = Helpers.getExpansionAPKFileName(this, true, 1);
+		boolean fileExists = Helpers.doesFileExist(this, mainFileName, 32921796L, false);
+
+
 		// settings used everywhere so they need to be created first
 		osmandSettings = createOsmandSettingsInstance();
 		// always update application mode to default
@@ -158,6 +173,51 @@ public class OsmandApplication extends Application implements ClientContext {
 		
 		
 	}
+
+
+    /**
+     * This is a little helper class that demonstrates simple testing of an
+     * Expansion APK file delivered by Market. You may not wish to hard-code
+     * things such as file lengths into your executable... and you may wish to
+     * turn this code off during application development.
+     */
+    private static class XAPKFile {
+        public final boolean mIsMain;
+        public final int mFileVersion;
+        public final long mFileSize;
+
+        XAPKFile(boolean isMain, int fileVersion, long fileSize) {
+            mIsMain = isMain;
+            mFileVersion = fileVersion;
+            mFileSize = fileSize;
+        }
+    }
+
+    /**
+     * Here is where you place the data that the validator will use to determine
+     * if the file was delivered correctly. This is encoded in the source code
+     * so the application can easily determine whether the file has been
+     * properly delivered without having to talk to the server. If the
+     * application is using LVL for licensing, it may make sense to eliminate
+     * these checks and to just rely on the server.
+     */
+    private static final XAPKFile[] xAPKS = {
+            new XAPKFile(
+                    true, // true signifies a main file
+                    1, // the version of the APK that the file was uploaded
+                       // against
+                    44980579L // the length of the file in bytes
+            ),
+    };
+
+    boolean expansionFilesDelivered() {
+        for (XAPKFile xf : xAPKS) {
+            String fileName = Helpers.getExpansionAPKFileName(this, xf.mIsMain, xf.mFileVersion);
+            if (!Helpers.doesFileExist(this, fileName, xf.mFileSize, false))
+                return false;
+        }
+        return true;
+    }
 
 	@Override
 	public void onTerminate() {
