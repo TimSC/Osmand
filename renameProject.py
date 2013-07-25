@@ -24,7 +24,7 @@ def WalkFolders(pth):
 			WalkFolders(c)
 		if os.path.isfile(c):
 			print c
-			ReplaceStrInFile(c, "net.recreationmap", "com.kinatomicHamp")
+			ReplaceStrInFile(c, "com.kinatomicHamp", "com.kinatomicHam")
 
 if __name__=="__main__":
 	

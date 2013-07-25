@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import com.kinatomicHamp.plus.R;
+import com.kinatomicHam.plus.R;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ListActivity;

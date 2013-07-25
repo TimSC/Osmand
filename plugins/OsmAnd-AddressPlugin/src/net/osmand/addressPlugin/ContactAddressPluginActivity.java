@@ -1,4 +1,4 @@
-package com.kinatomicHamp.addressPlugin;
+package com.kinatomicHam.addressPlugin;
 
 import java.util.StringTokenizer;
 

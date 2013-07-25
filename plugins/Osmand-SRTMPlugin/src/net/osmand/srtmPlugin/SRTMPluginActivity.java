@@ -1,6 +1,6 @@
-package com.kinatomicHamp.srtmPlugin;
+package com.kinatomicHam.srtmPlugin;
 
-import com.kinatomicHamp.srtmPlugin.paid.R;
+import com.kinatomicHam.srtmPlugin.paid.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;

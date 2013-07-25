@@ -1,4 +1,4 @@
-package com.kinatomicHamp.addressPlugin;
+package com.kinatomicHam.addressPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;
