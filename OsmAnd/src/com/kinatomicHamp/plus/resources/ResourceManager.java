@@ -566,6 +566,7 @@ public class ResourceManager {
 		ArrayList<File> files = new ArrayList<File>();
 		File appPath = context.getAppPath(null);
 		collectFiles(appPath, IndexConstants.BINARY_MAP_INDEX_EXT, files);
+		collectFiles(appPath, IndexConstants.BINARY_MAP_INDEX_EXT_ALT, files);
 		if(OsmandPlugin.getEnabledPlugin(SRTMPlugin.class) != null) {
 			collectFiles(context.getAppPath(IndexConstants.SRTM_INDEX_DIR), IndexConstants.BINARY_MAP_INDEX_EXT, files);
 		}
