@@ -477,6 +477,7 @@
 			<filter contourLines="16" minzoom="16" textSize="12" textColor="#444444" textOnPath="true" tag="contour" value=""/>
 			<groupFilter nightMode="true" textColor="#777777"/>
 		</group>
+		<filter minzoom="13" textSize="12" textColor="#222222" textWrapWidth="10" tag="terrain" value="ele" textOrder="10" nameTag="ele"/>
 		<filter minzoom="13" textSize="12" textColor="#000000" textWrapWidth="10" tag="natural" value="wood" textOrder="10"/>
 		<filter minzoom="15" textSize="12" textColor="#09dd09" textWrapWidth="15" tag="natural" value="park" textOrder="10"/>
 		<filter minzoom="14" textSize="12" textColor="#6699cc" textHaloRadius="1" textWrapWidth="20" tag="natural" value="beach" textOrder="10"/>
@@ -832,6 +833,8 @@
 		<!-- Nature -->
 			<filter nightMode="true" minzoom="11" icon="peak_night" tag="natural" value="peak"/>
 		<filter minzoom="11" icon="peak" tag="natural" value="peak"/>
+		<filter nightMode="true" minzoom="12" icon="city_night" tag="terrain" value="ele"/>
+		<filter minzoom="12" icon="city_old" tag="terrain" value="ele"/>
 		<filter minzoom="15" icon="cave_entrance" tag="natural" value="cave_entrance"/>
 		<filter minzoom="14" icon="spring" tag="natural" value="spring"/>
 		<filter minzoom="16" maxzoom="16" icon="tree" tag="natural" value="tree"/>
@@ -988,9 +991,9 @@
 
 		<!-- Forest, night color 000034 -->
 		<group>
-			<filter minzoom="9" color="#aed1a0" tag="natural" value="wood"/>
-			<filter minzoom="9" color="#aed1a0" tag="landuse" value="wood"/>
-			<filter minzoom="9" maxzoom="12" color="#8dc56c" tag="landuse" value="forest"/>
+			<filter minzoom="13" color="#aed1a0" tag="natural" value="wood"/>
+			<filter minzoom="13" color="#aed1a0" tag="landuse" value="wood"/>
+			<filter minzoom="13" color="#8dc56c" tag="landuse" value="forest"/>
 				<filter minzoom="13" shader="forest" color="#8dc56c" tag="landuse" value="forest"/>
 			<groupFilter nightMode="true" color="#000034" shader=""/>
 		</group>
@@ -998,29 +1001,29 @@
 
 		<!-- Open nature, night color 004333 -->
 		<group>
-			<filter minzoom="12" color="#ffffc0" tag="natural" value="heath"/>
-			<filter minzoom="12" color="#cfeca8" tag="natural" value="grassland"/>
-			<filter minzoom="12" color="#f6e3c7" tag="landuse" value="farm"/>
+			<filter minzoom="13" color="#ffffc0" tag="natural" value="heath"/>
+			<filter minzoom="13" color="#cfeca8" tag="natural" value="grassland"/>
+			<filter minzoom="14" color="#f6e3c7" tag="landuse" value="farm"/>
 			 <!-- field is unofficial -->
-			 <filter minzoom="12" color="#f6e3c7" tag="landuse" value="field"/>
-			<filter minzoom="12" color="#f6e3c7" tag="landuse" value="farmland"/>
-			<filter minzoom="12" color="#ddbf92" tag="landuse" value="farmyard"/>
-			<filter minzoom="12" color="#9d9d6c" tag="landuse" value="greenfield"/>
-			<filter minzoom="12" color="#cfeca8" tag="landuse" value="grass"/>
-			<filter minzoom="12" color="#cfeca8" tag="landuse" value="meadow"/>
-			<filter minzoom="12" color="#9d9d6c" tag="landuse" value="brownfield"/>
-			<filter minzoom="12" color="#cfeca8" tag="landuse" value="recreation_ground"/>
+			 <filter minzoom="14" color="#f6e3c7" tag="landuse" value="field"/>
+			<filter minzoom="14" color="#f6e3c7" tag="landuse" value="farmland"/>
+			<filter minzoom="14" color="#ddbf92" tag="landuse" value="farmyard"/>
+			<filter minzoom="13" color="#9d9d6c" tag="landuse" value="greenfield"/>
+			<filter minzoom="13" color="#cfeca8" tag="landuse" value="grass"/>
+			<filter minzoom="13" color="#cfeca8" tag="landuse" value="meadow"/>
+			<filter minzoom="13" color="#9d9d6c" tag="landuse" value="brownfield"/>
+			<filter minzoom="13" color="#cfeca8" tag="landuse" value="recreation_ground"/>
 			<filter minzoom="10" color="#cfeca8" tag="landuse" value="conservation"/>
-			<filter minzoom="12" color="#cfeca8" tag="landuse" value="village_green"/>
-			<filter minzoom="12" color="#b0b6fdb6" color_2="#9DB487" strokeWidth_2="1" tag="natural" value="park"/>
-			<filter minzoom="12" color="#b0b6fdb6" color_2="#9DB487" strokeWidth_2="1" tag="leisure" value="park"/>
-			<filter minzoom="12" color="#b5e3b5" color_2="#9DB487" strokeWidth_2="1" tag="leisure" value="golf_course"/>
-			<filter minzoom="12" color="#74dcba" color_2="#888888" strokeWidth_2="1" tag="leisure" value="track"/>
-			<filter minzoom="12" color="#8ad3af" color_2="#888888" strokeWidth_2="1" tag="leisure" value="pitch"/>
-			<filter minzoom="12" color="#b0b6fdb6" tag="leisure" value="recreation_ground"/>
-			<filter minzoom="15" color="#ccfff1" tag="leisure" value="playground"/>
-			<filter minzoom="12" color="#cfeca8" tag="leisure" value="garden"/>
-			<filter minzoom="12" color="#cfeca8" tag="leisure" value="common"/>
+			<filter minzoom="13" color="#cfeca8" tag="landuse" value="village_green"/>
+			<filter minzoom="13" color="#b0b6fdb6" color_2="#9DB487" strokeWidth_2="1" tag="natural" value="park"/>
+			<filter minzoom="13" color="#b0b6fdb6" color_2="#9DB487" strokeWidth_2="1" tag="leisure" value="park"/>
+			<filter minzoom="13" color="#b5e3b5" color_2="#9DB487" strokeWidth_2="1" tag="leisure" value="golf_course"/>
+			<filter minzoom="13" color="#74dcba" color_2="#888888" strokeWidth_2="1" tag="leisure" value="track"/>
+			<filter minzoom="13" color="#8ad3af" color_2="#888888" strokeWidth_2="1" tag="leisure" value="pitch"/>
+			<filter minzoom="13" color="#b0b6fdb6" tag="leisure" value="recreation_ground"/>
+			<filter minzoom="13" color="#ccfff1" tag="leisure" value="playground"/>
+			<filter minzoom="13" color="#cfeca8" tag="leisure" value="garden"/>
+			<filter minzoom="13" color="#cfeca8" tag="leisure" value="common"/>
 			<groupFilter nightMode="true" color="#004333"/>
 		</group>
 
@@ -1602,3 +1605,4 @@
 		-->
 	</line>
 </renderingStyle>
+

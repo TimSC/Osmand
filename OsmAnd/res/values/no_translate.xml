@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="app_name">Herefordshire Recreation Maps</string>
-    <string name="app_name_long">Herefordshire Recreation Maps by Kinatomic</string>
-    <string name="app_version">1.0 beta</string>
+    <string name="app_name">Herefordshire MapRoute</string>
+    <string name="app_name_long">Herefordshire MapRoute by Kinatomic</string>
+    <string name="app_version">1.0001</string>
     <!-- Not translatable -->
     <string name="ga_api_key">UA-42332423-1</string>
     <string name="ga_dispatchPeriod">10</string>
