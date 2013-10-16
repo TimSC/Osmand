@@ -477,6 +477,7 @@
 			<filter contourLines="16" minzoom="16" textSize="12" textColor="#444444" textOnPath="true" tag="contour" value=""/>
 			<groupFilter nightMode="true" textColor="#777777"/>
 		</group>
+		<filter minzoom="13" textSize="12" textColor="#222222" textWrapWidth="10" tag="terrain" value="ele" textOrder="10" nameTag="ele"/>
 		<filter minzoom="13" textSize="12" textColor="#000000" textWrapWidth="10" tag="natural" value="wood" textOrder="10"/>
 		<filter minzoom="15" textSize="12" textColor="#09dd09" textWrapWidth="15" tag="natural" value="park" textOrder="10"/>
 		<filter minzoom="14" textSize="12" textColor="#6699cc" textHaloRadius="1" textWrapWidth="20" tag="natural" value="beach" textOrder="10"/>
@@ -832,6 +833,8 @@
 		<!-- Nature -->
 			<filter nightMode="true" minzoom="11" icon="peak_night" tag="natural" value="peak"/>
 		<filter minzoom="11" icon="peak" tag="natural" value="peak"/>
+		<filter nightMode="true" minzoom="12" icon="city_night" tag="terrain" value="ele"/>
+		<filter minzoom="12" icon="city_old" tag="terrain" value="ele"/>
 		<filter minzoom="15" icon="cave_entrance" tag="natural" value="cave_entrance"/>
 		<filter minzoom="14" icon="spring" tag="natural" value="spring"/>
 		<filter minzoom="16" maxzoom="16" icon="tree" tag="natural" value="tree"/>
