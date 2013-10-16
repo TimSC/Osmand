@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Hampshire MapRoute</string>
     <string name="app_name_long">Hampshire MapRoute by Kinatomic</string>
-    <string name="app_version">1.0004</string>
+    <string name="app_version">1.0005</string>
     <!-- Not translatable -->
     <string name="ga_api_key">UA-42332423-1</string>
     <string name="ga_dispatchPeriod">10</string>
