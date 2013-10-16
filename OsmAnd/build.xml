@@ -65,25 +65,25 @@
 		</if>
 		<if>
 			<condition>
-				<isset property="com.kinatomicHamp" />
+				<isset property="com.kinatomicHam" />
 			</condition>
 			<then>
 				<replaceregexp file="AndroidManifest.xml" match='"@drawable/icon"' replace='"@drawable/icon_free"' byline="true" />
-				<replaceregexp file="AndroidManifest.xml" match='package="com.kinatomicHamp.plus"' replace='package="com.kinatomicHamp"' byline="true" />
-				<replaceregexp file="AndroidManifest.xml" match='android:process="com.kinatomicHamp.plus"' replace='android:process="com.kinatomicHamp"' byline="true" />
+				<replaceregexp file="AndroidManifest.xml" match='package="com.kinatomicHam.plus"' replace='package="com.kinatomicHam"' byline="true" />
+				<replaceregexp file="AndroidManifest.xml" match='android:process="com.kinatomicHam.plus"' replace='android:process="com.kinatomicHam"' byline="true" />
 				<replaceregexp file="res/values/no_translate.xml" match='"app_name"&gt;(.*)&lt;' replace='"app_name"&gt;OsmAnd&lt;' byline="true" />
-				<replaceregexp file="res/layout/search_address.xml" match='com.kinatomicHamp.plus' replace='com.kinatomicHamp' byline="true" />
-				<replaceregexp file="res/layout/navigate_point.xml" match='com.kinatomicHamp.plus' replace='com.kinatomicHamp' byline="true" />
+				<replaceregexp file="res/layout/search_address.xml" match='com.kinatomicHam.plus' replace='com.kinatomicHam' byline="true" />
+				<replaceregexp file="res/layout/navigate_point.xml" match='com.kinatomicHam.plus' replace='com.kinatomicHam' byline="true" />
 			</then>
 			<else>
 				<replaceregexp file="AndroidManifest.xml" match='"@drawable/icon_free"' replace='"@drawable/icon"' byline="true" />
-				<replaceregexp file="AndroidManifest.xml" match='package="com.kinatomicHamp"' replace='package="com.kinatomicHamp.plus"' byline="true" />
-				<replaceregexp file="AndroidManifest.xml" match='android:process="com.kinatomicHamp"' replace='android:process="com.kinatomicHamp.plus"' byline="true" />
+				<replaceregexp file="AndroidManifest.xml" match='package="com.kinatomicHam"' replace='package="com.kinatomicHam.plus"' byline="true" />
+				<replaceregexp file="AndroidManifest.xml" match='android:process="com.kinatomicHam"' replace='android:process="com.kinatomicHam.plus"' byline="true" />
 			</else>
 		</if>
 		<if>
 			<condition>
-				<isset property="com.kinatomicHamp.plus" />
+				<isset property="com.kinatomicHam.plus" />
 			</condition>
 			<then>
 				<replaceregexp file="res/values/no_translate.xml" match='"app_name"&gt;(.*)&lt;' replace='"app_name"&gt;OsmAnd+&lt;' byline="true" />
@@ -117,7 +117,7 @@
 				<include name="R.java" />
 			</fileset>
 		</copy>
-		<replaceregexp file="${gen.absolute.dir}/net/recreationmap/plus/R.java" match='package com.kinatomicHamp;' replace='package com.kinatomicHamp.plus;' byline="true" />
+		<replaceregexp file="${gen.absolute.dir}/net/recreationmap/plus/R.java" match='package com.kinatomicHam;' replace='package com.kinatomicHam.plus;' byline="true" />
 		<!-- osmchange : Osmand plus support -->
 
 		<do-only-if-manifest-hasCode elseText="hasCode = false. Skipping...">

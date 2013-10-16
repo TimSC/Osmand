@@ -1,4 +1,4 @@
-package com.kinatomicHamp.parkingPlugin;
+package com.kinatomicHam.parkingPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;
