@@ -38,9 +38,9 @@ public abstract class OsmandPlugin {
 	private static List<OsmandPlugin> activePlugins = new ArrayList<OsmandPlugin>();
 	private static final Log LOG = PlatformUtil.getLog(OsmandPlugin.class);
 	
-	private static final String PARKING_PLUGIN_COMPONENT = "net.outdoormaps.parkingPlugin"; //$NON-NLS-1$
-	private static final String SRTM_PLUGIN_COMPONENT_PAID = "net.outdoormaps.srtmPlugin.paid"; //$NON-NLS-1$
-	private static final String SRTM_PLUGIN_COMPONENT = "net.outdoormaps.srtmPlugin"; //$NON-NLS-1$
+	private static final String PARKING_PLUGIN_COMPONENT = "com.kinatomicHam.parkingPlugin"; //$NON-NLS-1$
+	private static final String SRTM_PLUGIN_COMPONENT_PAID = "com.kinatomicHam.srtmPlugin.paid"; //$NON-NLS-1$
+	private static final String SRTM_PLUGIN_COMPONENT = "com.kinatomicHam.srtmPlugin"; //$NON-NLS-1$
 	
 	private static final String OSMODROID_PLUGIN_COMPONENT = "com.OsMoDroid"; //$NON-NLS-1$
 	

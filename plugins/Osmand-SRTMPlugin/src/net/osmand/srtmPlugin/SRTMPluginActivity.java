@@ -13,9 +13,9 @@ import android.net.Uri;
 import android.os.Bundle;
 
 public class SRTMPluginActivity extends Activity {
-	private static final String OSMAND_COMPONENT = "net.outdoormaps"; //$NON-NLS-1$
-	private static final String OSMAND_COMPONENT_PLUS = "net.outdoormaps.plus"; //$NON-NLS-1$
-	private static final String OSMAND_ACTIVITY = "net.outdoormaps.plus.activities.MainMenuActivity"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT = "com.kinatomicHam"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT_PLUS = "com.kinatomicHam.plus"; //$NON-NLS-1$
+	private static final String OSMAND_ACTIVITY = "com.kinatomicHam.plus.activities.MainMenuActivity"; //$NON-NLS-1$
 	
     /** Called when the activity is first created. */
     @Override

@@ -85,7 +85,7 @@ import android.widget.Toast;
  */
 public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompassListener, OsmAndLocationListener {
 
-	public static final String AMENITY_FILTER = "net.outdoormaps.amenity_filter"; //$NON-NLS-1$
+	public static final String AMENITY_FILTER = "com.kinatomicHam.amenity_filter"; //$NON-NLS-1$
 	public static final String SEARCH_LAT = SearchActivity.SEARCH_LAT; //$NON-NLS-1$
 	public static final String SEARCH_LON = SearchActivity.SEARCH_LON; //$NON-NLS-1$
 	private static final float MIN_DISTANCE_TO_RESEARCH = 20;

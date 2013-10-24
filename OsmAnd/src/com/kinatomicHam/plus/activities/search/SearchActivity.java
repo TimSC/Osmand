@@ -65,8 +65,8 @@ public class SearchActivity extends SherlockFragmentActivity implements OsmAndLo
 	private static final int REQUEST_FAVORITE_SELECT = 1;
 	private static final int REQUEST_ADDRESS_SELECT = 2;
 	
-	public static final String SEARCH_LAT = "net.outdoormaps.search_lat"; //$NON-NLS-1$
-	public static final String SEARCH_LON = "net.outdoormaps.search_lon"; //$NON-NLS-1$
+	public static final String SEARCH_LAT = "com.kinatomicHam.search_lat"; //$NON-NLS-1$
+	public static final String SEARCH_LON = "com.kinatomicHam.search_lon"; //$NON-NLS-1$
 
 	Button searchPOIButton;
 	private LatLon searchPoint = null;
@@ -140,7 +140,7 @@ public class SearchActivity extends SherlockFragmentActivity implements OsmAndLo
         
         setTopSpinner();
 		
-		Log.i("net.outdoormaps", "Start on create " + (System.currentTimeMillis() - t ));
+		Log.i("com.kinatomicHam", "Start on create " + (System.currentTimeMillis() - t ));
 
     }
 	
