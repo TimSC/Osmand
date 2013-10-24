@@ -106,7 +106,7 @@ public class OsmandApplication extends Application implements ClientContext{
 		if (Version.getAppName(this).equals("OsmAnd~")) {
 			if (android.os.Build.VERSION.SDK_INT >= 9) {
 				try {
-					Class.forName("net.outdoormaps.plus.base.EnableStrictMode").newInstance();
+					Class.forName("com.kinatomicEsus.plus.base.EnableStrictMode").newInstance();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}

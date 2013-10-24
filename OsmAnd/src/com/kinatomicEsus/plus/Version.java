@@ -8,7 +8,7 @@ public class Version {
 	
 	private final String appVersion; 
 	private final String appName;
-	private final static String FREE_VERSION_NAME = "net.outdoormaps";
+	private final static String FREE_VERSION_NAME = "com.kinatomicEsus";
 	
 	
 	public static boolean isGpsStatusEnabled(ClientContext ctx) {
