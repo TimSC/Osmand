@@ -12,9 +12,9 @@ import android.net.Uri;
 import android.os.Bundle;
 
 public class ParkingPluginActivity extends Activity {
-	private static final String OSMAND_COMPONENT = "net.outdoormaps"; //$NON-NLS-1$
-	private static final String OSMAND_COMPONENT_PLUS = "net.outdoormaps"; //$NON-NLS-1$
-	private static final String OSMAND_ACTIVITY = "net.outdoormaps.plus.activities.MainMenuActivity"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT = "com.kinatomicWsus"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT_PLUS = "com.kinatomicWsus.plus"; //$NON-NLS-1$
+	private static final String OSMAND_ACTIVITY = "com.kinatomicWsus.plus.activities.MainMenuActivity"; //$NON-NLS-1$
 	
     /** Called when the activity is first created. */
     @Override

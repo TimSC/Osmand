@@ -210,7 +210,7 @@ public class DownloadIndexActivity extends OsmandExpandableListActivity {
 				msg.setNeutralButton(R.string.install_paid, new OnClickListener() {
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
-						Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(Version.marketPrefix(getMyApplication()) +  "net.outdoormaps.plus"));
+						Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(Version.marketPrefix(getMyApplication()) +  "com.kinatomicWsus.plus"));
 						try {
 							startActivity(intent);
 						} catch (ActivityNotFoundException e) {

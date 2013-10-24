@@ -128,13 +128,18 @@ public class MainMenuActivity extends Activity implements IDownloaderClient{
     private static final XAPKFile[] xAPKS = {
             new XAPKFile(
                     true, // true signifies a main file
-                    4, // the version of the APK that the file was uploaded
+                    1, // the version of the APK that the file was uploaded
                        // against
-                    44980579L // the length of the file in bytes
+                    22114880L // the length of the file in bytes
+            ),
+            new XAPKFile(
+                    false, // true signifies a main file
+                    1, // the version of the APK that the file was uploaded
+                       // against
+                    4627716L // the length of the file in bytes
             ),
     };
 
-	
 	public void checkPreviousRunsForExceptions(boolean firstTime) {
 		long size = getPreferences(MODE_WORLD_READABLE).getLong(EXCEPTION_FILE_SIZE, 0);
 		final OsmandApplication app = ((OsmandApplication) getApplication());
@@ -216,7 +221,7 @@ public class MainMenuActivity extends Activity implements IDownloaderClient{
 		String textVersion = Version.getAppVersion(((OsmandApplication) activity.getApplication()));
 		final TextView textVersionView = (TextView) window.findViewById(R.id.TextVersion);
 		textVersionView.setText(textVersion);
-		SharedPreferences prefs = activity.getApplicationContext().getSharedPreferences("net.outdoormaps.settings", MODE_WORLD_READABLE);
+		SharedPreferences prefs = activity.getApplicationContext().getSharedPreferences("com.kinatomicWsus.settings", MODE_WORLD_READABLE);
 		
 		// only one commit should be with contribution version flag
 //		 prefs.edit().putBoolean(CONTRIBUTION_VERSION_FLAG, true).commit();
@@ -424,7 +429,7 @@ public class MainMenuActivity extends Activity implements IDownloaderClient{
 	private void applicationInstalledFirstTime() {
 		boolean netOsmandWasInstalled = false;
 		try {
-			ApplicationInfo applicationInfo = getPackageManager().getApplicationInfo("net.outdoormaps", PackageManager.GET_META_DATA);
+			ApplicationInfo applicationInfo = getPackageManager().getApplicationInfo("com.kinatomicWsus", PackageManager.GET_META_DATA);
 			netOsmandWasInstalled = applicationInfo != null && !Version.isFreeVersion(getMyApplication());
 		} catch (NameNotFoundException e) {
 			netOsmandWasInstalled = false;

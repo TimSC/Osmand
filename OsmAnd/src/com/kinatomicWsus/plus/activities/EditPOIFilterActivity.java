@@ -49,7 +49,7 @@ import com.actionbarsherlock.view.MenuItem;
  * 
  */
 public class EditPOIFilterActivity extends OsmandListActivity {
-	public static final String AMENITY_FILTER = "net.outdoormaps.amenity_filter"; //$NON-NLS-1$
+	public static final String AMENITY_FILTER = "com.kinatomicWsus.amenity_filter"; //$NON-NLS-1$
 	private PoiFilter filter;
 	private PoiFiltersHelper helper;
 	public static final String SEARCH_LAT = SearchActivity.SEARCH_LAT; //$NON-NLS-1$

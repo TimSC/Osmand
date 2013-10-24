@@ -16,9 +16,9 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 
 public class ContactAddressPluginActivity extends Activity {
-	private static final String OSMAND_COMPONENT = "net.outdoormaps"; //$NON-NLS-1$
-	private static final String OSMAND_COMPONENT_PLUS = "net.outdoormaps.plus"; //$NON-NLS-1$
-	private static final String OSMAND_ACTIVITY = "net.outdoormaps.plus.activities.search.GeoIntentActivity"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT = "com.kinatomicWsus"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT_PLUS = "com.kinatomicWsus.plus"; //$NON-NLS-1$
+	private static final String OSMAND_ACTIVITY = "com.kinatomicWsus.plus.activities.search.GeoIntentActivity"; //$NON-NLS-1$
 	private static final int CONTACT_PICKER_RESULT = 1001;  
 	//content://com.android.contacts/data/5
 	@Override
