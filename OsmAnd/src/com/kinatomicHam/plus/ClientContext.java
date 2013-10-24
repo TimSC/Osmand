@@ -1,15 +1,15 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.io.File;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.plus.api.ExternalServiceAPI;
-import com.kinatomicHam.plus.api.InternalOsmAndAPI;
-import com.kinatomicHam.plus.api.InternalToDoAPI;
-import com.kinatomicHam.plus.api.SQLiteAPI;
-import com.kinatomicHam.plus.api.SettingsAPI;
-import com.kinatomicHam.plus.render.RendererRegistry;
-import com.kinatomicHam.plus.routing.RoutingHelper;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.plus.api.ExternalServiceAPI;
+import com.kinatomicWsus.plus.api.InternalOsmAndAPI;
+import com.kinatomicWsus.plus.api.InternalToDoAPI;
+import com.kinatomicWsus.plus.api.SQLiteAPI;
+import com.kinatomicWsus.plus.api.SettingsAPI;
+import com.kinatomicWsus.plus.render.RendererRegistry;
+import com.kinatomicWsus.plus.routing.RoutingHelper;
 
 
 /*

@@ -1,7 +1,7 @@
-package com.kinatomicHam.plus;
-import com.kinatomicHam.data.QuadPoint;
-import com.kinatomicHam.data.QuadRect;
-import com.kinatomicHam.util.MapUtils;
+package com.kinatomicWsus.plus;
+import com.kinatomicWsus.data.QuadPoint;
+import com.kinatomicWsus.data.QuadRect;
+import com.kinatomicWsus.util.MapUtils;
 
 public class RotatedTileBox {
 	private float leftTileX;

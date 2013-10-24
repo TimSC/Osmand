@@ -1,4 +1,4 @@
-package com.kinatomicHam.osm.edit;
+package com.kinatomicWsus.osm.edit;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -6,8 +6,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.util.MapUtils;
 
 public class OsmMapUtils {
 

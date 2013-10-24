@@ -1,22 +1,22 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.map.ITileSource;
-import com.kinatomicHam.map.MapTileDownloader;
-import com.kinatomicHam.map.MapTileDownloader.DownloadRequest;
-import com.kinatomicHam.map.MapTileDownloader.IMapDownloaderCallback;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.Version;
-import com.kinatomicHam.plus.resources.ResourceManager;
-import com.kinatomicHam.plus.views.BaseMapLayer;
-import com.kinatomicHam.plus.views.MapTileLayer;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.map.ITileSource;
+import com.kinatomicWsus.map.MapTileDownloader;
+import com.kinatomicWsus.map.MapTileDownloader.DownloadRequest;
+import com.kinatomicWsus.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.Version;
+import com.kinatomicWsus.plus.resources.ResourceManager;
+import com.kinatomicWsus.plus.views.BaseMapLayer;
+import com.kinatomicWsus.plus.views.MapTileLayer;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

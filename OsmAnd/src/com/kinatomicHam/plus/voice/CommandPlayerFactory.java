@@ -1,10 +1,10 @@
-package com.kinatomicHam.plus.voice;
+package com.kinatomicWsus.plus.voice;
 
 import java.io.File;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
 import android.app.Activity;
 
 public class CommandPlayerFactory {

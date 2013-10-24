@@ -1,16 +1,16 @@
-package com.kinatomicHam.plus.activities.search;
+package com.kinatomicWsus.plus.activities.search;
 
 
 import java.text.MessageFormat;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.activities.MapActivityActions;
-import com.kinatomicHam.plus.resources.RegionAddressRepository;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.activities.MapActivityActions;
+import com.kinatomicWsus.plus.resources.RegionAddressRepository;
+import com.kinatomicWsus.util.Algorithms;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;

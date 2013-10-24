@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 import java.io.EOFException;
 import java.io.File;

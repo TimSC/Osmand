@@ -1,12 +1,12 @@
-package com.kinatomicHam.plus.render;
+package com.kinatomicWsus.plus.render;
 
 
-import com.kinatomicHam.NativeLibrary;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.render.OsmandRenderer.RenderingContext;
-import com.kinatomicHam.render.RenderingRuleSearchRequest;
-import com.kinatomicHam.render.RenderingRulesStorage;
+import com.kinatomicWsus.NativeLibrary;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.render.OsmandRenderer.RenderingContext;
+import com.kinatomicWsus.render.RenderingRuleSearchRequest;
+import com.kinatomicWsus.render.RenderingRulesStorage;
 
 import org.apache.commons.logging.Log;
 

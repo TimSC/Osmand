@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.download;
+package com.kinatomicWsus.plus.download;
 
 import java.io.File;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;

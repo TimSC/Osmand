@@ -1,16 +1,16 @@
-package com.kinatomicHam.access;
+package com.kinatomicWsus.access;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.views.ContextMenuLayer;
-import com.kinatomicHam.plus.views.ContextMenuLayer.IContextMenuProvider;
-import com.kinatomicHam.plus.views.OsmandMapLayer;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.views.ContextMenuLayer;
+import com.kinatomicWsus.plus.views.ContextMenuLayer.IContextMenuProvider;
+import com.kinatomicWsus.plus.views.OsmandMapLayer;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
 import android.content.Context;
 import android.graphics.PointF;
 import android.os.Build;

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.download;
+package com.kinatomicWsus.plus.download;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,9 +12,9 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Random;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.Version;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.Version;
 
 import org.apache.commons.logging.Log;
 

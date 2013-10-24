@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibleToast;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibleToast;
 import android.app.AlarmManager;
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -269,7 +269,7 @@ public class NavigationService extends Service implements LocationListener {
 	@Override
 	public void onLocationChanged(Location l) {
 		if(l != null && !settings.MAP_ACTIVITY_ENABLED.get()){
-			com.kinatomicHam.Location location = OsmAndLocationProvider.convertLocation(l,(OsmandApplication) getApplication());
+			com.kinatomicWsus.Location location = OsmAndLocationProvider.convertLocation(l,(OsmandApplication) getApplication());
 			if(!isContinuous()){
 				// unregister listener and wait next time
 				LocationManager locationManager = (LocationManager) getSystemService(LOCATION_SERVICE);

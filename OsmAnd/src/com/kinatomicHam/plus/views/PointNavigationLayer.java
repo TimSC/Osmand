@@ -1,14 +1,14 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 import java.util.List;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ContextMenuAdapter;
-import com.kinatomicHam.plus.ContextMenuAdapter.OnContextMenuClick;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.TargetPointsHelper;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.views.ContextMenuLayer.IContextMenuProvider;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ContextMenuAdapter;
+import com.kinatomicWsus.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.TargetPointsHelper;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.views.ContextMenuLayer.IContextMenuProvider;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Resources;
@@ -114,7 +114,7 @@ public class PointNavigationLayer extends OsmandMapLayer implements IContextMenu
 			canvas.rotate(-view.getRotate(), locationX, locationY);
 			canvas.drawBitmap(targetPoint, locationX - marginX, locationY - marginY, bitmapPaint);
 		} else if (pointToNavigate != null && view.getSettings().SHOW_DESTINATION_ARROW.get()) {
-			com.kinatomicHam.Location.distanceBetween(view.getLatitude(), view.getLongitude(), pointToNavigate.getLatitude(),
+			com.kinatomicWsus.Location.distanceBetween(view.getLatitude(), view.getLongitude(), pointToNavigate.getLatitude(),
 					pointToNavigate.getLongitude(), calculations);
 			float bearing = calculations[1] - 90;
 			float radiusBearing = DIST_TO_SHOW * dm.density;

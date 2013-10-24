@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 /**
  * Easy matcher to be able to publish results immediately

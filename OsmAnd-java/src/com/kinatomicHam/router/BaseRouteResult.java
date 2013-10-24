@@ -1,9 +1,9 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 import java.util.List;
 
-import com.kinatomicHam.data.DataTileManager;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicWsus.data.DataTileManager;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegment;
 
 public class BaseRouteResult {
 

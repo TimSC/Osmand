@@ -1,7 +1,7 @@
-package com.kinatomicHam.osm.io;
+package com.kinatomicWsus.osm.io;
 
-import com.kinatomicHam.osm.edit.Entity;
-import com.kinatomicHam.osm.edit.Entity.EntityId;
+import com.kinatomicWsus.osm.edit.Entity;
+import com.kinatomicWsus.osm.edit.Entity.EntityId;
 
 public interface IOsmStorageFilter {
 	

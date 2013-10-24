@@ -1,8 +1,8 @@
-package com.kinatomicHam.render;
+package com.kinatomicWsus.render;
 
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.binary.BinaryMapDataObject;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.binary.BinaryMapDataObject;
 
 import org.apache.commons.logging.Log;
 

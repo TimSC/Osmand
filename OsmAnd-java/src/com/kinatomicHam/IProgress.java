@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 /**
  * That common interface that could be used by background operations.

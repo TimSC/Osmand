@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
-import com.kinatomicHam.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandApplication;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 

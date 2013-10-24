@@ -1,9 +1,9 @@
-package com.kinatomicHam.osm.edit;
+package com.kinatomicWsus.osm.edit;
 
 import java.io.Serializable;
 import java.util.Map;
 
-import com.kinatomicHam.data.LatLon;
+import com.kinatomicWsus.data.LatLon;
 
 public class Node extends Entity implements Serializable {
 

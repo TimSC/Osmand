@@ -1,7 +1,7 @@
-package com.kinatomicHam.data;
+package com.kinatomicWsus.data;
 
 
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.util.Algorithms;
 
 public class Building extends MapObject {
 	

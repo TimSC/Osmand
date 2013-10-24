@@ -1,4 +1,4 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 import gnu.trove.map.hash.TLongObjectHashMap;
 
@@ -9,12 +9,12 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.osm.MapRenderingTypes;
-import com.kinatomicHam.router.BinaryRoutePlanner.FinalRouteSegment;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegment;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.osm.MapRenderingTypes;
+import com.kinatomicWsus.router.BinaryRoutePlanner.FinalRouteSegment;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

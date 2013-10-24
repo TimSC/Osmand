@@ -3,9 +3,9 @@
  * Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
  * See LICENSE for more information 
  */
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.R;
 import android.content.Context;
 import android.preference.DialogPreference;
 import android.util.AttributeSet;

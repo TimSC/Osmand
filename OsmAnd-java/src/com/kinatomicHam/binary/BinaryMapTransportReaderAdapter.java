@@ -1,4 +1,4 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 import gnu.trove.list.array.TIntArrayList;
 import gnu.trove.map.hash.TIntObjectHashMap;
@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.data.TransportStop;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.data.TransportStop;
+import com.kinatomicWsus.util.MapUtils;
 import net.sf.junidecode.Junidecode;
 
 import com.google.protobuf.CodedInputStream;
@@ -228,12 +228,12 @@ public class BinaryMapTransportReaderAdapter {
 		return ((char) i)+"";
 	}
 	
-	public com.kinatomicHam.data.TransportRoute getTransportRoute(int filePointer, TIntObjectHashMap<String> stringTable,
+	public com.kinatomicWsus.data.TransportRoute getTransportRoute(int filePointer, TIntObjectHashMap<String> stringTable,
 			boolean onlyDescription) throws IOException {
 		codedIS.seek(filePointer);
 		int routeLength = codedIS.readRawVarint32();
 		int old = codedIS.pushLimit(routeLength);
-		com.kinatomicHam.data.TransportRoute dataObject = new com.kinatomicHam.data.TransportRoute();
+		com.kinatomicWsus.data.TransportRoute dataObject = new com.kinatomicWsus.data.TransportRoute();
 		boolean end = false;
 		long rid = 0;
 		int rx = 0;
@@ -341,7 +341,7 @@ public class BinaryMapTransportReaderAdapter {
 		codedIS.popLimit(oldLimit);
 	}
 
-	protected void initializeNames(boolean onlyDescription, com.kinatomicHam.data.TransportRoute dataObject,
+	protected void initializeNames(boolean onlyDescription, com.kinatomicWsus.data.TransportRoute dataObject,
 			TIntObjectHashMap<String> stringTable) throws IOException {
 		if(dataObject.getName().length() > 0){
 			dataObject.setName(stringTable.get(dataObject.getName().charAt(0)));

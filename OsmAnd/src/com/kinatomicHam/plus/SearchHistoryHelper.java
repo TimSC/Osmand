@@ -1,10 +1,10 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteConnection;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteCursor;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteCursor;
 
 public class SearchHistoryHelper {
 	

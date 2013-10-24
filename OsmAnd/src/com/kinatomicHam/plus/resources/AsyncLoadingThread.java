@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.resources;
+package com.kinatomicWsus.plus.resources;
 
 
 import java.io.File;
@@ -6,18 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.TransportStop;
-import com.kinatomicHam.map.ITileSource;
-import com.kinatomicHam.map.MapTileDownloader.DownloadRequest;
-import com.kinatomicHam.map.MapTileDownloader.IMapDownloaderCallback;
-import com.kinatomicHam.plus.BusyIndicator;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.PoiFilter;
-import com.kinatomicHam.plus.RotatedTileBox;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.TransportStop;
+import com.kinatomicWsus.map.ITileSource;
+import com.kinatomicWsus.map.MapTileDownloader.DownloadRequest;
+import com.kinatomicWsus.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicWsus.plus.BusyIndicator;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.PoiFilter;
+import com.kinatomicWsus.plus.RotatedTileBox;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

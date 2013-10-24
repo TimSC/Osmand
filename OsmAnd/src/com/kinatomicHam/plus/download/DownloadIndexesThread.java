@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.download;
+package com.kinatomicWsus.plus.download;
 
 
 import java.io.File;
@@ -15,22 +15,22 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.map.RegionCountry;
-import com.kinatomicHam.map.RegionRegistry;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings.OsmandPreference;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.Version;
-import com.kinatomicHam.plus.activities.DownloadIndexActivity;
-import com.kinatomicHam.plus.base.BasicProgressAsyncTask;
-import com.kinatomicHam.plus.download.DownloadFileHelper.DownloadFileShowWarning;
-import com.kinatomicHam.plus.resources.ResourceManager;
-import com.kinatomicHam.plus.srtmplugin.SRTMPlugin;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.map.RegionCountry;
+import com.kinatomicWsus.map.RegionRegistry;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.Version;
+import com.kinatomicWsus.plus.activities.DownloadIndexActivity;
+import com.kinatomicWsus.plus.base.BasicProgressAsyncTask;
+import com.kinatomicWsus.plus.download.DownloadFileHelper.DownloadFileShowWarning;
+import com.kinatomicWsus.plus.resources.ResourceManager;
+import com.kinatomicWsus.plus.srtmplugin.SRTMPlugin;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 
@@ -394,7 +394,7 @@ public class DownloadIndexesThread {
 				builder.setPositiveButton(R.string.button_upgrade_osmandplus, new DialogInterface.OnClickListener() {
 					@Override
 					public void onClick(DialogInterface dialog, int which) {
-						Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pname:com.kinatomicHam.plus"));
+						Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pname:com.kinatomicWsus.plus"));
 						try {
 							ctx.startActivity(intent);
 						} catch (ActivityNotFoundException e) {
@@ -522,7 +522,7 @@ public class DownloadIndexesThread {
 						msg.setNegativeButton(R.string.button_upgrade_osmandplus, new DialogInterface.OnClickListener() {
 							@Override
 							public void onClick(DialogInterface dialog, int which) {
-								Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pname:com.kinatomicHam.srtmPlugin.paid"));
+								Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("market://search?q=pname:com.kinatomicWsus.srtmPlugin.paid"));
 								try {
 									ctx.startActivity(intent);
 								} catch (ActivityNotFoundException e) {

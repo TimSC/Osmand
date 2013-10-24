@@ -1,13 +1,13 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
 import java.io.File;
 import java.util.List;
 
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.map.ITileSource;
-import com.kinatomicHam.map.TileSourceManager.TileSourceTemplate;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.SQLiteTileSource;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.map.ITileSource;
+import com.kinatomicWsus.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.SQLiteTileSource;
 
 public class InternalToDoAPIImpl implements InternalToDoAPI {
 

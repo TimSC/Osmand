@@ -1,10 +1,10 @@
-package com.kinatomicHam.plus.views.mapwidgets;
+package com.kinatomicWsus.plus.views.mapwidgets;
 
 
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.views.MapInfoLayer;
-import com.kinatomicHam.plus.views.OsmandMapLayer.DrawSettings;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.views.MapInfoLayer;
+import com.kinatomicWsus.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;

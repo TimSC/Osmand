@@ -1,12 +1,12 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
 import java.io.File;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.LocalIndexInfo;
-import com.kinatomicHam.plus.activities.LocalIndexesActivity;
-import com.kinatomicHam.plus.activities.LocalIndexesActivity.UploadVisibility;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.LocalIndexInfo;
+import com.kinatomicWsus.plus.activities.LocalIndexesActivity;
+import com.kinatomicWsus.plus.activities.LocalIndexesActivity.UploadVisibility;
 import android.os.AsyncTask;
 import android.widget.Toast;
 

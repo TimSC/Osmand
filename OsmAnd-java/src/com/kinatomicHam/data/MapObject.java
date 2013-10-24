@@ -1,11 +1,11 @@
-package com.kinatomicHam.data;
+package com.kinatomicWsus.data;
 
 
 import java.io.Serializable;
 import java.util.Comparator;
 
-import com.kinatomicHam.Collator;
-import com.kinatomicHam.PlatformUtil;
+import com.kinatomicWsus.Collator;
+import com.kinatomicWsus.PlatformUtil;
 
 
 public abstract class MapObject implements Comparable<MapObject>, Serializable {

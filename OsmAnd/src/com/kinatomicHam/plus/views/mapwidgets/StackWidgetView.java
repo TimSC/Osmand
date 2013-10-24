@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.views.mapwidgets;
+package com.kinatomicWsus.plus.views.mapwidgets;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.views.MapInfoLayer;
-import com.kinatomicHam.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.views.MapInfoLayer;
+import com.kinatomicWsus.plus.views.OsmandMapLayer.DrawSettings;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

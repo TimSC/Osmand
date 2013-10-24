@@ -1,13 +1,13 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 import net.londatiga.android.ActionItem;
 import net.londatiga.android.QuickAction;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandSettings.CommonPreference;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandSettings.CommonPreference;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.util.MapUtils;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;

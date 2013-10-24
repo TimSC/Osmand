@@ -1,4 +1,4 @@
-package com.kinatomicHam.osm.edit;
+package com.kinatomicWsus.osm.edit;
 
 import gnu.trove.list.array.TLongArrayList;
 
@@ -7,7 +7,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.data.LatLon;
+import com.kinatomicWsus.data.LatLon;
 
 public class Way extends Entity {
 	

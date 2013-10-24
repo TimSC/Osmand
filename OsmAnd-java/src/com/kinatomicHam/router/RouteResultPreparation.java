@@ -1,4 +1,4 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 import java.io.IOException;
 import java.text.MessageFormat;
@@ -8,12 +8,12 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.router.BinaryRoutePlanner.FinalRouteSegment;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegment;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.router.BinaryRoutePlanner.FinalRouteSegment;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicWsus.util.MapUtils;
 
 public class RouteResultPreparation {
 

@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.dropbox;
+package com.kinatomicWsus.plus.dropbox;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.MapActivity;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.MapActivity;
 
 import org.apache.commons.logging.Log;
 

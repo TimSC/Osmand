@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.io.File;
 import java.text.Collator;
@@ -7,12 +7,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.data.FavouritePoint;
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
-import com.kinatomicHam.plus.GPXUtilities.WptPt;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteConnection;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteCursor;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.data.FavouritePoint;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.plus.GPXUtilities.WptPt;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteCursor;
 
 public class FavouritesDbHelper {
 

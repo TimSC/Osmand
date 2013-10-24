@@ -1,4 +1,4 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 
 import java.io.IOException;
@@ -6,13 +6,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegment;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

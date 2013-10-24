@@ -1,17 +1,17 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 
 import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.StateChangedListener;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings.CommonPreference;
-import com.kinatomicHam.plus.OsmandSettings.DayNightMode;
-import com.kinatomicHam.util.SunriseSunset;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.StateChangedListener;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings.CommonPreference;
+import com.kinatomicWsus.plus.OsmandSettings.DayNightMode;
+import com.kinatomicWsus.util.SunriseSunset;
 
 import org.apache.commons.logging.Log;
 

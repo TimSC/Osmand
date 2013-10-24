@@ -1,14 +1,14 @@
-package com.kinatomicHam.plus.routing;
+package com.kinatomicWsus.plus.routing;
 
 import java.util.List;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.routing.RouteProvider.GPXRouteParams;
-import com.kinatomicHam.plus.routing.RouteProvider.RouteService;
-import com.kinatomicHam.router.RouteCalculationProgress;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.routing.RouteProvider.GPXRouteParams;
+import com.kinatomicWsus.plus.routing.RouteProvider.RouteService;
+import com.kinatomicWsus.router.RouteCalculationProgress;
 
 public class RouteCalculationParams {
 

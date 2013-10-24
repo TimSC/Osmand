@@ -1,9 +1,9 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.io.File;
 
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
-import com.kinatomicHam.plus.activities.LocalIndexHelper.LocalIndexType;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.plus.activities.LocalIndexHelper.LocalIndexType;
 
 public class LocalIndexInfo {
 

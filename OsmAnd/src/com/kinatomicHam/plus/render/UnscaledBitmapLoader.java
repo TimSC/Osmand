@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.render;
+package com.kinatomicWsus.plus.render;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

@@ -1,17 +1,17 @@
-package com.kinatomicHam.plus.extrasettings;
+package com.kinatomicWsus.plus.extrasettings;
 
 
 import java.util.Arrays;
 
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings.OsmandPreference;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.views.MapInfoLayer;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
-import com.kinatomicHam.plus.views.mapwidgets.MapWidgetRegistry;
-import com.kinatomicHam.plus.views.mapwidgets.MapWidgetRegistry.MapWidgetRegInfo;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.views.MapInfoLayer;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.plus.views.mapwidgets.MapWidgetRegistry;
+import com.kinatomicWsus.plus.views.mapwidgets.MapWidgetRegistry.MapWidgetRegInfo;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

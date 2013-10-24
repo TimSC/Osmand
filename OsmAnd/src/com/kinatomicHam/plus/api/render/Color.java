@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.api.render;
+package com.kinatomicWsus.plus.api.render;
 
 public class Color {
 	public static final int BLACK       = 0xFF000000;

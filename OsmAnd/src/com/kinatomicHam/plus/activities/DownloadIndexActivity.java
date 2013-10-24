@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 
 import java.io.File;
@@ -11,24 +11,24 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.Version;
-import com.kinatomicHam.plus.base.BasicProgressAsyncTask;
-import com.kinatomicHam.plus.base.SuggestExternalDirectoryDialog;
-import com.kinatomicHam.plus.download.DownloadActivityType;
-import com.kinatomicHam.plus.download.DownloadEntry;
-import com.kinatomicHam.plus.download.DownloadIndexAdapter;
-import com.kinatomicHam.plus.download.DownloadIndexesThread;
-import com.kinatomicHam.plus.download.IndexItem;
-import com.kinatomicHam.plus.download.IndexItemCategory;
-import com.kinatomicHam.plus.srtmplugin.SRTMPlugin;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.Version;
+import com.kinatomicWsus.plus.base.BasicProgressAsyncTask;
+import com.kinatomicWsus.plus.base.SuggestExternalDirectoryDialog;
+import com.kinatomicWsus.plus.download.DownloadActivityType;
+import com.kinatomicWsus.plus.download.DownloadEntry;
+import com.kinatomicWsus.plus.download.DownloadIndexAdapter;
+import com.kinatomicWsus.plus.download.DownloadIndexesThread;
+import com.kinatomicWsus.plus.download.IndexItem;
+import com.kinatomicWsus.plus.download.IndexItemCategory;
+import com.kinatomicWsus.plus.srtmplugin.SRTMPlugin;
+import com.kinatomicWsus.util.Algorithms;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.ActivityNotFoundException;

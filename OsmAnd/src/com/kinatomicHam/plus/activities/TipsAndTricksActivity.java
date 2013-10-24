@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import gnu.trove.list.array.TIntArrayList;
 
 import java.util.Arrays;
 
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
 import android.app.Dialog;
 import android.content.Context;
 import android.text.method.ScrollingMovementMethod;

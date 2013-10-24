@@ -1,4 +1,4 @@
-package com.kinatomicHam.map;
+package com.kinatomicWsus.map;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -16,8 +16,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 /*
  * Copyright (C) 2007 The Android Open Source Project
  *

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.render;
+package com.kinatomicWsus.plus.render;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -10,9 +10,9 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.Map;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.render.RenderingRulesStorage;
-import com.kinatomicHam.render.RenderingRulesStorage.RenderingRulesStorageResolver;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.render.RenderingRulesStorage;
+import com.kinatomicWsus.render.RenderingRulesStorage.RenderingRulesStorageResolver;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

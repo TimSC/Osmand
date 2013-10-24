@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.io.BufferedWriter;
 import java.io.ByteArrayOutputStream;
@@ -11,33 +11,33 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.Location;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.FavouritePoint;
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
-import com.kinatomicHam.plus.GPXUtilities.WptPt;
-import com.kinatomicHam.plus.activities.DayNightHelper;
-import com.kinatomicHam.plus.activities.LiveMonitoringHelper;
-import com.kinatomicHam.plus.activities.OsmandIntents;
-import com.kinatomicHam.plus.activities.SavingTrackHelper;
-import com.kinatomicHam.plus.activities.SettingsActivity;
-import com.kinatomicHam.plus.api.ExternalServiceAPI;
-import com.kinatomicHam.plus.api.InternalOsmAndAPI;
-import com.kinatomicHam.plus.api.InternalToDoAPI;
-import com.kinatomicHam.plus.api.SQLiteAPI;
-import com.kinatomicHam.plus.api.SQLiteAPIImpl;
-import com.kinatomicHam.plus.api.SettingsAPI;
-import com.kinatomicHam.plus.render.NativeOsmandLibrary;
-import com.kinatomicHam.plus.render.RendererRegistry;
-import com.kinatomicHam.plus.resources.ResourceManager;
-import com.kinatomicHam.plus.routing.RoutingHelper;
-import com.kinatomicHam.plus.voice.CommandPlayer;
-import com.kinatomicHam.plus.voice.CommandPlayerException;
-import com.kinatomicHam.plus.voice.CommandPlayerFactory;
-import com.kinatomicHam.render.RenderingRulesStorage;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.FavouritePoint;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.plus.GPXUtilities.WptPt;
+import com.kinatomicWsus.plus.activities.DayNightHelper;
+import com.kinatomicWsus.plus.activities.LiveMonitoringHelper;
+import com.kinatomicWsus.plus.activities.OsmandIntents;
+import com.kinatomicWsus.plus.activities.SavingTrackHelper;
+import com.kinatomicWsus.plus.activities.SettingsActivity;
+import com.kinatomicWsus.plus.api.ExternalServiceAPI;
+import com.kinatomicWsus.plus.api.InternalOsmAndAPI;
+import com.kinatomicWsus.plus.api.InternalToDoAPI;
+import com.kinatomicWsus.plus.api.SQLiteAPI;
+import com.kinatomicWsus.plus.api.SQLiteAPIImpl;
+import com.kinatomicWsus.plus.api.SettingsAPI;
+import com.kinatomicWsus.plus.render.NativeOsmandLibrary;
+import com.kinatomicWsus.plus.render.RendererRegistry;
+import com.kinatomicWsus.plus.resources.ResourceManager;
+import com.kinatomicWsus.plus.routing.RoutingHelper;
+import com.kinatomicWsus.plus.voice.CommandPlayer;
+import com.kinatomicWsus.plus.voice.CommandPlayerException;
+import com.kinatomicWsus.plus.voice.CommandPlayerFactory;
+import com.kinatomicWsus.render.RenderingRulesStorage;
+import com.kinatomicWsus.util.Algorithms;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
@@ -114,10 +114,10 @@ public class OsmandApplication extends Application implements ClientContext{
 		}
 		super.onCreate();
 		 
-		settingsAPI = new com.kinatomicHam.plus.api.SettingsAPIImpl(this);
-		externalServiceAPI = new com.kinatomicHam.plus.api.ExternalServiceAPIImpl(this);
-		internalToDoAPI = new com.kinatomicHam.plus.api.InternalToDoAPIImpl(this);
-		internalOsmAndAPI = new com.kinatomicHam.plus.api.InternalOsmAndAPIImpl(this);
+		settingsAPI = new com.kinatomicWsus.plus.api.SettingsAPIImpl(this);
+		externalServiceAPI = new com.kinatomicWsus.plus.api.ExternalServiceAPIImpl(this);
+		internalToDoAPI = new com.kinatomicWsus.plus.api.InternalToDoAPIImpl(this);
+		internalOsmAndAPI = new com.kinatomicWsus.plus.api.InternalOsmAndAPIImpl(this);
 		sqliteAPI = new SQLiteAPIImpl(this);
 
 		//Check extension files are available

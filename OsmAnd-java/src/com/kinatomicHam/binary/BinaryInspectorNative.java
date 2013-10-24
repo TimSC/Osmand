@@ -1,11 +1,11 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 
 import java.io.IOException;
 
-import com.kinatomicHam.NativeLibrary;
-import com.kinatomicHam.bridge.ObfInspector;
-import com.kinatomicHam.bridge.StringVector;
+import com.kinatomicWsus.NativeLibrary;
+import com.kinatomicWsus.bridge.ObfInspector;
+import com.kinatomicWsus.bridge.StringVector;
 
 public class BinaryInspectorNative {
 	

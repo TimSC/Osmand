@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;
@@ -7,13 +7,13 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.OsmandSettings.OsmandPreference;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.views.SeekBarPreference;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.views.SeekBarPreference;
 import android.app.ActionBar;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;

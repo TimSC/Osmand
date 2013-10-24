@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
-import com.kinatomicHam.plus.ClientContext;
+import com.kinatomicWsus.plus.ClientContext;
 
 public interface ExternalServiceAPI {
 	

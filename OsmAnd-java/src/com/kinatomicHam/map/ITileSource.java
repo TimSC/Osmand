@@ -1,4 +1,4 @@
-package com.kinatomicHam.map;
+package com.kinatomicWsus.map;
 
 
 public interface ITileSource {

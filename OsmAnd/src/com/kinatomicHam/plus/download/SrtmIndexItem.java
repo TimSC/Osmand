@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.download;
+package com.kinatomicWsus.plus.download;
 
 
 import java.io.File;
@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.map.RegionCountry;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.Version;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.map.RegionCountry;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.Version;
 
 public class SrtmIndexItem extends IndexItem {
 	

@@ -1,11 +1,11 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.util.MapUtils;
 /*
  *  === Implementation of ant swarm TSP solver. ===
  *  

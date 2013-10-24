@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.resources;
+package com.kinatomicWsus.plus.resources;
 
 
 import java.io.IOException;
@@ -7,18 +7,18 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.binary.BinaryMapIndexReader.MapIndex;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.PoiFilter;
-import com.kinatomicHam.util.Algorithms;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.PoiFilter;
+import com.kinatomicWsus.util.Algorithms;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -18,25 +18,25 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.binary.BinaryMapAddressReaderAdapter.AddressRegion;
-import com.kinatomicHam.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
-import com.kinatomicHam.binary.BinaryMapIndexReader.MapIndex;
-import com.kinatomicHam.binary.BinaryMapIndexReader.MapRoot;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchFilter;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.binary.BinaryMapIndexReader.TagValuePair;
-import com.kinatomicHam.binary.BinaryMapPoiReaderAdapter.PoiRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.BinaryMapTransportReaderAdapter.TransportIndex;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.data.Building;
-import com.kinatomicHam.data.City;
-import com.kinatomicHam.data.MapObject;
-import com.kinatomicHam.data.Street;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.binary.BinaryMapAddressReaderAdapter.AddressRegion;
+import com.kinatomicWsus.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.MapRoot;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchFilter;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchPoiTypeFilter;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicWsus.binary.BinaryMapPoiReaderAdapter.PoiRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.BinaryMapTransportReaderAdapter.TransportIndex;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.data.Building;
+import com.kinatomicWsus.data.City;
+import com.kinatomicWsus.data.MapObject;
+import com.kinatomicWsus.data.Street;
+import com.kinatomicWsus.util.MapUtils;
 
 import com.google.protobuf.CodedOutputStream;
 import com.google.protobuf.WireFormat;

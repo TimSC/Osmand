@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 // simple exact TSP solver based on branch-and-bound/Held--Karp
 import java.util.ArrayList;
@@ -8,8 +8,8 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.util.MapUtils;
 
 // http://stackoverflow.com/questions/7159259/optimized-tsp-algorithms
 public class TspHeldKarp {

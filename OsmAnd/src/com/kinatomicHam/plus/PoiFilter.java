@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.util.Collections;
 import java.util.Iterator;
@@ -9,11 +9,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.util.MapUtils;
 
 public class PoiFilter {
 	

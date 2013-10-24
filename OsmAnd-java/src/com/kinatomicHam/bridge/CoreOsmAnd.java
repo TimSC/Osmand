@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package com.kinatomicHam.bridge;
+package com.kinatomicWsus.bridge;
 
 public class CoreOsmAnd {
   public static int get31TileNumberX(double longitude) {

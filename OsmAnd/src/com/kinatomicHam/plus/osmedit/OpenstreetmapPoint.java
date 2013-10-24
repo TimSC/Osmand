@@ -1,10 +1,10 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
 import java.io.Serializable;
 
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.osm.edit.Node;
-import com.kinatomicHam.osm.edit.OSMSettings.OSMTagKey;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.osm.edit.Node;
+import com.kinatomicWsus.osm.edit.OSMSettings.OSMTagKey;
 
 public class OpenstreetmapPoint extends OsmPoint implements Serializable {
 	private static final long serialVersionUID = 729654300829771467L;

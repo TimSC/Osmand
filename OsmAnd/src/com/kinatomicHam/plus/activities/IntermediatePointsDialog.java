@@ -1,18 +1,18 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import gnu.trove.list.array.TIntArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.TspAnt;
-import com.kinatomicHam.access.AccessibleAlertBuilder;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.TargetPointsHelper;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.TspAnt;
+import com.kinatomicWsus.access.AccessibleAlertBuilder;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.TargetPointsHelper;
+import com.kinatomicWsus.util.MapUtils;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;

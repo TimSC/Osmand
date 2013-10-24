@@ -1,4 +1,4 @@
-package com.kinatomicHam.osm.edit;
+package com.kinatomicWsus.osm.edit;
 
 public class OSMSettings {
 	

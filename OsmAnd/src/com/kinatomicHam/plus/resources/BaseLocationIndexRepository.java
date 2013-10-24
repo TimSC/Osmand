@@ -1,14 +1,14 @@
-package com.kinatomicHam.plus.resources;
+package com.kinatomicWsus.plus.resources;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.IProgress;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.MapObject;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.IProgress;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.MapObject;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

@@ -1,16 +1,16 @@
-package com.kinatomicHam.plus.download;
+package com.kinatomicWsus.plus.download;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.DownloadIndexActivity;
-import com.kinatomicHam.plus.activities.OsmandBaseExpandableListAdapter;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.DownloadIndexActivity;
+import com.kinatomicWsus.plus.activities.OsmandBaseExpandableListAdapter;
 import android.content.res.TypedArray;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -191,7 +191,7 @@ public class DownloadIndexAdapter extends OsmandBaseExpandableListAdapter implem
 		IndexItemCategory group = getGroup(groupPosition);
 		if (v == null) {
 			LayoutInflater inflater = downloadActivity.getLayoutInflater();
-			v = inflater.inflate(com.kinatomicHam.plus.R.layout.expandable_list_item_category, parent, false);
+			v = inflater.inflate(com.kinatomicWsus.plus.R.layout.expandable_list_item_category, parent, false);
 		}
 		final View row = v;
 		TextView item = (TextView) row.findViewById(R.id.category_name);
@@ -206,7 +206,7 @@ public class DownloadIndexAdapter extends OsmandBaseExpandableListAdapter implem
 		View v = convertView;
 		if (v == null) {
 			LayoutInflater inflater = downloadActivity.getLayoutInflater();
-			v = inflater.inflate(com.kinatomicHam.plus.R.layout.download_index_list_item, parent, false);
+			v = inflater.inflate(com.kinatomicWsus.plus.R.layout.download_index_list_item, parent, false);
 		}
 		final View row = v;
 		TextView item = (TextView) row.findViewById(R.id.download_item);

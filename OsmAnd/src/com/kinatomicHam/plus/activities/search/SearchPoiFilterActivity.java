@@ -1,22 +1,22 @@
 /**
  * 
  */
-package com.kinatomicHam.plus.activities.search;
+package com.kinatomicWsus.plus.activities.search;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.NameFinderPoiFilter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.PoiFilter;
-import com.kinatomicHam.plus.PoiFiltersHelper;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.SearchByNameFilter;
-import com.kinatomicHam.plus.activities.EditPOIFilterActivity;
-import com.kinatomicHam.plus.activities.search.SearchActivity.SearchActivityChild;
-import com.kinatomicHam.plus.resources.ResourceManager;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.NameFinderPoiFilter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.PoiFilter;
+import com.kinatomicWsus.plus.PoiFiltersHelper;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.SearchByNameFilter;
+import com.kinatomicWsus.plus.activities.EditPOIFilterActivity;
+import com.kinatomicWsus.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicWsus.plus.resources.ResourceManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;

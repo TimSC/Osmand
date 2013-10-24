@@ -1,4 +1,4 @@
-package com.kinatomicHam.data;
+package com.kinatomicWsus.data;
 
 public class TransportStop extends MapObject {
 	int[] referencesToRoutes = null;

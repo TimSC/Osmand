@@ -1,10 +1,10 @@
-package com.kinatomicHam.osm.edit;
+package com.kinatomicWsus.osm.edit;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.kinatomicHam.data.TransportRoute;
+import com.kinatomicWsus.data.TransportRoute;
 
 public class OsmTransportRoute extends TransportRoute {
 	private List<Way> ways;

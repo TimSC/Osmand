@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.voice;
+package com.kinatomicWsus.plus.voice;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -9,13 +9,13 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.OsmandSettings.MetricsConstants;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.api.ExternalServiceAPI.AudioFocusHelper;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.OsmandSettings.MetricsConstants;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.api.ExternalServiceAPI.AudioFocusHelper;
 
 import org.apache.commons.logging.Log;
 

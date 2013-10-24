@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 
 import java.io.File;
@@ -15,19 +15,19 @@ import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.StateChangedListener;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.map.ITileSource;
-import com.kinatomicHam.map.TileSourceManager;
-import com.kinatomicHam.map.TileSourceManager.TileSourceTemplate;
-import com.kinatomicHam.plus.access.AccessibilityMode;
-import com.kinatomicHam.plus.access.RelativeDirectionStyle;
-import com.kinatomicHam.plus.api.SettingsAPI;
-import com.kinatomicHam.plus.api.SettingsAPI.SettingsEditor;
-import com.kinatomicHam.plus.render.RendererRegistry;
-import com.kinatomicHam.plus.routing.RouteProvider.RouteService;
-import com.kinatomicHam.render.RenderingRulesStorage;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.StateChangedListener;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.map.ITileSource;
+import com.kinatomicWsus.map.TileSourceManager;
+import com.kinatomicWsus.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicWsus.plus.access.AccessibilityMode;
+import com.kinatomicWsus.plus.access.RelativeDirectionStyle;
+import com.kinatomicWsus.plus.api.SettingsAPI;
+import com.kinatomicWsus.plus.api.SettingsAPI.SettingsEditor;
+import com.kinatomicWsus.plus.render.RendererRegistry;
+import com.kinatomicWsus.plus.routing.RouteProvider.RouteService;
+import com.kinatomicWsus.render.RenderingRulesStorage;
 import android.os.Build;
 
 public class OsmandSettings {

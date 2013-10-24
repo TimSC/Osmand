@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 import org.apache.commons.logging.Log;
 

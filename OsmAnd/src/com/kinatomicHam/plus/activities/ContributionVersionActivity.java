@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -12,9 +12,9 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
@@ -239,7 +239,7 @@ public class ContributionVersionActivity extends OsmandListActivity {
 			View v = convertView;
 			if (v == null) {
 				LayoutInflater inflater = getLayoutInflater();
-				v = inflater.inflate(com.kinatomicHam.plus.R.layout.download_build_list_item, parent, false);
+				v = inflater.inflate(com.kinatomicWsus.plus.R.layout.download_build_list_item, parent, false);
 			}
 			final View row = v;
 			OsmAndBuild build = getItem(position);

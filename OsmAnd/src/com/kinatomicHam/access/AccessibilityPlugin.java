@@ -1,10 +1,10 @@
-package com.kinatomicHam.access;
+package com.kinatomicWsus.access;
 
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.activities.SettingsActivity;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.activities.SettingsActivity;
 import android.content.Intent;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceClickListener;

@@ -1,12 +1,12 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.io.File;
 import java.text.MessageFormat;
 import java.util.Random;
 
-import com.kinatomicHam.plus.ExtensionAlarmReceiver;
-import com.kinatomicHam.plus.ProgressDialogImplementation;
-import com.kinatomicHam.plus.ExtensionDownloaderService;
+import com.kinatomicWsus.plus.ExtensionAlarmReceiver;
+import com.kinatomicWsus.plus.ProgressDialogImplementation;
+import com.kinatomicWsus.plus.ExtensionDownloaderService;
 import com.google.android.vending.expansion.downloader.Constants;
 import com.google.android.vending.expansion.downloader.DownloadProgressInfo;
 import com.google.android.vending.expansion.downloader.DownloaderClientMarshaller;
@@ -16,14 +16,14 @@ import com.google.android.vending.expansion.downloader.IDownloaderClient;
 import com.google.android.vending.expansion.downloader.IDownloaderService;
 import com.google.android.vending.expansion.downloader.IStub;
 
-import com.kinatomicHam.access.AccessibleAlertBuilder;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.Version;
-import com.kinatomicHam.plus.activities.search.SearchActivity;
-import com.kinatomicHam.plus.render.MapRenderRepositories;
-import com.kinatomicHam.plus.resources.ResourceManager;
+import com.kinatomicWsus.access.AccessibleAlertBuilder;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.Version;
+import com.kinatomicWsus.plus.activities.search.SearchActivity;
+import com.kinatomicWsus.plus.render.MapRenderRepositories;
+import com.kinatomicWsus.plus.resources.ResourceManager;
 import android.app.Activity;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;

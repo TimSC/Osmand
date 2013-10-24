@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map.Entry;
 
-import com.kinatomicHam.osm.edit.Node;
+import com.kinatomicWsus.osm.edit.Node;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;

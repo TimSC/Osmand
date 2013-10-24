@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.resources;
+package com.kinatomicWsus.plus.resources;
 
 import gnu.trove.map.hash.TIntObjectHashMap;
 
@@ -9,14 +9,14 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.TransportRoute;
-import com.kinatomicHam.data.TransportStop;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.TransportRoute;
+import com.kinatomicWsus.data.TransportStop;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

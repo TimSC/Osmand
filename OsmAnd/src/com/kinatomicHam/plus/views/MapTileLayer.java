@@ -1,12 +1,12 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.map.ITileSource;
-import com.kinatomicHam.map.TileSourceManager;
-import com.kinatomicHam.map.TileSourceManager.TileSourceTemplate;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.resources.ResourceManager;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.map.ITileSource;
+import com.kinatomicWsus.map.TileSourceManager;
+import com.kinatomicWsus.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.resources.ResourceManager;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;

@@ -1,11 +1,11 @@
-package com.kinatomicHam.data;
+package com.kinatomicWsus.data;
 
 import java.util.Collection;
 import java.util.Map;
 import java.util.TreeMap;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.util.Algorithms;
 
 public class City extends MapObject {
 	public enum CityType {

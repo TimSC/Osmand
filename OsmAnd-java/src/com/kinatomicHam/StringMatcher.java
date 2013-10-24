@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 /**
  * Easy matcher to be able to filter streets,buildings, etc.. using custom

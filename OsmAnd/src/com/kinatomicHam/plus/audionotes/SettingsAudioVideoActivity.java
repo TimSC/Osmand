@@ -1,16 +1,16 @@
-package com.kinatomicHam.plus.audionotes;
+package com.kinatomicWsus.plus.audionotes;
 
 
 
-import static com.kinatomicHam.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_AUDIO;
-import static com.kinatomicHam.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_CHOOSE;
-import static com.kinatomicHam.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_TAKEPICTURE;
-import static com.kinatomicHam.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_VIDEO;
-import static com.kinatomicHam.plus.audionotes.AudioVideoNotesPlugin.VIDEO_OUTPUT_3GP;
-import static com.kinatomicHam.plus.audionotes.AudioVideoNotesPlugin.VIDEO_OUTPUT_MP4;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.SettingsBaseActivity;
+import static com.kinatomicWsus.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_AUDIO;
+import static com.kinatomicWsus.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_CHOOSE;
+import static com.kinatomicWsus.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_TAKEPICTURE;
+import static com.kinatomicWsus.plus.audionotes.AudioVideoNotesPlugin.AV_DEFAULT_ACTION_VIDEO;
+import static com.kinatomicWsus.plus.audionotes.AudioVideoNotesPlugin.VIDEO_OUTPUT_3GP;
+import static com.kinatomicWsus.plus.audionotes.AudioVideoNotesPlugin.VIDEO_OUTPUT_MP4;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.SettingsBaseActivity;
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.PreferenceScreen;

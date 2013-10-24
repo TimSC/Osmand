@@ -1,4 +1,4 @@
-package com.kinatomicHam.util;
+package com.kinatomicWsus.util;
 
 import gnu.trove.list.TLongList;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.kinatomicHam.data.LatLon;
+import com.kinatomicWsus.data.LatLon;
 
 public class MapAlgorithms {
 	

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

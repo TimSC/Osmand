@@ -1,8 +1,8 @@
-package com.kinatomicHam.plus.views.mapwidgets;
+package com.kinatomicWsus.plus.views.mapwidgets;
 
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.views.OsmandMapLayer.DrawSettings;
-import com.kinatomicHam.plus.views.ShadowText;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicWsus.plus.views.ShadowText;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;

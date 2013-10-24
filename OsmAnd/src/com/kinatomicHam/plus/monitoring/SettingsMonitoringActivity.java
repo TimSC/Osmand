@@ -1,12 +1,12 @@
-package com.kinatomicHam.plus.monitoring;
+package com.kinatomicWsus.plus.monitoring;
 
 
-import com.kinatomicHam.plus.NavigationService;
-import com.kinatomicHam.plus.OsmAndTaskManager.OsmAndTaskRunnable;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.SavingTrackHelper;
-import com.kinatomicHam.plus.activities.SettingsBaseActivity;
+import com.kinatomicWsus.plus.NavigationService;
+import com.kinatomicWsus.plus.OsmAndTaskManager.OsmAndTaskRunnable;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.SavingTrackHelper;
+import com.kinatomicWsus.plus.activities.SettingsBaseActivity;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;

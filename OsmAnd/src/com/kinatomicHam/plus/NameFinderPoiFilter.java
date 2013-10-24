@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,11 +7,11 @@ import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.util.MapUtils;
 import net.sf.junidecode.Junidecode;
 
 import org.apache.commons.logging.Log;

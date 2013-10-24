@@ -1,4 +1,4 @@
-package com.kinatomicHam.data;
+package com.kinatomicWsus.data;
 
 public class QuadRect {
 	public float left;

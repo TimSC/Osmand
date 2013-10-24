@@ -1,10 +1,10 @@
-package com.kinatomicHam.plus.voice;
+package com.kinatomicWsus.plus.voice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.kinatomicHam.PlatformUtil;
+import com.kinatomicWsus.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 

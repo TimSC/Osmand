@@ -1,7 +1,7 @@
-package com.kinatomicHam.plus.base;
+package com.kinatomicWsus.plus.base;
 
-import com.kinatomicHam.IProgress;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.IProgress;
+import com.kinatomicWsus.plus.R;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Handler;

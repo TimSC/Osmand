@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.views.mapwidgets;
+package com.kinatomicWsus.plus.views.mapwidgets;
 
 import java.util.Comparator;
 import java.util.EnumSet;
@@ -9,12 +9,12 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.OsmandSettings.CommonPreference;
-import com.kinatomicHam.plus.OsmandSettings.OsmandPreference;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.OsmandSettings.CommonPreference;
+import com.kinatomicWsus.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.util.Algorithms;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,8 +8,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

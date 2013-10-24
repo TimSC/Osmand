@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 import gnu.trove.list.array.TIntArrayList;
 
@@ -16,15 +16,15 @@ import java.util.Map.Entry;
 
 import org.apache.commons.logging.Log;
 
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.render.RenderingRuleSearchRequest;
-import com.kinatomicHam.render.RenderingRulesStorage;
-import com.kinatomicHam.router.GeneralRouter;
-import com.kinatomicHam.router.RouteCalculationProgress;
-import com.kinatomicHam.router.RouteSegmentResult;
-import com.kinatomicHam.router.RoutingConfiguration;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.render.RenderingRuleSearchRequest;
+import com.kinatomicWsus.render.RenderingRulesStorage;
+import com.kinatomicWsus.router.GeneralRouter;
+import com.kinatomicWsus.router.RouteCalculationProgress;
+import com.kinatomicWsus.router.RouteSegmentResult;
+import com.kinatomicWsus.router.RoutingConfiguration;
 
 public class NativeLibrary {
 

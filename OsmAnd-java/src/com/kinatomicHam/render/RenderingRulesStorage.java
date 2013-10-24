@@ -1,4 +1,4 @@
-package com.kinatomicHam.render;
+package com.kinatomicWsus.render;
 
 import gnu.trove.map.hash.TIntObjectHashMap;
 
@@ -14,7 +14,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Stack;
 
-import com.kinatomicHam.PlatformUtil;
+import com.kinatomicWsus.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

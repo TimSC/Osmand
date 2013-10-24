@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.render;
+package com.kinatomicWsus.plus.render;
 
-import com.kinatomicHam.plus.RotatedTileBox;
-import com.kinatomicHam.plus.resources.ResourceManager;
-import com.kinatomicHam.plus.views.BaseMapLayer;
-import com.kinatomicHam.plus.views.MapTileLayer;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.plus.RotatedTileBox;
+import com.kinatomicWsus.plus.resources.ResourceManager;
+import com.kinatomicWsus.plus.views.BaseMapLayer;
+import com.kinatomicWsus.plus.views.MapTileLayer;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.util.MapUtils;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;

@@ -1,8 +1,8 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
 
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.SettingsBaseActivity;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.SettingsBaseActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;

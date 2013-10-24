@@ -1,4 +1,4 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -17,33 +17,33 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.kinatomicHam.Collator;
-import com.kinatomicHam.CollatorStringMatcher;
-import com.kinatomicHam.CollatorStringMatcher.StringMatcherMode;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.StringMatcher;
-import com.kinatomicHam.binary.BinaryMapAddressReaderAdapter.AddressRegion;
-import com.kinatomicHam.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
-import com.kinatomicHam.binary.BinaryMapPoiReaderAdapter.PoiRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import com.kinatomicHam.binary.BinaryMapTransportReaderAdapter.TransportIndex;
-import com.kinatomicHam.binary.OsmandOdb.MapDataBlock;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndMapIndex.MapDataBox;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndMapIndex.MapEncodingRule;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndMapIndex.MapRootLevel;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.data.Building;
-import com.kinatomicHam.data.City;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.MapObject;
-import com.kinatomicHam.data.Street;
-import com.kinatomicHam.data.TransportRoute;
-import com.kinatomicHam.data.TransportStop;
-import com.kinatomicHam.util.Algorithms;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.Collator;
+import com.kinatomicWsus.CollatorStringMatcher;
+import com.kinatomicWsus.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.StringMatcher;
+import com.kinatomicWsus.binary.BinaryMapAddressReaderAdapter.AddressRegion;
+import com.kinatomicWsus.binary.BinaryMapAddressReaderAdapter.CitiesBlock;
+import com.kinatomicWsus.binary.BinaryMapPoiReaderAdapter.PoiRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import com.kinatomicWsus.binary.BinaryMapTransportReaderAdapter.TransportIndex;
+import com.kinatomicWsus.binary.OsmandOdb.MapDataBlock;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndMapIndex.MapDataBox;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndMapIndex.MapEncodingRule;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndMapIndex.MapRootLevel;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.data.Building;
+import com.kinatomicWsus.data.City;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.MapObject;
+import com.kinatomicWsus.data.Street;
+import com.kinatomicWsus.data.TransportRoute;
+import com.kinatomicWsus.data.TransportStop;
+import com.kinatomicWsus.util.Algorithms;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 
@@ -398,12 +398,12 @@ public class BinaryMapIndexReader {
 	/**
 	 * Transport public methods
 	 */
-	public List<com.kinatomicHam.data.TransportRoute> getTransportRouteDescriptions(TransportStop stop) throws IOException {
+	public List<com.kinatomicWsus.data.TransportRoute> getTransportRouteDescriptions(TransportStop stop) throws IOException {
 		TransportIndex ind = getTransportIndex(stop.getFileOffset());
 		if(ind == null){
 			return null;
 		}
-		List<com.kinatomicHam.data.TransportRoute> list = new ArrayList<TransportRoute>();
+		List<com.kinatomicWsus.data.TransportRoute> list = new ArrayList<TransportRoute>();
 		TIntObjectHashMap<String> stringTable = new TIntObjectHashMap<String>();
 		for(int filePointer : stop.getReferencesToRoutes()){
 			TransportRoute tr = transportAdapter.getTransportRoute(filePointer, stringTable, true);
@@ -1844,7 +1844,7 @@ public class BinaryMapIndexReader {
 			for (TransportStop s : reader.searchTransportIndex(buildSearchTransportRequest(sleft, sright, stop, sbottom, 15, null))) {
 				println(s.getName());
 				TIntObjectHashMap<TransportRoute> routes = reader.getTransportRoutes(s.getReferencesToRoutes());
-				for (com.kinatomicHam.data.TransportRoute route : routes.valueCollection()) {
+				for (com.kinatomicWsus.data.TransportRoute route : routes.valueCollection()) {
 					println(" " + route.getRef() + " " + route.getName() + " " + route.getDistance() + " "
 							+ route.getAvgBothDistance());
 				}
@@ -1854,7 +1854,7 @@ public class BinaryMapIndexReader {
 			for (TransportStop s : reader.searchTransportIndex(buildSearchTransportRequest(sleft, sright, stop, sbottom, 16, null))) {
 				println(s.getName());
 				TIntObjectHashMap<TransportRoute> routes = reader.getTransportRoutes(s.getReferencesToRoutes());
-				for (com.kinatomicHam.data.TransportRoute  route : routes.valueCollection()) {
+				for (com.kinatomicWsus.data.TransportRoute  route : routes.valueCollection()) {
 					println(" " + route.getRef() + " " + route.getName() + " " + route.getDistance() + " "
 							+ route.getAvgBothDistance());
 				}

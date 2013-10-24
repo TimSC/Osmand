@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package com.kinatomicHam.bridge;
+package com.kinatomicWsus.bridge;
 
 public class ObfInspector {
   private long swigCPtr;

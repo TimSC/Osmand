@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 
 import java.util.ArrayList;
@@ -6,36 +6,36 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.StateChangedListener;
-import com.kinatomicHam.access.AccessibilityPlugin;
-import com.kinatomicHam.access.AccessibleActivity;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.access.MapAccessibilityActions;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.map.MapTileDownloader.DownloadRequest;
-import com.kinatomicHam.map.MapTileDownloader.IMapDownloaderCallback;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.BusyIndicator;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.PoiFilter;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.TargetPointsHelper;
-import com.kinatomicHam.plus.Version;
-import com.kinatomicHam.plus.activities.search.SearchActivity;
-import com.kinatomicHam.plus.base.FailSafeFuntions;
-import com.kinatomicHam.plus.base.MapViewTrackingUtilities;
-import com.kinatomicHam.plus.render.RendererRegistry;
-import com.kinatomicHam.plus.resources.ResourceManager;
-import com.kinatomicHam.plus.routing.RouteProvider.GPXRouteParams;
-import com.kinatomicHam.plus.routing.RoutingHelper;
-import com.kinatomicHam.plus.routing.RoutingHelper.RouteCalculationProgressCallback;
-import com.kinatomicHam.plus.views.AnimateDraggingMapThread;
-import com.kinatomicHam.plus.views.OsmandMapLayer;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
-import com.kinatomicHam.render.RenderingRulesStorage;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.StateChangedListener;
+import com.kinatomicWsus.access.AccessibilityPlugin;
+import com.kinatomicWsus.access.AccessibleActivity;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.access.MapAccessibilityActions;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.map.MapTileDownloader.DownloadRequest;
+import com.kinatomicWsus.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.BusyIndicator;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.PoiFilter;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.TargetPointsHelper;
+import com.kinatomicWsus.plus.Version;
+import com.kinatomicWsus.plus.activities.search.SearchActivity;
+import com.kinatomicWsus.plus.base.FailSafeFuntions;
+import com.kinatomicWsus.plus.base.MapViewTrackingUtilities;
+import com.kinatomicWsus.plus.render.RendererRegistry;
+import com.kinatomicWsus.plus.resources.ResourceManager;
+import com.kinatomicWsus.plus.routing.RouteProvider.GPXRouteParams;
+import com.kinatomicWsus.plus.routing.RoutingHelper;
+import com.kinatomicWsus.plus.routing.RoutingHelper.RouteCalculationProgressCallback;
+import com.kinatomicWsus.plus.views.AnimateDraggingMapThread;
+import com.kinatomicWsus.plus.views.OsmandMapLayer;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.render.RenderingRulesStorage;
+import com.kinatomicWsus.util.Algorithms;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.Notification;
@@ -170,7 +170,7 @@ public class MapActivity extends AccessibleActivity  {
 		
 		if(!settings.isLastKnownMapLocation()){
 			// show first time when application ran
-			//com.kinatomicHam.Location location = app.getLocationProvider().getFirstTimeRunDefaultLocation();
+			//com.kinatomicWsus.Location location = app.getLocationProvider().getFirstTimeRunDefaultLocation();
 			//if(location != null){
 			//	mapView.setLatLon(location.getLatitude(), location.getLongitude());
 				//mapView.setLatLon(52.0565, -2.716); //Hereford
@@ -495,7 +495,7 @@ public class MapActivity extends AccessibleActivity  {
 	}
 
 	
-	public void followRoute(ApplicationMode appMode, LatLon finalLocation, List<LatLon> intermediatePoints, com.kinatomicHam.Location currentLocation, GPXRouteParams gpxRoute){
+	public void followRoute(ApplicationMode appMode, LatLon finalLocation, List<LatLon> intermediatePoints, com.kinatomicWsus.Location currentLocation, GPXRouteParams gpxRoute){
 		getMapViewTrackingUtilities().backToLocationImpl();
 		RoutingHelper routingHelper = app.getRoutingHelper();
 		settings.APPLICATION_MODE.set(appMode);

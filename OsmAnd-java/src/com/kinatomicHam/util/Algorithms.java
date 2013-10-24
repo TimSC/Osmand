@@ -1,4 +1,4 @@
-package com.kinatomicHam.util;
+package com.kinatomicWsus.util;
 
 
 import java.io.Closeable;
@@ -12,7 +12,7 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import com.kinatomicHam.PlatformUtil;
+import com.kinatomicWsus.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 

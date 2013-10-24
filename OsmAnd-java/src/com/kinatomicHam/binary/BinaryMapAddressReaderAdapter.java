@@ -1,4 +1,4 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 import gnu.trove.list.array.TIntArrayList;
 
@@ -6,23 +6,23 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.CollatorStringMatcher;
-import com.kinatomicHam.CollatorStringMatcher.StringMatcherMode;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.StringMatcher;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.binary.OsmandOdb.AddressNameIndexDataAtom;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndAddressIndex.CitiesIndex;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndAddressNameIndexData;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndAddressNameIndexData.AddressNameIndexData;
-import com.kinatomicHam.data.Building;
-import com.kinatomicHam.data.Building.BuildingInterpolation;
-import com.kinatomicHam.data.City;
-import com.kinatomicHam.data.City.CityType;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.MapObject;
-import com.kinatomicHam.data.Street;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.CollatorStringMatcher;
+import com.kinatomicWsus.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.StringMatcher;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.binary.OsmandOdb.AddressNameIndexDataAtom;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndAddressIndex.CitiesIndex;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndAddressNameIndexData;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndAddressNameIndexData.AddressNameIndexData;
+import com.kinatomicWsus.data.Building;
+import com.kinatomicWsus.data.Building.BuildingInterpolation;
+import com.kinatomicWsus.data.City;
+import com.kinatomicWsus.data.City.CityType;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.MapObject;
+import com.kinatomicWsus.data.Street;
+import com.kinatomicWsus.util.MapUtils;
 import net.sf.junidecode.Junidecode;
 
 import org.apache.commons.logging.Log;

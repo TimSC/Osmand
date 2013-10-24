@@ -1,15 +1,15 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 
 import java.io.File;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.OsmandSettings.OsmandPreference;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.routing.RouteProvider.RouteService;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.routing.RouteProvider.RouteService;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

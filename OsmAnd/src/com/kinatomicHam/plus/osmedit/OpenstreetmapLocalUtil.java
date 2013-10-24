@@ -1,15 +1,15 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
 import java.util.Map;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.osm.MapRenderingTypes;
-import com.kinatomicHam.osm.edit.EntityInfo;
-import com.kinatomicHam.osm.edit.Node;
-import com.kinatomicHam.osm.edit.OSMSettings.OSMTagKey;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.osm.MapRenderingTypes;
+import com.kinatomicWsus.osm.edit.EntityInfo;
+import com.kinatomicWsus.osm.edit.Node;
+import com.kinatomicWsus.osm.edit.OSMSettings.OSMTagKey;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

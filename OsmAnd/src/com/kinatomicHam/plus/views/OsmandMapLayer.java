@@ -1,8 +1,8 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 import java.util.Map;
 
-import com.kinatomicHam.plus.ContextMenuAdapter;
+import com.kinatomicWsus.plus.ContextMenuAdapter;
 import android.graphics.Canvas;
 import android.graphics.PointF;
 import android.graphics.RectF;

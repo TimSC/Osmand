@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.render;
+package com.kinatomicWsus.plus.render;
 
 import gnu.trove.list.array.TIntArrayList;
 import gnu.trove.map.hash.TIntObjectHashMap;
@@ -9,17 +9,17 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.NativeLibrary;
-import com.kinatomicHam.NativeLibrary.NativeSearchResult;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.binary.BinaryMapDataObject;
-import com.kinatomicHam.binary.BinaryMapIndexReader.TagValuePair;
-import com.kinatomicHam.map.MapTileDownloader.IMapDownloaderCallback;
-import com.kinatomicHam.plus.render.TextRenderer.TextDrawInfo;
-import com.kinatomicHam.render.RenderingRuleProperty;
-import com.kinatomicHam.render.RenderingRuleSearchRequest;
-import com.kinatomicHam.render.RenderingRulesStorage;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.NativeLibrary;
+import com.kinatomicWsus.NativeLibrary.NativeSearchResult;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.binary.BinaryMapDataObject;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicWsus.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicWsus.plus.render.TextRenderer.TextDrawInfo;
+import com.kinatomicWsus.render.RenderingRuleProperty;
+import com.kinatomicWsus.render.RenderingRuleSearchRequest;
+import com.kinatomicWsus.render.RenderingRulesStorage;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 
@@ -75,7 +75,7 @@ public class OsmandRenderer {
 	
 	
 
-	/* package */static class RenderingContext extends com.kinatomicHam.RenderingContext {
+	/* package */static class RenderingContext extends com.kinatomicWsus.RenderingContext {
 		List<TextDrawInfo> textToDraw = new ArrayList<TextDrawInfo>();
 		List<IconDrawInfo> iconsToDraw = new ArrayList<IconDrawInfo>();
 		final Context ctx;

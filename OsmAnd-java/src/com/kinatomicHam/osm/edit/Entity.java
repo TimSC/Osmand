@@ -1,4 +1,4 @@
-package com.kinatomicHam.osm.edit;
+package com.kinatomicWsus.osm.edit;
 
 import java.util.Collection;
 import java.util.Collections;
@@ -7,8 +7,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.osm.edit.OSMSettings.OSMTagKey;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.osm.edit.OSMSettings.OSMTagKey;
 
 
 public abstract class Entity {

@@ -1,21 +1,21 @@
-package com.kinatomicHam.plus.base;
+package com.kinatomicWsus.plus.base;
 
 import java.io.File;
 import java.util.ArrayList;
 
 import org.apache.commons.logging.Log;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibleAlertBuilder;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.GPXUtilities;
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.TargetPointsHelper;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.routing.RouteProvider.GPXRouteParams;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibleAlertBuilder;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.GPXUtilities;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.TargetPointsHelper;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.routing.RouteProvider.GPXRouteParams;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
@@ -125,7 +125,7 @@ public class FailSafeFuntions {
 						protected void onPostExecute(GPXFile result) {
 							final GPXRouteParams gpxRoute = result == null ? null : new GPXRouteParams(result, false, settings);
 							LatLon endPoint = pointToNavigate != null ? pointToNavigate : gpxRoute.getLastPoint();
-							com.kinatomicHam.Location startPoint = gpxRoute == null ? null : gpxRoute.getStartPointForRoute();
+							com.kinatomicWsus.Location startPoint = gpxRoute == null ? null : gpxRoute.getStartPointForRoute();
 							if (endPoint == null) {
 								notRestoreRoutingMode(ma, app);
 							} else {

@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
-import com.kinatomicHam.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandApplication;
 import android.os.Bundle;
 
 import com.actionbarsherlock.app.SherlockFragmentActivity;

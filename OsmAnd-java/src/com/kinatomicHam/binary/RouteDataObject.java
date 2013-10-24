@@ -1,12 +1,12 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 
 import gnu.trove.map.hash.TIntObjectHashMap;
 
 import java.text.MessageFormat;
 
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
 
 public class RouteDataObject {
 	/*private */static final int RESTRICTION_SHIFT = 3;

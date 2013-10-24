@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
-import com.kinatomicHam.plus.activities.EnumAdapter.IEnumWithResource;
+import com.kinatomicWsus.plus.activities.EnumAdapter.IEnumWithResource;
 import android.content.Context;
 import android.view.View;
 import android.view.ViewGroup;

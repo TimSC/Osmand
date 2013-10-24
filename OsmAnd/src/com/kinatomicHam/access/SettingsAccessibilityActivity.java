@@ -1,10 +1,10 @@
-package com.kinatomicHam.access;
+package com.kinatomicWsus.access;
 
 
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.access.AccessibilityMode;
-import com.kinatomicHam.plus.access.RelativeDirectionStyle;
-import com.kinatomicHam.plus.activities.SettingsBaseActivity;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.access.AccessibilityMode;
+import com.kinatomicWsus.plus.access.RelativeDirectionStyle;
+import com.kinatomicWsus.plus.activities.SettingsBaseActivity;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.ListPreference;

@@ -1,4 +1,4 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 
 import gnu.trove.iterator.TIntObjectIterator;
@@ -19,20 +19,20 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.NativeLibrary;
-import com.kinatomicHam.NativeLibrary.NativeRouteSearchResult;
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
-import com.kinatomicHam.binary.RouteDataBorderLinePoint;
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.router.BinaryRoutePlanner.FinalRouteSegment;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegment;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegmentVisitor;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.NativeLibrary;
+import com.kinatomicWsus.NativeLibrary.NativeRouteSearchResult;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteSubregion;
+import com.kinatomicWsus.binary.RouteDataBorderLinePoint;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.router.BinaryRoutePlanner.FinalRouteSegment;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegmentVisitor;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

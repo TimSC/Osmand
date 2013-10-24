@@ -1,13 +1,13 @@
-package com.kinatomicHam.plus.rastermaps;
+package com.kinatomicWsus.plus.rastermaps;
 
 
 import java.util.Map;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.map.TileSourceManager.TileSourceTemplate;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.SettingsBaseActivity;
-import com.kinatomicHam.plus.views.SeekBarPreference;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.SettingsBaseActivity;
+import com.kinatomicWsus.plus.views.SeekBarPreference;
 import android.os.Bundle;
 import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;

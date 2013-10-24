@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.srtmplugin;
+package com.kinatomicWsus.plus.srtmplugin;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -7,16 +7,16 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.data.QuadRect;
-import com.kinatomicHam.data.QuadTree;
-import com.kinatomicHam.map.TileSourceManager.TileSourceTemplate;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.SQLiteTileSource;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteConnection;
-import com.kinatomicHam.plus.views.MapTileLayer;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.data.QuadRect;
+import com.kinatomicWsus.data.QuadTree;
+import com.kinatomicWsus.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.SQLiteTileSource;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicWsus.plus.views.MapTileLayer;
 
 import org.apache.commons.logging.Log;
 

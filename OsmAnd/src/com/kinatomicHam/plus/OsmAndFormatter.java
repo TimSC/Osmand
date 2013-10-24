@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.text.MessageFormat;
 
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.data.City.CityType;
-import com.kinatomicHam.plus.OsmandSettings.MetricsConstants;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.data.City.CityType;
+import com.kinatomicWsus.plus.OsmandSettings.MetricsConstants;
 
 public class OsmAndFormatter {
 	private final static float METERS_IN_KILOMETER = 1000f;

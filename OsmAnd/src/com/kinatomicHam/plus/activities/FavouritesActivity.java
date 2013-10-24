@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.io.File;
 import java.text.Collator;
@@ -17,17 +17,17 @@ import java.util.Set;
 
 import net.londatiga.android.ActionItem;
 import net.londatiga.android.QuickAction;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.FavouritePoint;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.FavouritesDbHelper;
-import com.kinatomicHam.plus.GPXUtilities;
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
-import com.kinatomicHam.plus.GPXUtilities.WptPt;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.FavouritePoint;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.FavouritesDbHelper;
+import com.kinatomicWsus.plus.GPXUtilities;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.plus.GPXUtilities.WptPt;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.util.MapUtils;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

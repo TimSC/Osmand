@@ -1,8 +1,8 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
 
 public class RouteDataBorderLinePoint extends RouteDataObject {
 	// all these arrays supposed to be immutable!

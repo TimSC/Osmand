@@ -1,17 +1,17 @@
-package com.kinatomicHam.plus.activities.search;
+package com.kinatomicWsus.plus.activities.search;
 
 import java.util.Comparator;
 import java.util.List;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.Building;
-import com.kinatomicHam.data.City;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.Street;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.resources.RegionAddressRepository;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.Building;
+import com.kinatomicWsus.data.City;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.Street;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.resources.RegionAddressRepository;
+import com.kinatomicWsus.util.Algorithms;
 import android.os.AsyncTask;
 import android.view.View;
 import android.widget.Toast;

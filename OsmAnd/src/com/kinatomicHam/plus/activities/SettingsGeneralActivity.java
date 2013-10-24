@@ -1,21 +1,21 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 
 import java.io.File;
 import java.util.List;
 
-import com.kinatomicHam.IProgress;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.OsmandSettings.MetricsConstants;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.Version;
-import com.kinatomicHam.plus.base.SuggestExternalDirectoryDialog;
-import com.kinatomicHam.plus.render.NativeOsmandLibrary;
-import com.kinatomicHam.plus.voice.CommandPlayer;
-import com.kinatomicHam.render.RenderingRulesStorage;
+import com.kinatomicWsus.IProgress;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.OsmandSettings.MetricsConstants;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.Version;
+import com.kinatomicWsus.plus.base.SuggestExternalDirectoryDialog;
+import com.kinatomicWsus.plus.render.NativeOsmandLibrary;
+import com.kinatomicWsus.plus.voice.CommandPlayer;
+import com.kinatomicWsus.render.RenderingRulesStorage;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

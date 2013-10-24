@@ -1,15 +1,15 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.io.IOException;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegment;
-import com.kinatomicHam.router.GeneralRouter.GeneralRouterProfile;
-import com.kinatomicHam.router.RoutePlannerFrontEnd;
-import com.kinatomicHam.router.RoutingConfiguration;
-import com.kinatomicHam.router.RoutingContext;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicWsus.router.GeneralRouter.GeneralRouterProfile;
+import com.kinatomicWsus.router.RoutePlannerFrontEnd;
+import com.kinatomicWsus.router.RoutingConfiguration;
+import com.kinatomicWsus.router.RoutingContext;
+import com.kinatomicWsus.util.MapUtils;
 
 public class CurrentPositionHelper {
 	

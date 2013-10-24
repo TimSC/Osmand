@@ -1,17 +1,17 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.Locale;
 import java.util.StringTokenizer;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.search.SearchActivity;
-import com.kinatomicHam.plus.activities.search.SearchActivity.SearchActivityChild;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.search.SearchActivity;
+import com.kinatomicWsus.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicWsus.util.MapUtils;
 import android.content.Intent;
 import android.location.Location;
 import android.os.Bundle;

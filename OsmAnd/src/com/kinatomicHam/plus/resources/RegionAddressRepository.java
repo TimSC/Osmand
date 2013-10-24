@@ -1,16 +1,16 @@
-package com.kinatomicHam.plus.resources;
+package com.kinatomicWsus.plus.resources;
 
 import java.text.Collator;
 import java.util.Comparator;
 import java.util.List;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.Building;
-import com.kinatomicHam.data.City;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.MapObject;
-import com.kinatomicHam.data.Street;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.Building;
+import com.kinatomicWsus.data.City;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.MapObject;
+import com.kinatomicWsus.data.Street;
+import com.kinatomicWsus.util.MapUtils;
 
 
 public interface RegionAddressRepository {

@@ -1,12 +1,12 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.R;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -79,7 +79,7 @@ public class PluginsActivity extends OsmandListActivity {
 			View v = convertView;
 			if (v == null) {
 				LayoutInflater inflater = getLayoutInflater();
-				v = inflater.inflate(com.kinatomicHam.plus.R.layout.plugins_list_item, parent, false);
+				v = inflater.inflate(com.kinatomicWsus.plus.R.layout.plugins_list_item, parent, false);
 			}
 			OsmandPlugin plugin = getItem(position);
 			boolean toBeEnabled = restartPlugins.contains(plugin.getId());

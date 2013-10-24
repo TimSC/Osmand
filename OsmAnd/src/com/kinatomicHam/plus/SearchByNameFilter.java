@@ -1,14 +1,14 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.util.MapUtils;
 
 public class SearchByNameFilter extends PoiFilter {
 

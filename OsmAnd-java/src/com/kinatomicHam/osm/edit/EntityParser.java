@@ -1,19 +1,19 @@
-package com.kinatomicHam.osm.edit;
+package com.kinatomicWsus.osm.edit;
 
 import java.util.Collection;
 import java.util.List;
 
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.data.Building;
-import com.kinatomicHam.data.City;
-import com.kinatomicHam.data.City.CityType;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.MapObject;
-import com.kinatomicHam.data.TransportStop;
-import com.kinatomicHam.osm.MapRenderingTypes;
-import com.kinatomicHam.osm.edit.OSMSettings.OSMTagKey;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.data.Building;
+import com.kinatomicWsus.data.City;
+import com.kinatomicWsus.data.City.CityType;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.MapObject;
+import com.kinatomicWsus.data.TransportStop;
+import com.kinatomicWsus.osm.MapRenderingTypes;
+import com.kinatomicWsus.osm.edit.OSMSettings.OSMTagKey;
+import com.kinatomicWsus.util.Algorithms;
 
 public class EntityParser {
 	

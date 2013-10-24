@@ -1,15 +1,15 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.CallbackWithObject;
-import com.kinatomicHam.Location;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.routing.RouteProvider;
-import com.kinatomicHam.plus.routing.RouteProvider.GPXRouteParams;
-import com.kinatomicHam.plus.routing.RoutingHelper;
+import com.kinatomicWsus.CallbackWithObject;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.routing.RouteProvider;
+import com.kinatomicWsus.plus.routing.RouteProvider.GPXRouteParams;
+import com.kinatomicWsus.plus.routing.RoutingHelper;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

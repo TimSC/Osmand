@@ -1,7 +1,7 @@
-package com.kinatomicHam.plus.access;
+package com.kinatomicWsus.plus.access;
 
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.R;
 
 public enum AccessibilityMode {
 

@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.development;
+package com.kinatomicWsus.plus.development;
 
 
 import java.text.SimpleDateFormat;
 
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.SettingsBaseActivity;
-import com.kinatomicHam.util.SunriseSunset;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.SettingsBaseActivity;
+import com.kinatomicWsus.util.SunriseSunset;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Debug;

@@ -1,18 +1,18 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import com.kinatomicHam.GeoidAltitudeCorrection;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.NavigationInfo;
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.OsmandSettings.OsmandPreference;
-import com.kinatomicHam.plus.routing.RoutingHelper;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.GeoidAltitudeCorrection;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.NavigationInfo;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.OsmandSettings.OsmandPreference;
+import com.kinatomicWsus.plus.routing.RoutingHelper;
+import com.kinatomicWsus.util.MapUtils;
 import android.content.Context;
 import android.hardware.GeomagneticField;
 import android.hardware.Sensor;
@@ -32,7 +32,7 @@ import android.util.Log;
 public class OsmAndLocationProvider implements SensorEventListener {
 	
 	public interface OsmAndLocationListener {
-		void updateLocation(com.kinatomicHam.Location location);
+		void updateLocation(com.kinatomicWsus.Location location);
 	}
 
 	public interface OsmAndCompassListener {
@@ -83,7 +83,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	private CurrentPositionHelper currentPositionHelper;
 	private OsmAndLocationSimulation locationSimulation;
 
-	private com.kinatomicHam.Location location = null;
+	private com.kinatomicWsus.Location location = null;
 	
 	private GPSInfo gpsInfo = new GPSInfo(); 
 
@@ -181,7 +181,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		compassListeners.remove(listener);
 	}
 
-	public com.kinatomicHam.Location getFirstTimeRunDefaultLocation() {
+	public com.kinatomicWsus.Location getFirstTimeRunDefaultLocation() {
 		LocationManager service = (LocationManager) app.getSystemService(Context.LOCATION_SERVICE);
 		List<String> providers = new ArrayList<String>(service.getProviders(true));
 		// note, passive provider is from API_LEVEL 8 but it is a constant, we can check for it.
@@ -193,7 +193,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		}
 		// find location
 		for (String provider : providers) {
-			com.kinatomicHam.Location location = convertLocation(service.getLastKnownLocation(provider), app);
+			com.kinatomicWsus.Location location = convertLocation(service.getLastKnownLocation(provider), app);
 			if (location != null) {
 				return location;
 			}
@@ -230,7 +230,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	}
 
 	// location not null!
-	private void updateSpeedEmulator(com.kinatomicHam.Location location) {
+	private void updateSpeedEmulator(com.kinatomicWsus.Location location) {
 		// For network/gps it's bad way (not accurate). It's widely used for testing purposes
 		// possibly keep using only for emulator case
 		if (location != null) {
@@ -252,7 +252,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		}
 	}
 
-	public static boolean isPointAccurateForRouting(com.kinatomicHam.Location loc) {
+	public static boolean isPointAccurateForRouting(com.kinatomicWsus.Location loc) {
 		return loc != null && (!loc.hasAccuracy() || loc.getAccuracy() < ACCURACY_FOR_GPX_AND_ROUTING * 3 / 2);
 	}
 
@@ -326,7 +326,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 
 	private float calcGeoMagneticCorrection(float val) {
 		if (previousCorrectionValue == 360 && getLastKnownLocation() != null) {
-			com.kinatomicHam.Location l = getLastKnownLocation();
+			com.kinatomicWsus.Location l = getLastKnownLocation();
 			GeomagneticField gf = new GeomagneticField((float) l.getLatitude(), (float) l.getLongitude(), (float) l.getAltitude(),
 					System.currentTimeMillis());
 			previousCorrectionValue = gf.getDeclination();
@@ -394,7 +394,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	}
 
 	
-	private void updateLocation(com.kinatomicHam.Location loc ) {
+	private void updateLocation(com.kinatomicWsus.Location loc ) {
 		for(OsmAndLocationListener l : locationListeners){
 			l.updateLocation(loc);
 		}
@@ -479,11 +479,11 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		sensorRegistered = false;
 	}
 
-	public static com.kinatomicHam.Location convertLocation(Location l, OsmandApplication app) {
+	public static com.kinatomicWsus.Location convertLocation(Location l, OsmandApplication app) {
 		if (l == null) {
 			return null;
 		}
-		com.kinatomicHam.Location r = new com.kinatomicHam.Location(l.getProvider());
+		com.kinatomicWsus.Location r = new com.kinatomicWsus.Location(l.getProvider());
 		r.setLatitude(l.getLatitude());
 		r.setLongitude(l.getLongitude());
 		r.setTime(l.getTime());
@@ -511,7 +511,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	}
 	
 	
-	private void scheduleCheckIfGpsLost(com.kinatomicHam.Location location) {
+	private void scheduleCheckIfGpsLost(com.kinatomicWsus.Location location) {
 		final RoutingHelper routingHelper = app.getRoutingHelper();
 		if (location != null) {
 			final long fixTime = location.getTime();
@@ -519,7 +519,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 
 				@Override
 				public void run() {
-					com.kinatomicHam.Location lastKnown = getLastKnownLocation();
+					com.kinatomicWsus.Location lastKnown = getLastKnownLocation();
 					if (lastKnown != null && lastKnown.getTime() > fixTime) {
 						// false positive case, still strange how we got here with removeMessages
 						return;
@@ -532,7 +532,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 			}, LOST_LOCATION_CHECK_DELAY);
 		}
 	}
-	public void setLocationFromService(com.kinatomicHam.Location location, boolean continuous) {
+	public void setLocationFromService(com.kinatomicWsus.Location location, boolean continuous) {
 		// if continuous notify about lost location
 		if (continuous) {
 			scheduleCheckIfGpsLost(location);
@@ -545,11 +545,11 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		app.getRoutingHelper().updateLocation(location);
 	}
 	
-	public void setLocationFromSimulation(com.kinatomicHam.Location location) {
+	public void setLocationFromSimulation(com.kinatomicWsus.Location location) {
 		setLocation(location);
 	}
 
-	private void setLocation(com.kinatomicHam.Location location) {
+	private void setLocation(com.kinatomicWsus.Location location) {
 		if(location == null){
 			updateGPSInfo(null);
 		}
@@ -565,7 +565,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		navigationInfo.setLocation(location);
 
 		// 3. routing
-		com.kinatomicHam.Location updatedLocation = location;
+		com.kinatomicWsus.Location updatedLocation = location;
 		if (routingHelper.isFollowingMode()) {
 			if (location == null || isPointAccurateForRouting(location)) {
 				// Update routing position and get location for sticking mode
@@ -578,7 +578,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		updateLocation(this.location);
 	}
 
-	private void enhanceLocation(com.kinatomicHam.Location location) {
+	private void enhanceLocation(com.kinatomicWsus.Location location) {
 		if (location != null && isRunningOnEmulator()) {
 			// only for emulator
 			updateSpeedEmulator(location);
@@ -586,7 +586,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 	}
 
 	public void checkIfLastKnownLocationIsValid() {
-		com.kinatomicHam.Location loc = getLastKnownLocation();
+		com.kinatomicWsus.Location loc = getLastKnownLocation();
 		if (loc != null && (System.currentTimeMillis() - loc.getTime()) > INTERVAL_TO_CLEAR_SET_LOCATION) {
 			setLocation(null);
 		}
@@ -622,7 +622,7 @@ public class OsmAndLocationProvider implements SensorEventListener {
 		return currentPositionHelper.getLastKnownRouteSegment(getLastKnownLocation());
 	}
 
-	public com.kinatomicHam.Location getLastKnownLocation() {
+	public com.kinatomicWsus.Location getLastKnownLocation() {
 		return location;
 	}
 

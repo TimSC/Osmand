@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -8,19 +8,19 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.GPXUtilities;
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
-import com.kinatomicHam.plus.GPXUtilities.Track;
-import com.kinatomicHam.plus.GPXUtilities.TrkSegment;
-import com.kinatomicHam.plus.GPXUtilities.WptPt;
-import com.kinatomicHam.plus.OsmAndLocationProvider;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.monitoring.OsmandMonitoringPlugin;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.GPXUtilities;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.plus.GPXUtilities.Track;
+import com.kinatomicWsus.plus.GPXUtilities.TrkSegment;
+import com.kinatomicWsus.plus.GPXUtilities.WptPt;
+import com.kinatomicWsus.plus.OsmAndLocationProvider;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.monitoring.OsmandMonitoringPlugin;
 
 import org.apache.commons.logging.Log;
 
@@ -285,7 +285,7 @@ public class SavingTrackHelper extends SQLiteOpenHelper {
 		addTrackPoint(null, true);
 	}
 	
-	public void updateLocation(com.kinatomicHam.Location location) {
+	public void updateLocation(com.kinatomicWsus.Location location) {
 		// use because there is a bug on some devices with location.getTime()
 		long locationTime = System.currentTimeMillis();
 		OsmandSettings settings = ctx.getSettings();
@@ -307,7 +307,7 @@ public class SavingTrackHelper extends SQLiteOpenHelper {
 				newSegment = true;
 			} else {
 				float[] lastInterval = new float[1];
-				com.kinatomicHam.Location.distanceBetween(lat, lon, lastPoint.getLatitude(), lastPoint.getLongitude(), lastInterval);
+				com.kinatomicWsus.Location.distanceBetween(lat, lon, lastPoint.getLatitude(), lastPoint.getLongitude(), lastInterval);
 				distance += lastInterval[0];
 				lastPoint = new LatLon(lat, lon);
 			}

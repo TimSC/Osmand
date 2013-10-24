@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -17,22 +17,22 @@ import java.text.MessageFormat;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.osm.edit.Entity;
-import com.kinatomicHam.osm.edit.Entity.EntityId;
-import com.kinatomicHam.osm.edit.Entity.EntityType;
-import com.kinatomicHam.osm.edit.EntityInfo;
-import com.kinatomicHam.osm.edit.Node;
-import com.kinatomicHam.osm.io.Base64;
-import com.kinatomicHam.osm.io.NetworkUtils;
-import com.kinatomicHam.osm.io.OsmBaseStorage;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.Version;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.osm.edit.Entity;
+import com.kinatomicWsus.osm.edit.Entity.EntityId;
+import com.kinatomicWsus.osm.edit.Entity.EntityType;
+import com.kinatomicWsus.osm.edit.EntityInfo;
+import com.kinatomicWsus.osm.edit.Node;
+import com.kinatomicWsus.osm.io.Base64;
+import com.kinatomicWsus.osm.io.NetworkUtils;
+import com.kinatomicWsus.osm.io.OsmBaseStorage;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.Version;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 import org.xml.sax.SAXException;

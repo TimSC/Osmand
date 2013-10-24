@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.R;
 
 import com.bidforfix.andorid.BidForFixActivity;
 import com.bidforfix.andorid.BidForFixHelper;

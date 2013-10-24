@@ -1,4 +1,4 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 
 import java.io.File;
@@ -14,13 +14,13 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.NativeLibrary;
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.router.BinaryRoutePlanner.FinalRouteSegment;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegment;
-import com.kinatomicHam.router.RoutingConfiguration.Builder;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.NativeLibrary;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.router.BinaryRoutePlanner.FinalRouteSegment;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicWsus.router.RoutingConfiguration.Builder;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

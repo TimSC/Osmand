@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.download;
+package com.kinatomicWsus.plus.download;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,8 +7,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.R;
 
 public class IndexItemCategory implements Comparable<IndexItemCategory> {
 	public final String name;

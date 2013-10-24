@@ -1,10 +1,10 @@
-package com.kinatomicHam.plus.resources;
+package com.kinatomicWsus.plus.resources;
 
 import java.util.List;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.plus.PoiFilter;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.plus.PoiFilter;
 
 public interface AmenityIndexRepository {
 

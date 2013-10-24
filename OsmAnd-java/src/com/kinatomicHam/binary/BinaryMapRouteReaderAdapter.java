@@ -1,4 +1,4 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 import gnu.trove.iterator.TLongObjectIterator;
 import gnu.trove.list.array.TIntArrayList;
@@ -12,21 +12,21 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.binary.OsmandOdb.IdTable;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderBox;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine.Builder;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPoint;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPointsBlock;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBlock;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBox;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndRoutingIndex.RouteEncodingRule;
-import com.kinatomicHam.binary.OsmandOdb.RestrictionData;
-import com.kinatomicHam.binary.OsmandOdb.RouteData;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.binary.OsmandOdb.IdTable;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderBox;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderLine.Builder;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPoint;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndRoutingIndex.RouteBorderPointsBlock;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBlock;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndRoutingIndex.RouteDataBox;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndRoutingIndex.RouteEncodingRule;
+import com.kinatomicWsus.binary.OsmandOdb.RestrictionData;
+import com.kinatomicWsus.binary.OsmandOdb.RouteData;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

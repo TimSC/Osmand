@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
 public interface OsmBugsUtil {
 

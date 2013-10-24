@@ -1,7 +1,7 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

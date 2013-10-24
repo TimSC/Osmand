@@ -1,15 +1,15 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.FavouritePoint;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ContextMenuAdapter;
-import com.kinatomicHam.plus.ContextMenuAdapter.OnContextMenuClick;
-import com.kinatomicHam.plus.FavouritesDbHelper;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.FavouritePoint;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ContextMenuAdapter;
+import com.kinatomicWsus.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicWsus.plus.FavouritesDbHelper;
+import com.kinatomicWsus.plus.R;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;

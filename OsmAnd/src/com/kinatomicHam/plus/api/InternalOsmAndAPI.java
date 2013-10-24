@@ -1,14 +1,14 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import com.kinatomicHam.NativeLibrary;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.plus.PoiFilter;
-import com.kinatomicHam.plus.TargetPointsHelper;
+import com.kinatomicWsus.NativeLibrary;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.plus.PoiFilter;
+import com.kinatomicWsus.plus.TargetPointsHelper;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlSerializer;

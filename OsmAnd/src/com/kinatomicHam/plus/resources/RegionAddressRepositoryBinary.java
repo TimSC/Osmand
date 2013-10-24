@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.resources;
+package com.kinatomicWsus.plus.resources;
 
 
 import java.io.IOException;
@@ -9,19 +9,19 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-import com.kinatomicHam.Collator;
-import com.kinatomicHam.CollatorStringMatcher;
-import com.kinatomicHam.CollatorStringMatcher.StringMatcherMode;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.binary.BinaryMapAddressReaderAdapter;
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.data.Building;
-import com.kinatomicHam.data.City;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.MapObject;
-import com.kinatomicHam.data.Street;
+import com.kinatomicWsus.Collator;
+import com.kinatomicWsus.CollatorStringMatcher;
+import com.kinatomicWsus.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.binary.BinaryMapAddressReaderAdapter;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.data.Building;
+import com.kinatomicWsus.data.City;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.MapObject;
+import com.kinatomicWsus.data.Street;
 
 import org.apache.commons.logging.Log;
 

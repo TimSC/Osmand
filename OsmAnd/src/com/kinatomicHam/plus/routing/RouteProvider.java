@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.routing;
+package com.kinatomicWsus.plus.routing;
 
 
 import java.io.File;
@@ -21,29 +21,29 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.Location;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.NativeLibrary;
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.GPXUtilities;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
-import com.kinatomicHam.plus.GPXUtilities.Route;
-import com.kinatomicHam.plus.GPXUtilities.Track;
-import com.kinatomicHam.plus.GPXUtilities.TrkSegment;
-import com.kinatomicHam.plus.GPXUtilities.WptPt;
-import com.kinatomicHam.router.GeneralRouter;
-import com.kinatomicHam.router.GeneralRouter.GeneralRouterProfile;
-import com.kinatomicHam.router.RoutePlannerFrontEnd;
-import com.kinatomicHam.router.RouteSegmentResult;
-import com.kinatomicHam.router.RoutingConfiguration;
-import com.kinatomicHam.router.RoutingContext;
-import com.kinatomicHam.router.TurnType;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.NativeLibrary;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.GPXUtilities;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.plus.GPXUtilities.Route;
+import com.kinatomicWsus.plus.GPXUtilities.Track;
+import com.kinatomicWsus.plus.GPXUtilities.TrkSegment;
+import com.kinatomicWsus.plus.GPXUtilities.WptPt;
+import com.kinatomicWsus.router.GeneralRouter;
+import com.kinatomicWsus.router.GeneralRouter.GeneralRouterProfile;
+import com.kinatomicWsus.router.RoutePlannerFrontEnd;
+import com.kinatomicWsus.router.RouteSegmentResult;
+import com.kinatomicWsus.router.RoutingConfiguration;
+import com.kinatomicWsus.router.RoutingContext;
+import com.kinatomicWsus.router.TurnType;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

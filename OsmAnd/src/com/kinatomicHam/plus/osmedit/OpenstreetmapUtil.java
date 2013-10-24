@@ -1,8 +1,8 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.osm.edit.EntityInfo;
-import com.kinatomicHam.osm.edit.Node;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.osm.edit.EntityInfo;
+import com.kinatomicWsus.osm.edit.Node;
 
 public interface OpenstreetmapUtil {
 	

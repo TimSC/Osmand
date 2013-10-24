@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.render;
+package com.kinatomicWsus.plus.render;
 
 
 import gnu.trove.list.TLongList;
@@ -19,33 +19,33 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.kinatomicHam.IProgress;
-import com.kinatomicHam.NativeLibrary.NativeSearchResult;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.binary.BinaryMapDataObject;
-import com.kinatomicHam.binary.BinaryMapIndexReader;
-import com.kinatomicHam.binary.BinaryMapIndexReader.MapIndex;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.binary.BinaryMapIndexReader.TagValuePair;
-import com.kinatomicHam.data.QuadRect;
-import com.kinatomicHam.map.MapTileDownloader.IMapDownloaderCallback;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.OsmandSettings.CommonPreference;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.RotatedTileBox;
-import com.kinatomicHam.plus.development.OsmandDevelopmentPlugin;
-import com.kinatomicHam.plus.render.OsmandRenderer.RenderingContext;
-import com.kinatomicHam.plus.views.OsmandMapLayer.DrawSettings;
-import com.kinatomicHam.render.RenderingRuleProperty;
-import com.kinatomicHam.render.RenderingRuleSearchRequest;
-import com.kinatomicHam.render.RenderingRuleStorageProperties;
-import com.kinatomicHam.render.RenderingRulesStorage;
-import com.kinatomicHam.util.Algorithms;
-import com.kinatomicHam.util.MapAlgorithms;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.IProgress;
+import com.kinatomicWsus.NativeLibrary.NativeSearchResult;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.binary.BinaryMapDataObject;
+import com.kinatomicWsus.binary.BinaryMapIndexReader;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicWsus.data.QuadRect;
+import com.kinatomicWsus.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.OsmandSettings.CommonPreference;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.RotatedTileBox;
+import com.kinatomicWsus.plus.development.OsmandDevelopmentPlugin;
+import com.kinatomicWsus.plus.render.OsmandRenderer.RenderingContext;
+import com.kinatomicWsus.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicWsus.render.RenderingRuleProperty;
+import com.kinatomicWsus.render.RenderingRuleSearchRequest;
+import com.kinatomicWsus.render.RenderingRuleStorageProperties;
+import com.kinatomicWsus.render.RenderingRulesStorage;
+import com.kinatomicWsus.util.Algorithms;
+import com.kinatomicWsus.util.MapAlgorithms;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

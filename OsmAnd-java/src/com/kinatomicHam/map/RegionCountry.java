@@ -1,12 +1,12 @@
-package com.kinatomicHam.map;
+package com.kinatomicWsus.map;
 
 import gnu.trove.list.array.TIntArrayList;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.map.OsmandRegionInfo.OsmAndRegion;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.map.OsmandRegionInfo.OsmAndRegion;
+import com.kinatomicWsus.util.Algorithms;
 
 public class RegionCountry {
 	public String continentName;

@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
-import com.kinatomicHam.plus.api.render.Paint;
+import com.kinatomicWsus.plus.api.render.Paint;
 
 public interface RendererAPI {
 

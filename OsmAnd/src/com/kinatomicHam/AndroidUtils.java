@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 import android.content.Context;
 import android.content.res.Configuration;

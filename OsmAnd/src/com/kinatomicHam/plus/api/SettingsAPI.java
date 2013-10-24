@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
 public interface SettingsAPI {
 

@@ -1,4 +1,4 @@
-package com.kinatomicHam.map;
+package com.kinatomicWsus.map;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -17,7 +17,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.PlatformUtil;
+import com.kinatomicWsus.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

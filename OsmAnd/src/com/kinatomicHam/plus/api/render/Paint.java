@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.api.render;
+package com.kinatomicWsus.plus.api.render;
 
 
 public interface Paint {

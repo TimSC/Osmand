@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.base;
+package com.kinatomicWsus.plus.base;
 
 import java.io.InputStream;
 import java.util.HashSet;
 import java.util.Locale;
 
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

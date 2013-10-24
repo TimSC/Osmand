@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.resources;
+package com.kinatomicWsus.plus.resources;
 
 import java.util.List;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.TransportRoute;
-import com.kinatomicHam.data.TransportStop;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.TransportRoute;
+import com.kinatomicWsus.data.TransportStop;
 
 public interface TransportIndexRepository {
 	

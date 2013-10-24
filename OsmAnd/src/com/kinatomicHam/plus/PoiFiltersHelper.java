@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 
 import java.text.Collator;
@@ -10,10 +10,10 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteConnection;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteCursor;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteStatement;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteCursor;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteStatement;
 
 public class PoiFiltersHelper {
 	private final ClientContext application;

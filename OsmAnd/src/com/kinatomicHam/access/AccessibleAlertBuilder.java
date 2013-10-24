@@ -1,7 +1,7 @@
-package com.kinatomicHam.access;
+package com.kinatomicWsus.access;
 
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
 

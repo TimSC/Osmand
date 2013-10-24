@@ -1,14 +1,14 @@
 /**
  * 
  */
-package com.kinatomicHam.plus.development;
+package com.kinatomicWsus.plus.development;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.voice.AbstractPrologCommandPlayer;
-import com.kinatomicHam.plus.voice.CommandBuilder;
-import com.kinatomicHam.plus.voice.CommandPlayer;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.voice.AbstractPrologCommandPlayer;
+import com.kinatomicWsus.plus.voice.CommandBuilder;
+import com.kinatomicWsus.plus.voice.CommandPlayer;
 import android.app.ActionBar;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;

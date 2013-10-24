@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.kinatomicHam.plus.activities.search;
+package com.kinatomicWsus.plus.activities.search;
 
 
 import gnu.trove.set.hash.TLongHashSet;
@@ -17,28 +17,28 @@ import java.util.Map.Entry;
 
 import net.londatiga.android.ActionItem;
 import net.londatiga.android.QuickAction;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.access.NavigationInfo;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.NameFinderPoiFilter;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmAndLocationProvider.OsmAndCompassListener;
-import com.kinatomicHam.plus.OsmAndLocationProvider.OsmAndLocationListener;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.PoiFilter;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.SearchByNameFilter;
-import com.kinatomicHam.plus.activities.EditPOIFilterActivity;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.activities.MapActivityActions;
-import com.kinatomicHam.plus.activities.OsmandListActivity;
-import com.kinatomicHam.util.Algorithms;
-import com.kinatomicHam.util.OpeningHoursParser;
-import com.kinatomicHam.util.OpeningHoursParser.OpeningHours;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.access.NavigationInfo;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.NameFinderPoiFilter;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmAndLocationProvider.OsmAndCompassListener;
+import com.kinatomicWsus.plus.OsmAndLocationProvider.OsmAndLocationListener;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.PoiFilter;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.SearchByNameFilter;
+import com.kinatomicWsus.plus.activities.EditPOIFilterActivity;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.activities.MapActivityActions;
+import com.kinatomicWsus.plus.activities.OsmandListActivity;
+import com.kinatomicWsus.util.Algorithms;
+import com.kinatomicWsus.util.OpeningHoursParser;
+import com.kinatomicWsus.util.OpeningHoursParser.OpeningHours;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;
@@ -101,7 +101,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 	private View searchFilterLayout;
 	
 	private boolean searchNearBy = false;
-	private com.kinatomicHam.Location location = null; 
+	private com.kinatomicWsus.Location location = null; 
 	private Float heading = null;
 	
 	private Handler uiHandler;
@@ -256,7 +256,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 		super.onResume();
 		Bundle bundle = this.getIntent().getExtras();
 		if(bundle.containsKey(SEARCH_LAT) && bundle.containsKey(SEARCH_LON)){
-			location = new com.kinatomicHam.Location("internal"); //$NON-NLS-1$
+			location = new com.kinatomicWsus.Location("internal"); //$NON-NLS-1$
 			location.setLatitude(bundle.getDouble(SEARCH_LAT));
 			location.setLongitude(bundle.getDouble(SEARCH_LON));
 			searchNearBy = false;
@@ -310,7 +310,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 		app.getLocationProvider().registerOrUnregisterCompassListener(true);
 	}
 	
-	private void showPoiCategoriesByNameFilter(String query, com.kinatomicHam.Location loc){
+	private void showPoiCategoriesByNameFilter(String query, com.kinatomicWsus.Location loc){
 		OsmandApplication app = (OsmandApplication) getApplication();
 		if(loc != null){
 			Map<AmenityType, List<String>> map = app.getResourceManager().searchAmenityCategoriesByName(query, loc.getLatitude(), loc.getLongitude());
@@ -367,7 +367,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 	}
 	
 	
-	private com.kinatomicHam.Location getSearchedLocation(){
+	private com.kinatomicWsus.Location getSearchedLocation(){
 		return currentSearchTask.getSearchedLocation();
 	}
 	
@@ -397,10 +397,10 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 	
 
 	@Override
-	public void updateLocation(com.kinatomicHam.Location location) {
+	public void updateLocation(com.kinatomicWsus.Location location) {
 		boolean handled = false;
 		if (location != null && filter != null) {
-			com.kinatomicHam.Location searchedLocation = getSearchedLocation();
+			com.kinatomicWsus.Location searchedLocation = getSearchedLocation();
 			if (searchedLocation == null) {
   				searchedLocation = location;
 				if (!isNameFinderFilter() && !isSearchByNameFilter()) {
@@ -534,9 +534,9 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 		private static final int NEW_SEARCH_INIT = 2;
 		private static final int SEARCH_FURTHER = 3;
 		private int type;
-		private com.kinatomicHam.Location location;
+		private com.kinatomicWsus.Location location;
 		
-		public static SearchAmenityRequest buildRequest(com.kinatomicHam.Location l, int type){
+		public static SearchAmenityRequest buildRequest(com.kinatomicWsus.Location l, int type){
 			SearchAmenityRequest req = new SearchAmenityRequest();
 			req.type = type;
 			req.location = l;
@@ -556,7 +556,7 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 			
 		}
 		
-		com.kinatomicHam.Location getSearchedLocation(){
+		com.kinatomicWsus.Location getSearchedLocation(){
 			return request != null ? request.location : null; 
 		}
 
@@ -682,11 +682,11 @@ public class SearchPOIActivity extends OsmandListActivity implements OsmAndCompa
 			TextView label = (TextView) row.findViewById(R.id.poi_label);
 			ImageView icon = (ImageView) row.findViewById(R.id.poi_icon);
 			Amenity amenity = getItem(position);
-			com.kinatomicHam.Location loc = location;
+			com.kinatomicWsus.Location loc = location;
 			if(loc != null){
 				mes = new float[2];
 				LatLon l = amenity.getLocation();
-				com.kinatomicHam.Location.distanceBetween(l.getLatitude(), l.getLongitude(), loc.getLatitude(), loc.getLongitude(), mes);
+				com.kinatomicWsus.Location.distanceBetween(l.getLatitude(), l.getLongitude(), loc.getLatitude(), loc.getLongitude(), mes);
 			}
 			int opened = -1;
 			if (amenity.getOpeningHours() != null) {

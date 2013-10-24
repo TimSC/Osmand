@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
-import com.kinatomicHam.plus.activities.search.SearchActivity;
+import com.kinatomicWsus.plus.activities.search.SearchActivity;
 import android.app.Activity;
 
 public class OsmandIntents {

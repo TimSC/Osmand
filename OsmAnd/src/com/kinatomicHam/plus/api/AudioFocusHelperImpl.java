@@ -1,7 +1,7 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.plus.ClientContext;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.plus.ClientContext;
 
 import org.apache.commons.logging.Log;
 
@@ -14,7 +14,7 @@ import android.media.AudioManager;
  * 
  * @author genly
  */
-public class AudioFocusHelperImpl implements AudioManager.OnAudioFocusChangeListener, com.kinatomicHam.plus.api.ExternalServiceAPI.AudioFocusHelper {
+public class AudioFocusHelperImpl implements AudioManager.OnAudioFocusChangeListener, com.kinatomicWsus.plus.api.ExternalServiceAPI.AudioFocusHelper {
 	private static final Log log = PlatformUtil.getLog(AudioFocusHelperImpl.class);
 	
 	@Override

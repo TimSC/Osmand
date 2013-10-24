@@ -1,4 +1,4 @@
-package com.kinatomicHam.addressPlugin;
+package com.kinatomicWsus.addressPlugin;
 
 import java.util.StringTokenizer;
 

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 
 import java.util.ArrayList;
@@ -6,21 +6,21 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibilityActionsProvider;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.access.MapExplorer;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.map.IMapLocationListener;
-import com.kinatomicHam.map.MapTileDownloader.DownloadRequest;
-import com.kinatomicHam.map.MapTileDownloader.IMapDownloaderCallback;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.views.MultiTouchSupport.MultiTouchZoomListener;
-import com.kinatomicHam.plus.views.OsmandMapLayer.DrawSettings;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibilityActionsProvider;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.access.MapExplorer;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.map.IMapLocationListener;
+import com.kinatomicWsus.map.MapTileDownloader.DownloadRequest;
+import com.kinatomicWsus.map.MapTileDownloader.IMapDownloaderCallback;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.views.MultiTouchSupport.MultiTouchZoomListener;
+import com.kinatomicWsus.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicWsus.util.MapUtils;
 
 import org.apache.commons.logging.Log;
 

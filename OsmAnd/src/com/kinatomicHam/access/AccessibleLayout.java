@@ -1,6 +1,6 @@
-package com.kinatomicHam.access;
+package com.kinatomicWsus.access;
 
-import com.kinatomicHam.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandApplication;
 import android.content.Context;
 import android.graphics.Rect;
 import android.os.SystemClock;

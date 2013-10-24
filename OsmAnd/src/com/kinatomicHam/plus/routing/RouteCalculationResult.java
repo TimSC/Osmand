@@ -1,21 +1,21 @@
-package com.kinatomicHam.plus.routing;
+package com.kinatomicWsus.plus.routing;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.router.RouteSegmentResult;
-import com.kinatomicHam.router.TurnType;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.router.RouteSegmentResult;
+import com.kinatomicWsus.router.TurnType;
+import com.kinatomicWsus.util.MapUtils;
 
 public class RouteCalculationResult {
 	// could not be null and immodifiable!

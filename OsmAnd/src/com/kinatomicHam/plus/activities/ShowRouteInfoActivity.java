@@ -2,21 +2,21 @@
  * 
  */
 
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 
 
 import java.util.List;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.routing.RouteDirectionInfo;
-import com.kinatomicHam.plus.routing.RoutingHelper;
-import com.kinatomicHam.plus.views.RouteInfoLayer;
-import com.kinatomicHam.plus.views.TurnPathHelper;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.routing.RouteDirectionInfo;
+import com.kinatomicWsus.plus.routing.RoutingHelper;
+import com.kinatomicWsus.plus.views.RouteInfoLayer;
+import com.kinatomicWsus.plus.views.TurnPathHelper;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;

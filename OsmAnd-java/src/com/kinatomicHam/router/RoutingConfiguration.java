@@ -1,4 +1,4 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -6,10 +6,10 @@ import java.io.InputStream;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.kinatomicHam.Collator;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.router.GeneralRouter.GeneralRouterProfile;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.Collator;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.router.GeneralRouter.GeneralRouterProfile;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;

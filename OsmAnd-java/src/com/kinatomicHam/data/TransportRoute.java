@@ -1,9 +1,9 @@
-package com.kinatomicHam.data;
+package com.kinatomicWsus.data;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.util.MapUtils;
 
 public class TransportRoute extends MapObject {
 	private List<TransportStop> forwardStops = new ArrayList<TransportStop>();

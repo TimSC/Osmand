@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.views.mapwidgets;
+package com.kinatomicWsus.plus.views.mapwidgets;
 
 import android.content.Context;
 import android.widget.ImageView;

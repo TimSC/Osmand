@@ -1,17 +1,17 @@
-package com.kinatomicHam.access;
+package com.kinatomicWsus.access;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.access.RelativeDirectionStyle;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.access.RelativeDirectionStyle;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;

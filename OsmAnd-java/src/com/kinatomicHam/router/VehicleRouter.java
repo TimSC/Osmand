@@ -1,7 +1,7 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.router.BinaryRoutePlanner.RouteSegment;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.router.BinaryRoutePlanner.RouteSegment;
 
 public abstract class VehicleRouter {
 

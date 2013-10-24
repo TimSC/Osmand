@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.OsmAndLocationProvider;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.OsmAndLocationProvider;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.util.MapUtils;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

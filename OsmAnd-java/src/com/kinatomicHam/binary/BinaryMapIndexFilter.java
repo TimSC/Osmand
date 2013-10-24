@@ -1,4 +1,4 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 import gnu.trove.list.array.TIntArrayList;
 import gnu.trove.set.hash.TIntHashSet;
@@ -13,13 +13,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.binary.BinaryMapIndexReader.MapIndex;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchFilter;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.binary.BinaryMapIndexReader.TagValuePair;
-import com.kinatomicHam.render.RenderingRulesStorage;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchFilter;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.TagValuePair;
+import com.kinatomicWsus.render.RenderingRulesStorage;
+import com.kinatomicWsus.util.MapUtils;
 
 public class BinaryMapIndexFilter {
 

@@ -1,19 +1,19 @@
-package com.kinatomicHam.plus.activities.search;
+package com.kinatomicWsus.plus.activities.search;
 
 import java.util.List;
 
 import net.londatiga.android.QuickAction;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.SearchHistoryHelper;
-import com.kinatomicHam.plus.SearchHistoryHelper.HistoryEntry;
-import com.kinatomicHam.plus.activities.MapActivityActions;
-import com.kinatomicHam.plus.activities.search.SearchActivity.SearchActivityChild;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.SearchHistoryHelper;
+import com.kinatomicWsus.plus.SearchHistoryHelper.HistoryEntry;
+import com.kinatomicWsus.plus.activities.MapActivityActions;
+import com.kinatomicWsus.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicWsus.util.MapUtils;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;

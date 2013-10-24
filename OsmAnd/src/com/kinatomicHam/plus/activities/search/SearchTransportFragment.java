@@ -1,26 +1,26 @@
 /**
  * 
  */
-package com.kinatomicHam.plus.activities.search;
+package com.kinatomicWsus.plus.activities.search;
 
 import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.TransportRoute;
-import com.kinatomicHam.data.TransportStop;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.TransportRouteHelper;
-import com.kinatomicHam.plus.activities.search.SearchActivity.SearchActivityChild;
-import com.kinatomicHam.plus.resources.TransportIndexRepository;
-import com.kinatomicHam.plus.resources.TransportIndexRepository.RouteInfoLocation;
-import com.kinatomicHam.util.Algorithms;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.TransportRoute;
+import com.kinatomicWsus.data.TransportStop;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.TransportRouteHelper;
+import com.kinatomicWsus.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicWsus.plus.resources.TransportIndexRepository;
+import com.kinatomicWsus.plus.resources.TransportIndexRepository.RouteInfoLocation;
+import com.kinatomicWsus.util.Algorithms;
+import com.kinatomicWsus.util.MapUtils;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

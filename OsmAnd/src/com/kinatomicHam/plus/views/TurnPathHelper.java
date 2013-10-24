@@ -1,7 +1,7 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.router.TurnType;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.router.TurnType;
 import android.content.res.Resources;
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

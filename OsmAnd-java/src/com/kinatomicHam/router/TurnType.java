@@ -1,4 +1,4 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 public class TurnType {
 	public static final String C = "C"; // continue (go straight) //$NON-NLS-1$

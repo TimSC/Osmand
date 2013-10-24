@@ -1,6 +1,6 @@
-package com.kinatomicHam.access;
+package com.kinatomicWsus.access;
 
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.R;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;

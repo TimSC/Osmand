@@ -1,32 +1,32 @@
-package com.kinatomicHam.plus.routing;
+package com.kinatomicWsus.plus.routing;
 
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteRegion;
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.OsmandSettings.MetricsConstants;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.TargetPointsHelper;
-import com.kinatomicHam.plus.routing.RouteCalculationResult.NextDirectionInfo;
-import com.kinatomicHam.plus.routing.RouteProvider.GPXRouteParams;
-import com.kinatomicHam.plus.routing.RouteProvider.RouteService;
-import com.kinatomicHam.plus.voice.CommandPlayer;
-import com.kinatomicHam.router.RouteCalculationProgress;
-import com.kinatomicHam.router.RouteSegmentResult;
-import com.kinatomicHam.util.Algorithms;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteRegion;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.OsmandSettings.MetricsConstants;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.TargetPointsHelper;
+import com.kinatomicWsus.plus.routing.RouteCalculationResult.NextDirectionInfo;
+import com.kinatomicWsus.plus.routing.RouteProvider.GPXRouteParams;
+import com.kinatomicWsus.plus.routing.RouteProvider.RouteService;
+import com.kinatomicWsus.plus.voice.CommandPlayer;
+import com.kinatomicWsus.router.RouteCalculationProgress;
+import com.kinatomicWsus.router.RouteSegmentResult;
+import com.kinatomicWsus.util.Algorithms;
+import com.kinatomicWsus.util.MapUtils;
 
 public class RoutingHelper {
 	

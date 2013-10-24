@@ -1,4 +1,4 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 
 import gnu.trove.list.array.TIntArrayList;
@@ -11,16 +11,16 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-import com.kinatomicHam.Collator;
-import com.kinatomicHam.CollatorStringMatcher;
-import com.kinatomicHam.CollatorStringMatcher.StringMatcherMode;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.binary.BinaryMapIndexReader.SearchRequest;
-import com.kinatomicHam.binary.OsmandOdb.OsmAndPoiNameIndex.OsmAndPoiNameIndexData;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.util.Algorithms;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.Collator;
+import com.kinatomicWsus.CollatorStringMatcher;
+import com.kinatomicWsus.CollatorStringMatcher.StringMatcherMode;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.SearchRequest;
+import com.kinatomicWsus.binary.OsmandOdb.OsmAndPoiNameIndex.OsmAndPoiNameIndexData;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.util.Algorithms;
+import com.kinatomicWsus.util.MapUtils;
 import net.sf.junidecode.Junidecode;
 
 import org.apache.commons.logging.Log;

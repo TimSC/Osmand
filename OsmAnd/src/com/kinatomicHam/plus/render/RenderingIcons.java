@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.render;
+package com.kinatomicWsus.plus.render;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -6,9 +6,9 @@ import java.lang.reflect.Field;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.R.drawable;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.R.drawable;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package com.kinatomicHam.data;
+package com.kinatomicWsus.data;
 
 import gnu.trove.map.hash.TLongObjectHashMap;
 
@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.util.MapUtils;
 
 /**
  * 

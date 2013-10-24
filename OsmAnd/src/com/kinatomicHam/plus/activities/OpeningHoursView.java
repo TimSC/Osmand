@@ -1,13 +1,13 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.util.OpeningHoursParser.BasicDayOpeningHourRule;
-import com.kinatomicHam.util.OpeningHoursParser.OpeningHoursRule;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.util.OpeningHoursParser.BasicDayOpeningHourRule;
+import com.kinatomicWsus.util.OpeningHoursParser.OpeningHoursRule;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.Context;

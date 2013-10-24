@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -7,10 +7,10 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.map.TileSourceManager.TileSourceTemplate;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
@@ -27,9 +27,9 @@ import java.util.Map;
 import java.util.Stack;
 import java.util.TimeZone;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.plus.GPXUtilities.GPXFile;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.plus.GPXUtilities.GPXFile;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

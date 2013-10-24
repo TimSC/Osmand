@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.io.File;
 import java.text.MessageFormat;
@@ -10,18 +10,18 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
-import com.kinatomicHam.IProgress;
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.plus.ContextMenuAdapter;
-import com.kinatomicHam.plus.ContextMenuAdapter.OnContextMenuClick;
-import com.kinatomicHam.plus.GPXUtilities.WptPt;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.EnumAdapter.IEnumWithResource;
-import com.kinatomicHam.plus.activities.LocalIndexHelper.LocalIndexType;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.IProgress;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.plus.ContextMenuAdapter;
+import com.kinatomicWsus.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicWsus.plus.GPXUtilities.WptPt;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.EnumAdapter.IEnumWithResource;
+import com.kinatomicWsus.plus.activities.LocalIndexHelper.LocalIndexType;
+import com.kinatomicWsus.util.Algorithms;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -919,7 +919,7 @@ public class LocalIndexesActivity extends OsmandExpandableListActivity {
 			final LocalIndexInfo child = (LocalIndexInfo) getChild(groupPosition, childPosition);
 			if (v == null ) {
 				LayoutInflater inflater = getLayoutInflater();
-				v = inflater.inflate(com.kinatomicHam.plus.R.layout.local_index_list_item, parent, false);
+				v = inflater.inflate(com.kinatomicWsus.plus.R.layout.local_index_list_item, parent, false);
 			}
 			TextView viewName = ((TextView) v.findViewById(R.id.local_index_name));
 			viewName.setText(child.getName());
@@ -977,7 +977,7 @@ public class LocalIndexesActivity extends OsmandExpandableListActivity {
 			LocalIndexInfo group = getGroup(groupPosition);
 			if (v == null) {
 				LayoutInflater inflater = getLayoutInflater();
-				v = inflater.inflate(com.kinatomicHam.plus.R.layout.expandable_list_item_category, parent, false);
+				v = inflater.inflate(com.kinatomicWsus.plus.R.layout.expandable_list_item_category, parent, false);
 			}
 			StringBuilder t = new StringBuilder(group.getType().getHumanString(LocalIndexesActivity.this));
 			if(group.getSubfolder() != null) {

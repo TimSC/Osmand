@@ -1,13 +1,13 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.StateChangedListener;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.routing.RoutingHelper;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.StateChangedListener;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.routing.RoutingHelper;
 
 public class TargetPointsHelper {
 

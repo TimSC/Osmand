@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -7,14 +7,14 @@ import java.nio.ByteBuffer;
 import java.text.MessageFormat;
 import java.util.List;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.data.QuadRect;
-import com.kinatomicHam.map.ITileSource;
-import com.kinatomicHam.map.TileSourceManager.TileSourceTemplate;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteConnection;
-import com.kinatomicHam.plus.api.SQLiteAPI.SQLiteCursor;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.data.QuadRect;
+import com.kinatomicWsus.map.ITileSource;
+import com.kinatomicWsus.map.TileSourceManager.TileSourceTemplate;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteConnection;
+import com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteCursor;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 
@@ -377,7 +377,7 @@ public class SQLiteTileSource implements ITileSource {
 			buf.put(b, 0, i);
 		}
 
-		com.kinatomicHam.plus.api.SQLiteAPI.SQLiteStatement statement = db.compileStatement("INSERT INTO tiles VALUES(?, ?, ?, ?, ?)"); //$NON-NLS-1$
+		com.kinatomicWsus.plus.api.SQLiteAPI.SQLiteStatement statement = db.compileStatement("INSERT INTO tiles VALUES(?, ?, ?, ?, ?)"); //$NON-NLS-1$
 		statement.bindLong(1, x);
 		statement.bindLong(2, y);
 		statement.bindLong(3, 17 - zoom);

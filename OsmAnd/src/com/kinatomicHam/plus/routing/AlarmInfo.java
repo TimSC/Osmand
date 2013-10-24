@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.routing;
+package com.kinatomicWsus.plus.routing;
 
-import com.kinatomicHam.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
+import com.kinatomicWsus.binary.BinaryMapRouteReaderAdapter.RouteTypeRule;
 
 public class AlarmInfo {
 	public static int SPEED_CAMERA = 1;

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.osmedit;
+package com.kinatomicWsus.plus.osmedit;
 
 
 import java.io.BufferedReader;
@@ -10,20 +10,20 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ContextMenuAdapter;
-import com.kinatomicHam.plus.ContextMenuAdapter.OnContextMenuClick;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.DialogProvider;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.osmedit.OsmPoint.Action;
-import com.kinatomicHam.plus.views.ContextMenuLayer.IContextMenuProvider;
-import com.kinatomicHam.plus.views.OsmandMapLayer;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ContextMenuAdapter;
+import com.kinatomicWsus.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.DialogProvider;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.osmedit.OsmPoint.Action;
+import com.kinatomicWsus.plus.views.ContextMenuLayer.IContextMenuProvider;
+import com.kinatomicWsus.plus.views.OsmandMapLayer;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

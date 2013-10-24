@@ -1,8 +1,8 @@
-package com.kinatomicHam.binary;
+package com.kinatomicWsus.binary;
 
 import gnu.trove.map.hash.TIntObjectHashMap;
-import com.kinatomicHam.binary.BinaryMapIndexReader.MapIndex;
-import com.kinatomicHam.render.RenderingRulesStorage;
+import com.kinatomicWsus.binary.BinaryMapIndexReader.MapIndex;
+import com.kinatomicWsus.render.RenderingRulesStorage;
 
 public class BinaryMapDataObject {
 	protected int[] coordinates = null;

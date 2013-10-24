@@ -1,11 +1,11 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.util.MapUtils;
 
 public class TspTest {
 	public static void main(String[] args) {

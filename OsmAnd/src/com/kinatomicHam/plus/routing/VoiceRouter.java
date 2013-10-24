@@ -1,14 +1,14 @@
-package com.kinatomicHam.plus.routing;
+package com.kinatomicWsus.plus.routing;
 
 
-import com.kinatomicHam.Location;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.routing.RouteCalculationResult.NextDirectionInfo;
-import com.kinatomicHam.plus.voice.AbstractPrologCommandPlayer;
-import com.kinatomicHam.plus.voice.CommandBuilder;
-import com.kinatomicHam.plus.voice.CommandPlayer;
-import com.kinatomicHam.router.TurnType;
+import com.kinatomicWsus.Location;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.routing.RouteCalculationResult.NextDirectionInfo;
+import com.kinatomicWsus.plus.voice.AbstractPrologCommandPlayer;
+import com.kinatomicWsus.plus.voice.CommandBuilder;
+import com.kinatomicWsus.plus.voice.CommandPlayer;
+import com.kinatomicWsus.router.TurnType;
 
 
 public class VoiceRouter {

@@ -1,4 +1,4 @@
-package com.kinatomicHam.osm.io;
+package com.kinatomicWsus.osm.io;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -13,14 +13,14 @@ import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import com.kinatomicHam.IProgress;
-import com.kinatomicHam.osm.edit.Entity;
-import com.kinatomicHam.osm.edit.EntityInfo;
-import com.kinatomicHam.osm.edit.Node;
-import com.kinatomicHam.osm.edit.Relation;
-import com.kinatomicHam.osm.edit.Way;
-import com.kinatomicHam.osm.edit.Entity.EntityId;
-import com.kinatomicHam.osm.edit.Entity.EntityType;
+import com.kinatomicWsus.IProgress;
+import com.kinatomicWsus.osm.edit.Entity;
+import com.kinatomicWsus.osm.edit.EntityInfo;
+import com.kinatomicWsus.osm.edit.Node;
+import com.kinatomicWsus.osm.edit.Relation;
+import com.kinatomicWsus.osm.edit.Way;
+import com.kinatomicWsus.osm.edit.Entity.EntityId;
+import com.kinatomicWsus.osm.edit.Entity.EntityType;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

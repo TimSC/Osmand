@@ -1,6 +1,6 @@
-package com.kinatomicHam.view;
+package com.kinatomicWsus.view;
 
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.plus.R;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;

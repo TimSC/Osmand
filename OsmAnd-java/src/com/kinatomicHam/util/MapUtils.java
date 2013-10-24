@@ -1,12 +1,12 @@
-package com.kinatomicHam.util;
+package com.kinatomicWsus.util;
 
 
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.MapObject;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.MapObject;
 
 
 /**

@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package com.kinatomicHam.bridge;
+package com.kinatomicWsus.bridge;
 
 import java.util.AbstractList;
 import java.util.List;

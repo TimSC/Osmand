@@ -1,4 +1,4 @@
-package com.kinatomicHam.util;
+package com.kinatomicWsus.util;
 /******************************************************************************
 *
 *							SunriseSunset.java

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 
 import java.text.Collator;
@@ -11,18 +11,18 @@ import java.util.Comparator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.osm.MapRenderingTypes;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.PoiFilter;
-import com.kinatomicHam.plus.PoiFiltersHelper;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.SpecialPhrases;
-import com.kinatomicHam.plus.activities.search.SearchActivity;
-import com.kinatomicHam.plus.activities.search.SearchPOIActivity;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.osm.MapRenderingTypes;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.PoiFilter;
+import com.kinatomicWsus.plus.PoiFiltersHelper;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.SpecialPhrases;
+import com.kinatomicWsus.plus.activities.search.SearchActivity;
+import com.kinatomicWsus.plus.activities.search.SearchPOIActivity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;

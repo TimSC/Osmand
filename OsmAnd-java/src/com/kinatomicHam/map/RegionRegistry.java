@@ -1,12 +1,12 @@
-package com.kinatomicHam.map;
+package com.kinatomicWsus.map;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.map.OsmandRegionInfo.OsmAndRegionInfo;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.map.OsmandRegionInfo.OsmAndRegionInfo;
 
 import org.apache.commons.logging.Log;
 

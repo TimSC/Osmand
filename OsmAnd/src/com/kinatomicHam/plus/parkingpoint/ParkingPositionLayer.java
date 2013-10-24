@@ -1,15 +1,15 @@
-package com.kinatomicHam.plus.parkingpoint;
+package com.kinatomicWsus.plus.parkingpoint;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.views.ContextMenuLayer;
-import com.kinatomicHam.plus.views.OsmandMapLayer;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.views.ContextMenuLayer;
+import com.kinatomicWsus.plus.views.OsmandMapLayer;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

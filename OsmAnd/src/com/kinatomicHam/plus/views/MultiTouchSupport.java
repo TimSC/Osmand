@@ -1,8 +1,8 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 import java.lang.reflect.Method;
 
-import com.kinatomicHam.PlatformUtil;
+import com.kinatomicWsus.PlatformUtil;
 
 import org.apache.commons.logging.Log;
 

@@ -1,11 +1,11 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 
 import java.io.File;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.R;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.R;
 import android.content.Intent;
 import android.os.Bundle;
 import android.preference.Preference;

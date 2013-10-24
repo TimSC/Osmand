@@ -1,20 +1,20 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-import com.kinatomicHam.NativeLibrary;
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.access.AccessibilityPlugin;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.plus.NavigationService;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.PoiFilter;
-import com.kinatomicHam.plus.TargetPointsHelper;
-import com.kinatomicHam.plus.access.AccessibilityMode;
-import com.kinatomicHam.plus.render.NativeOsmandLibrary;
+import com.kinatomicWsus.NativeLibrary;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.access.AccessibilityPlugin;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.plus.NavigationService;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.PoiFilter;
+import com.kinatomicWsus.plus.TargetPointsHelper;
+import com.kinatomicWsus.plus.access.AccessibilityMode;
+import com.kinatomicWsus.plus.render.NativeOsmandLibrary;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlSerializer;

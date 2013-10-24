@@ -1,26 +1,26 @@
-package com.kinatomicHam.plus.parkingpoint;
+package com.kinatomicWsus.plus.parkingpoint;
 
 
 import java.util.Calendar;
 import java.util.EnumSet;
 
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ApplicationMode;
-import com.kinatomicHam.plus.ContextMenuAdapter;
-import com.kinatomicHam.plus.ContextMenuAdapter.OnContextMenuClick;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandPlugin;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.OsmandSettings.CommonPreference;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.views.AnimateDraggingMapThread;
-import com.kinatomicHam.plus.views.MapInfoLayer;
-import com.kinatomicHam.plus.views.OsmandMapLayer.DrawSettings;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
-import com.kinatomicHam.plus.views.mapwidgets.BaseMapWidget;
-import com.kinatomicHam.plus.views.mapwidgets.TextInfoWidget;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ApplicationMode;
+import com.kinatomicWsus.plus.ContextMenuAdapter;
+import com.kinatomicWsus.plus.ContextMenuAdapter.OnContextMenuClick;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.OsmandSettings.CommonPreference;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.views.AnimateDraggingMapThread;
+import com.kinatomicWsus.plus.views.MapInfoLayer;
+import com.kinatomicWsus.plus.views.OsmandMapLayer.DrawSettings;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.plus.views.mapwidgets.BaseMapWidget;
+import com.kinatomicWsus.plus.views.mapwidgets.TextInfoWidget;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.Dialog;
@@ -450,7 +450,7 @@ public class ParkingPositionPlugin extends OsmandPlugin {
 					OsmandMapTileView view = map.getMapView();
 					int d = 0;
 					if (d == 0) {
-						com.kinatomicHam.Location.distanceBetween(view.getLatitude(), view.getLongitude(), parkingPoint.getLatitude(), parkingPoint.getLongitude(), calculations);
+						com.kinatomicWsus.Location.distanceBetween(view.getLatitude(), view.getLongitude(), parkingPoint.getLatitude(), parkingPoint.getLongitude(), calculations);
 						d = (int) calculations[0];
 					}
 					if (distChanged(cachedMeters, d)) {

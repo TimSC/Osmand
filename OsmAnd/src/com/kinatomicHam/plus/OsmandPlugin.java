@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
 
 
@@ -6,25 +6,25 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-import com.kinatomicHam.IProgress;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.access.AccessibilityPlugin;
-import com.kinatomicHam.plus.activities.LocalIndexInfo;
-import com.kinatomicHam.plus.activities.LocalIndexesActivity;
-import com.kinatomicHam.plus.activities.LocalIndexesActivity.LoadLocalIndexTask;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.activities.SettingsActivity;
-import com.kinatomicHam.plus.audionotes.AudioVideoNotesPlugin;
-import com.kinatomicHam.plus.development.OsmandDevelopmentPlugin;
-import com.kinatomicHam.plus.distancecalculator.DistanceCalculatorPlugin;
-import com.kinatomicHam.plus.extrasettings.OsmandExtraSettings;
-import com.kinatomicHam.plus.monitoring.OsmandMonitoringPlugin;
-import com.kinatomicHam.plus.osmedit.OsmEditingPlugin;
-import com.kinatomicHam.plus.osmodroid.OsMoDroidPlugin;
-import com.kinatomicHam.plus.parkingpoint.ParkingPositionPlugin;
-import com.kinatomicHam.plus.rastermaps.OsmandRasterMapsPlugin;
-import com.kinatomicHam.plus.srtmplugin.SRTMPlugin;
-import com.kinatomicHam.plus.views.OsmandMapTileView;
+import com.kinatomicWsus.IProgress;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.access.AccessibilityPlugin;
+import com.kinatomicWsus.plus.activities.LocalIndexInfo;
+import com.kinatomicWsus.plus.activities.LocalIndexesActivity;
+import com.kinatomicWsus.plus.activities.LocalIndexesActivity.LoadLocalIndexTask;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.activities.SettingsActivity;
+import com.kinatomicWsus.plus.audionotes.AudioVideoNotesPlugin;
+import com.kinatomicWsus.plus.development.OsmandDevelopmentPlugin;
+import com.kinatomicWsus.plus.distancecalculator.DistanceCalculatorPlugin;
+import com.kinatomicWsus.plus.extrasettings.OsmandExtraSettings;
+import com.kinatomicWsus.plus.monitoring.OsmandMonitoringPlugin;
+import com.kinatomicWsus.plus.osmedit.OsmEditingPlugin;
+import com.kinatomicWsus.plus.osmodroid.OsMoDroidPlugin;
+import com.kinatomicWsus.plus.parkingpoint.ParkingPositionPlugin;
+import com.kinatomicWsus.plus.rastermaps.OsmandRasterMapsPlugin;
+import com.kinatomicWsus.plus.srtmplugin.SRTMPlugin;
+import com.kinatomicWsus.plus.views.OsmandMapTileView;
 
 import org.apache.commons.logging.Log;
 

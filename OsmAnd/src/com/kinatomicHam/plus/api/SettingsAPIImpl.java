@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.api;
+package com.kinatomicWsus.plus.api;
 
-import com.kinatomicHam.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandApplication;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;

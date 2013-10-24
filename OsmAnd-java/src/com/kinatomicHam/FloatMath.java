@@ -1,4 +1,4 @@
-package com.kinatomicHam;
+package com.kinatomicWsus;
 
 /**
  * This class can be replaced with more effective on ARM devices 

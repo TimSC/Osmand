@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.download;
+package com.kinatomicWsus.plus.download;
 
-import static com.kinatomicHam.IndexConstants.BINARY_MAP_INDEX_EXT;
+import static com.kinatomicWsus.IndexConstants.BINARY_MAP_INDEX_EXT;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,12 +10,12 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.IndexConstants;
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.Version;
-import com.kinatomicHam.util.Algorithms;
+import com.kinatomicWsus.IndexConstants;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.Version;
+import com.kinatomicWsus.util.Algorithms;
 
 import org.apache.commons.logging.Log;
 

@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.views;
+package com.kinatomicWsus.plus.views;
 
 public abstract class BaseMapLayer extends OsmandMapLayer {
 

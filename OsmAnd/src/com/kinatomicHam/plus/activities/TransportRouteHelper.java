@@ -1,9 +1,9 @@
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.kinatomicHam.plus.resources.TransportIndexRepository.RouteInfoLocation;
+import com.kinatomicWsus.plus.resources.TransportIndexRepository.RouteInfoLocation;
 
 
 public class TransportRouteHelper {

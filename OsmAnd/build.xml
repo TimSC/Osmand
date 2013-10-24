@@ -65,25 +65,25 @@
 		</if>
 		<if>
 			<condition>
-				<isset property="com.kinatomicHam" />
+				<isset property="com.kinatomicWsus" />
 			</condition>
 			<then>
 				<replaceregexp file="AndroidManifest.xml" match='"@drawable/icon"' replace='"@drawable/icon_free"' byline="true" />
-				<replaceregexp file="AndroidManifest.xml" match='package="com.kinatomicHam.plus"' replace='package="com.kinatomicHam"' byline="true" />
-				<replaceregexp file="AndroidManifest.xml" match='android:process="com.kinatomicHam.plus"' replace='android:process="com.kinatomicHam"' byline="true" />
+				<replaceregexp file="AndroidManifest.xml" match='package="com.kinatomicWsus.plus"' replace='package="com.kinatomicWsus"' byline="true" />
+				<replaceregexp file="AndroidManifest.xml" match='android:process="com.kinatomicWsus.plus"' replace='android:process="com.kinatomicWsus"' byline="true" />
 				<replaceregexp file="res/values/no_translate.xml" match='"app_name"&gt;(.*)&lt;' replace='"app_name"&gt;OsmAnd&lt;' byline="true" />
-				<replaceregexp file="res/layout/search_address.xml" match='com.kinatomicHam.plus' replace='com.kinatomicHam' byline="true" />
-				<replaceregexp file="res/layout/navigate_point.xml" match='com.kinatomicHam.plus' replace='com.kinatomicHam' byline="true" />
+				<replaceregexp file="res/layout/search_address.xml" match='com.kinatomicWsus.plus' replace='com.kinatomicWsus' byline="true" />
+				<replaceregexp file="res/layout/navigate_point.xml" match='com.kinatomicWsus.plus' replace='com.kinatomicWsus' byline="true" />
 			</then>
 			<else>
 				<replaceregexp file="AndroidManifest.xml" match='"@drawable/icon_free"' replace='"@drawable/icon"' byline="true" />
-				<replaceregexp file="AndroidManifest.xml" match='package="com.kinatomicHam"' replace='package="com.kinatomicHam.plus"' byline="true" />
-				<replaceregexp file="AndroidManifest.xml" match='android:process="com.kinatomicHam"' replace='android:process="com.kinatomicHam.plus"' byline="true" />
+				<replaceregexp file="AndroidManifest.xml" match='package="com.kinatomicWsus"' replace='package="com.kinatomicWsus.plus"' byline="true" />
+				<replaceregexp file="AndroidManifest.xml" match='android:process="com.kinatomicWsus"' replace='android:process="com.kinatomicWsus.plus"' byline="true" />
 			</else>
 		</if>
 		<if>
 			<condition>
-				<isset property="com.kinatomicHam.plus" />
+				<isset property="com.kinatomicWsus.plus" />
 			</condition>
 			<then>
 				<replaceregexp file="res/values/no_translate.xml" match='"app_name"&gt;(.*)&lt;' replace='"app_name"&gt;OsmAnd+&lt;' byline="true" />
@@ -117,7 +117,7 @@
 				<include name="R.java" />
 			</fileset>
 		</copy>
-		<replaceregexp file="${gen.absolute.dir}/net/recreationmap/plus/R.java" match='package com.kinatomicHam;' replace='package com.kinatomicHam.plus;' byline="true" />
+		<replaceregexp file="${gen.absolute.dir}/net/recreationmap/plus/R.java" match='package com.kinatomicWsus;' replace='package com.kinatomicWsus.plus;' byline="true" />
 		<!-- osmchange : Osmand plus support -->
 
 		<do-only-if-manifest-hasCode elseText="hasCode = false. Skipping...">

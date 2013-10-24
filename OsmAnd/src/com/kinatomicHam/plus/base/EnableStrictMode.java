@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.base;
+package com.kinatomicWsus.plus.base;
 
 import android.os.StrictMode;
 

@@ -1,22 +1,22 @@
 /**
  * 
  */
-package com.kinatomicHam.plus.activities;
+package com.kinatomicWsus.plus.activities;
 
 import java.util.Comparator;
 import java.util.List;
 
 import net.londatiga.android.QuickAction;
-import com.kinatomicHam.data.FavouritePoint;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.search.SearchActivity;
-import com.kinatomicHam.plus.activities.search.SearchActivity.SearchActivityChild;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.data.FavouritePoint;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.search.SearchActivity;
+import com.kinatomicWsus.plus.activities.search.SearchActivity.SearchActivityChild;
+import com.kinatomicWsus.util.MapUtils;
 import android.app.Activity;
 import android.content.Intent;
 import android.text.Spannable;

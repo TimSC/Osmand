@@ -1,4 +1,4 @@
-package com.kinatomicHam.osm;
+package com.kinatomicWsus.osm;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -11,8 +11,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
-import com.kinatomicHam.PlatformUtil;
-import com.kinatomicHam.data.AmenityType;
+import com.kinatomicWsus.PlatformUtil;
+import com.kinatomicWsus.data.AmenityType;
 
 import org.apache.commons.logging.Log;
 import org.xmlpull.v1.XmlPullParser;

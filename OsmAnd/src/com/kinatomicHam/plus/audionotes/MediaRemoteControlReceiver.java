@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.audionotes;
+package com.kinatomicWsus.plus.audionotes;
 
-import com.kinatomicHam.plus.OsmandPlugin;
+import com.kinatomicWsus.plus.OsmandPlugin;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

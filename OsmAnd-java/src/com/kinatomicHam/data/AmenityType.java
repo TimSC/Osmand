@@ -1,4 +1,4 @@
-package com.kinatomicHam.data;
+package com.kinatomicWsus.data;
 
 // http://wiki.openstreetmap.org/wiki/Amenity
 // POI tags : amenity, leisure, shop, sport, tourism, historic; accessories (internet-access), natural ?

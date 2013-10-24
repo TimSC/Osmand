@@ -1,6 +1,6 @@
-package com.kinatomicHam.render;
+package com.kinatomicWsus.render;
 
-import com.kinatomicHam.binary.BinaryMapDataObject;
+import com.kinatomicWsus.binary.BinaryMapDataObject;
 
 
 public class RenderingRuleSearchRequest {

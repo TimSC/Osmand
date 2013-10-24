@@ -1,4 +1,4 @@
-package com.kinatomicHam.osm.edit;
+package com.kinatomicWsus.osm.edit;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -7,7 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.kinatomicHam.data.LatLon;
+import com.kinatomicWsus.data.LatLon;
 
 public class Relation extends Entity {
 	

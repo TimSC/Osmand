@@ -1,13 +1,13 @@
-package com.kinatomicHam.router;
+package com.kinatomicWsus.router;
 
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.kinatomicHam.binary.RouteDataObject;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.binary.RouteDataObject;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.util.MapUtils;
 
 
 public class RouteSegmentResult {

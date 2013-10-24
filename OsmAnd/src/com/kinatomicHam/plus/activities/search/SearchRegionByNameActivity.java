@@ -1,14 +1,14 @@
-package com.kinatomicHam.plus.activities.search;
+package com.kinatomicWsus.plus.activities.search;
 
 import java.text.Collator;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.resources.RegionAddressRepository;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.resources.RegionAddressRepository;
 import android.os.Bundle;
 import android.widget.Toast;
 

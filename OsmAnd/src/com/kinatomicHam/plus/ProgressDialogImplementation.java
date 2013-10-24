@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus;
+package com.kinatomicWsus.plus;
 
-import com.kinatomicHam.IProgress;
+import com.kinatomicWsus.IProgress;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;

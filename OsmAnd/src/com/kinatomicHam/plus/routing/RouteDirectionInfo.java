@@ -1,6 +1,6 @@
-package com.kinatomicHam.plus.routing;
+package com.kinatomicWsus.plus.routing;
 
-import com.kinatomicHam.router.TurnType;
+import com.kinatomicWsus.router.TurnType;
 
 public class RouteDirectionInfo {
 	// location when you should action (turn or go ahead)

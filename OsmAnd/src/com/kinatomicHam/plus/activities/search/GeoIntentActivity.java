@@ -1,4 +1,4 @@
-package com.kinatomicHam.plus.activities.search;
+package com.kinatomicWsus.plus.activities.search;
 
 import gnu.trove.map.hash.TLongObjectHashMap;
 
@@ -8,24 +8,24 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import com.kinatomicHam.ResultMatcher;
-import com.kinatomicHam.access.AccessibleToast;
-import com.kinatomicHam.data.Amenity;
-import com.kinatomicHam.data.AmenityType;
-import com.kinatomicHam.data.City;
-import com.kinatomicHam.data.LatLon;
-import com.kinatomicHam.data.MapObject;
-import com.kinatomicHam.data.Street;
-import com.kinatomicHam.plus.ClientContext;
-import com.kinatomicHam.plus.OsmAndFormatter;
-import com.kinatomicHam.plus.OsmandApplication;
-import com.kinatomicHam.plus.OsmandSettings;
-import com.kinatomicHam.plus.R;
-import com.kinatomicHam.plus.activities.MapActivity;
-import com.kinatomicHam.plus.activities.OsmandListActivity;
-import com.kinatomicHam.plus.resources.RegionAddressRepository;
-import com.kinatomicHam.plus.resources.ResourceManager;
-import com.kinatomicHam.util.MapUtils;
+import com.kinatomicWsus.ResultMatcher;
+import com.kinatomicWsus.access.AccessibleToast;
+import com.kinatomicWsus.data.Amenity;
+import com.kinatomicWsus.data.AmenityType;
+import com.kinatomicWsus.data.City;
+import com.kinatomicWsus.data.LatLon;
+import com.kinatomicWsus.data.MapObject;
+import com.kinatomicWsus.data.Street;
+import com.kinatomicWsus.plus.ClientContext;
+import com.kinatomicWsus.plus.OsmAndFormatter;
+import com.kinatomicWsus.plus.OsmandApplication;
+import com.kinatomicWsus.plus.OsmandSettings;
+import com.kinatomicWsus.plus.R;
+import com.kinatomicWsus.plus.activities.MapActivity;
+import com.kinatomicWsus.plus.activities.OsmandListActivity;
+import com.kinatomicWsus.plus.resources.RegionAddressRepository;
+import com.kinatomicWsus.plus.resources.ResourceManager;
+import com.kinatomicWsus.util.MapUtils;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
