@@ -174,7 +174,8 @@ public class MapActivity extends AccessibleActivity  {
 			//if(location != null){
 			//	mapView.setLatLon(location.getLatitude(), location.getLongitude());
 				//mapView.setLatLon(52.0565, -2.716); //Hereford
-				mapView.setLatLon(50.89696, -1.40416); //Southampton
+				//mapView.setLatLon(50.89696, -1.40416); //Southampton
+				mapView.setLatLon(50.9428024, 0.2891787); //East sussex
 				mapView.setZoom(9);
 			//}
 			//else
