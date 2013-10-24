@@ -1,4 +1,4 @@
-package com.kinatomicWsus.addressPlugin;
+package com.kinatomicEsus.addressPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -1,4 +1,4 @@
-package com.kinatomicWsus.parkingPlugin;
+package com.kinatomicEsus.parkingPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="app_name">West Sussex MapRoute</string>
-    <string name="app_name_long">West Sussex MapRoute by Kinatomic</string>
+    <string name="app_name">East Sussex MapRoute</string>
+    <string name="app_name_long">East Sussex MapRoute by Kinatomic</string>
     <string name="app_version">1.00</string>
     <!-- Not translatable -->
     <string name="ga_api_key">UA-42332423-1</string>

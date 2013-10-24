@@ -1,6 +1,6 @@
-package com.kinatomicWsus.srtmPlugin;
+package com.kinatomicEsus.srtmPlugin;
 
-import com.kinatomicWsus.srtmPlugin.paid.R;
+import com.kinatomicEsus.srtmPlugin.paid.R;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ActivityNotFoundException;
