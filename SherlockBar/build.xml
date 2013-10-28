@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="SherlockBar" default="help">
 
+	<loadproperties srcFile="local.properties" />
 	<loadproperties srcFile="project.properties" />
 
 	<!-- quick check on sdk.dir -->
