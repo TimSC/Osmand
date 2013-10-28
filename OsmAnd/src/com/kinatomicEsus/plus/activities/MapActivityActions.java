@@ -593,11 +593,11 @@ public class MapActivityActions implements DialogProvider {
 		builder.setTitle(R.string.get_directions);
 		builder.setPositiveButton(R.string.follow, followCall);
 		builder.setNeutralButton(R.string.only_show, onlyShowCall);
-		if (gpxRouteEnabled) {
+		/*if (gpxRouteEnabled) {
 			builder.setNegativeButton(R.string.gpx_navigation, useGpxNavigation);
 		} else {
 			builder.setNegativeButton(R.string.no_route, null);
-		}
+		}*/
 		builder.show();
 	}
     

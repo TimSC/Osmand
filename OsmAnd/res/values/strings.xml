@@ -1380,8 +1380,8 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="fav_points_edited">Favorite point was edited</string>
 	<string name="fav_points_not_exist">No favorite points exist</string>
 	<string name="update_existing">Replace</string>
-	<string name="only_show">Only show</string>
-	<string name="follow">Follow</string>
+	<string name="only_show">Map</string>
+	<string name="follow">Map and Turns</string>
 	<string name="mark_final_location_first">Please select destination first</string>
 	<string name="get_directions">Directions</string>
 	<string name="show_gps_status">Show GPS Status</string>
