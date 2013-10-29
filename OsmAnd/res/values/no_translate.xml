@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Herefordshire MapRoute</string>
     <string name="app_name_long">Herefordshire MapRoute by Kinatomic</string>
-    <string name="app_version">1.0001</string>
+    <string name="app_version">1.01</string>
     <!-- Not translatable -->
     <string name="ga_api_key">UA-42332423-1</string>
     <string name="ga_dispatchPeriod">10</string>

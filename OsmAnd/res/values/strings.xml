@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <!--
     	 Disclaimer: 
@@ -220,7 +220,7 @@
     <string name="safe_mode_description">Run the application in safe mode (using slower Android instead of native code).</string>
     <string name="safe_mode">Safe mode</string>
     <string name="native_library_not_running">The application is running in safe mode (disable it in the Settings).</string>
-    <string name="background_service_is_enabled_question">Recreation Maps sleep mode service is still running. Do you want to turn it off?</string>
+    <string name="background_service_is_enabled_question">MapRoute sleep mode service is still running. Do you want to turn it off?</string>
     <string name="tip_recent_changes_1_0_0_t">Changes in 1.0.0:
 	\n\t* Improved routing: faster, more precise, up to 250 km
 	\n\t* Introduce roads-only maps
@@ -297,7 +297,15 @@
 	<string name="tip_legal">Legal</string>
 	<string name="tip_legal_t">
 
-	Recreation Maps (c) 2013, Kinatomic Technology and Tim Sheerman-Chase\n
+	MapRoute (c) 2013, Kinatomic Technology and Tim Sheerman-Chase\n
+
+==DISCLAIMER==
+
+All other guarantees, representations and warranties of any kind, whether express or implied, including, without limitation, the implied warranties of satisfactory quality, merchantability and fitness for a particular purpose or ability to achieve a particular result are hereby excluded, so far as such exclusion or disclaimer is permitted under the applicable law. You assume the entire risk as to the quality and performance of the Materials. Should the Materials prove defective, you (and not the Licensor nor any licensed reseller) assume the entire cost of all necessary servicing, repair or correction. The Licensor does not warrant that the Materials will meet your requirements or that its operation will be uninterrupted or error free. This Licence Agreement does not affect your statutory rights.
+
+In no event shall the Licensor be liable to you for any damages, including loss of business, loss of opportunity, loss of data, loss of profits or for any other indirect or consequential loss or damage whatsoever arising out of the use of or inability to use the Materials, even if the Licensor has been made aware of the possibility of such damages. Nothing in this Licence Agreement shall exclude or limit the liability of the Licensor for fraudulent misrepresentation or for death or personal injury resulting from the negligence of the Licensor.
+
+==NOTICES==
 
 	This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n
 
@@ -308,7 +316,13 @@
 	All geospatial content published on this site is the copyright of fosm contributors and OpenStreetMap contributors. http://www.fosm.org/copyright.html\n
 Contains Ordnance Survey data (c) Crown copyright and database right 2013. http://www.ordnancesurvey.co.uk/oswebsite/opendata/licensing.html\n
 
+	Public Rights of Way provided by East Sussex County Council, provided in Oct 2012 under OGL. The data should not be considered as definitive nor authoritative in any way. ESCC do not accept any responsibility for any inaccuracy or omission. The scale of capture is 1:10,000. It is inadvisable to view this data at larger scales. The data does not include information on temporary footpath closures nor diversions.\n
+
+	Contains data provided by Hampshire County Council and used under the OGL license.\n
+
 	Contains data from Herefordshire Council and used under the OGL license. The data in this file has been obtained under licence from the council of Herefordshire. The Council\'s Definitive Map is the authoritative source of the council\'s rights of way. The details of the public rights of way network contained in the Council\'s data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the position or alignment of any public right of way. For legal purposes, the Council\'s data does not replace their Definitive Map. And changes may have been made to the Definitive Map that are not included in their data. The Council\'s data contains Ordnance Survey data © Crown copyright and database right 2012. Attempting to view this data with more detail than 1:10000 may produce an inaccurate rendering of the route of a public right of way. The use of this file is licensed on terms equivalent to the Ordnance Survey OpenData Licence. The preceding attribution statements must be contained in any sub-licences of the Information that you grant, together with a requirement that any further sub-licences do the same. The date of this data is 11th November 2012.\n
+
+	Parts of the data has been obtained under licence from the council of West Sussex. The Council\'s Definitive Map is the authoritative source of the council\'s rights of way. The details of the public rights of way network contained in the Council\'s data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the position or alignment of any public right of way. For legal purposes, the Council\'s data does not replace their Definitive Map. And changes may have been made to the Definitive Map that are not included in their data. The Council\'s data contains Ordnance Survey data (c) Crown copyright and database right 2012. Attempting to view this data with more detail than 1:10000 may produce an inaccurate rendering of the route of a public right of way. The use of this file is licensed on terms equivalent to the Ordnance Survey OpenData Licence. The preceding attribution statements must be contained in any sub-licences of the Information that you grant, together with a requirement that any further sub-licences do the same. The date of this data is 13th July 2012.\n
 
 	Software app based on OsmApp. Copyright (C) 2010-2013 OsmAnd Authors listed in AUTHORS file. http://osmand.net/ Used under the terms of GNU General Public License v3 or later. This software may be redistributed under the terms of this license. Modified source code is available here: https://github.com/TimSC/Osmand\n
 
@@ -503,31 +517,31 @@ IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY C
 If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.\n
 
 </string>
-	<string name="osmand_play_title_30_chars">Recreation Maps</string>
+	<string name="osmand_play_title_30_chars">MapRoute</string>
 	<string name="osmand_short_description_80_chars">Recreation and Outdoor Activity Maps</string>
 	<string name="osmand_long_description_1000_chars">
-		For walkers, cyclists, horse riders, hikers and for any other outdoor activity, having accurate maps is essential. The Recreation Maps app provides a complete set of public footpaths, bridleways and byways for Herefordshire, UK. The data is stored on the device, so it is accessible when you are out and about without an Internet connection. The maps also come with maps of roads, urban areas, woods, rivers and other significant features.
+		For walkers, cyclists, horse riders, hikers and for any other outdoor activity, having accurate maps is essential. The MapRoute app provides a complete set of public footpaths, bridleways and byways for Herefordshire, UK. The data is stored on the device, so it is accessible when you are out and about without an Internet connection. The maps also come with maps of roads, urban areas, woods, rivers and other significant features.
 
 Unlike other mapping apps, this can plan routes on your device that fully use available paths. Route planning can be set to pedestrian, cyclist or car mode.
 
 Many permissive paths and points of interest are also included in the app. This are searchable to find nearby attractions.
 	</string>
 	<string name="osmand_extended_description_4000_chars">
-For walkers, cyclists, horse riders, hikers and for any other outdoor activity, having accurate maps is essential. The Recreation Maps app provides a complete set of public footpaths, bridleways and byways for Herefordshire, UK. The data is stored on the device, so it is accessible when you are out and about without an Internet connection. The maps also come with maps of roads, urban areas, woods, rivers and other significant features.
+For walkers, cyclists, horse riders, hikers and for any other outdoor activity, having accurate maps is essential. The MapRoute app provides a complete set of public footpaths, bridleways and byways for Herefordshire, UK. The data is stored on the device, so it is accessible when you are out and about without an Internet connection. The maps also come with maps of roads, urban areas, woods, rivers and other significant features.
 
 Unlike other mapping apps, this can plan routes on your device that fully use available paths. Route planning can be set to pedestrian, cyclist or car mode.
 
 Many permissive paths and points of interest are also included in the app. This are searchable to find nearby attractions.
 	</string>
-	<string name="osmand_plus_play_title_30_chars">Recreation Maps</string>
+	<string name="osmand_plus_play_title_30_chars">MapRoute</string>
 	<string name="osmand_plus_short_description_80_chars">Recreation and Outdoor Activity Maps</string>
-	<string name="osmand_plus_long_description_1000_chars">For walkers, cyclists, horse riders, hikers and for any other outdoor activity, having accurate maps is essential. The Recreation Maps app provides a complete set of public footpaths, bridleways and byways for Herefordshire, UK. The data is stored on the device, so it is accessible when you are out and about without an Internet connection. The maps also come with maps of roads, urban areas, woods, rivers and other significant features.
+	<string name="osmand_plus_long_description_1000_chars">For walkers, cyclists, horse riders, hikers and for any other outdoor activity, having accurate maps is essential. The MapRoute app provides a complete set of public footpaths, bridleways and byways for Herefordshire, UK. The data is stored on the device, so it is accessible when you are out and about without an Internet connection. The maps also come with maps of roads, urban areas, woods, rivers and other significant features.
 
 Unlike other mapping apps, this can plan routes on your device that fully use available paths. Route planning can be set to pedestrian, cyclist or car mode.
 
 Many permissive paths and points of interest are also included in the app. This are searchable to find nearby attractions.
 	</string>
-	<string name="osmand_plus_extended_description_4000_chars">For walkers, cyclists, horse riders, hikers and for any other outdoor activity, having accurate maps is essential. The Recreation Maps app provides a complete set of public footpaths, bridleways and byways for Herefordshire, UK. The data is stored on the device, so it is accessible when you are out and about without an Internet connection. The maps also come with maps of roads, urban areas, woods, rivers and other significant features.
+	<string name="osmand_plus_extended_description_4000_chars">For walkers, cyclists, horse riders, hikers and for any other outdoor activity, having accurate maps is essential. The MapRoute app provides a complete set of public footpaths, bridleways and byways for Herefordshire, UK. The data is stored on the device, so it is accessible when you are out and about without an Internet connection. The maps also come with maps of roads, urban areas, woods, rivers and other significant features.
 
 Unlike other mapping apps, this can plan routes on your device that fully use available paths. Route planning can be set to pedestrian, cyclist or car mode.
 
@@ -662,7 +676,7 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="transport_search_desc">Transportation search</string>
 	<string name="favourites_search_desc">Favorites search</string>
 	<string name="history_search_desc">Search history</string>
-	<string name="offline_navigation_not_available">Recreation Maps offline navigation is temporarily not available.</string>
+	<string name="offline_navigation_not_available">MapRoute offline navigation is temporarily not available.</string>
 	<string name="left_side_navigation">Left-hand driving</string>
 	<string name="left_side_navigation_descr">Select for countries with left-hand traffic</string>
 	<string name="download_link_and_local_description">Click here to download or update offline data. \nClick any existing item to see more details, press and hold to deactivate or delete. Current data on device (%1$s free):</string>
@@ -710,7 +724,7 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="osm_editing_plugin_description">Show settings needed for OSM feedback like collecting / modifying OSM POI objects, opening / commenting OSM bugs, and contributing recorded GPX files (requires OSM credentials).</string>
 	<string name="vector_maps_may_display_faster_on_some_devices">Vector maps likely display faster. May not work well on some devices.</string>
 	<string name="play_commands_of_currently_selected_voice">Play commands of currently selected voice</string>
-	<string name="debugging_and_development">Recreation Maps development</string>
+	<string name="debugging_and_development">MapRoute development</string>
 	<string name="native_rendering">Native rendering</string>
 	<string name="test_voice_prompts">Test voice prompts</string>    
 	<string name="switch_to_raster_map_to_see">Sorry, no map data is available for this area.</string>
@@ -863,7 +877,7 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="user_password">Your OSM password</string>
 	<string name="user_password_descr">Needed for openstreetmap.org submissions</string>
 	<string name="osmand_service">Sleep mode functionality</string>
-	<string name="osmand_service_descr">Use to run Recreation Maps while screen is off</string>
+	<string name="osmand_service_descr">Use to run MapRoute while screen is off</string>
 	<string name="tip_rotation_switching">Map Orientation</string>
 	<string name="tip_rotation_switching_t_v2">\tYou can toggle whether and how the map display is rotated by repeatedly clicking on the map screen\'s compass icon.
 		\n\tThe choices are:
@@ -1088,7 +1102,7 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="tip_map_switch">Map Source</string>
 	<string name="tip_map_switch_t_v2">DELETED</string>
 	<string name="tip_app_mode">User Profile</string>
-	<string name="tip_app_mode_t_v2">\tRecreation Maps supports different (customizable) application profiles for different use cases.
+	<string name="tip_app_mode_t_v2">\tMapRoute supports different (customizable) application profiles for different use cases.
 		\n\tYou can change profiles via the profile button in the lower left corner of the map screen (icon car, bicycle, or pedestrian), or when creating a route.
 	</string>
 	<string name="tip_navigation">Navigation</string>
@@ -1103,7 +1117,7 @@ Many permissive paths and points of interest are also included in the app. This 
 		\n\tThe map context menu contains all actions referring to a point (location).
 	</string>
 	<string name="tip_initial">Tips and Tricks</string>
-	<string name="tip_initial_t">\tRecreation Maps, by Kinatomic Technology, has many features that you may find useful. 
+	<string name="tip_initial_t">\tMapRoute, by Kinatomic Technology, has many features that you may find useful. 
 		\n\tAs a basic introduction, some usage tips and tricks are linked on the main screen (see \'?\' icon).
 	</string>
 	<string name="next_button">Next</string>
@@ -1170,10 +1184,10 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="osmand_net_previously_installed">A previous version is installed. All offline data will be supported by the new application. But Favorite points should be exported in the old application and later imported by the new one.</string>
 	<string name="build_installed">Build {0} successfully installed ({1}).</string>
 	<string name="downloading_build">Downloading build&#8230;</string>
-	<string name="install_selected_build">Do you want to install Recreation Maps - {0} from {1} {2} MB ?</string>
-	<string name="loading_builds_failed">Retrieving the list of Recreation Maps builds failed</string>
-	<string name="loading_builds">Loading Recreation Maps builds&#8230;</string>
-	<string name="select_build_to_install">Select an Recreation Maps build to install</string>
+	<string name="install_selected_build">Do you want to install MapRoute - {0} from {1} {2} MB ?</string>
+	<string name="loading_builds_failed">Retrieving the list of MapRoute builds failed</string>
+	<string name="loading_builds">Loading MapRoute builds&#8230;</string>
+	<string name="select_build_to_install">Select an MapRoute build to install</string>
 	<string name="gps_status_app_not_found">GPS Status application not installed. Search in Market?</string>
 	<string name="voice_is_not_available_msg">Voice guidance is not available. Please go to settings, choose preferred voice data package, and download it.</string>
 	<string name="voice_is_not_available_title">No voice guidance selected</string>
@@ -1260,9 +1274,9 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="use_trackball">Use trackball</string>
 	<string name="background_service_wait_int_descr">Set maximum waiting time for each background position fix</string>
 	<string name="background_service_wait_int">Maximum wait for fix</string>
-	<string name="service_stop_background_service">Switch off Recreation Maps sleep mode navigation service</string>
+	<string name="service_stop_background_service">Switch off MapRoute sleep mode navigation service</string>
 	<string name="where_am_i">Where am I?</string>
-	<string name="process_navigation_service">Recreation Maps navigation service</string>
+	<string name="process_navigation_service">MapRoute navigation service</string>
 	<string name="network_provider">Network</string>
 	<string name="gps_provider">GPS</string>
 	<string name="int_seconds">seconds</string>
@@ -1271,7 +1285,7 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="background_service_int">Wake-up interval</string>
 	<string name="background_service_provider_descr">Choose location provider used by sleep mode service</string>
 	<string name="background_service_provider">Location provider</string>
-	<string name="background_router_service_descr">Runs Recreation Maps in the background to track your position while screen is off</string>
+	<string name="background_router_service_descr">Runs MapRoute in the background to track your position while screen is off</string>
 	<string name="background_router_service">Run in sleep mode</string>
 	<string name="off_router_service_no_gps_available">The sleep mode navigation service requires a location provider to be turned on.</string>
 	<string name="hide_poi_filter">Hide filter</string>
@@ -1323,7 +1337,7 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="default_buttons_ok">OK</string>
 	<string name="show_transport_over_map_description">Show public transportation stops on map</string>
 	<string name="show_transport_over_map">Show transportation stops</string>
-	<string name="hello">Navigation application Recreation Maps</string>
+	<string name="hello">Navigation application MapRoute</string>
 	<string name="update_poi_success">POI data was updated successfully ({0} were loaded)</string>
 	<string name="update_poi_error_local">Error updating local POI list</string>
 	<string name="update_poi_error_loading">Error while loading data from server</string>
@@ -1366,8 +1380,8 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="fav_points_edited">Favorite point was edited</string>
 	<string name="fav_points_not_exist">No favorite points exist</string>
 	<string name="update_existing">Replace</string>
-	<string name="only_show">Only show</string>
-	<string name="follow">Follow</string>
+	<string name="only_show">Map</string>
+	<string name="follow">Map and Turns</string>
 	<string name="mark_final_location_first">Please select destination first</string>
 	<string name="get_directions">Directions</string>
 	<string name="show_gps_status">Show GPS Status</string>
@@ -1396,7 +1410,7 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="close">Close</string>
 	<string name="loading_data">Loading data&#8230;</string>
 	<string name="reading_indexes">Reading local data&#8230;</string>
-	<string name="previous_run_crashed">Last Recreation Maps run crashed. Log file is at {0}. Please report the issue and attach the log file.</string>
+	<string name="previous_run_crashed">Last MapRoute run crashed. Log file is at {0}. Please report the issue and attach the log file.</string>
 	<string name="saving_gpx_tracks">Saving GPX tracks to SD&#8230;</string>
 	<string name="finished_task">Finished</string>
 	<string name="reload_indexes_descr">Re-read offline vector maps and data from SD card</string>
@@ -1547,4 +1561,17 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="edit_filter_create_message">Filter {0} has been created</string>
 	<string name="default_buttons_selectall">Select All</string>
 	<string name="email">email</string>
+
+    <string name="text_paused_cellular">Would you like to enable downloading over cellular connections? Depending on your data plan, this may cost you money.</string>
+    <string name="text_paused_cellular_2">If you choose not to enable downloading over cellular connections, the download will automatically resume when wi-fi is available.</string>
+    <string name="text_button_resume_cellular">Resume download</string>
+    <string name="text_button_wifi_settings">Wi-Fi settings</string>
+    <string name="text_verifying_download">Verifying Download</string>
+    <string name="text_validation_complete">XAPK File Validation Complete.  Select OK to exit.</string>
+    <string name="text_validation_failed">XAPK File Validation Failed.</string>
+    <string name="text_button_pause">Pause Download</string>
+    <string name="text_button_resume">Resume Download</string>
+    <string name="text_button_cancel">Cancel</string>
+    <string name="text_button_cancel_verify">Cancel Verification</string>
 </resources>
+

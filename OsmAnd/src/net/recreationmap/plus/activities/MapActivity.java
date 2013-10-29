@@ -504,7 +504,7 @@ public class MapActivity extends AccessibleActivity  {
 		}
 		routingHelper.setFollowingMode(true);
 		routingHelper.setFinalAndCurrentLocation(finalLocation, intermediatePoints, currentLocation, gpxRoute);
-		app.showDialogInitializingCommandPlayer(MapActivity.this);
+		//app.showDialogInitializingCommandPlayer(MapActivity.this);
 	}
 
 	
