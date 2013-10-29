@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <!--
     	 Disclaimer: 
@@ -316,15 +316,15 @@ In no event shall the Licensor be liable to you for any damages, including loss 
 	All geospatial content published on this site is the copyright of fosm contributors and OpenStreetMap contributors. http://www.fosm.org/copyright.html\n
 Contains Ordnance Survey data (c) Crown copyright and database right 2013. http://www.ordnancesurvey.co.uk/oswebsite/opendata/licensing.html\n
 
-	Public Rights of Way provided by East Sussex County Council, provided in Oct 2012 under OGL. The data should not be considered as definitive nor authoritative in any way. ESCC do not accept any responsibility for any inaccuracy or omission. The scale of capture is 1:10,000. It is inadvisable to view this data at larger scales. The data does not include information on temporary footpath closures nor diversions.
+	Public Rights of Way provided by East Sussex County Council, provided in Oct 2012 under OGL. The data should not be considered as definitive nor authoritative in any way. ESCC do not accept any responsibility for any inaccuracy or omission. The scale of capture is 1:10,000. It is inadvisable to view this data at larger scales. The data does not include information on temporary footpath closures nor diversions.\n
 
-	Contains data provided by Hampshire County Council and used under the OGL license.
+	Contains data provided by Hampshire County Council and used under the OGL license.\n
 
 	Contains data from Herefordshire Council and used under the OGL license. The data in this file has been obtained under licence from the council of Herefordshire. The Council\'s Definitive Map is the authoritative source of the council\'s rights of way. The details of the public rights of way network contained in the Council\'s data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the position or alignment of any public right of way. For legal purposes, the Council\'s data does not replace their Definitive Map. And changes may have been made to the Definitive Map that are not included in their data. The Council\'s data contains Ordnance Survey data © Crown copyright and database right 2012. Attempting to view this data with more detail than 1:10000 may produce an inaccurate rendering of the route of a public right of way. The use of this file is licensed on terms equivalent to the Ordnance Survey OpenData Licence. The preceding attribution statements must be contained in any sub-licences of the Information that you grant, together with a requirement that any further sub-licences do the same. The date of this data is 11th November 2012.\n
 
-	Parts of the data has been obtained under licence from the council of West Sussex. The Council&apos;s Definitive Map is the authoritative source of the council&apos;s rights of way. The details of the public rights of way network contained in the Council&apos;s data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the position or alignment of any public right of way. For legal purposes, the Council&apos;s data does not replace their Definitive Map. And changes may have been made to the Definitive Map that are not included in their data. The Council&apos;s data contains Ordnance Survey data © Crown copyright and database right 2012. Attempting to view this data with more detail than 1:10000 may produce an inaccurate rendering of the route of a public right of way. The use of this file is licensed on terms equivalent to the Ordnance Survey OpenData Licence. The preceding attribution statements must be contained in any sub-licences of the Information that you grant, together with a requirement that any further sub-licences do the same. The date of this data is 13th July 2012.\n
+	Parts of the data has been obtained under licence from the council of West Sussex. The Council\'s Definitive Map is the authoritative source of the council\'s rights of way. The details of the public rights of way network contained in the Council\'s data are for information only, and are an interpretation of the Definitive Map, not the Definitive Map itself, and should not be relied on for determining the position or alignment of any public right of way. For legal purposes, the Council\'s data does not replace their Definitive Map. And changes may have been made to the Definitive Map that are not included in their data. The Council\'s data contains Ordnance Survey data (c) Crown copyright and database right 2012. Attempting to view this data with more detail than 1:10000 may produce an inaccurate rendering of the route of a public right of way. The use of this file is licensed on terms equivalent to the Ordnance Survey OpenData Licence. The preceding attribution statements must be contained in any sub-licences of the Information that you grant, together with a requirement that any further sub-licences do the same. The date of this data is 13th July 2012.\n
 
-	Software app based on OsmAnd. Copyright (C) 2010-2013 OsmAnd Authors listed in AUTHORS file. http://osmand.net/ Used under the terms of GNU General Public License v3 or later. This software may be redistributed under the terms of this license. Modified source code is available here: https://github.com/TimSC/Osmand\n
+	Software app based on OsmApp. Copyright (C) 2010-2013 OsmAnd Authors listed in AUTHORS file. http://osmand.net/ Used under the terms of GNU General Public License v3 or later. This software may be redistributed under the terms of this license. Modified source code is available here: https://github.com/TimSC/Osmand\n
 
 	World icon from Web Icon Pack by Studiomx http://www.studiomx.eu/, Search and Settings from Oxygen-Refit by deviantdark http://deviantdark.deviantart.com/art/Oxygen-Refit-70199755, Favourites from Oxygen Icons http://www.oxygen-icons.org/
 
@@ -1380,8 +1380,8 @@ Many permissive paths and points of interest are also included in the app. This 
 	<string name="fav_points_edited">Favorite point was edited</string>
 	<string name="fav_points_not_exist">No favorite points exist</string>
 	<string name="update_existing">Replace</string>
-	<string name="only_show">Only show</string>
-	<string name="follow">Follow</string>
+	<string name="only_show">Map</string>
+	<string name="follow">Map and Turns</string>
 	<string name="mark_final_location_first">Please select destination first</string>
 	<string name="get_directions">Directions</string>
 	<string name="show_gps_status">Show GPS Status</string>
@@ -1574,3 +1574,4 @@ Many permissive paths and points of interest are also included in the app. This 
     <string name="text_button_cancel">Cancel</string>
     <string name="text_button_cancel_verify">Cancel Verification</string>
 </resources>
+
