@@ -24,7 +24,7 @@ def WalkFolders(pth):
 			WalkFolders(c)
 		if os.path.isfile(c):
 			print c
-			ReplaceStrInFile(c, "com.kinatomicWsus", "com.kinatomicEsus")
+			ReplaceStrInFile(c, "com.kinatomicEsus", "com.kinatomicSurrey")
 
 if __name__=="__main__":
 	

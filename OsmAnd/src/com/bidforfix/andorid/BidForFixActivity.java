@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import com.kinatomicEsus.plus.R;
+import com.kinatomicSurrey.plus.R;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ListActivity;

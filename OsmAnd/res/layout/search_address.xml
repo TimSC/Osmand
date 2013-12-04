@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android" 
-    xmlns:custom="http://schemas.android.com/apk/res/com.kinatomicEsus.plus"
+    xmlns:custom="http://schemas.android.com/apk/res/com.kinatomicSurrey.plus"
 			android:layout_width="fill_parent" android:layout_height="fill_parent">
 <LinearLayout
   android:layout_width="fill_parent"
   android:layout_height="wrap_content" android:orientation="vertical" android:gravity="center_horizontal">
   
    
-<com.kinatomicEsus.view.ExpandableLinearLayout custom:maxVisibleWidth="800dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" >
+<com.kinatomicSurrey.view.ExpandableLinearLayout custom:maxVisibleWidth="800dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" >
     
 <TableLayout android:id="@+id/TableLayout" android:layout_width="fill_parent" android:stretchColumns="1" android:layout_height="wrap_content" >
 <TableRow android:id="@+id/TableRow" android:layout_marginLeft = "5dp">
@@ -80,6 +80,6 @@
         android:layout_gravity="bottom">
     </Button>
 </LinearLayout>
-</com.kinatomicEsus.view.ExpandableLinearLayout >
+</com.kinatomicSurrey.view.ExpandableLinearLayout >
 </LinearLayout>
 </ScrollView>

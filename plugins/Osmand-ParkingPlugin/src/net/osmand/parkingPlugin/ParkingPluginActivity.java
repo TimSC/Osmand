@@ -1,4 +1,4 @@
-package com.kinatomicEsus.parkingPlugin;
+package com.kinatomicSurrey.parkingPlugin;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -12,9 +12,9 @@ import android.net.Uri;
 import android.os.Bundle;
 
 public class ParkingPluginActivity extends Activity {
-	private static final String OSMAND_COMPONENT = "com.kinatomicEsus"; //$NON-NLS-1$
-	private static final String OSMAND_COMPONENT_PLUS = "com.kinatomicEsus.plus"; //$NON-NLS-1$
-	private static final String OSMAND_ACTIVITY = "com.kinatomicEsus.plus.activities.MainMenuActivity"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT = "com.kinatomicSurrey"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT_PLUS = "com.kinatomicSurrey.plus"; //$NON-NLS-1$
+	private static final String OSMAND_ACTIVITY = "com.kinatomicSurrey.plus.activities.MainMenuActivity"; //$NON-NLS-1$
 	
     /** Called when the activity is first created. */
     @Override

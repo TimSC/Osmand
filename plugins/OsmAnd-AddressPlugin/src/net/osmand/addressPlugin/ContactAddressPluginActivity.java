@@ -1,4 +1,4 @@
-package com.kinatomicEsus.addressPlugin;
+package com.kinatomicSurrey.addressPlugin;
 
 import java.util.StringTokenizer;
 
@@ -16,9 +16,9 @@ import android.os.Bundle;
 import android.provider.ContactsContract;
 
 public class ContactAddressPluginActivity extends Activity {
-	private static final String OSMAND_COMPONENT = "com.kinatomicEsus"; //$NON-NLS-1$
-	private static final String OSMAND_COMPONENT_PLUS = "com.kinatomicEsus.plus"; //$NON-NLS-1$
-	private static final String OSMAND_ACTIVITY = "com.kinatomicEsus.plus.activities.search.GeoIntentActivity"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT = "com.kinatomicSurrey"; //$NON-NLS-1$
+	private static final String OSMAND_COMPONENT_PLUS = "com.kinatomicSurrey.plus"; //$NON-NLS-1$
+	private static final String OSMAND_ACTIVITY = "com.kinatomicSurrey.plus.activities.search.GeoIntentActivity"; //$NON-NLS-1$
 	private static final int CONTACT_PICKER_RESULT = 1001;  
 	//content://com.android.contacts/data/5
 	@Override
