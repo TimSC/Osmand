@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">Surrey PathFinder</string>
     <string name="app_name_long">Surrey PathFinder by Kinatomic</string>
-    <string name="app_version">1.00</string>
+    <string name="app_version">1.01</string>
     <!-- Not translatable -->
     <string name="ga_api_key">UA-42332423-1</string>
     <string name="ga_dispatchPeriod">10</string>
