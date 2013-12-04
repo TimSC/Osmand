@@ -4,9 +4,9 @@ import com.google.android.vending.expansion.downloader.impl.DownloaderService;
 
 public class ExtensionDownloaderService extends DownloaderService {
     // You must use the public key belonging to your publisher account
-    public static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAloM6XAiNwK9f6HWplfN6J+5WpdlYeuVqzPJtWUKp/AkuYAnKV3LjOPuo2egTrrycFYBx6GiwuUaTmZb/GNztWx+FRT9GJpJNEXplWs5SvSxY/6MVUpQndyXAqiqmscBpz7NcGDcsdLwheZKlBpd5YR5YfSpkwgstHmKjKtix0m/ns2CLoKq/b1Rp4iqiENqh1pDohx3hFZ9DHxIyQaQNi5IJt/DbkhucG07PS8lOb6ZlSGcFDuuaFcDfBGRDq5osfNr/fW837OEatYTl0TztnqnYh/dAdKnXt5uZA+XD6vZV9RPwVIk82EVxDAKm1URuEB1ZQo60TSPI/zaUF4txiwIDAQAB";
+    public static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkCWvkAB4pl8e7b19MhtS/kXRzYfYvMf9eT5/li+WKfBbjr/CN1LCyUk7aylvgu0XK6V9yCdUxAuEm5yQgb9jgGWVFwlmDDjRoq5TjzouXVZ+bZF/uoFYZCnKFMV4rpH8b2cHKbBRLjxIRZLfzOdY+H6VUCwWyEMFOkA1PIZxpmIWsifohI+hIs5RXh56xTzsBwK0DtwN9/aSpxQmQcXAbD9Bd7DZzJXdNe46tH1GMHO+hM5W3pIFlNkXukBSMEJ3cWEZRoAqaNu0jxs4LCuwyo6uWtwyXPGDfldk9/7O19vhodOojLhG5CuRJ7oRBkjW/7oJoPWOT5F+lMAJDxHmCQIDAQAB";
     // You should also modify this salt
-    public static final byte[] SALT = new byte[] { 73, -35, -110, -44, 59, -19, 52, 5, -26, -83, -45, -7, 32, -86, -67, -124, 103, -116, -74, 25 };
+    public static final byte[] SALT = new byte[] { 73, -35, -110, -44, 59, -125, 52, 6, -26, -83, -45, -5, 33, -86, -67, -124, 103, -116, -74, 67 };
 
     @Override
     public String getPublicKey() {
