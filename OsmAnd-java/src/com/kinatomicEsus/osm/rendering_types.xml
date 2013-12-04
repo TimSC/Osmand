@@ -191,7 +191,6 @@
 		<type tag="barrier" value="kent_carriage_gap" minzoom="15" />
 	</category>
 
-
 	<category name="waterway"  poi_tag="waterway" poi_category="man_made">
 		<type tag="waterway" value="stream" minzoom="13" poi_category="natural"/>
 		<type tag="waterway" value="riverbank" minzoom="8" poi_category="natural"/>
@@ -450,19 +449,27 @@
 
 
 	<category name="historic" poi_tag="historic" poi_category="historic">
-		<type tag="historic" value="archaeological_site" minzoom="15" />
-		<type tag="historic" value="battlefield" minzoom="15" />
-		<type tag="historic" value="castle" minzoom="15" />
-		<type tag="historic" value="fort" minzoom="15" />
-		<type tag="historic" value="ruins" minzoom="15" />
-		<type tag="historic" value="monument" minzoom="15" />
-		<type tag="historic" value="boundary_stone" minzoom="15" />
-		<type tag="historic" value="memorial" minzoom="15" />
-		<type tag="historic" value="wayside_cross" minzoom="15" />
-		<type tag="historic" value="wayside_shrine" minzoom="15" />
-		<type tag="historic" value="wreck" minzoom="15" />
+		<type tag="historic" value="archaeological_site" minzoom="13" />
+		<type tag="historic" value="battlefield" minzoom="13" />
+		<type tag="historic" value="castle" minzoom="13" />
+		<type tag="historic" value="fort" minzoom="13" />
+		<type tag="historic" value="ruins" minzoom="13" />
+		<type tag="historic" value="monument" minzoom="13" />
+		<type tag="historic" value="boundary_stone" minzoom="13" />
+		<type tag="historic" value="memorial" minzoom="13" />
+		<type tag="historic" value="wayside_cross" minzoom="13" />
+		<type tag="historic" value="wayside_shrine" minzoom="13" />
+		<type tag="historic" value="wreck" minzoom="13" />
+		<type tag="historic" value="building" minzoom="13" />
+		<type tag="historic" value="roman_road" minzoom="11" />
+		<type tag="scheduled_monument" value="yes" minzoom="13" />
+		<type tag="listed_building" value="I" minzoom="13" />
+		<type tag="listed_building" value="II*" minzoom="13" />
+		<type tag="listed_building" value="II" minzoom="13" />
+		<type tag="historic_garden" value="I" minzoom="13" />
+		<type tag="historic_garden" value="II*" minzoom="13" />
+		<type tag="historic_garden" value="II" minzoom="13" />
 	</category>
-
 
 	<category name="landuse">
 		<type tag="landuse" value="allotments" minzoom="10" />
@@ -674,6 +681,7 @@
 		<type tag="place" value="suburb" minzoom="10" />
 		<type tag="place" value="locality" minzoom="10" />
 		<type tag="place" value="island" minzoom="10" />
+		<type tag="onspd_postcode_centre" value="yes" minzoom="15"/>
 	</category>
 	
 	<!-- administrative boundaries -->
