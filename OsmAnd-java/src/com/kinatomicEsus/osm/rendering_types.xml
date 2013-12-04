@@ -544,7 +544,7 @@
 		<type tag="natural" value="lake" minzoom="4" />
 		<type tag="natural" value="wetland" minzoom="10" />
 		<type tag="natural" value="wood" minzoom="8" />
-		<type tag="terrain" value="ele" minzoom="13" nameTags="ele" />
+		<type tag="terrain" value="ele" minzoom="15" nameTags="ele" />
 		<type tag="landuse" value="wood" minzoom="8" 
 			target_tag="natural" target_value="wood" poi_category="natural" />
 		<type tag="contour" value="elevation" minzoom="11" />
@@ -666,7 +666,6 @@
 		<type tag="internet_access" value="service" minzoom="15" />
 	</category>
 
-
 	<!-- administrative place-->
 	<category name="administrative" poi_tag="place" poi_category="administrative" >
 		<type tag="place" value="continent" minzoom="1" />
@@ -681,6 +680,9 @@
 		<type tag="place" value="suburb" minzoom="10" />
 		<type tag="place" value="locality" minzoom="10" />
 		<type tag="place" value="island" minzoom="10" />
+	</category>
+
+	<category name="postcodes" poi_tag="postcodes" poi_category="administrative">
 		<type tag="onspd_postcode_centre" value="yes" minzoom="15"/>
 	</category>
 	

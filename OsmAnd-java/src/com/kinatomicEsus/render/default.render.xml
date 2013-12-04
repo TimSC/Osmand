@@ -467,6 +467,10 @@
 			<groupFilter nightMode="true" textColor="#D7D7D7"/>
 		</group>
 
+		<group textColor="#777777">
+			<filter minzoom="16" textSize="13" tag="onspd_postcode_centre" value="yes"/>
+		</group>
+
 		<!-- Natural -->
 		<group>
 			<filter contourLines="11" minzoom="13" textSize="12" textColor="#444444" textOnPath="true" tag="contour" value=""/>
@@ -1099,6 +1103,7 @@
 		<filter minzoom="10" shader="danger" color="#100000" tag="military" value="danger_area"/>
 	    <groupFilter noPolygons="true" color="#00ffffff" color_2="#00ffffff" shader=""/>
 	    </group>
+
 	</polygon>
 
 
