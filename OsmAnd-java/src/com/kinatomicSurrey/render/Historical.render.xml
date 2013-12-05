@@ -16,7 +16,7 @@
 		<filter minzoom="14" icon="florist" tag="historic_garden" value="I"/>
 		<filter minzoom="15" icon="florist" tag="historic_garden" value="II*"/>
 		<filter minzoom="16" icon="florist" tag="historic_garden" value="II"/>
-		<filter minzoom="15" icon="florist" tag="scheduled_monument" value="yes"/>
+		<filter minzoom="15" icon="historic_archaeological_site" tag="scheduled_monument" value="yes"/>
 		
 		<filter minzoom="14" icon="historic_castle" tag="historic" value="castle"/>
 		<filter minzoom="15" icon="historic_monument" tag="historic" value="monument"/>
@@ -25,7 +25,7 @@
 		<filter minzoom="15" icon="historic_battlefield" tag="historic" value="battlefield"/>
 		<filter minzoom="15" icon="viewpoint" tag="historic" value="fort"/>
 		<filter minzoom="15" icon="historic_ruins" tag="historic" value="ruins"/>
-		<filter minzoom="15" icon="h_historic_archaeological_site" tag="historic" value="archaeological_site"/>
+		<filter minzoom="15" icon="historic_archaeological_site" tag="historic" value="archaeological_site"/>
 		<filter minzoom="15" icon="historic_wreck" tag="historic" value="wreck"/>
 		<filter minzoom="15" icon="historic_wayside_cross" tag="historic" value="wayside_cross"/>
 		<filter minzoom="15" icon="historic_wayside_shrine" tag="historic" value="wayside_shrine"/>
