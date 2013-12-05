@@ -1,58 +1,33 @@
-<renderingStyle name="Historical Map" depends="default" defaultColor="#F5FFFF" version="1">
+<renderingStyle name="Historical" depends="default" defaultColor="#f1eae4" version="1">
 
-	<renderingAttribute name="defaultColor">
-		<filter noPolygons="true" attrColorValue="#00ffffff"/>
-		<filter nightMode="true" attrColorValue="#003333"/>
-		<filter attrColorValue="#F5FFFF"/>
-	</renderingAttribute>
-
+	
 	<order>
 	</order>
 
+
 	<text>
-		<group>
-			<filter minzoom="14" tag="historic" value="castle"/>
-			<filter minzoom="14" tag="historic" value="monument"/>
-			<filter minzoom="15" tag="historic" value="memorial"/>
-			<filter minzoom="14" tag="historic" value="battlefield"/>
-			<filter minzoom="14" tag="historic" value="fort"/>
-			<filter minzoom="14" tag="historic" value="ruins"/>
-			<filter minzoom="14" tag="historic" value="archaeological_site"/>
-			<filter minzoom="14" tag="historic" value="wreck"/>
-			<filter minzoom="14" tag="historic" value="building"/>
-			<groupFilter textSize="12" textColor="#734a08" textHaloRadius="1" textDy="7" textWrapWidth="20"/>
-		</group>
 	</text>
 
-	<polygon>
-		<group>
-			<filter minzoom="14" tag="historic" value="castle"/>
-			<filter minzoom="14" tag="historic" value="monument"/>
-			<filter minzoom="15" tag="historic" value="memorial"/>
-			<filter minzoom="14" tag="historic" value="battlefield"/>
-			<filter minzoom="14" tag="historic" value="fort"/>
-			<filter minzoom="14" tag="historic" value="ruins"/>
-			<filter minzoom="14" tag="historic" value="archaeological_site"/>
-			<filter minzoom="14" tag="historic" value="wreck"/>
-			<filter minzoom="14" tag="historic" value="building"/>
-			<groupFilter color="#734a08">
-		<group>
-	</polygon>
-
-	<line>
-		<group>
-			<filter tag="historic" value="roman_road"/>
-			<groupFilter>
-				<filter minzoom="13" color="#734a08" strokeWidth="2"/>
-			</groupFilter>
-		</group>
-	</line>
 
 	<point>
 	</point>
 
 
+	<polygon>
+	    <group>
+			<filter minzoom="9" color="#00ff00" tag="natural" value="wood"/>
+			<filter minzoom="9" color="#00ff00" tag="landuse" value="wood"/>
+			<filter minzoom="9" color="#00ff00" tag="landuse" value="forest"/>
+			<groupFilter nightMode="true" color="#000066" shader=""/>
+		</group>
+		
+		
+	</polygon>
 
 
+	<line>
+		
+
+	</line>
 
 </renderingStyle>
