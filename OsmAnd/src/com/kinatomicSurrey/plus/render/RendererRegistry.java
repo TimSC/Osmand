@@ -40,6 +40,7 @@ public class RendererRegistry {
 		internalRenderers.put("Winter-and-ski", "Winter-and-ski" + ".render.xml");
 		// internalRenderers.put("High-detail-topo", "High-detail-topo" + ".render.xml");
 		internalRenderers.put("High-detail-topo", "High-detail-topo-v2" + ".render.xml");
+		internalRenderers.put("Historical", "Historical" + ".render.xml");
 	}
 	
 	public RenderingRulesStorage defaultRender() {
