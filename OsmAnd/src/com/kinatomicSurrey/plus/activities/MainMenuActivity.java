@@ -128,9 +128,9 @@ public class MainMenuActivity extends Activity implements IDownloaderClient{
     private static final XAPKFile[] xAPKS = {
             new XAPKFile(
                     true, // true signifies a main file
-                    7, // the version of the APK that the file was uploaded
+                    8, // the version of the APK that the file was uploaded
                        // against
-                    20798489L // the length of the file in bytes
+                    19700906L // the length of the file in bytes
             ),
             new XAPKFile(
                     false, // true signifies a main file
